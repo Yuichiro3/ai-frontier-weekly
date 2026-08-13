@@ -1,0 +1,44 @@
+{
+  "collector": "industry-leader-collector",
+  "target": "Google DeepMind",
+  "run_date": "2026-08-13",
+  "items": [
+    {
+      "id": "gdm-2026-08-05-leadership-shakeup",
+      "title": "Demis Hassabis becomes Chair of Google DeepMind and Alphabet Chief Scientist; Koray Kavukcuoglu named SVP to run day-to-day operations",
+      "summary_en": "Google announced that Demis Hassabis is stepping back from day-to-day leadership of Google DeepMind to become Chair of Google DeepMind and Chief Scientist of Alphabet, while continuing to lead Isomorphic Labs. Koray Kavukcuoglu, previously CTO of Google DeepMind, becomes SVP of Google DeepMind, reporting to Sundar Pichai and taking charge of Gemini model development, frontier research, and the Gemini app and developer teams. The change was announced in a joint post on Google's official blog credited to Sundar Pichai and Demis Hassabis.",
+      "source_url": "https://blog.google/company-news/inside-google/message-ceo/next-chapter-ai-momentum/",
+      "source_name": "Google Official Blog (post by Sundar Pichai and Demis Hassabis)",
+      "published_date": "2026-08-05",
+      "category": "policy",
+      "tone": "neutral",
+      "confidence": "primary-inferred",
+      "notes": "Direct fetch of blog.google was blocked by network egress restrictions in this environment; date/content corroborated via multiple independent secondary reports (Axios, CNBC, Semafor) that all cite the same official blog.google URL. Category schema has no 'leadership/organizational' option; 'policy' used as closest fit for this organizational-governance announcement -- flagging for synthesis agent. A related departure (Jeff Dean and others leaving to found an external startup) was reported by press alongside this announcement but is a separate personnel matter outside DeepMind's own blog and not included here as a DeepMind-sourced claim."
+    },
+    {
+      "id": "gdm-2026-08-06-weathernext-cyclones",
+      "title": "Google DeepMind open-sources WeatherNext AI model for cyclone forecasting",
+      "summary_en": "Google DeepMind published a blog post announcing that its WeatherNext AI model achieves state-of-the-art accuracy in predicting tropical cyclone track, intensity, and wind structure, giving forecasters roughly a full extra day of lead time compared with prior systems. The underlying research was also published in a peer-reviewed paper. DeepMind open-sourced the model code and weights (WeatherNext Cyclones, WeatherNext 2, and a lightweight WeatherNext 2-mini variant) under an Apache 2.0 license via GitHub, noting the system was tested operationally during the 2025 Atlantic hurricane season, including for Hurricane Melissa.",
+      "source_url": "https://deepmind.google/blog/weathernext-ai-model-achieves-breakthrough-in-forecasting-cyclones/",
+      "source_name": "Google DeepMind Official Blog",
+      "published_date": "2026-08-06",
+      "category": "research",
+      "tone": "neutral",
+      "confidence": "primary-inferred",
+      "notes": "Direct fetch of deepmind.google was blocked by network egress restrictions in this environment. URL and date confirmed via the official WeatherNext GitHub repository (github.com/google-deepmind/weathernext), whose README links directly to this exact blog post as the 'official resource', plus independent secondary coverage citing the same URL and date."
+    },
+    {
+      "id": "gdm-2026-07-30-gemini-robotics-2",
+      "title": "Google DeepMind introduces Gemini Robotics 2 with whole-body humanoid control",
+      "summary_en": "Google DeepMind published a blog post introducing Gemini Robotics 2, described as an 'intelligence layer' for robots that extends prior models by adding whole-body control -- coordinating movement from feet to fingertips -- plus advanced dexterity and multi-robot collaboration, alongside companion models Gemini Robotics ER 2 and Gemini Robotics On-Device 2. The capabilities were demonstrated on Apptronik's Apollo 2 humanoid robot performing autonomous whole-body movements such as walking, crouching, and object manipulation.",
+      "source_url": "https://deepmind.google/blog/gemini-robotics-2-brings-whole-body-intelligence-to-robots/",
+      "source_name": "Google DeepMind Official Blog",
+      "published_date": "2026-07-30",
+      "category": "product",
+      "tone": "neutral",
+      "confidence": "primary-inferred",
+      "notes": "Publication date (~July 30-31, 2026) falls just before the preferred 2026-08-03 to 2026-08-13 window (roughly 4 days earlier); included because it is a substantive official product announcement directly adjacent to the window and still part of this news cycle. Direct fetch of deepmind.google was blocked; URL/title/date corroborated via multiple independent secondary sources (Bloomberg, Association for Advancing Automation, AI Magazine) citing the identical official blog URL."
+    }
+  ],
+  "coverage_note": "Two items (leadership reorganisation, WeatherNext cyclone model) fall solidly within the 2026-08-03 to 2026-08-13 window; a third (Gemini Robotics 2) is included as borderline-adjacent (dated ~July 30-31) given its relevance. Two other circulating stories were deliberately excluded: (1) a Google DeepMind/Schmidt Sciences/Cooperative AI Foundation/ARIA multi-agent AI safety funding call, because its original blog announcement dates to around June 11, 2026 (outside the window); (2) widely-reported dissolution of the AlphaFold team, sourced only to press reporting quoting an unnamed spokesperson, with no corresponding official Google DeepMind blog post or social statement found -- excluded per the rule to use only official channels. This collection run was also constrained by network egress restrictions blocking direct fetches of deepmind.google, blog.google, and x.com, so all source URLs/dates above were corroborated indirectly via search-engine summaries and one successful cross-reference to the official WeatherNext GitHub repository rather than direct page fetches."
+}

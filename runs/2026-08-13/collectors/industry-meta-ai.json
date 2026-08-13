@@ -1,0 +1,56 @@
+{
+  "collector": "industry-leader-collector",
+  "target": "Meta AI",
+  "run_date": "2026-08-13",
+  "items": [
+    {
+      "id": "meta-manifesto-future-for-everyone-2026-08-10",
+      "title": "Zuckerberg publishes 'The Future is for Everyone' AI manifesto",
+      "summary_en": "Mark Zuckerberg published a roughly 6,500-word essay on Meta's official newsroom outlining a vision for broadly distributed 'personal superintelligence,' arguing that the benefits of advanced AI should reach the general public rather than be concentrated among a few companies or governments. He announced Meta would resume releasing open-weight models and create a $1 billion 'Future is for Everyone Fund' for communities hosting Meta data centers, and called for earlier, closer collaboration between AI labs and government on regulation rather than rigid review processes.",
+      "source_url": "https://about.fb.com/news/2026/08/the-future-is-for-everyone/",
+      "source_name": "Meta Newsroom (about.fb.com)",
+      "published_date": "2026-08-10",
+      "category": "opinion",
+      "tone": "neutral",
+      "confidence": "primary-inferred",
+      "notes": "Direct fetch of about.fb.com was blocked by network egress restrictions in this session; content and date confirmed via search-engine summaries that quote and cite this specific official URL, cross-checked against secondary coverage (Variety, Forbes, CBS News)."
+    },
+    {
+      "id": "meta-muse-glimmer-release-2026-08-10",
+      "title": "Meta releases Muse Glimmer, an open-weight 30B-parameter agentic model",
+      "summary_en": "Meta AI Research announced Muse Glimmer, a 30-billion-parameter open-weight multimodal model distilled from Meta's closed Muse Spark 1.2 flagship model, released under the Apache 2.0 license. The model is designed to run locally on a single consumer GPU for agentic and coding tasks such as file management and scheduling, without a cloud account or metered API tokens, marking Meta's return to open-weight releases after roughly a year.",
+      "source_url": "https://research.meta.ai/blog/introducing-muse-glimmer-open-agentic-model",
+      "source_name": "Meta AI Research Blog",
+      "published_date": "2026-08-10",
+      "category": "model-release",
+      "tone": "neutral",
+      "confidence": "primary-inferred",
+      "notes": "Direct fetch of research.meta.ai was blocked by network egress restrictions in this session; content confirmed via search-engine summaries citing this official post title/URL and cross-checked against multiple secondary reports (TechCrunch, CNBC, Forbes, VentureBeat, Engadget). Meta also referenced launching the closed Muse Spark 1.2 flagship model around Aug 5, 2026, per developer.meta.com, but that page could not be independently verified due to the same access block."
+    },
+    {
+      "id": "meta-nabtu-partnership-2026-08-12",
+      "title": "Meta and North America's Building Trades Unions announce AI data center workforce partnership",
+      "summary_en": "Meta announced a new partnership with North America's Building Trades Unions (NABTU) to expand registered apprenticeship programs for skilled trades workers who build and maintain Meta's AI data centers, covering high-voltage systems, cooling and fire suppression, and secure fiber networks. The partnership builds on Meta's previously announced Workforce Academy training initiative.",
+      "source_url": "https://about.fb.com/news/2026/08/nabtu-and-meta-partnership-to-invest-in-skilled-trades-for-ai-era/",
+      "source_name": "Meta Newsroom (about.fb.com)",
+      "published_date": "2026-08-12",
+      "category": "policy",
+      "tone": "neutral",
+      "confidence": "primary-inferred",
+      "notes": "Direct fetch of about.fb.com was blocked by network egress restrictions in this session; content confirmed via search-engine summaries citing this official URL, cross-checked against NABTU's own press release and secondary coverage (Social Media Today, Washington Examiner)."
+    },
+    {
+      "id": "meta-datacenters-interview-peterson-2026-08-12",
+      "title": "Meta VP of Data Centers discusses AI infrastructure strategy in official interview",
+      "summary_en": "In a video published on Meta's official newsroom, developer Tom Shaw interviewed Meta's VP of Data Centers, Rachel Peterson, about why Meta designs and operates its own custom data centers rather than relying on third-party infrastructure, and how the company is scaling computing capacity to support its stated goal of broadly available 'personal superintelligence.'",
+      "source_url": "https://about.fb.com/news/2026/08/why-meta-builds-its-own-data-centers/",
+      "source_name": "Meta Newsroom (about.fb.com)",
+      "published_date": "2026-08-12",
+      "category": "product",
+      "tone": "neutral",
+      "confidence": "primary-inferred",
+      "notes": "Exact publication date is approximate (derived from URL path and search-engine summary); direct fetch of about.fb.com was blocked by network egress restrictions in this session, so content was confirmed only via secondary summaries referencing this official interview (Social Media Today)."
+    }
+  ],
+  "coverage_note": "Meta AI's official channels were active in the Aug 3-13, 2026 window, headlined by CEO Mark Zuckerberg's 'The Future is for Everyone' manifesto and the open-weight release of the Muse Glimmer model (both Aug 10), plus a workforce partnership announcement and a data-center strategy interview (both around Aug 12). An older Genesis Mission / Lawrence Berkeley National Laboratory blog post (~July 22-24, 2026) was found but excluded as outside the target window. All items in this file are marked 'primary-inferred' rather than 'primary-confirmed' because the network egress proxy in this collection session blocked direct WebFetch access to ai.meta.com, about.fb.com, research.meta.ai, and developer.meta.com; content and dates were instead corroborated through search-engine snippets that explicitly quote and cite these official URLs, plus cross-referencing against multiple independent secondary outlets. A human reviewer may wish to directly verify these official URLs once network access is available."
+}

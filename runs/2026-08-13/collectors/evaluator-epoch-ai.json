@@ -1,0 +1,44 @@
+{
+  "collector": "evaluator-institute-collector",
+  "target": "Epoch AI",
+  "run_date": "2026-08-13",
+  "items": [
+    {
+      "id": "epoch-ai-one-in-five-workers-delegate-2026-08-06",
+      "title": "AI at work: how AI is changing everyday job tasks (Epoch AI/Ipsos survey)",
+      "summary_en": "Epoch AI, working with Ipsos, surveyed 1,106 employed US adults (fielded July 10-19, 2026) on how they use AI for ten work tasks. About one in five respondents said AI now performs work that used to be delegated to a coworker or contractor, most commonly for analyzing data, reading work documents, and maintaining records. The report also covers self-reported time savings and how much workers edit AI outputs before using them.",
+      "source_url": "https://epoch.ai/publications/one-in-five-workers-delegate-work-to-ai",
+      "source_name": "Epoch AI Publications (Epoch AI/Ipsos survey)",
+      "published_date": "2026-08-06",
+      "category": "research",
+      "tone": "neutral",
+      "confidence": "primary-inferred",
+      "notes": "Authors listed as Caroline Falkman Olsson, Yafah Edelman, and Amreeta Das. Based on survey self-report data (n=1,106, US only) rather than direct measurement of labor-market outcomes, so causal claims about job displacement are not warranted from this design alone; Epoch AI's own page could not be directly fetched this run (network egress to epoch.ai is blocked for this collector), so wording/caveats are reconstructed from search-engine snippets plus corroborating secondary reporting (e.g. NBC News, The Hill) rather than a verified direct read. Distinct from an earlier, separate Epoch AI/Ipsos publication from April 2026 ('Half of employed AI users now use it for work') -- that is an older survey wave, out of this week's window."
+    },
+    {
+      "id": "epoch-ai-frontier-data-centers-hub-update-2026-08-12",
+      "title": "Frontier Data Centers Hub dataset update",
+      "summary_en": "Epoch AI's Frontier/AI Data Centers Hub, an independent database that estimates power, compute, and construction timelines for major AI data centers using satellite imagery, permits, and public documents, was refreshed on August 12, 2026. Per the hub's own description, the tracked facilities cover an estimated 27% of AI compute delivered globally by chip manufacturers as of April 2026, with several tracked data centers projected to reach 1 GW of power capacity in 2026.",
+      "source_url": "https://epoch.ai/data/ai-data-centers",
+      "source_name": "Epoch AI Data (Frontier Data Centers Hub)",
+      "published_date": "2026-08-12",
+      "category": "research",
+      "tone": "neutral",
+      "confidence": "primary-inferred",
+      "notes": "Continuously-updated database rather than a new discrete report; the August 12, 2026 date reflects a data refresh, not a new analytical write-up. Epoch AI describes the figures as 'independent estimates' derived from remote-sensing and public-document inference rather than direct operator disclosure -- a methodology caveat stated by Epoch AI itself. Could not directly fetch epoch.ai this run due to network egress restrictions; details drawn from search-engine snippets of the official page."
+    },
+    {
+      "id": "epoch-ai-pcd-database-update-2026-08-11",
+      "title": "Parameter, Compute and Data Trends (epochdb) database update",
+      "summary_en": "Epoch AI's public database of machine learning models (epochdb), which tracks training compute, parameter counts, dataset sizes, and training hardware for thousands of models from 1950 to the present, was updated on August 11, 2026. The database reportedly now covers over 3,500 machine learning systems.",
+      "source_url": "https://epochai.org/data/epochdb",
+      "source_name": "Epoch AI Data (epochdb / parameter, compute and data trends database)",
+      "published_date": "2026-08-11",
+      "category": "research",
+      "tone": "neutral",
+      "confidence": "primary-inferred",
+      "notes": "Continuously-updated dataset rather than a new standalone report; treat the August 11, 2026 date as a data refresh timestamp, not a new publication. Could not directly fetch epochai.org this run (network egress blocked); figures drawn from search-engine snippets referencing the official page and prior Epoch AI announcement posts about this database."
+    }
+  ],
+  "coverage_note": "Network egress to epoch.ai and epochai.org was blocked for the WebFetch tool this run, so no item below was directly read from the primary source page -- all details were reconstructed from search-engine result snippets and cross-checked against secondary coverage where available. Two other candidate items were found but excluded as outside the ~10-day window: an expanded biological-AI-models analysis (originally published February 2026) and 'Half of employed AI users now use it for work' (April 2026, an earlier Epoch AI/Ipsos survey wave). No new Gradient Updates newsletter issue could be confirmed as published in the August 3-13, 2026 window. Given the fetch access limitation, this collection should be treated as lower-confidence than a normal run and ideally re-verified once direct access to epoch.ai is restored."
+}

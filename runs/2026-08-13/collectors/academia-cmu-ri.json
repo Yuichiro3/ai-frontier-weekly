@@ -1,0 +1,20 @@
+{
+  "collector": "academia-collector",
+  "target": "Carnegie Mellon University - Robotics Institute",
+  "run_date": "2026-08-13",
+  "items": [
+    {
+      "id": "cmu-ri-erickson-nsf-career-award-2026",
+      "title": "Zackory Erickson Earns NSF CAREER Award for Generative Simulation in Physical Human-Robot Interaction",
+      "summary_en": "Zackory Erickson, an assistant professor at Carnegie Mellon's Robotics Institute, has received a National Science Foundation CAREER Award for a project titled 'Scaling Up Physical Human-Robot Interaction With Generative Simulation.' The project aims to build a framework that generates large volumes of physically realistic simulated human-robot interaction scenarios to address the shortage of real-world training data, and to develop AI methods that help robots adapt to human behavior while catching safety issues before real-world deployment. The award also funds integration of this work into CMU robotics courses and a high-school summer program.",
+      "source_url": "https://www.ri.cmu.edu/erickson-earns-nsf-career-award/",
+      "source_name": "Robotics Institute, Carnegie Mellon University (official news)",
+      "published_date": "2026-08-11",
+      "category": "research",
+      "tone": "neutral",
+      "confidence": "primary-inferred",
+      "notes": "Published date is approximate (derived from a search-engine snippet indicating the article was posted 2 days before the 2026-08-13 query date); could not be independently confirmed via direct page fetch because www.ri.cmu.edu is blocked by this environment's network egress proxy. This is a funding/award announcement, not a peer-reviewed paper -- no associated preprint or publication has yet been identified."
+    }
+  ],
+  "coverage_note": "Only one item from CMU Robotics Institute's own news channel could be confirmed within the 2026-08-03 to 2026-08-13 window (Zackory Erickson's NSF CAREER Award). Direct browsing of the ri.cmu.edu, cmu.edu, and cs.cmu.edu news listing pages was blocked by the environment's network egress proxy, limiting this collector to search-indexed snippets rather than full page verification; some items (e.g. a DOE Genesis Mission award involving RI's Herman Herman) were found but could not be confirmed as falling within the target window or as originating specifically from ri.cmu.edu, so they were excluded pending verification. No new peer-reviewed publications or preprints from CMU RI were identified this week under these access constraints."
+}

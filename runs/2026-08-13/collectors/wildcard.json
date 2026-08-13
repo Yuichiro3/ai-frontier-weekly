@@ -1,0 +1,20 @@
+{
+  "collector": "wildcard-collector",
+  "target": "Fun corner / offbeat AI experiments",
+  "run_date": "2026-08-13",
+  "items": [
+    {
+      "id": "willison-raccoon-heist-2026-08-05",
+      "title": "Simon Willison one-shots a full browser game with Claude Fable 5",
+      "summary_en": "Engineer Simon Willison tested whether Anthropic's Claude Fable 5, run through Claude Code for web, could build a complete 3D browser game from a single prompt based on a 2022 tweet concept. The resulting 'Raccoon Heist' game (a stealth-heist loop with escalating difficulty, procedural WebAudio, and vendored Three.js) was built and polished over several commits between August 5 and its release, with all art generated via OpenAI's gpt-image-2 and baked into static assets so the deployed game needs no runtime API calls.",
+      "source_url": "https://simonwillison.net/2026/Aug/5/raccoon-heist/",
+      "source_name": "Simon Willison's Weblog (cross-verified via github.com/simonw/raccoon-heist)",
+      "published_date": "2026-08-05",
+      "category": "product",
+      "tone": "playful",
+      "confidence": "primary-confirmed",
+      "notes": "Direct fetch of simonwillison.net was blocked by the network egress proxy; content verified instead via the linked GitHub repo (simonw/raccoon-heist) and its build notes.md, which independently confirm the author, dates, model used, and outcome. Willison is a well-known, named, independently identifiable software engineer (creator of Datasette/LLM tools)."
+    }
+  ],
+  "coverage_note": "Only one item met this collector's bar for a real, identifiable, primary-sourced example this cycle. A second candidate ('Torchwright', a claimed no-training weight-space compiler for transformer arithmetic attributed to a poster going by 'notforrob' on r/MachineLearning, covered ~2026-08-10) was investigated but dropped: no GitHub repo, original Reddit post, or real name could be located, and the only trace was a secondary newsletter aggregator that could not be independently fetched or corroborated. Per collection rules, an unverifiable author/source was excluded rather than included on secondary-aggregator confidence alone."
+}
