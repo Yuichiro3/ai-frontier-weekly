@@ -1,0 +1,44 @@
+{
+  "collector": "industry-leader-collector",
+  "target": "Sakana AI",
+  "run_date": "2026-08-13",
+  "items": [
+    {
+      "id": "sakana-namazu-api-2026-08-03",
+      "title": "Sakana AI launches standalone Namazu API, a Japanese-business-tuned fine-tune of Kimi K2.6",
+      "summary_en": "Sakana AI moved its Namazu model from the consumer Sakana Chat product into a standalone, pay-as-you-go API. Namazu is described as an in-house fine-tune of Moonshot AI's open-weight Kimi K2.6, tuned on proprietary data for Japanese honorific speech (keigo) and business context, with an OpenAI-compatible interface and built-in web search and code execution tools. Sakana reported improvements over the Kimi K2.6 base on its JFBench Japanese-instruction benchmark and a large gain on a political-neutrality benchmark, and priced the API at roughly $0.95 per million input tokens and $4.00 per million output tokens; the service is not offered in the EU, UK, or Switzerland.",
+      "source_url": "https://sakana.ai/namazu-api/",
+      "source_name": "Sakana AI Official Blog",
+      "published_date": "2026-08-03",
+      "category": "product",
+      "tone": "neutral",
+      "confidence": "primary-inferred",
+      "notes": "Direct fetch of sakana.ai was blocked by the environment's network egress proxy this run; details corroborated across multiple independent secondary reports (BigGo Finance, AI Weekly, StartupHub.ai, Impress Watch) that cite the official sakana.ai/namazu-api/ page. Benchmark figures are vendor-reported and unverified by an independent evaluator."
+    },
+    {
+      "id": "sakana-fugu-gemma4-conductor-2026-08-10",
+      "title": "Sakana AI retrains Fugu's 'conductor' orchestration model on a Gemma 4 base as a portability test",
+      "summary_en": "Sakana AI published results of retraining the small 7B 'conductor' component of its Fugu orchestration system on a Google Gemma 4 base, having previously trained it on a Qwen base. The company described this explicitly as a portability/validation experiment rather than a production swap, and reported the Gemma-4-based conductor achieved orchestration performance comparable to the earlier version. Sakana framed the result as evidence that its lightweight conductor layer, which coordinates calls across a pool of larger frontier models, is not tied to a single underlying base model.",
+      "source_url": "https://sakana.ai/fugu-gemma4/",
+      "source_name": "Sakana AI Official Blog",
+      "published_date": "2026-08-10",
+      "category": "research",
+      "tone": "neutral",
+      "confidence": "primary-inferred",
+      "notes": "Direct fetch of sakana.ai was blocked by the environment's network egress proxy this run; the official URL and date were confirmed via search-engine indexing and corroborated by a secondary analysis piece (Digital Applied) describing the same experiment. Sakana traces the underlying conductor and orchestration architecture to two of its own ICLR 2026 papers ('Trinity' and 'Conductor')."
+    },
+    {
+      "id": "sakana-chat-update-fugu-namazu-2026-08-12",
+      "title": "Sakana AI updates consumer Sakana Chat app with Fugu orchestrator, new Namazu generation, and code execution",
+      "summary_en": "Sakana AI announced an update to its free consumer Sakana Chat service adding access to Sakana Fugu, its multi-model orchestration system, and an upgraded generation of the Sakana Namazu model, alongside new code-execution support that lets users preview model-generated code output directly inside the chat interface.",
+      "source_url": "https://sakana.ai/chat-update/",
+      "source_name": "Sakana AI Official Blog",
+      "published_date": "2026-08-12",
+      "category": "product",
+      "tone": "neutral",
+      "confidence": "primary-inferred",
+      "notes": "Exact publication date is approximate (search snapshot showed the post as '15 hours old' at time of search on 2026-08-13, implying ~2026-08-12); direct fetch of sakana.ai was blocked by the environment's network egress proxy this run, so the post could not be read in full for exact timestamp or full feature list."
+    }
+  ],
+  "coverage_note": "Three items found on Sakana AI's official blog (sakana.ai/blog) published within the roughly 10-day window ending 2026-08-13: the Namazu API launch (Aug 3), a Fugu conductor portability experiment on a Gemma 4 base (Aug 10), and a Sakana Chat product update bundling Fugu and a new Namazu generation (~Aug 12). Two earlier related releases (Fugu-Cyber, July 21; Fugu-Ultra v1.1 with Claude Code interface, July 24) fall outside the 10-day window and were excluded. Direct WebFetch access to sakana.ai was blocked by the environment's network egress proxy for this entire run, so all three items are marked 'primary-inferred' rather than 'primary-confirmed': official URLs and dates were verified via search-engine indexing, and content details were cross-checked against multiple independent secondary sources that cite and quote the same official pages."
+}

@@ -1,0 +1,56 @@
+{
+  "collector": "academia-collector",
+  "target": "Stanford HAI",
+  "run_date": "2026-08-13",
+  "items": [
+    {
+      "id": "stanford-hai-ai-companions-loneliness-2026-08-05",
+      "title": "Stanford Study Finds AI Companion Use Linked to Worse Well-Being for Socially Isolated Users",
+      "summary_en": "Stanford researchers studied how people use AI companions on the Character.AI platform and found that users with limited real-world social networks who turned to chatbots primarily for companionship reported lower well-being; use for other purposes showed no such association. The authors describe a possible 'vicious circle' in which intensive AI companion use may further reduce real-world social contact among already-isolated users, and suggest interventions such as usage limits or nudges toward human support.",
+      "source_url": "https://hai.stanford.edu/news/ai-companions-may-worsen-loneliness-for-vulnerable-users-stanford-study-finds",
+      "source_name": "Stanford HAI News",
+      "published_date": "2026-08-05",
+      "category": "research",
+      "tone": "neutral",
+      "confidence": "primary-confirmed",
+      "notes": "Underlying study published in Nature Human Behaviour (peer-reviewed); also covered by Stanford Report (news.stanford.edu)."
+    },
+    {
+      "id": "stanford-hai-world-models-governance-brief-2026-08-04",
+      "title": "Stanford HAI Policy Brief Warns World Models Pose a Steeper Governance Challenge Than LLMs",
+      "summary_en": "Stanford HAI published a policy brief, 'The World Model and Spatial Intelligence Era: Governing AI Beyond Language,' arguing that AI systems which build predictive internal representations of physical environments raise governance questions not addressed by existing large-language-model-focused frameworks. It recommends prioritizing public datasets and simulation environments in the National AI Research Resource and investing in benchmarks for safety-critical evaluation of world models.",
+      "source_url": "https://hai.stanford.edu/news/why-governing-world-models-is-ais-next-big-policy-challenge",
+      "source_name": "Stanford HAI News / Policy Brief",
+      "published_date": "2026-08-04",
+      "category": "policy",
+      "tone": "neutral",
+      "confidence": "primary-confirmed",
+      "notes": "Policy brief, not a peer-reviewed research paper. Full brief at hai.stanford.edu/policy/the-world-model-and-spatial-intelligence-era-governing-ai-beyond-language."
+    },
+    {
+      "id": "stanford-hai-data-broker-compliance-2026-08-11",
+      "title": "Stanford Study Finds Only 9% of California Data Brokers Fully Comply with Privacy Law",
+      "summary_en": "Stanford RegLab and Stanford HAI researchers, led by Jennifer King, manually reviewed all 522 brokers registered under California's 2023 Delete Act and found only 9% met the full set of transparency requirements, while 64% added friction (confusing forms, excessive verification) to consumer rights requests and 45% submitted no rights-request metrics at all. The study, 'Privacy Without Remedy: An Assessment of Data Broker Compliance with California Privacy Law,' was presented at the 2026 ACM Conference on Fairness, Accountability, and Transparency (FAccT).",
+      "source_url": "https://hai.stanford.edu/news/companies-that-buy-and-sell-your-data-are-not-following-californias-strict-privacy-laws",
+      "source_name": "Stanford HAI News",
+      "published_date": "2026-08-11",
+      "category": "research",
+      "tone": "neutral",
+      "confidence": "primary-confirmed",
+      "notes": "Underlying paper peer-reviewed and presented at ACM FAccT 2026; an arXiv preprint version (2605.21376) is also available."
+    },
+    {
+      "id": "stanford-hai-hoover-tpa-geopolitics-grants-2026-08-11",
+      "title": "Stanford HAI and Hoover Institution Fund Three New Projects on AI, Nuclear Proliferation, and Geopolitics",
+      "summary_en": "Stanford HAI and the Hoover Institution's Technology Policy Accelerator announced $100,000 grants for three one-year research projects applying AI to global-security questions. One project, led by Mykel Kochenderfer (HAI Senior Fellow) and Hoover's Amy Zegart, will build AI agents to comb through multilingual documents, images, and satellite photos for signs of nuclear proliferation; another, led by Diyi Yang, will build a bilingual AI interviewing tool to compare U.S. and Chinese public opinion.",
+      "source_url": "https://hai.stanford.edu/news/new-stanford-grants-tackle-ais-impact-on-global-security-and-geopolitics",
+      "source_name": "Stanford HAI News",
+      "published_date": "2026-08-11",
+      "category": "research",
+      "tone": "neutral",
+      "confidence": "primary-confirmed",
+      "notes": "Grant-funding announcement; funded projects are just starting, no results published yet."
+    }
+  ],
+  "coverage_note": "Four new primary-source items were identified on hai.stanford.edu/news within the 2026-08-03 to 2026-08-13 window: a peer-reviewed well-being study on AI companions (Aug 5), a policy brief on governing 'world models' (Aug 4), a peer-reviewed data-broker privacy-compliance study (Aug 11), and a grant-funding announcement for AI/geopolitics research with Hoover TPA (Aug 11). An earlier HAI issue brief on 'AI sovereignty' (published 2026-07-15) and the 2026 AI Index Report (published ~April 2026) were excluded as outside the 10-day window. Direct WebFetch access to hai.stanford.edu and news.stanford.edu was blocked by the network egress proxy in this environment; all details above were reconstructed from search-result snippets and cross-referenced secondary coverage (Stanford Report, MedicalXpress, TechTimes, ICT&health), so exact publication dates for two items (world-models brief, data-broker study) are corroborated by multiple independent snippets but not verified against the live HAI page itself."
+}

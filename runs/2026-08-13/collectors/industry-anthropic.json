@@ -1,0 +1,80 @@
+{
+  "collector": "industry-leader-collector",
+  "target": "Anthropic",
+  "run_date": "2026-08-13",
+  "items": [
+    {
+      "id": "anthropic-tino-cuellar-cgao",
+      "title": "Anthropic names Tino Cuéllar as first Chief Global Affairs Officer",
+      "summary_en": "Anthropic announced that Mariano-Florentino (Tino) Cuéllar, formerly president of the Carnegie Endowment for International Peace and a former California Supreme Court justice, will lead the company's policy, international engagement, and government relations as its first Chief Global Affairs Officer. He had previously served as a trustee of Anthropic's Long-Term Benefit Trust before stepping down to take the role.",
+      "source_url": "https://www.anthropic.com/news/tino-cuellar",
+      "source_name": "Anthropic Official Newsroom",
+      "published_date": "2026-08-04",
+      "category": "policy",
+      "tone": "neutral",
+      "confidence": "primary-confirmed",
+      "notes": "URL and date corroborated across multiple independent search results referencing the official anthropic.com/news page."
+    },
+    {
+      "id": "anthropic-fable5-biology-safeguards",
+      "title": "Anthropic loosens Fable 5's biology-query safeguards to cut false positives",
+      "summary_en": "Anthropic updated the safety classifier governing Claude Fable 5's handling of biology-related queries, rewriting the classifier's rule set with expert input and retraining it. The company reports this reduced biology-related 'fallbacks' (where the system switches to a more restricted model) by about 85% across product surfaces, while Fable 5 still defers to Claude Opus 5 for dual-use topics such as virology, toxicology, and molecular design.",
+      "source_url": "https://www.anthropic.com/news/improving-fable-5-s-biology-safeguards",
+      "source_name": "Anthropic Official Newsroom",
+      "published_date": "2026-08-07",
+      "category": "safety",
+      "tone": "neutral",
+      "confidence": "primary-confirmed",
+      "notes": "Date corroborated by secondary coverage (unite.ai) citing an August 7, 2026 release."
+    },
+    {
+      "id": "anthropic-sonnet5-permanent-pricing",
+      "title": "Anthropic makes Claude Sonnet 5's introductory pricing permanent",
+      "summary_en": "Anthropic confirmed that Claude Sonnet 5's launch pricing of $2 per million input tokens and $10 per million output tokens will remain in place indefinitely, cancelling a previously scheduled increase to $3/$15 per million tokens that had been set to take effect September 1, 2026.",
+      "source_url": "https://www.anthropic.com/news/claude-sonnet-5",
+      "source_name": "Anthropic Official Newsroom",
+      "published_date": "2026-08-10",
+      "category": "product",
+      "tone": "neutral",
+      "confidence": "primary-inferred",
+      "notes": "Could not independently verify the exact URL/slug of the pricing update via direct page fetch (anthropic.com was blocked by the egress proxy this session); the URL given is the known official Sonnet 5 launch page, which may have been updated, or the update may live at a distinct anthropic.com/news slug not confirmed here. Date and figures corroborated by multiple secondary outlets citing Anthropic directly."
+    },
+    {
+      "id": "anthropic-riemann-zeta-research",
+      "title": "Anthropic reports unreleased Claude research model advances a Riemann-hypothesis-related bound",
+      "summary_en": "Anthropic published a research note describing an internal test in which an unreleased research version of Claude was set an open problem related to the Riemann hypothesis. The model reportedly raised the lower bound for the fraction of Riemann zeta zeros known to satisfy the hypothesis from 41.6% to 67.2% by combining insights from two existing papers, using an extended multi-agent Claude Code session; two Anthropic mathematicians reviewed the result, and Claude also produced a formally verifiable proof, though Anthropic states it does not expect the underlying technique to lead to a full proof of the hypothesis.",
+      "source_url": "https://www.anthropic.com/research/riemann-zeta",
+      "source_name": "Anthropic Research",
+      "published_date": "2026-08-10",
+      "category": "research",
+      "tone": "neutral",
+      "confidence": "primary-confirmed",
+      "notes": "Anthropic's own account (via X/AnthropicAI and the anthropic.com/research page) is the source; secondary outlets (techtimes, mlq.ai) republished around Aug 11-12."
+    },
+    {
+      "id": "anthropic-worker-retraining-review",
+      "title": "Anthropic economic research reviews evidence on worker retraining programs",
+      "summary_en": "Anthropic's Economic Research team published a review, coauthored with independent researcher David Roodman, examining decades of evidence on government and employer worker-retraining programs as a policy response to potential AI-driven labor market disruption. The piece is framed as an input into ongoing debate about whether retraining is an effective mitigation, without a definitive company conclusion reported.",
+      "source_url": "https://www.anthropic.com/research/reviewing-the-evidence-on-worker-retraining-programs",
+      "source_name": "Anthropic Research",
+      "published_date": "2026-08-12",
+      "category": "research",
+      "tone": "neutral",
+      "confidence": "primary-confirmed",
+      "notes": "Coauthor Maxim Massenkoff also credited in secondary summaries of the report."
+    },
+    {
+      "id": "anthropic-content-watermarking",
+      "title": "Anthropic to watermark AI-generated text and add provenance metadata to files, citing EU AI Act compliance",
+      "summary_en": "Anthropic stated that Claude models released on or after August 2, 2026 will automatically embed invisible watermarks in generated text and, for image/file formats, will attach signed provenance metadata based on the C2PA standard. Anthropic said the markings will apply globally, not only to EU users, and cautioned that the presence of a mark should not be treated as definitive proof of authorship, since Claude can also process human-authored material.",
+      "source_url": "https://support.claude.com/en/articles/16266773-how-claude-marks-ai-generated-content",
+      "source_name": "Anthropic Help Center",
+      "published_date": "2026-08-11",
+      "category": "policy",
+      "tone": "neutral",
+      "confidence": "primary-inferred",
+      "notes": "Could not directly fetch support.claude.com (blocked by egress proxy this session); date and content details are drawn from consistent secondary reporting (TechCrunch, Axios, The Register, Euronews) that directly attributes the statement and technical specifics to Anthropic. This move follows the EU AI Act's Transparency Code taking effect August 2, 2026, which Anthropic is among roughly 190 signatory organizations for."
+    }
+  ],
+  "coverage_note": "Several Anthropic-related infrastructure/compute stories broke this week via financial and tech press (a reported $10B six-year compute deal with startup Volta, dated ~Aug 4; a reported $9.1B, 20-year compute deal with Riot Platforms, dated ~Aug 11; and confirmation of an in-house AI chip design team, ~Aug 5-6) but none were accompanied by an Anthropic-authored blog post or press release found during this collection window -- Bloomberg reported Anthropic declined to comment on the Volta deal, and the chip-team confirmation came via a statement to TechCrunch rather than an official Anthropic publication. Per this collector's primary-source-only scope, these are excluded from items and flagged here for the orchestrator to route to a business/markets-focused collector if in scope. Claude Opus 5's launch (~July 24) and the Claude Cowork mobile/web beta expansion (~July 7-8) fall outside the ~10-day window and were also excluded. Direct WebFetch access to anthropic.com, claude.com, and support.claude.com was blocked by the network egress proxy this session, so several items rely on WebSearch-indexed snippets of the official pages rather than a fetched, fully-verified page; this is noted per-item in confidence/notes."
+}

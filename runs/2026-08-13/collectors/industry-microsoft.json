@@ -1,0 +1,56 @@
+{
+  "collector": "industry-leader-collector",
+  "target": "Microsoft",
+  "run_date": "2026-08-13",
+  "items": [
+    {
+      "id": "microsoft-orchard-agentic-framework-2026-08-03",
+      "title": "Microsoft Research releases Orchard, an open-source framework for training agentic AI",
+      "summary_en": "Microsoft Research published Orchard, an open framework built around a lightweight Kubernetes-based environment service ('Orchard Env') for training and evaluating AI agents across software engineering, web navigation, and personal-assistant tasks using shared infrastructure. The team reported that a roughly 3-billion-active-parameter model trained with Orchard reached 69.7% (73.0% with reranking) on SWE-bench Verified, approaching much larger frontier systems, and released the framework code, training data, and evaluation methods publicly.",
+      "source_url": "https://www.microsoft.com/en-us/research/blog/orchard-an-open-framework-for-scalable-agentic-ai/",
+      "source_name": "Microsoft Research Blog",
+      "published_date": "2026-08-03",
+      "category": "research",
+      "tone": "neutral",
+      "confidence": "primary-confirmed",
+      "notes": "Directly fetched from microsoft.com/en-us/research/blog; also includes Orchard-GUI (web navigation) and Orchard-Claw (personal assistant) results and released training datasets."
+    },
+    {
+      "id": "microsoft-project-perception-public-preview-2026-08-03",
+      "title": "Microsoft's agentic security system Project Perception enters public preview",
+      "summary_en": "Microsoft announced that Project Perception, an agentic cybersecurity system coordinating 'red', 'blue', and 'green' AI agents to find, assess, and remediate security risks, entered public preview on August 3, 2026, initially inside Microsoft Defender. The company said the system is built on a new proprietary model, MAI-Cyber-1-Flash, purpose-built for cybersecurity tasks, and stressed that a human retains authority over consequential decisions; pricing is consumption-based via Security Compute Units.",
+      "source_url": "https://blogs.microsoft.com/blog/2026/07/27/rethinking-security-for-the-age-of-ai/",
+      "source_name": "The Official Microsoft Blog",
+      "published_date": "2026-07-27",
+      "category": "product",
+      "tone": "neutral",
+      "confidence": "primary-inferred",
+      "notes": "Blog post announcing Project Perception was published 2026-07-27, but the feature itself (public preview) went live on 2026-08-03, which is why this is included in the current window. blogs.microsoft.com is blocked for direct WebFetch verification in this environment, so details are drawn from WebSearch result snippets that quote/describe the official post rather than a direct fetch; recommend re-verifying against the live page if strict primary-confirmed status is required."
+    },
+    {
+      "id": "microsoft-research-care-x-radiology-vlm-2026-08-11",
+      "title": "Microsoft Research introduces CARE-X, a research VLM for chest X-ray interpretation",
+      "summary_en": "Microsoft Research published details on CARE-X, a research-only vision-language model for chest X-ray analysis that combines free-text report generation, calibrated diagnostic scoring, and tool-augmented measurement. The post reports CARE-X reached 94% on the ReXVQA benchmark and led on CRIMSON scores across four chest X-ray datasets, while explicitly stating the model is not a Microsoft product or medical device and has no regulatory approval.",
+      "source_url": "https://www.microsoft.com/en-us/research/blog/introducing-care-x-towards-clinically-useful-radiology-vlms-with-auxiliary-supervision-reward-aligned-learning-and-tool-augmented-measurement/",
+      "source_name": "Microsoft Research Blog",
+      "published_date": "2026-08-11",
+      "category": "research",
+      "tone": "neutral",
+      "confidence": "primary-confirmed",
+      "notes": "Directly fetched from microsoft.com/en-us/research/blog; accompanying peer-reviewed paper referenced but not separately verified here."
+    },
+    {
+      "id": "microsoft-research-mindtopo-benchmark-2026-08-12",
+      "title": "Microsoft Research co-publishes MindTopo, a benchmark for VLM topological/spatial reasoning",
+      "summary_en": "Microsoft Research, with collaborators from Northwestern and Stanford, released MindTopo, a benchmark testing whether vision-language models understand topological concepts such as continuity, separation, order, enclosure, and knottedness. The post reports models perform better on static scene understanding than on dynamic planning tasks, with errors often appearing only after a model has correctly parsed a scene, pointing to gaps in maintaining structural understanding across sequences of actions.",
+      "source_url": "https://www.microsoft.com/en-us/research/blog/mindtopo-reveals-vlms-spatial-reasoning-abilities/",
+      "source_name": "Microsoft Research Blog",
+      "published_date": "2026-08-12",
+      "category": "research",
+      "tone": "neutral",
+      "confidence": "primary-confirmed",
+      "notes": "Directly fetched from microsoft.com/en-us/research/blog; joint academic-industry benchmark, project site referenced as mind-topo.github.io."
+    }
+  ],
+  "coverage_note": "Four primary-source items found on Microsoft's official Research Blog and Official Microsoft Blog within/adjacent to the 2026-08-03 to 2026-08-13 window (Orchard, Project Perception public-preview launch, CARE-X, MindTopo). A widely reported unified 'Copilot super app' statement by Satya Nadella was excluded because it originated from the FY26 Q4 earnings call on 2026-07-29, outside the 10-day window. A secondary-source claim about an 'MAI-Code-1.1 Flash' release (~2026-08-11) could not be traced to a verifiable official Microsoft URL within this session (blogs.microsoft.com and news.microsoft.com are blocked for direct fetch in this environment); flagged here for the next run to verify rather than included as an item."
+}

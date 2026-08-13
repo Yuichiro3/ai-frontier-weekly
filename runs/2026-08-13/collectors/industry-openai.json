@@ -1,0 +1,116 @@
+{
+  "collector": "industry-leader-collector",
+  "target": "OpenAI",
+  "run_date": "2026-08-13",
+  "items": [
+    {
+      "id": "openai-daybreak-cyber-defense-window-2026-08-10",
+      "title": "OpenAI expands Daybreak cybersecurity program, introduces GPT-5.6-Cyber",
+      "summary_en": "OpenAI announced an expansion of its Daybreak cybersecurity initiative, introducing GPT-5.6-Cyber, a model built for authorized security work, along with two access tiers: Daybreak Blue (frontier models like GPT-5.6 Sol for broad defensive tasks) and Daybreak Red (purpose-trained cybersecurity models for vulnerability research and exploit validation). OpenAI said access is restricted to approved defenders with added monitoring, citing GPT-5.6-Cyber's use in finding previously unknown vulnerabilities in Chrome's V8 engine.",
+      "source_url": "https://openai.com/index/expanding-daybreak-as-the-cyber-defense-window-narrows/",
+      "source_name": "OpenAI Official Blog",
+      "published_date": "2026-08-10",
+      "category": "safety",
+      "tone": "neutral",
+      "confidence": "primary-inferred",
+      "notes": "Confirmed via multiple independent secondary summaries citing this openai.com/index URL and an official OpenAI X/Twitter post (2026-08-10); direct fetch of openai.com was blocked in this session so exact wording could not be independently verified."
+    },
+    {
+      "id": "openai-cyber-preparedness-response-2026-08-10",
+      "title": "OpenAI publishes response to critical-level cyber capability classification",
+      "summary_en": "Alongside the Daybreak expansion, OpenAI published a companion post addressing how it is responding to frontier models reaching higher cyber-capability risk levels, describing additional safeguards and controls for higher-risk cybersecurity work performed with its models.",
+      "source_url": "https://openai.com/index/responding-next-frontier-critical-cyber-capabilities/",
+      "source_name": "OpenAI Official Blog",
+      "published_date": "2026-08-10",
+      "category": "safety",
+      "tone": "neutral",
+      "confidence": "primary-inferred",
+      "notes": "Could not directly fetch full post content due to egress block on openai.com in this session; summary based on corroborating secondary coverage referencing this exact official URL. Recommend verifying exact framing before quoting further."
+    },
+    {
+      "id": "openai-premium-seats-chatgpt-business-2026-08-10",
+      "title": "OpenAI launches Premium seats for ChatGPT Business",
+      "summary_en": "OpenAI introduced a Premium seat tier for ChatGPT Business at $125/user/month ($100/month billed annually), offering 5x more usage than the existing Standard seat ($25/month) and removing the five-hour usage limit. Organizations can mix Standard and Premium seats within the same workspace; a limited-time credit promotion was offered to early sign-ups.",
+      "source_url": "https://openai.com/index/premium-seats-chatgpt-business/",
+      "source_name": "OpenAI Official Blog",
+      "published_date": "2026-08-10",
+      "category": "product",
+      "tone": "neutral",
+      "confidence": "primary-inferred",
+      "notes": "Confirmed via corroborating secondary coverage (e.g. the-decoder.com, CIO.com) referencing the exact openai.com/index URL and pricing figures."
+    },
+    {
+      "id": "openai-gpt56-sol-luna-chatgpt-2026-08-07",
+      "title": "OpenAI improves GPT-5.6 Sol in ChatGPT, expands GPT-5.6 Luna access and removes free-tier text limits",
+      "summary_en": "OpenAI announced updates making GPT-5.6 Sol more reliable and focused for Plus/Pro users, including a new slider to control how much the model 'thinks' per response. It also said it is removing text-chat limits for all ChatGPT users, with GPT-5.6 Luna becoming the default model for Free and Go tiers (replacing GPT-5.5) and free users gaining access to a 'Think' option for harder questions. OpenAI noted ChatGPT recently passed 1 billion weekly users.",
+      "source_url": "https://openai.com/index/improving-gpt-5-6-sol-in-chatgpt/",
+      "source_name": "OpenAI Official Blog",
+      "published_date": "2026-08-07",
+      "category": "product",
+      "tone": "neutral",
+      "confidence": "primary-inferred",
+      "notes": "Corroborated by multiple secondary outlets (TechCrunch, Dataconomy, Unite.AI) citing the same official post and the 1-billion weekly user figure."
+    },
+    {
+      "id": "openai-chatgpt-to-work-usage-report-2026-08-06",
+      "title": "OpenAI publishes global ChatGPT usage report: 'From asking to doing'",
+      "summary_en": "OpenAI published a country-by-country breakdown of ChatGPT usage patterns, reporting that at work people are more than twice as likely to use ChatGPT to complete a task or create something (vs. asking questions) compared to outside work. The post said adoption gaps are narrowing in Latin America, Africa, and Oceania, and that multimedia use is the fastest-growing category globally, at 7.8% of messages.",
+      "source_url": "https://openai.com/index/how-the-world-is-putting-chatgpt-to-work/",
+      "source_name": "OpenAI Official Blog",
+      "published_date": "2026-08-06",
+      "category": "product",
+      "tone": "neutral",
+      "confidence": "primary-inferred",
+      "notes": "Title on OpenAI site is 'From asking to doing: How the world is putting ChatGPT to work.'"
+    },
+    {
+      "id": "openai-apa-partnership-youth-2026-08-06",
+      "title": "OpenAI and American Psychological Association partner on youth mental health guidance",
+      "summary_en": "OpenAI announced a partnership with the American Psychological Association to develop evidence-based guidance and safeguards for youth AI use. The post said the collaboration will produce resources for clinicians and school psychologists on recognizing overreliance and unhealthy use patterns, and that OpenAI added a 'Family Guide' and related parent resources emphasizing that AI use should be balanced with human interaction, with stronger guardrails for teens in higher-risk conversations.",
+      "source_url": "https://openai.com/index/openai-and-apa-partner-to-advance-responsible-ai/",
+      "source_name": "OpenAI Official Blog",
+      "published_date": "2026-08-06",
+      "category": "safety",
+      "tone": "neutral",
+      "confidence": "primary-inferred",
+      "notes": "Corroborated by secondary coverage (edtechinnovationhub.com) referencing the same official URL and content."
+    },
+    {
+      "id": "openai-gpt-live-continuous-voice-2026-08-03",
+      "title": "OpenAI details engineering behind continuous voice interaction (GPT-Live)",
+      "summary_en": "OpenAI published an engineering post describing how it built a full-duplex, low-latency real-time voice system underpinning GPT-Live, which lets ChatGPT Voice process speech continuously in both directions rather than in a turn-based sequence. The post described reducing end-to-end response latency to sub-300ms using streaming audio processing and optimized model-serving infrastructure.",
+      "source_url": "https://openai.com/index/continuous-voice-interaction-with-gpt-live/",
+      "source_name": "OpenAI Official Blog (Engineering)",
+      "published_date": "2026-08-03",
+      "category": "product",
+      "tone": "neutral",
+      "confidence": "primary-inferred",
+      "notes": "Distinct from OpenAI's initial GPT-Live product announcement, which was published earlier (around 2026-07-08) and is outside this run's window; this Aug 3 post is a follow-up engineering deep dive."
+    },
+    {
+      "id": "openai-astra-math-proofs-2026-08-01",
+      "title": "OpenAI says unreleased Astra model solved ten open problems in mathematics and theoretical computer science",
+      "summary_en": "OpenAI announced that an internal version of its next major model, referred to as Astra, produced solutions to ten long-standing open problems spanning group theory, von Neumann algebras, sphere-packing, and combinatorics, including a construction addressing the 'non-sofic group' question open since 1999. OpenAI published a manuscript and machine-checkable Lean proof certificates on GitHub, stating the compute cost for all ten solutions was about $2,000 at its API rates.",
+      "source_url": "https://openai.com/index/ten-advances-in-mathematics/",
+      "source_name": "OpenAI Official Blog",
+      "published_date": "2026-08-01",
+      "category": "research",
+      "tone": "neutral",
+      "confidence": "primary-inferred",
+      "notes": "Published just outside the strict 10-day window (Aug 3-13) but included given its significance and immediate proximity; widely corroborated by independent outlets (SiliconANGLE, TheNextWeb, Forbes) citing the same official post. Astra itself has not been publicly released; this describes an internal/unreleased model version only, per OpenAI's own framing."
+    },
+    {
+      "id": "openai-arc-agi-3-harness-settings-2026-07-31",
+      "title": "OpenAI reports two API settings tripled its ARC-AGI-3 benchmark scores",
+      "summary_en": "OpenAI published research showing that enabling 'retained reasoning' and 'compaction' settings in its Responses API roughly tripled GPT-5.6 Sol's score on the ARC-AGI-3 public benchmark (from about 13.3% to about 38.3%) while cutting output tokens roughly sixfold. OpenAI said the finding illustrates that benchmark results reflect harness and API configuration choices, not just underlying model capability.",
+      "source_url": "https://openai.com/index/how-two-settings-tripled-our-arc-agi-3-scores/",
+      "source_name": "OpenAI Official Blog",
+      "published_date": "2026-07-31",
+      "category": "research",
+      "tone": "neutral",
+      "confidence": "primary-inferred",
+      "notes": "Published just outside the strict 10-day window but included as directly relevant, methodologically notable research; date corroborated by multiple secondary outlets referencing the same official post."
+    }
+  ],
+  "coverage_note": "OpenAI published a high volume of official content in this period, spanning research (Astra math proofs, ARC-AGI-3 harness findings), product updates (GPT-5.6 Sol/Luna changes, GPT-Live engineering, ChatGPT Business Premium seats), and safety/policy posts (APA youth partnership, Daybreak cybersecurity expansion and associated risk-response post). Two items fall a few days before the strict Aug 3-13 window but were included given their significance. Direct fetching of openai.com was blocked by the network egress proxy in this session, so item details were corroborated via multiple independent secondary sources citing the same official openai.com/index URLs rather than by directly reading page content; exact wording/quotes were not independently re-verified against the primary page and should be spot-checked before verbatim use. An unconfirmed rumor about an OpenAI model codenamed 'Doug' circulated this week via leak-focused accounts (not an official OpenAI channel) and was excluded per sourcing rules."
+}

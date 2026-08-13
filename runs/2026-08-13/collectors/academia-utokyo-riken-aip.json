@@ -1,0 +1,7 @@
+{
+  "collector": "academia-collector",
+  "target": "University of Tokyo / RIKEN AIP",
+  "run_date": "2026-08-13",
+  "items": [],
+  "coverage_note": "No verifiable new items from University of Tokyo / RIKEN AIP's own site could be confirmed for the 2026-08-03 to 2026-08-13 window. This run was blocked from direct primary-source verification: WebFetch returned EGRESS_BLOCKED for aip.riken.jp, www.riken.jp, and all checked University of Tokyo subdomains (www.u-tokyo.ac.jp, www.ai.u-tokyo.ac.jp, www.i.u-tokyo.ac.jp, weblab.t.u-tokyo.ac.jp), as well as fallback mirrors (Google Translate proxy, Google cache, r.jina.ai, DuckDuckGo, Bing, Ecosia, Marginalia, nitter.net, x.com). Search-engine indexing (WebSearch, budget exhausted) surfaced only older RIKEN AIP news with confirmed title+URL pairs, all dated well before the target window: conference-paper-acceptance notices for AAAI-26, EACL 2026, ACL 2026, AISTATS 2026, ICLR 2026, ICML 2026, and CVPR 2026 (posted around each conference's notification period, Jan-May 2026), plus award announcements dated January 6, February 19, and June 11, 2026. Two possibly-relevant items (a BEA 2026 best-paper award for RIKEN AIP's Explainable AI Team, and a July 24, 2026 joint workshop with National Taiwan University's AI-CoRE) appeared only in synthesized search-summary text without a directly citable title+URL pair, so they were excluded to avoid citing an unverified source/date. Recommend retrying this collector once network egress to aip.riken.jp and u-tokyo.ac.jp is restored."
+}

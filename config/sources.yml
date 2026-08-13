@@ -48,4 +48,17 @@ wildcard:
 # --- Rotation / diversity history -------------------------------------
 # The Orchestrator (or a human) appends a short note here after each run
 # so future runs can check they aren't over-relying on the same sources.
-rotation_history: []
+rotation_history:
+  - run_date: "2026-08-13"
+    iso_week: "2026-W33"
+    note: >
+      First tracked run. Covered the full default target list (3 evaluators,
+      6 industry leaders, 5 academic institutions, wildcard) with no rotation
+      applied. UTokyo/RIKEN AIP returned zero items this week (network access
+      to aip.riken.jp and u-tokyo.ac.jp was blocked in the collection
+      environment, not confirmed absence of news) -- worth prioritizing a
+      retry next week rather than treating it as "nothing published" twice
+      running. Evaluator coverage was thin overall (METR, Epoch AI, CMU RI,
+      and Turing each returned only one item or a database refresh); no
+      rotation action needed yet since this is the baseline week, but future
+      runs should watch for repeated thin evaluator coverage.

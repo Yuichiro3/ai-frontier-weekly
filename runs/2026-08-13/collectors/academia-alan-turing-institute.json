@@ -1,0 +1,20 @@
+{
+  "collector": "academia-collector",
+  "target": "The Alan Turing Institute",
+  "run_date": "2026-08-13",
+  "items": [
+    {
+      "id": "turing-cni-ai-cyber-tools-2026-08-12",
+      "title": "Alan Turing Institute develops AI tools to defend UK critical national infrastructure from cyber-attacks",
+      "summary_en": "The Alan Turing Institute's Defence and National Security team published a blog post describing two new AI-driven tools to protect UK critical national infrastructure (CNI) from cyber-attacks. 'Smoke and Mirrors' creates realistic virtual operational-technology (OT) environments to lure suspicious files and malware into revealing their behaviour, letting CNI operators analyze threats without risking real systems; the team is also building AI-driven cyber risk benchmarks for CNI. The post argues a more complete picture of attacks on CNI is needed to inform these defences.",
+      "source_url": "https://www.turing.ac.uk/blog/uks-critical-infrastructure-risk-cyber-attacks-our-ai-tools-will-provide-new-line-defence",
+      "source_name": "The Alan Turing Institute Blog",
+      "published_date": "2026-08-12",
+      "category": "research",
+      "tone": "neutral",
+      "confidence": "primary-inferred",
+      "notes": "Direct fetch of turing.ac.uk was blocked by network egress restrictions during this collection run; content, title, and date were corroborated via multiple WebSearch snippets referencing the exact turing.ac.uk URL, plus secondary coverage (UKAuthority, Digit.fyi) describing the same 'Smoke and Mirrors' tool. Tool reportedly developed by the Institute's research engineering strand within the Defence and National Security grand challenge programme. Full article text could not be directly verified due to tooling access constraints."
+    }
+  ],
+  "coverage_note": "Network egress restrictions blocked direct access to turing.ac.uk and most secondary/aggregator sites throughout this run, and the session's web-search budget was exhausted after initial queries, so this run could not fully browse the Turing Institute news page or its Blog/Publications sections. Only one item could be confirmed as published within the target window (2026-08-03 to 2026-08-13): a 2026-08-12 blog post on AI cyber-defence tools for UK critical national infrastructure. Other Turing Institute/CETaS material found in searches (e.g. a CETaS report on future AI security paradigms, published 2026-04-30) falls outside the target window and was excluded. This coverage should be treated as incomplete due to tooling access limits, not as a confirmed absence of other news from the Institute this week; a re-run with working direct access to turing.ac.uk is recommended to confirm completeness."
+}

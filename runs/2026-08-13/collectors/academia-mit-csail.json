@@ -1,0 +1,44 @@
+{
+  "collector": "academia-collector",
+  "target": "MIT CSAIL",
+  "run_date": "2026-08-13",
+  "items": [
+    {
+      "id": "mit-csail-geopt-physics-ai-2026-08-10",
+      "title": "GeoPT: MIT CSAIL and Tsinghua researchers give AI models a 'feel' for physics to simulate wider range of real-world scenarios",
+      "summary_en": "MIT CSAIL researchers, with collaborators at Tsinghua University, introduced GeoPT, a pre-training approach that exposes physics-simulation AI models to 1.3 million synthetic dynamics samples of objects interacting in 3D. MIT News reports GeoPT reaches peak performance twice as fast as prior state-of-the-art simulators, needs up to 60% less labeled data, and can generate high-fidelity simulations with over 100 million mesh points in seconds, with potential applications in predicting vehicle aerodynamics, structural deformation, and fluid behavior.",
+      "source_url": "https://www.csail.mit.edu/news/feel-physics-ai-models-simulate-wider-range-real-world-scenarios",
+      "source_name": "MIT CSAIL News",
+      "published_date": "2026-08-10",
+      "category": "research",
+      "tone": "neutral",
+      "confidence": "primary-confirmed",
+      "notes": "[preprint, not yet peer-reviewed] The underlying paper appears to be an arXiv preprint (indexed on alphaXiv as arXiv:2602.20399, 'GeoPT: Scaling Physics Simulation via Lifted Geometric Pre-Training'); no conference/journal acceptance was confirmed in available sources. Content verified via WebSearch snippets only -- direct fetch of csail.mit.edu was blocked by network egress proxy in this session, so exact article text could not be independently re-verified."
+    },
+    {
+      "id": "mit-csail-shiftlens-2026-08-05",
+      "title": "ShiftLens: MIT CSAIL fabrication system lets 3D-printed objects change surface appearance without electronics",
+      "summary_en": "A team at MIT CSAIL, led by associate professor Stefanie Mueller with collaborators including undergraduate Dingning Cao, a TU Munich graduate student, and a Northeastern postdoc, built ShiftLens, a design-and-fabrication system for objects whose surface appearance changes when a user presses, slides, or turns part of the object. It combines a layer of lenticular lenses with a patterned backplane, both printable in a single pass on a multimaterial 3D printer; demonstrated prototypes include a bottle cap that shows a warning icon when loose and a tic-tac-toe board that changes its display via a knob.",
+      "source_url": "https://news.mit.edu/2026/shiftlens-3d-printed-objects-can-tell-you-if-used-properly-0805",
+      "source_name": "MIT News (CSAIL research)",
+      "published_date": "2026-08-05",
+      "category": "research",
+      "tone": "neutral",
+      "confidence": "primary-confirmed",
+      "notes": "Publication venue/peer-review status not confirmed in available sources; treat findings as reported by the institution pending venue confirmation. Content verified via WebSearch snippets only -- direct fetch of csail.mit.edu/eecs.mit.edu/hcie.csail.mit.edu was blocked by network egress proxy in this session."
+    },
+    {
+      "id": "mit-csail-rus-bavarian-prize-2026-07-30",
+      "title": "Daniela Rus, CSAIL Director, receives 2026 Bavarian Minister-President's High-Tech Prize",
+      "summary_en": "MIT News reports that Daniela Rus, Director of CSAIL and the Panasonic Professor of Computer Science, received the 2026 High-Tech Prize of the Bavarian Minister-President, awarded jointly by the Bavarian State Government and the Bavarian Academy of Sciences and Humanities, for contributions to self-organizing robot collectives, soft robotics, autonomous mobility, and brain-inspired AI, including her work on liquid neural networks. She accepted the award on July 23 in Munich.",
+      "source_url": "https://news.mit.edu/2026/daniela-rus-receives-bavarian-minister-presidents-high-tech-prize-0730",
+      "source_name": "MIT News (CSAIL leadership)",
+      "published_date": "2026-07-30",
+      "category": "research",
+      "tone": "neutral",
+      "confidence": "primary-confirmed",
+      "notes": "Publication date (2026-07-30) falls slightly before this run's prioritized 2026-08-03+ window; included as the most recent public statement/honor concerning CSAIL leadership found in the surrounding period. This is an award announcement, not a new research result, so 'research' category is an approximation. Content verified via WebSearch snippets only -- direct fetch of news.mit.edu was blocked by network egress proxy in this session."
+    }
+  ],
+  "coverage_note": "Two items fall within the prioritized 2026-08-03 to 2026-08-13 window (GeoPT, Aug 10; ShiftLens, Aug 5); a third (Daniela Rus's Bavarian High-Tech Prize) is dated Jul 30, just outside the window, and is included as the most recent leadership statement. Two other recent CSAIL robotics/AI stories -- 'SceneSmith' (with Toyota Research Institute, published 2026-07-13) and 'FloatForm' (self-assembling aquatic robot swarm, published 2026-07-09) -- were found but fall further outside the target window and were excluded. IMPORTANT CAVEAT: direct fetches to csail.mit.edu, news.mit.edu, eecs.mit.edu, computing.mit.edu, hcie.csail.mit.edu, and several secondary tech-news sites were all blocked by the network egress proxy during this session, so all summaries above were reconstructed from WebSearch result snippets/excerpts rather than full-page verification; a human reviewer should re-verify article text against the live pages before publication."
+}
