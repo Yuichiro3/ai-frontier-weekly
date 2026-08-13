@@ -1,0 +1,51 @@
+# Target source list for the weekly collectors.
+# The Orchestrator reads this file to decide which targets to dispatch to
+# which collector agent each week. Edit this file (via PR) to adjust
+# coverage — e.g. split "OpenAI" into a named-leader target for a week with
+# a major announcement, or add a new institution.
+
+evaluators_and_institutes:
+  - name: METR
+    url: https://metr.org
+  - name: UK AI Security Institute
+    url: https://www.aisi.gov.uk
+  - name: Epoch AI
+    url: https://epochai.org
+
+industry_leaders:
+  # Each entry can be a company (broad) or "Person / Company" (narrow).
+  # The Orchestrator may split a company into named-leader targets for weeks
+  # with unusually high news volume — this list is the default granularity.
+  - name: OpenAI
+    url: https://openai.com/news
+  - name: Anthropic
+    url: https://www.anthropic.com/news
+  - name: Google DeepMind
+    url: https://deepmind.google/discover/blog
+  - name: Meta AI
+    url: https://ai.meta.com/blog
+  - name: Microsoft
+    url: https://blogs.microsoft.com/ai
+  - name: Sakana AI
+    url: https://sakana.ai/blog
+
+academic_institutions:
+  - name: MIT CSAIL
+    url: https://www.csail.mit.edu/news
+  - name: Stanford HAI
+    url: https://hai.stanford.edu/news
+  - name: Carnegie Mellon University - Robotics Institute
+    url: https://www.ri.cmu.edu/category/news
+  - name: The Alan Turing Institute
+    url: https://www.turing.ac.uk/news
+  - name: University of Tokyo / RIKEN AIP
+    url: https://aip.riken.jp/news/
+
+wildcard:
+  # No fixed target list — the wildcard-collector scans broadly each week.
+  notes: "Scan Hacker News top posts, independent researcher blogs, and open-source AI project updates for one or two credible, interesting items."
+
+# --- Rotation / diversity history -------------------------------------
+# The Orchestrator (or a human) appends a short note here after each run
+# so future runs can check they aren't over-relying on the same sources.
+rotation_history: []
