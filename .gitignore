@@ -1,0 +1,7 @@
+# Keep run history in git for auditability by default.
+# Uncomment below if you'd rather not track raw run artifacts:
+# runs/*/collectors/
+# runs/*/argument-map.json
+
+.DS_Store
+*.log
