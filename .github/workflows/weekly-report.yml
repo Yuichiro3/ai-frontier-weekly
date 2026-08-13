@@ -1,0 +1,47 @@
+name: Weekly AI Frontier Report
+
+on:
+  schedule:
+    # Sunday 22:00 UTC ≈ Monday 07:00 JST — adjust to your preferred time.
+    - cron: "0 22 * * 0"
+  workflow_dispatch: {}   # allows manual triggering from the Actions tab
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  weekly-report:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Run Claude Code weekly report pipeline
+        uses: anthropics/claude-code-action@v1
+        with:
+          anthropic_api_key: ${{ secrets.ANTHROPIC_API_KEY }}
+          prompt: |
+            Run this week's AI frontier report pipeline as defined in CLAUDE.md:
+            1. Read config/sources.yml for this week's target list and rotation notes.
+            2. Dispatch collector subagents in parallel per CLAUDE.md section 5/6
+               (industry-leader-collector, evaluator-institute-collector,
+               academia-collector, wildcard-collector). One call per target.
+            3. Run synthesis-agent on the combined collector output.
+            4. Run reporting-agent on the synthesis output.
+            5. Run the quality gates in CLAUDE.md section 7 and note any failures
+               in the PR description rather than silently fixing them.
+            6. Create a new branch named report/<iso-week>, commit
+               runs/<date>/ and reports/<iso-week>.md, and open a pull request.
+               Do NOT merge the pull request.
+          claude_args: |
+            --allowedTools "WebSearch,WebFetch,Read,Write,Bash(git *)"
+            --max-turns 60
+            --model claude-opus-4-6
+
+      # Notes:
+      # - contents:write / pull-requests:write let Claude push a branch and
+      #   open a PR; they do NOT grant merge rights. A human always merges.
+      # - GitHub only runs scheduled workflows from the default branch, and
+      #   disables the schedule after ~60 days of repo inactivity in public
+      #   repos — re-trigger with workflow_dispatch or a small commit if that
+      #   happens.
