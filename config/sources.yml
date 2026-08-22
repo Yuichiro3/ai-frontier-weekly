@@ -62,3 +62,27 @@ rotation_history:
       and Turing each returned only one item or a database refresh); no
       rotation action needed yet since this is the baseline week, but future
       runs should watch for repeated thin evaluator coverage.
+  - run_date: "2026-08-22"
+    iso_week: "2026-W34"
+    note: >
+      Covered the full default target list again (3 evaluators, 6 industry
+      leaders, 5 academic institutions, wildcard) with no rotation applied.
+      UTokyo/RIKEN AIP: network access to aip.riken.jp and all u-tokyo.ac.jp
+      subdomains was blocked again this week (second week running); worked
+      around it via WebSearch and recovered two items this time, so the
+      target is not fully dark, but this collector still cannot read its
+      own primary sources directly -- recommend an infrastructure fix
+      (egress allowlist for these domains) rather than relying on the
+      search-engine workaround indefinitely. Evaluator coverage is thin for
+      a second consecutive week and getting worse, not better: UK AI
+      Security Institute and The Alan Turing Institute both returned zero
+      new items (their only candidates duplicated last week's coverage),
+      leaving METR and Epoch AI (2 items each) as the only evaluator voice
+      this week. Sakana AI also returned zero items, though its collector
+      could not fully rule out something new (sakana.ai and x.com were both
+      blocked). Given two straight weeks of thin/duplicate evaluator
+      coverage, the Orchestrator should consider next week either (a)
+      widening the evaluator target list beyond METR/AISI/Epoch (see
+      CLAUDE.md section 2.1's "comparable organizations"), or (b) scheduling
+      a manual/human check of aisi.gov.uk and turing.ac.uk to confirm the
+      egress-block workaround isn't silently missing real new content.

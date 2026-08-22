@@ -1,0 +1,32 @@
+{
+  "collector": "academia-collector",
+  "target": "University of Tokyo / RIKEN AIP",
+  "run_date": "2026-08-22",
+  "items": [
+    {
+      "id": "utokyo-matsuo-ax-evangelist-2026-08-14",
+      "title": "University of Tokyo's Matsuo-Iwasawa Lab launches free 'AX Evangelist' online AI course",
+      "summary_en": "The Matsuo-Iwasawa Laboratory at the University of Tokyo announced a new seven-session, free online course called the 'AX Evangelist Course,' aimed at non-IT professionals across Japanese workplaces. The stated goal is to help organizations move beyond individual employees using AI tools toward organization-wide AI adoption ('AX').",
+      "source_url": "https://weblab.t.u-tokyo.ac.jp/news/2026-08-14/",
+      "source_name": "Matsuo-Iwasawa Laboratory, The University of Tokyo",
+      "published_date": "2026-08-14",
+      "category": "product",
+      "tone": "neutral",
+      "confidence": "primary-inferred",
+      "notes": "Original in Japanese; translated by collector. Direct fetch of weblab.t.u-tokyo.ac.jp was blocked by the network egress proxy this run; content reconstructed from a Google-indexed search snippet of the official page title/summary, not independently verified via full-text fetch. This is an educational/outreach program launch rather than a new research result."
+    },
+    {
+      "id": "utokyo-aire-kickoff-symposium-2026-07-15",
+      "title": "University of Tokyo holds kickoff symposium for 'AIR/E' social-collaboration course on responsible AI ethics with SoftBank",
+      "summary_en": "The University of Tokyo's Graduate School of Interdisciplinary Information Studies held a kickoff symposium for a new social-collaboration course, 'Developing Responsible AI Ethics for a Sustainable Future' (AIR/E), established with SoftBank. An associated eight-part public lecture series covering AI governance, copyright/law, environmental impact of AI, and international rulemaking is scheduled to run September-December 2026.",
+      "source_url": "https://www.u-tokyo.ac.jp/focus/ja/events/z0115_00115.html",
+      "source_name": "The University of Tokyo (official site, Japanese)",
+      "published_date": "2026-07-15",
+      "category": "policy",
+      "tone": "neutral",
+      "confidence": "primary-inferred",
+      "notes": "Original in Japanese; translated/summarized by collector. Falls outside the strict 1-2 week window (event occurred ~5 weeks before this run) but is included because its associated public lecture series has not yet started (runs September-December 2026) and this collector had zero confirmed items in the previous two runs due to network access being blocked to this target. One secondary aggregator described the program as 'launched August 6, 2026,' which may refer to a related registration opening; this could not be reconciled because u-tokyo.ac.jp could not be fetched directly this run."
+    }
+  ],
+  "coverage_note": "Network access to aip.riken.jp and all u-tokyo.ac.jp subdomains was blocked by this environment's egress proxy again this week (2026-08-22), reproducing the same failure seen in the 2026-08-13 run — this is a persistent network/infrastructure limitation, not confirmation that nothing is being published. Using WebSearch as an indirect channel, two dated items with specific institutional URLs were identified and are reported above with confidence capped at 'primary-inferred' since full-text content could not be independently verified by direct fetch. Additional leads were noticed via search but excluded because a specific, citable article permalink could not be confirmed: (1) RIKEN AIP's Explainable AI Team reportedly won a Best Paper Award at the BEA 2026 workshop — date/permalink unconfirmed; (2) an RIKEN AIP x National Taiwan University joint workshop reportedly took place around 2026-07-24 — outside the target window and permalink unconfirmed. This is now the second consecutive run blocked from direct access to this target's primary domains; recommend escalating as an infrastructure fix (an allowlist entry for aip.riken.jp and u-tokyo.ac.jp) if consistent weekly primary-source coverage of this target is required."
+}

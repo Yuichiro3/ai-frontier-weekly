@@ -1,0 +1,20 @@
+{
+  "collector": "wildcard",
+  "target": "offbeat-credible-ai",
+  "run_date": "2026-08-22",
+  "items": [
+    {
+      "id": "turnbull-dont-classify-hallucinate-2026-08",
+      "title": "Search engineer argues you should let an LLM 'hallucinate' its classification, then fix it with embeddings",
+      "summary_en": "Search-relevance engineer Doug Turnbull describes a technique where, instead of feeding an LLM a huge existing taxonomy (e.g. thousands of product categories) to classify against, you ask it to freely invent a plausible-sounding tag with no knowledge of the real vocabulary. He then computes an embedding of that invented tag and matches it via nearest-neighbor/dot-product similarity to the closest real category. Turnbull reports this lets even cheap, small models handle large-vocabulary tagging tasks, since the model only needs to be creative and 'close enough,' not accurate, and you never have to ship the full schema in every prompt. Simon Willison independently highlighted and summarized the technique on his own blog on August 14, 2026, describing it as a neat inversion of the usual advice to suppress hallucination.",
+      "source_url": "https://softwaredoug.com/blog/2026/08/10/hypothetical-classifications",
+      "source_name": "Doug Turnbull's Blog (softwaredoug.com)",
+      "published_date": "2026-08-10",
+      "category": "opinion",
+      "tone": "contrarian",
+      "confidence": "secondary-source",
+      "notes": "Author is a named, identifiable search-relevance engineer (co-author of the book 'Relevant Search', teaches a 'Relevant Search' masterclass on Maven). Direct fetch of softwaredoug.com was blocked by this session's network egress proxy, so this summary relies on corroborating search-engine snippets quoting the post plus an independent secondary write-up by Simon Willison (https://simonwillison.net/2026/Aug/14/dont-classify-hallucinate/, Aug 14 2026), which could also not be directly fetched for the same reason. No formal benchmark numbers were found beyond the author's own description of the approach; treat effectiveness claims as anecdotal/author-reported, not independently validated."
+    }
+  ],
+  "coverage_note": "Only one item met the bar for a real, named, independently-corroborated source within the roughly Aug 8-22, 2026 window. A second candidate (TimeCapsuleLLM, an LLM trained only on 1800-1875 London text, github.com/haykgrigo3/TimeCapsuleLLM) is a genuine, credible project but its Hacker News discussion and most press coverage date to January 2026 and its latest release to July 11, 2026, both outside the requested recency window, so it was excluded rather than stretched to fit. Search budget was also exhausted before a second in-window item could be found and verified to the same standard."
+}

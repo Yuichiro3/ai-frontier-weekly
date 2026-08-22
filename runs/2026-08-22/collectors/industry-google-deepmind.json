@@ -1,0 +1,20 @@
+{
+  "collector": "industry-leader-collector",
+  "target": "Google DeepMind",
+  "run_date": "2026-08-22",
+  "items": [
+    {
+      "id": "gdm-2026-08-21-atari-to-eve-online-games-research",
+      "title": "Google DeepMind reviews 15 years of game-based AI research, details ongoing EVE Online collaboration",
+      "summary_en": "Google DeepMind published a blog retrospective tracing its game-based AI research lineage — from the Deep Q-Network's Atari results, through AlphaGo, AlphaZero, MuZero, and AlphaStar — and used it to frame its continuing research collaboration around EVE Online, a long-running player-driven massively multiplayer game. The post frames EVE Online's persistent, player-driven economy and diplomacy as a testbed for capabilities DeepMind says current agents still lack, such as long-horizon planning and continual learning. This EVE Online research partnership had been announced earlier in 2026; this post is a deeper retrospective/update rather than a new-partnership announcement.",
+      "source_url": "https://deepmind.google/blog/from-atari-to-eve-online-building-on-15-years-of-ai-research-in-games/",
+      "source_name": "Google DeepMind Official Blog",
+      "published_date": "2026-08-21",
+      "category": "research",
+      "tone": "neutral",
+      "confidence": "primary-inferred",
+      "notes": "URL, title, and date were confirmed consistently across multiple independent WebSearch queries against the deepmind.google domain, but direct WebFetch verification of full page content was blocked by the network egress proxy in this session (EGRESS_BLOCKED on deepmind.google), so confidence is marked primary-inferred rather than primary-confirmed. The EVE Online research collaboration itself was reportedly first announced in May 2026, referenced here for context only. Not a duplicate of last week's items (leadership shakeup, Aug 5; WeatherNext cyclones, Aug 6; Gemini Robotics 2, Jul 30) — distinct topic and URL."
+    }
+  ],
+  "coverage_note": "Only one item from Google DeepMind's own blog was confirmed to fall within the 2026-08-12 to 2026-08-22 window (the Aug 21 games-research/EVE Online retrospective). Google DeepMind underwent a major leadership reorganization in early August 2026 (Demis Hassabis moving to chairman of Google DeepMind and chief scientist of Alphabet; Koray Kavukcuoglu taking over day-to-day operations; Jeff Dean departing after 27 years), reported via CNBC, Axios, Bloomberg, and Fortune around 2026-08-05 through 08-13 — this was already captured in last week's run (runs/2026-08-13/collectors/industry-google-deepmind.json, id gdm-2026-08-05-leadership-shakeup) and is not repeated here. Two other deepmind.google posts (a WeatherNext cyclone-forecasting announcement and a multi-agent AI safety research funding call) were found dated approximately 2026-08-06 and 2026-08-08 — the WeatherNext post duplicates last week's coverage; the funding-call post falls just outside this week's window and no newly-relevant follow-up was found, so neither is included. Direct WebFetch access to deepmind.google and blog.google was blocked by the network egress proxy in this environment for the entire session; item details were reconstructed from WebSearch result snippets rather than direct page fetches. This session's WebSearch call budget was exhausted before further targeted queries could confirm whether additional in-window deepmind.google posts exist, so this coverage should be treated as partial, not exhaustive."
+}

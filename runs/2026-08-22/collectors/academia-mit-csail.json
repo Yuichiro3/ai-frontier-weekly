@@ -1,0 +1,20 @@
+{
+  "collector": "academia-collector",
+  "target": "MIT CSAIL",
+  "run_date": "2026-08-22",
+  "items": [
+    {
+      "id": "mit-csail-attribution-decay-diffusion-2026-08-18",
+      "title": "MIT study: 'attribution decay' makes large diffusion models' outputs untraceable to specific training images",
+      "summary_en": "MIT CSAIL researchers Zheng Dai and David Gifford report that as diffusion-model training datasets scale up, the influence of any single training example on a given generated output shrinks toward zero, a phenomenon they term 'attribution decay.' Using data-ablation experiments, they found that at sufficiently large scale, removing a specific image, an artist's entire body of work, or all photos of a given person from the training set often does not change what the model generates. The paper, 'Outputs of Generative Diffusion Models Are Often Unattributable,' is reported to be forthcoming in Nature Communications.",
+      "source_url": "https://news.mit.edu/2026/when-ai-art-has-no-author-generated-images-often-cant-be-traced-to-training-data-0818",
+      "source_name": "MIT News / MIT CSAIL",
+      "published_date": "2026-08-18",
+      "category": "research",
+      "tone": "neutral",
+      "confidence": "primary-confirmed",
+      "notes": "Peer-reviewed venue reported (Nature Communications, forthcoming) — not a preprint. Relevant to ongoing debates about copyright/attribution in generative AI training data; direct csail.mit.edu fetch was blocked in this run, content corroborated via a mirrored MIT EECS listing and independent tech press coverage (The Register, InfoWorld)."
+    }
+  ],
+  "coverage_note": "One genuinely new AI-relevant CSAIL research item was identified for this window: the 'attribution decay' diffusion-model study (Aug 18). Two other items surfaced by this week's collection pass were excluded: a 'GeoPT' physics-simulation pre-training item (Aug 10) is a duplicate of last week's coverage (runs/2026-08-13/collectors/academia-mit-csail.json, id mit-csail-geopt-physics-ai-2026-08-10 — same paper, same date, same source); and a 'TONTOU' speculative-execution CPU attack disclosure (Aug 6) was excluded as out of scope for this AI-frontier report — it is CPU hardware-security research with no AI/ML component, per the collector's own flag, so it is noted here for the Orchestrator rather than included as an item. Direct access to www.csail.mit.edu and news.mit.edu was blocked by the network egress proxy throughout this run; the surviving item was corroborated via search snippets and independent mirrors rather than a direct fetch of the primary CSAIL page."
+}

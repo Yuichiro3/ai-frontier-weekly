@@ -1,0 +1,32 @@
+{
+  "collector": "evaluator-collector",
+  "target": "METR",
+  "run_date": "2026-08-22",
+  "items": [
+    {
+      "id": "metr-2026-08-14-funding-update",
+      "title": "METR raises ~$71M in commitments over six months, reaffirms no funding from frontier AI labs",
+      "summary_en": "METR announced it secured roughly $71 million in funding commitments over the past six months from philanthropic foundations and individual donors (including The Audacious Project, the Sijbrandij Foundation, The Pew Charitable Trusts, Schmidt Sciences, the Packard Foundation, and several named individuals), explicitly excluding frontier AI companies. METR says the funds will support work on autonomous-capability evaluations, tracking recursive self-improvement, evaluating AI monitoring systems, risk assessments, and AI incident investigations. The post restates METR's policy of refusing funding from frontier AI developers and barring donations directed by their staff, framing this as a structural independence safeguard as its risk assessments become more consequential.",
+      "source_url": "https://metr.org/blog/2026-08-14-funding-update/",
+      "source_name": "METR Official Blog",
+      "published_date": "2026-08-14",
+      "category": "policy",
+      "tone": "neutral",
+      "confidence": "primary-inferred",
+      "notes": "Direct fetch of metr.org was blocked by this session's network egress proxy for every attempt (blog page, notes page, and cache mirrors). Summary is based on search-engine-indexed excerpts of METR's own blog page (not a third-party rewrite/aggregator article); full original text could not be independently verified in this run. This is an organizational/funding announcement, not a research finding, so no capability or safety claim is being made here."
+    },
+    {
+      "id": "metr-2026-08-14-acceleration-in-discoveries",
+      "title": "METR analysis: public discovery-rate data shows acceleration in cyber vulnerabilities and math, but not in algorithmic efficiency",
+      "summary_en": "In a research note by Tom Cunningham and Nate Rush, METR examined public time-series data on discoveries in cybersecurity, mathematics, and algorithmic efficiency to test whether LLMs have measurably accelerated the rate of discovery. They report a sharp acceleration in cyber vulnerability discovery starting in early 2026 (which they attribute to LLM use, while noting average vulnerability severity has probably fallen), some acceleration in mathematics (including three problems from major open lists solved with AI assistance in 2026, and a surge in arXiv submissions in subfields like combinatorics), but no clear change in slope for algorithmic efficiency across seven benchmark problems (e.g., CIFAR-10, Hutter compression, nanoGPT, Stockfish, matrix-multiplication exponent), despite two of those areas having documented LLM-driven contributions. The authors flag January 2026 as a plausible breakpoint where AI effects might first appear in the public record.",
+      "source_url": "https://metr.org/notes/2026-08-14-llm-contribution-to-discoveries/",
+      "source_name": "METR Notes",
+      "published_date": "2026-08-14",
+      "category": "research",
+      "tone": "neutral",
+      "confidence": "primary-inferred",
+      "notes": "Direct fetch of metr.org was blocked by this session's network egress proxy; summary is based on search-indexed excerpts of METR's own note, not a third-party summary site. METR itself states methodology caveats: (1) the analysis relies only on publicly disclosed discoveries, and the authors explicitly say it is 'quite plausible' that AI labs are making undisclosed internal discoveries not reflected in this public-record data; (2) the algorithmic-efficiency comparison is based on only seven historical time series, a small sample; (3) the cyber vulnerability trend required an explicit severity adjustment because average reported severity has likely declined, which the authors treat as a possible confound."
+    }
+  ],
+  "coverage_note": "Two METR primary-source publications were identified within the target window (both dated 2026-08-14): a funding/organizational update and a research note on discovery-rate acceleration across cyber, math, and algorithmic-efficiency domains. No further METR blog, notes, or dataset releases were found between 2026-08-15 and 2026-08-22 (today); searches of METR's blog and notes indices returned no additional dated entries in that window, so coverage for the most recent week (08-15 to 08-22) is empty by inventory, not by omission. Direct browsing of metr.org was blocked by the network egress proxy throughout this collection run; all summaries above are derived from search-engine-indexed excerpts of METR's own pages rather than third-party rewrites, but this could not be cross-checked against the full original page text and should be verified by a human reviewer with direct site access."
+}

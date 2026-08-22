@@ -1,0 +1,7 @@
+{
+  "collector": "academia-collector",
+  "target": "The Alan Turing Institute",
+  "run_date": "2026-08-22",
+  "items": [],
+  "coverage_note": "The one item found by this week's collection pass — a blog post on AI tools defending UK critical national infrastructure from cyber-attacks (published 2026-08-12, source_url https://www.turing.ac.uk/blog/uks-critical-infrastructure-risk-cyber-attacks-our-ai-tools-will-provide-new-line-defence) — is a duplicate of last week's coverage (runs/2026-08-13/collectors/academia-alan-turing-institute.json, id turing-cni-ai-cyber-tools-2026-08-12): identical URL and publication date. It is not repeated here. Search results also indicated the Institute may have published another blog post around 2026-08-11, but no title or URL could be confirmed for it, so per no-fabrication rules it was omitted rather than guessed. No other Alan Turing Institute press release, blog post, or preprint clearly dated within 2026-08-13 to 2026-08-22 was identified. Direct fetch access to turing.ac.uk was blocked by the network egress proxy throughout this run, limiting verification to search-result snippets; a human reviewer with direct site access should double-check before treating this as a conclusive 'nothing new' finding."
+}

@@ -1,0 +1,7 @@
+{
+  "collector": "evaluator-institute-collector",
+  "target": "UK AI Security Institute (AISI)",
+  "run_date": "2026-08-22",
+  "items": [],
+  "coverage_note": "No new AISI blog post, report, or dataset release with a publication date between 2026-08-15 and 2026-08-22 was found. The most recent AISI primary-source publication located is the 2026-08-04 incident report on unsanctioned agent behaviour during cyber testing, which was already captured in last week's run (runs/2026-08-13/collectors/evaluator-uk-aisi.json, item id aisi-incident-report-unsanctioned-agent-cyber-2026-08-04). Two other AISI items found in search (a Kimi K3 preliminary cyber assessment, ~2026-07-24, and an open-weight-models cyber gap analysis, ~2026-07-19) are older still and were already noted for continuity in last week's coverage_note. To avoid duplicate reporting across weeks, none of these three items are repeated here; per CLAUDE.md collector rules, this week's genuine finding is 'nothing new' rather than a restatement of older coverage. Direct fetch access to www.aisi.gov.uk was blocked by this session's network egress proxy throughout collection; absence of new content is based on search-engine indexing of the AISI blog/notes index, not a direct page read, so a human reviewer with direct site access should double-check before treating this as conclusive."
+}

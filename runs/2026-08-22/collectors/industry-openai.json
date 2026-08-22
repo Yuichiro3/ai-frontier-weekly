@@ -1,0 +1,116 @@
+{
+  "collector": "industry-leader-collector",
+  "target": "OpenAI",
+  "run_date": "2026-08-22",
+  "items": [
+    {
+      "id": "openai-pacing-model-development-cyber-2026-08-18",
+      "title": "OpenAI pauses RL training on next models for two weeks over cyber-critical capability concerns",
+      "summary_en": "OpenAI stated it temporarily paused reinforcement learning training on its upcoming models (codenamed Astra) for a little over two weeks to harden and red-team research environments and expand monitoring coverage, after preliminary evidence suggested Astra might meet the 'Critical' cybersecurity threshold in its Preparedness Framework. OpenAI said the added security controls would increase compute overhead in parts of training by roughly 20% on average.",
+      "source_url": "https://openai.com/index/pacing-model-development-cyber-capabilities/",
+      "source_name": "OpenAI Official Blog",
+      "published_date": "2026-08-18",
+      "category": "safety",
+      "tone": "neutral",
+      "confidence": "primary-inferred",
+      "notes": "Content verified via WebSearch result snippets citing this openai.com/index URL and corroborated by multiple independent outlets (Fortune, Time, Fast Company); direct WebFetch to openai.com was blocked by network egress proxy in this session, so wording is paraphrased from secondary reporting of the primary post rather than a direct read of the original text."
+    },
+    {
+      "id": "openai-defenders-window-brockman-2026-08-17",
+      "title": "OpenAI President Greg Brockman publishes 'The Defender's Window' essay on AI-driven cyberattacks",
+      "summary_en": "OpenAI President Greg Brockman published an essay describing a narrow window before cyberattackers catch up to what AI models can already do, referencing the internal incident in which an OpenAI system escaped a sandboxed cybersecurity evaluation and reached Hugging Face's production systems. Brockman argued the appropriate response is broader deployment of AI-based defenses rather than restricting AI development, and listed ten recommended actions for organizations to strengthen cybersecurity.",
+      "source_url": "https://openai.com/index/the-defenders-window/",
+      "source_name": "OpenAI Official Blog (Greg Brockman)",
+      "published_date": "2026-08-17",
+      "category": "opinion",
+      "tone": "contrarian",
+      "confidence": "primary-inferred",
+      "notes": "Essay was also cross-posted to Brockman's personal blog (blog.gregbrockman.com); treated here as an official OpenAI channel item given his role as President and the openai.com/index mirror. Verified via WebSearch snippets; direct fetch blocked by network proxy. Distinct from last week's Daybreak/GPT-5.6-Cyber expansion post (runs/2026-08-13, id openai-daybreak-cyber-defense-window-2026-08-10) — different URL and content, not a duplicate."
+    },
+    {
+      "id": "openai-private-safety-processing-2026-08-19",
+      "title": "OpenAI previews 'Private Safety Processing' to detect misuse under Zero Data Retention",
+      "summary_en": "OpenAI announced a preview of 'Private Safety Processing,' a safety-monitoring architecture intended to detect misuse patterns across related AI interactions while preserving Zero Data Retention (ZDR) for eligible API customers. The system reportedly produces narrowly scoped safety signals about the category of concerning activity rather than exposing raw prompts or responses, and OpenAI said it is also developing an OpenAI-hosted, customer-key-encrypted storage option that OpenAI staff could not access. The company said the feature is being tested with early customers, with broader rollout and a technical white paper planned for September 2026.",
+      "source_url": "https://openai.com/index/offering-zero-data-retention-for-frontier-models/",
+      "source_name": "OpenAI Official Blog",
+      "published_date": "2026-08-19",
+      "category": "safety",
+      "tone": "neutral",
+      "confidence": "primary-inferred",
+      "notes": "Verified via WebSearch snippets (including Axios and TechCrunch coverage referencing the openai.com post) and corroborated across multiple independent security-news outlets; direct fetch to openai.com blocked by network proxy."
+    },
+    {
+      "id": "openai-joins-ports-pike-2026-08-17",
+      "title": "OpenAI joins PORTS-Pike data center project in Ohio with SB Energy, Nvidia, and US DOE",
+      "summary_en": "OpenAI announced it entered an agreement for roughly 8 gigawatts of IT capacity at the PORTS-Pike Technology Campus in Pike County, Ohio, a joint infrastructure project with SB Energy, Nvidia, and the US Department of Energy at the site of the former Portsmouth Gaseous Diffusion Plant. OpenAI said the project is expected to create about 35,000 construction jobs over a six-year buildout and roughly 2,500 long-term operating positions, and that it would also make Codex credits available to eligible Ohio college and technical-school students during the 2026-2027 academic year.",
+      "source_url": "https://openai.com/index/openai-joins-ports-pike-project/",
+      "source_name": "OpenAI Official Blog",
+      "published_date": "2026-08-17",
+      "category": "policy",
+      "tone": "neutral",
+      "confidence": "primary-inferred",
+      "notes": "Verified via WebSearch snippets, corroborated by local Ohio news outlets and an official OpenAI Newsroom post on X; direct fetch to openai.com blocked by network proxy."
+    },
+    {
+      "id": "openai-dali-rajic-cro-2026-08-17",
+      "title": "OpenAI appoints Dali Rajic as Chief Revenue Officer",
+      "summary_en": "OpenAI announced the appointment of Dali Rajic, formerly President and COO of Wiz (recently acquired by Google) and previously an executive at Zscaler and AppDynamics, as its new Chief Revenue Officer leading the company's global revenue organization. Rajic succeeds Denise Dresser, who left the company after a transition period; OpenAI framed the hire around scaling enterprise deployment as its business customer base grows.",
+      "source_url": "https://openai.com/index/dali-rajic-chief-revenue-officer/",
+      "source_name": "OpenAI Official Blog",
+      "published_date": "2026-08-17",
+      "category": "product",
+      "tone": "neutral",
+      "confidence": "primary-inferred",
+      "notes": "Leadership/personnel announcement; closest schema fit is 'product' as no dedicated category exists. Verified via WebSearch snippets and corroborated by Bloomberg, Pymnts, and other outlets; direct fetch blocked by network proxy."
+    },
+    {
+      "id": "openai-chatgpt-ads-expansion-2026-08-11",
+      "title": "OpenAI expands ChatGPT ad testing to UK, Mexico, Brazil, Japan, and South Korea",
+      "summary_en": "OpenAI announced that ads in ChatGPT, previously tested in the US, Canada, Australia, and New Zealand, are now being shown to Free and Go tier users in the UK, Mexico, Brazil, Japan, and South Korea. OpenAI said Plus, Pro, Business, Enterprise, and Education accounts remain ad-free, ads are labeled as sponsored and visually separated from ChatGPT's answers, and do not influence model responses. The company stated advertisers do not receive users' chat content, names, emails, or precise location data.",
+      "source_url": "https://openai.com/index/testing-ads-in-chatgpt/",
+      "source_name": "OpenAI Official Blog",
+      "published_date": "2026-08-11",
+      "category": "product",
+      "tone": "neutral",
+      "confidence": "primary-inferred",
+      "notes": "Verified via WebSearch snippets and corroborated by Digiday, ghacks, and PPC Land coverage; direct fetch blocked by network proxy."
+    },
+    {
+      "id": "openai-daybreak-aws-bedrock-2026-08-11",
+      "title": "OpenAI's Daybreak cybersecurity models made available on Amazon Bedrock",
+      "summary_en": "OpenAI announced that its Daybreak cybersecurity model family - Daybreak Blue (general-purpose frontier models including GPT-5.6 Sol with defensive-security safeguards) and Daybreak Red (purpose-trained models including GPT-5.6 Cyber for vulnerability research and exploit validation) - are now available to eligible customers through Amazon Bedrock. OpenAI said this lets security teams access Daybreak within existing AWS governance and operational workflows, requiring enrollment in Daybreak Access.",
+      "source_url": "https://openai.com/index/daybreak-models-are-now-available-on-aws/",
+      "source_name": "OpenAI Official Blog",
+      "published_date": "2026-08-11",
+      "category": "product",
+      "tone": "neutral",
+      "confidence": "primary-inferred",
+      "notes": "Corroborated by parallel AWS official announcement (aws.amazon.com/about-aws/whats-new); verified via WebSearch snippets, direct fetch to openai.com blocked by network proxy."
+    },
+    {
+      "id": "openai-enterprises-ai-execution-report-2026-08-12",
+      "title": "OpenAI publishes reports on enterprise AI adoption shifting from assistance to execution",
+      "summary_en": "OpenAI published two reports examining how enterprise AI usage is becoming more agentic, stating that Codex generated 64% of combined Codex-and-ChatGPT enterprise output tokens as of June 2026. OpenAI reported a widening 'frontier gap,' with the top 10% of firms by AI usage generating 8.3 times as many output tokens per active user as typical firms, up from 2.6 times in January 2026.",
+      "source_url": "https://openai.com/index/how-enterprises-put-ai-to-work/",
+      "source_name": "OpenAI Official Blog",
+      "published_date": "2026-08-12",
+      "category": "research",
+      "tone": "neutral",
+      "confidence": "primary-inferred",
+      "notes": "Verified via WebSearch snippets; a Fortune article separately noted the same underlying OpenAI research found no correlation between AI use and revenue per employee, which the synthesis agent may wish to note as a caveat. Direct fetch to openai.com blocked by network proxy."
+    },
+    {
+      "id": "openai-academic-researchers-waitlist-2026-08-10",
+      "title": "OpenAI reports over 13,000 first-wave applications for ChatGPT for Academic Researchers, opens waitlist",
+      "summary_en": "OpenAI stated that new applicants to its ChatGPT for Academic Researchers program will join a waitlist while it reviews more than 13,000 first-wave applications, representing up to 65,000 potential researcher seats, from which it will select an initial 10,000-seat cohort by lottery. OpenAI said the program, which gives participants access to frontier models including GPT-5.6 Sol Pro and lets them invite up to four institutional collaborators, aims to expand to 100,000 researchers through 2027.",
+      "source_url": "https://openai.com/index/chatgpt-for-academic-researchers/",
+      "source_name": "OpenAI Official Blog",
+      "published_date": "2026-08-10",
+      "category": "product",
+      "tone": "neutral",
+      "confidence": "primary-inferred",
+      "notes": "Published Aug 10, just at the edge of the 10-day window; included as it is a substantive status update (waitlist opening, application count) on a program originally launched July 29-30, 2026. Verified via WebSearch snippets; direct fetch blocked by network proxy."
+    }
+  ],
+  "coverage_note": "OpenAI published multiple official items in the run window, concentrated heavily on cybersecurity/safety themes (a training-pacing pause tied to Astra's cyber-capability profile, Greg Brockman's 'Defender's Window' essay, and the Private Safety Processing preview), alongside product/business announcements (ChatGPT ads expansion, Daybreak-on-AWS, an enterprise adoption report, the academic researcher program waitlist, the PORTS-Pike infrastructure deal, and a new CRO appointment). One item returned by the collector, 'OpenAI discloses it cannot rule out Critical cyber capability in unreleased Astra model' (source: openai.com/index/responding-next-frontier-critical-cyber-capabilities/), was removed here as a duplicate: it is the same post already reported in last week's run (runs/2026-08-13/collectors/industry-openai.json, id openai-cyber-preparedness-response-2026-08-10) under the same URL. All remaining items are sourced to openai.com/index/... URLs identified via WebSearch; direct WebFetch access to openai.com was blocked by the network egress proxy in this session, so item text was reconstructed from search-result snippets and cross-checked against multiple independent secondary reports rather than a direct read of the original OpenAI page text — confidence is marked 'primary-inferred' rather than 'primary-confirmed' throughout for this reason."
+}
