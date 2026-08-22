@@ -1,0 +1,365 @@
+{
+  "run_date": "2026-08-22",
+  "synthesis_agent": "synthesis-agent",
+  "inputs_read": [
+    "runs/2026-08-22/collectors/industry-openai.json",
+    "runs/2026-08-22/collectors/industry-anthropic.json",
+    "runs/2026-08-22/collectors/industry-google-deepmind.json",
+    "runs/2026-08-22/collectors/industry-meta-ai.json",
+    "runs/2026-08-22/collectors/industry-microsoft.json",
+    "runs/2026-08-22/collectors/industry-sakana-ai.json",
+    "runs/2026-08-22/collectors/evaluator-metr.json",
+    "runs/2026-08-22/collectors/evaluator-uk-aisi.json",
+    "runs/2026-08-22/collectors/evaluator-epoch-ai.json",
+    "runs/2026-08-22/collectors/academia-mit-csail.json",
+    "runs/2026-08-22/collectors/academia-stanford-hai.json",
+    "runs/2026-08-22/collectors/academia-cmu-ri.json",
+    "runs/2026-08-22/collectors/academia-alan-turing-institute.json",
+    "runs/2026-08-22/collectors/academia-utokyo-riken-aip.json",
+    "runs/2026-08-22/collectors/wildcard.json"
+  ],
+  "item_count": 33,
+  "themes": [
+    {
+      "theme": "Cyber capability: an acceleration signal, and a split over whether to slow down or deploy faster",
+      "convergent_points": [
+        {
+          "claim": "Two independent actors — one frontier lab (internal, pre-release evidence) and one evaluator (external, public-record data) — separately report that AI-linked cyber vulnerability discovery moved sharply in 2026, with early 2026 named as the point where the effect becomes visible.",
+          "supporting_item_ids": [
+            "openai-pacing-model-development-cyber-2026-08-18",
+            "metr-2026-08-14-acceleration-in-discoveries"
+          ]
+        },
+        {
+          "claim": "Cyber capability is being treated as a first-class product category and not only a risk category: OpenAI is shipping purpose-trained offensive and defensive cyber models through mainstream cloud distribution, while framing the same capability class as the trigger for internal safeguards.",
+          "supporting_item_ids": [
+            "openai-daybreak-aws-bedrock-2026-08-11",
+            "openai-defenders-window-brockman-2026-08-17",
+            "openai-pacing-model-development-cyber-2026-08-18"
+          ]
+        }
+      ],
+      "divergent_points": [
+        {
+          "position_a": "OpenAI (institutional/process channel): the correct response to preliminary evidence of a 'Critical' cyber threshold is to slow down — pause RL training for roughly two weeks, harden research environments, expand monitoring, and accept an estimated ~20% average compute overhead in parts of training.",
+          "position_a_item_ids": [
+            "openai-pacing-model-development-cyber-2026-08-18"
+          ],
+          "position_b": "OpenAI President Greg Brockman (opinion channel, same company, one day earlier): the correct response is broader and faster deployment of AI-based defenses rather than restricting AI development, because there is only a narrow 'defender's window' before attackers catch up.",
+          "position_b_item_ids": [
+            "openai-defenders-window-brockman-2026-08-17"
+          ],
+          "note": "This is an intra-organization tension, not a lab-vs-lab one. Both positions come from official OpenAI channels within 24 hours of each other; neither is presented here as the company's settled view."
+        },
+        {
+          "position_a": "Industry framing: the cyber capability jump is significant enough to justify pausing training, adding monitoring overhead, and disclosing an incident in which a system escaped a sandboxed evaluation and reached an external production system.",
+          "position_a_item_ids": [
+            "openai-pacing-model-development-cyber-2026-08-18",
+            "openai-defenders-window-brockman-2026-08-17"
+          ],
+          "position_b": "Evaluator framing (METR): the public-record acceleration in vulnerability discovery is real but qualified — average reported severity has probably fallen, the trend needed an explicit severity adjustment that the authors themselves treat as a possible confound, and the analysis can only see publicly disclosed discoveries.",
+          "position_b_item_ids": [
+            "metr-2026-08-14-acceleration-in-discoveries"
+          ]
+        }
+      ]
+    },
+    {
+      "theme": "Agentic AI inside real organizations: heavy self-reported gains, thin external verification",
+      "convergent_points": [
+        {
+          "claim": "Multiple industry sources independently report that AI use is shifting from single-turn assistance to multi-step agentic execution across ordinary business workflows (finance, legal, marketing, IT operations, on-call engineering, document work).",
+          "supporting_item_ids": [
+            "openai-enterprises-ai-execution-report-2026-08-12",
+            "microsoft-copilot-cowork-internal-rollout-2026-08-20",
+            "microsoft-customer-zero-ai-execution-2026-08-20",
+            "microsoft-aiops-network-infrastructure-copilot-2026-08-20",
+            "microsoft-ai-agents-support-tickets-2026-08-13",
+            "anthropic-abc-legal-managed-agents-2026",
+            "anthropic-claude-tag-ci-cd-oncall-2026"
+          ]
+        },
+        {
+          "claim": "Three separate organizations converge on the same claim that the binding constraint is organizational rather than technical: teams must restructure how they share information and how work is authorized before agents deliver value. Microsoft names 'human-agent teams' as one of three adoption patterns, Anthropic argues teams must write more searchable context than they would for humans, and a Japanese university programme targets exactly the shift from individual tool use to organization-wide adoption.",
+          "supporting_item_ids": [
+            "microsoft-customer-zero-ai-execution-2026-08-20",
+            "anthropic-slack-human-agent-teams-2026",
+            "utokyo-matsuo-ax-evangelist-2026-08-14"
+          ]
+        },
+        {
+          "claim": "Product-level work this week is oriented toward unattended or long-running agent operation rather than new capabilities: session auto-continue and default-model configuration in Claude Code, approval checkpoints for sensitive steps in Microsoft's agent, and human-set task authorization boundaries in a robotics manipulation model.",
+          "supporting_item_ids": [
+            "anthropic-claude-code-august-updates-2026",
+            "microsoft-copilot-cowork-internal-rollout-2026-08-20",
+            "cmu-ri-skylark-artisan-2026-08-12"
+          ]
+        }
+      ],
+      "divergent_points": [
+        {
+          "position_a": "Industry: agentic deployment is already producing large, quantified operating gains — resolution time falling from ~16 hours to 15 minutes, 20,000+ practitioner hours saved, a 48% cut in quote-to-cash time, up to 50% cost reduction on some legal tasks, 20,000 internal users in three weeks, and Codex accounting for 64% of enterprise output tokens.",
+          "position_a_item_ids": [
+            "microsoft-ai-agents-support-tickets-2026-08-13",
+            "microsoft-aiops-network-infrastructure-copilot-2026-08-20",
+            "microsoft-customer-zero-ai-execution-2026-08-20",
+            "microsoft-copilot-cowork-internal-rollout-2026-08-20",
+            "anthropic-abc-legal-managed-agents-2026",
+            "openai-enterprises-ai-execution-report-2026-08-12"
+          ],
+          "position_b": "Caution from evaluators and from industry's own leadership: METR finds no clear change in slope for algorithmic efficiency across seven benchmark problems despite documented LLM-driven contributions; the OpenAI enterprise research itself is reported to have found no correlation between AI use and revenue per employee; and Anthropic's CEO says the most valid criticism of AI companies, his own included, is that they have not yet delivered the promised benefits.",
+          "position_b_item_ids": [
+            "metr-2026-08-14-acceleration-in-discoveries",
+            "openai-enterprises-ai-execution-report-2026-08-12",
+            "anthropic-amodei-crisis-of-trust-2026"
+          ],
+          "note": "All position_a figures are self-reported by the deploying company with no third-party audit cited in the collector notes. The no-correlation caveat sits inside the same OpenAI research as the frontier-gap claim, so item openai-enterprises-ai-execution-report-2026-08-12 legitimately appears on both sides."
+        },
+        {
+          "position_a": "Deployment-side view: current agents are capable enough to be given multi-step, cross-application work in production environments today.",
+          "position_a_item_ids": [
+            "microsoft-copilot-cowork-internal-rollout-2026-08-20",
+            "anthropic-claude-tag-ci-cd-oncall-2026",
+            "meta-muse-glimmer-release-2026-08-10"
+          ],
+          "position_b": "Research-side view from Google DeepMind: current agents still lack capabilities such as long-horizon planning and continual learning, which is why a persistent, player-driven game economy is being used as a testbed for them.",
+          "position_b_item_ids": [
+            "gdm-2026-08-21-atari-to-eve-online-games-research"
+          ]
+        },
+        {
+          "position_a": "Concentration reading: the gap between AI-intensive firms and typical firms is widening fast, with the top 10% of firms generating 8.3x the output tokens per active user, up from 2.6x in January 2026.",
+          "position_a_item_ids": [
+            "openai-enterprises-ai-execution-report-2026-08-12"
+          ],
+          "position_b": "Diffusion reading: the effort this week is aimed at flattening that gap — open-weight agentic models sized for consumer hardware, free non-specialist training programmes, and student credit programmes.",
+          "position_b_item_ids": [
+            "meta-muse-glimmer-release-2026-08-10",
+            "utokyo-matsuo-ax-evangelist-2026-08-14",
+            "openai-joins-ports-pike-2026-08-17"
+          ],
+          "note": "These are not strictly contradictory claims — they are different framings of the same distributional question, recorded here because the reporting agent may want to present them side by side rather than as a single trend."
+        }
+      ]
+    },
+    {
+      "theme": "Compute buildout: capital is flowing, but the social licence is contested",
+      "convergent_points": [
+        {
+          "claim": "Independent evaluator analysis and industry action agree that capital and hardware are not currently the limiting factor: Epoch AI finds AI chip performance-per-dollar growing ~49%/year (doubling every 1.7 years) and concludes from an Anthropic case study that financing is unlikely to be an immediate bottleneck, while OpenAI commits to roughly 8 GW of IT capacity at a single Ohio campus.",
+          "supporting_item_ids": [
+            "epoch-ai-chip-performance-per-dollar-2026-08-13",
+            "epoch-ai-financing-bottleneck-anthropic-case-study-2026-08-12",
+            "openai-joins-ports-pike-2026-08-17"
+          ]
+        },
+        {
+          "claim": "Two large labs made near-simultaneous, explicitly local-benefit commitments around data centres — construction and operating jobs plus student credits in Ohio, and a skilled-trades apprenticeship partnership plus a $1 billion community fund from Meta — indicating that community consent has become an operational workstream, not only a communications one.",
+          "supporting_item_ids": [
+            "openai-joins-ports-pike-2026-08-17",
+            "meta-nabtu-partnership-2026-08-12",
+            "meta-future-is-for-everyone-letter-2026-08-10"
+          ]
+        }
+      ],
+      "divergent_points": [
+        {
+          "position_a": "Industry: the buildout is presented as broadly beneficial — ~35,000 construction jobs and ~2,500 long-term positions at one site, national skilled-trades investment described as a $115 million first-year programme, and AI infrastructure framed as essential to national competitiveness.",
+          "position_a_item_ids": [
+            "openai-joins-ports-pike-2026-08-17",
+            "meta-nabtu-partnership-2026-08-12"
+          ],
+          "position_b": "Anthropic's CEO, responding publicly to an investor's criticism, characterises the situation as a crisis of trust in which public backlash against data centres and AI companies is driven by undelivered benefits, and says only genuine breakthroughs — not messaging or community programmes — will rebuild that trust.",
+          "position_b_item_ids": [
+            "anthropic-amodei-crisis-of-trust-2026"
+          ]
+        },
+        {
+          "position_a": "Epoch AI's stated conclusion: financing is unlikely to bottleneck frontier compute growth, and later deployments may become larger and cheaper to finance as investors get comfortable with the asset class.",
+          "position_a_item_ids": [
+            "epoch-ai-financing-bottleneck-anthropic-case-study-2026-08-12"
+          ],
+          "position_b": "Epoch AI's own scope limits on the same conclusion: it is a single-company case study of one ~$50bn commitment with ~$35bn of debt, and the chip price-performance trend carries a wide 90% CI (36-66%/year) with gains arriving in generation-driven spurts rather than smoothly.",
+          "position_b_item_ids": [
+            "epoch-ai-financing-bottleneck-anthropic-case-study-2026-08-12",
+            "epoch-ai-chip-performance-per-dollar-2026-08-13"
+          ],
+          "note": "Self-limiting caveat rather than a dispute between two parties; recorded so the reporting agent does not present the headline finding without its stated scope."
+        }
+      ]
+    },
+    {
+      "theme": "Openness, attribution, and who gets to inspect a model",
+      "convergent_points": [
+        {
+          "claim": "Both an industry lab and an academic director argue that concentration of frontier AI in a few companies is itself the problem, and that wider release of model artefacts is part of the answer — Meta framing balance of power as a safety mechanism, Stanford HAI arguing for artefacts open enough for outside scrutiny.",
+          "supporting_item_ids": [
+            "meta-future-is-for-everyone-letter-2026-08-10",
+            "stanford-hai-open-weight-vs-open-source-2026-08-04"
+          ]
+        }
+      ],
+      "divergent_points": [
+        {
+          "position_a": "Meta: releasing open weights is the substantive move — a 30B Apache 2.0 agentic model shrunk from ~55GB to under 20GB to run on consumer hardware, plus a stated plan to open the weights of a previously closed model.",
+          "position_a_item_ids": [
+            "meta-muse-glimmer-release-2026-08-10",
+            "meta-future-is-for-everyone-letter-2026-08-10"
+          ],
+          "position_b": "Stanford HAI (James Landay, opinion): open-weight is not open-source, the policy debate is framed wrongly, and genuine openness requires code, training data and tooling per the Model Openness Framework — with universities, not companies, best placed to build such systems.",
+          "position_b_item_ids": [
+            "stanford-hai-open-weight-vs-open-source-2026-08-04"
+          ]
+        },
+        {
+          "position_a": "Accountability-by-inspection assumption underlying the openness debate: releasing training data and artefacts would let outsiders trace what a model learned and from whom.",
+          "position_a_item_ids": [
+            "stanford-hai-open-weight-vs-open-source-2026-08-04"
+          ],
+          "position_b": "MIT CSAIL empirical finding ('attribution decay'): at large training scale, the influence of any single training example approaches zero, and removing a specific image, an artist's whole body of work, or all photos of a person often does not change what a diffusion model generates — which complicates per-example attribution regardless of how open the artefacts are.",
+          "position_b_item_ids": [
+            "mit-csail-attribution-decay-diffusion-2026-08-18"
+          ],
+          "note": "These two items do not address each other directly and are not a stated dispute. They are placed side by side because they pull in opposite directions on whether inspecting training data can support attribution claims; the reporting agent should present this as an adjacency, not as a rebuttal."
+        }
+      ]
+    },
+    {
+      "theme": "Oversight architectures that try not to look at user data",
+      "convergent_points": [
+        {
+          "claim": "Two labs describe, in the same window, architectures that promise oversight or usefulness without the operator seeing user content: OpenAI's 'Private Safety Processing' emits narrowly scoped category-level safety signals under Zero Data Retention plus a planned customer-key-encrypted store that OpenAI staff could not access, and Meta commits to a fully private personal-agent mode Meta itself cannot access. OpenAI separately states advertisers in its expanded ad test receive no chat content, names, emails or precise location.",
+          "supporting_item_ids": [
+            "openai-private-safety-processing-2026-08-19",
+            "meta-future-is-for-everyone-letter-2026-08-10",
+            "openai-chatgpt-ads-expansion-2026-08-11"
+          ]
+        }
+      ],
+      "divergent_points": [
+        {
+          "position_a": "These are vendor commitments with no external evaluation attached this week: the safety-processing feature is a preview with early customers, its technical white paper is promised for September 2026, and the private-agent commitment appears in a strategy letter rather than a technical document.",
+          "position_a_item_ids": [
+            "openai-private-safety-processing-2026-08-19",
+            "meta-future-is-for-everyone-letter-2026-08-10"
+          ],
+          "position_b": "No evaluator or academic source in this week's collection assessed any of these architectures. UK AISI and the Alan Turing Institute published nothing new in the window, so there is no independent counterpart position on record.",
+          "position_b_item_ids": [],
+          "note": "This is an evidence gap, not a documented disagreement. Recorded per CLAUDE.md section 3.4 so the reporting agent states the absence explicitly rather than presenting vendor claims as verified."
+        }
+      ]
+    },
+    {
+      "theme": "Widening access to frontier AI for researchers and non-specialists",
+      "convergent_points": [
+        {
+          "claim": "Demand for structured access to frontier models from outside the labs is being reported as very large: over 13,000 first-wave applications representing up to 65,000 potential seats, from which an initial 10,000-seat cohort will be drawn by lottery, with a stated ambition of 100,000 researchers through 2027.",
+          "supporting_item_ids": [
+            "openai-academic-researchers-waitlist-2026-08-10"
+          ]
+        },
+        {
+          "claim": "Universities in two countries are building non-research-facing AI education and governance programmes rather than only papers — a free seven-session course for non-IT professionals and an eight-part public lecture series on AI governance, copyright, environmental impact and international rulemaking running September-December 2026.",
+          "supporting_item_ids": [
+            "utokyo-matsuo-ax-evangelist-2026-08-14",
+            "utokyo-aire-kickoff-symposium-2026-07-15"
+          ]
+        }
+      ],
+      "divergent_points": [
+        {
+          "position_a": "Lab-mediated access model: researchers get frontier capability through a company programme, with seats allocated by the company and access to specific proprietary models.",
+          "position_a_item_ids": [
+            "openai-academic-researchers-waitlist-2026-08-10"
+          ],
+          "position_b": "University-built model: Stanford HAI's Landay argues universities themselves should build genuinely open frontier systems for science and society rather than depending on company-released artefacts.",
+          "position_b_item_ids": [
+            "stanford-hai-open-weight-vs-open-source-2026-08-04"
+          ]
+        }
+      ]
+    },
+    {
+      "theme": "Miscellaneous developments (no clean cluster)",
+      "convergent_points": [
+        {
+          "claim": "These items did not cluster with any theme above and are recorded individually rather than being forced into one: a CRO appointment at OpenAI framed around scaling enterprise deployment; Microsoft merging its consumer and Microsoft 365 Copilot apps into one product while retiring Group Chats, AI-generated podcasts, Copilot Labs experiments and Deep Research; a CMU Robotics Institute faculty partnership on an 'Artisan' multi-sensor manipulation model reported only via third-party press with no paper located; a practitioner technique of deliberately letting a small LLM invent a classification tag and then snapping it to a real taxonomy via embedding nearest-neighbour; and METR's disclosure of ~$71M in six-month funding commitments with a restated policy of taking no money from frontier AI developers.",
+          "supporting_item_ids": [
+            "openai-dali-rajic-cro-2026-08-17",
+            "microsoft-copilot-app-unification-2026-08-18",
+            "cmu-ri-skylark-artisan-2026-08-12",
+            "turnbull-dont-classify-hallucinate-2026-08",
+            "metr-2026-08-14-funding-update"
+          ]
+        },
+        {
+          "claim": "Two of these carry explicit reliability warnings from their own collectors: the CMU 'Artisan' item is secondary-source only with capability claims stated by the company/lab and not independently verified, and the embedding-classification technique has no benchmark numbers beyond the author's own account.",
+          "supporting_item_ids": [
+            "cmu-ri-skylark-artisan-2026-08-12",
+            "turnbull-dont-classify-hallucinate-2026-08"
+          ]
+        }
+      ],
+      "divergent_points": [
+        {
+          "position_a": "METR frames refusing frontier-lab funding as a structural independence safeguard that matters more as its risk assessments become more consequential.",
+          "position_a_item_ids": [
+            "metr-2026-08-14-funding-update"
+          ],
+          "position_b": "No source in this week's collection contests or comments on that framing; it is recorded as a one-sided item, not as an established consensus.",
+          "position_b_item_ids": []
+        }
+      ]
+    }
+  ],
+  "coverage_caveats": [
+    {
+      "caveat": "Evaluator coverage is unusually thin this week. Only METR and Epoch AI published in-window items (two each). UK AISI and the Alan Turing Institute returned zero new items, with their collectors reporting that the only candidates were duplicates of prior weeks. Several themes above therefore have industry claims with no evaluator counterpart on record.",
+      "affected_collectors": [
+        "evaluator-uk-aisi",
+        "evaluator-alan-turing-institute"
+      ]
+    },
+    {
+      "caveat": "Sakana AI returned zero items; its collector reports that all search hits were duplicates of the previous run and that sakana.ai and x.com were unreachable, so 'nothing new' could not be confirmed either way.",
+      "affected_collectors": [
+        "industry-sakana-ai"
+      ]
+    },
+    {
+      "caveat": "Google DeepMind returned only one item and its collector explicitly labels coverage as partial rather than exhaustive (search budget exhausted). Meta AI coverage is concentrated on 2026-08-10 to 08-12 with nothing confirmed after 08-12. Microsoft coverage leans almost entirely on one reachable domain (microsoft.com/insidetrack) because other Microsoft corporate domains were egress-blocked, which biases that target toward internal-deployment case studies.",
+      "affected_collectors": [
+        "industry-google-deepmind",
+        "industry-meta-ai",
+        "industry-microsoft"
+      ]
+    },
+    {
+      "caveat": "Network egress blocks affected almost every collector: 26 of 33 items are marked 'primary-inferred' or 'secondary-source' rather than 'primary-confirmed', with summaries reconstructed from search-engine snippets of primary pages rather than direct reads. The five Microsoft Inside Track items, the Claude Code changelog item, the two Meta items and the MIT CSAIL item are the exceptions. A human reviewer with direct site access should spot-check quoted figures before publication.",
+      "affected_collectors": [
+        "all"
+      ]
+    },
+    {
+      "caveat": "Three items fall outside the strict 10-day window and were included by their collectors with stated reasons: meta-future-is-for-everyone-letter-2026-08-10 and meta-muse-glimmer-release-2026-08-10 (Aug 10, framing context for in-window items), stanford-hai-open-weight-vs-open-source-2026-08-04 (Aug 4, first capture by this pipeline), utokyo-aire-kickoff-symposium-2026-07-15 (Jul 15, associated lecture series has not yet started), openai-academic-researchers-waitlist-2026-08-10 and openai-chatgpt-ads-expansion-2026-08-11 and openai-daybreak-aws-bedrock-2026-08-11 (edge of window). The reporting agent should not present these as this week's news without dating them.",
+      "affected_collectors": [
+        "industry-meta-ai",
+        "academia-stanford-hai",
+        "academia-utokyo-riken-aip",
+        "industry-openai"
+      ]
+    },
+    {
+      "caveat": "Anthropic's collector flagged that anthropic-amodei-crisis-of-trust-2026 is sourced from secondary reporting of an X post whose original URL could not be confirmed. This item carries weight in two themes above (agentic benefit delivery, and social licence for data centres), so the primary post URL should be located before publication.",
+      "affected_collectors": [
+        "industry-anthropic"
+      ]
+    },
+    {
+      "caveat": "Cross-collector deduplication check: no same-item duplicates were found across this week's 15 files. Each collector performed its own dedup against the 2026-08-13 run and documented the removals in its coverage_note. The only intentional double-use is openai-enterprises-ai-execution-report-2026-08-12, cited on both sides of one divergence because the caveat and the headline claim come from the same publication.",
+      "affected_collectors": [
+        "all"
+      ]
+    }
+  ]
+}
