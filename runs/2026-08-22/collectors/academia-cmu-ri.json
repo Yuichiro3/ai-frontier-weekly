@@ -1,0 +1,20 @@
+{
+  "collector": "academia-collector",
+  "target": "Carnegie Mellon University - Robotics Institute",
+  "run_date": "2026-08-22",
+  "items": [
+    {
+      "id": "cmu-ri-skylark-artisan-2026-08-12",
+      "title": "Skylark Labs and CMU Robotics Institute Faculty Launch Multi-Year Partnership on 'Artisan' Robot Manipulation AI",
+      "summary_en": "Skylark Labs announced a multi-year research partnership with the labs of CMU Robotics Institute professors Jeff Schneider and Zackory Erickson (both serve on Skylark Labs' technical advisory board) to develop 'Artisan,' an AI model intended to help robots combine vision, joint, force, and tactile sensor data to handle unfamiliar objects and perform physically interactive tasks more safely. The system is designed so human operators still decide what tasks a robot is authorized to do, while Artisan only adapts how an approved task is performed, with changes described as bounded, recorded, and reversible.",
+      "source_url": "https://www.techtimes.com/articles/324854/20260818/skylark-labs-carnegie-mellon-researchers-partner-teach-robots-how-pick-unfamiliar-objects.htm",
+      "source_name": "Tech Times (reporting on Skylark Labs / CMU Robotics Institute announcement)",
+      "published_date": "2026-08-12",
+      "category": "research",
+      "tone": "neutral",
+      "confidence": "secondary-source",
+      "notes": "Unable to directly access ri.cmu.edu, skylarklabs.ai, or any CMU/Skylark Labs press page (blocked by network egress in this session), so this is sourced from third-party tech-news coverage rather than the institution's own channel — flagged as secondary-source per project rules. No preprint or paper link was located for 'Artisan' at time of collection; treat capability claims as company/lab-stated, not independently verified. Not a duplicate of last week's item (Zackory Erickson's NSF CAREER award, Aug 11) — distinct announcement."
+    }
+  ],
+  "coverage_note": "Direct access to ri.cmu.edu/news, cmu.edu, engineering.cmu.edu, and CMU lab subdomains was blocked in this session, limiting first-party verification. Only one likely-new item was identified for this window: the Skylark Labs / CMU RI 'Artisan' partnership (Aug 12), found via secondary tech-news coverage only, since CMU RI's own site could not be reached. A separate item found via search — a technical.ly piece (~Aug 16) on CMU robots predicting human actions on a factory floor with Ford — was excluded after cross-checking: its details (wooden-box demo, Ford University Research Program funding) match a CMU News story from December 2022 ('Anticipating a Partner's Moves'), indicating it is very likely recirculated older research rather than new output this week. No arXiv preprints newly and officially linked from CMU RI's own site, and no new faculty blog posts or talk recordings, could be confirmed as published this week given the access restrictions. Recommend a follow-up pass with unrestricted access to ri.cmu.edu directly to confirm whether additional primary-source news was published in this window."
+}

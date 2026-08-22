@@ -1,0 +1,68 @@
+{
+  "collector": "industry-leader-collector",
+  "target": "Anthropic",
+  "run_date": "2026-08-22",
+  "items": [
+    {
+      "id": "anthropic-claude-code-august-updates-2026",
+      "title": "Claude Code ships auto-continue, default-model variable, and a new 'Concise' output style",
+      "summary_en": "Anthropic's official Claude Code changelog recorded three product updates in mid-to-late August: an auto-continue feature (v2.1.234, Aug 17) that resumes a session automatically once a usage-limit window resets, a new ANTHROPIC_DEFAULT_MODEL environment variable (v2.1.236, Aug 19) to set the default model for new sessions, and a built-in 'Concise' output style (v2.1.237, Aug 20) that skips preamble text in responses.",
+      "source_url": "https://code.claude.com/docs/en/changelog",
+      "source_name": "Claude Code official changelog (Anthropic)",
+      "published_date": "2026-08-20",
+      "category": "product",
+      "tone": "neutral",
+      "confidence": "primary-confirmed",
+      "notes": "Directly verified via code.claude.com/docs/en/changelog, an official Anthropic documentation subdomain accessible in this environment. Covers three separate dated changelog entries (Aug 17, 19, 20) grouped as one item since all are minor Claude Code product updates from the same official source."
+    },
+    {
+      "id": "anthropic-abc-legal-managed-agents-2026",
+      "title": "Anthropic publishes case study on ABC Legal's company-wide use of Claude Managed Agents",
+      "summary_en": "Anthropic's official blog described how ABC Legal, a US legal-services company, rolled out Claude Enterprise and Claude Managed Agents to non-engineering staff in finance, marketing, and operations. The post reports the company scaled from an initial small pilot group to over 50 deployed agents, with Anthropic citing cost reductions of up to 50% on certain legal tasks.",
+      "source_url": "https://claude.com/blog/how-abc-legal-turned-every-employee-into-a-builder-with-claude-managed-agents",
+      "source_name": "Claude by Anthropic (official blog)",
+      "published_date": "2026-08-17",
+      "category": "product",
+      "tone": "neutral",
+      "confidence": "primary-inferred",
+      "notes": "claude.com was blocked for direct fetch in this environment; title, URL, and date were corroborated by an official Anthropic X/Twitter account post from @ClaudeDevs linking to the same blog URL, and by independent secondary write-ups."
+    },
+    {
+      "id": "anthropic-claude-tag-ci-cd-oncall-2026",
+      "title": "Anthropic describes internal use of 'Claude Tag' as an automated CI/CD on-call responder",
+      "summary_en": "Anthropic published an engineering blog post explaining how it has used an internal Claude-based agent, called Claude Tag, as a first responder for its own CI/CD failures for several months. The post describes Claude Tag holding context across the team's on-call Slack channel and using tools such as Datadog and Grafana to detect, triage, and help resolve build failures, and includes a setup guide for others to replicate the approach.",
+      "source_url": "https://claude.com/blog/ai-ci-cd-on-call",
+      "source_name": "Claude by Anthropic (official blog)",
+      "published_date": "2026-08-18",
+      "category": "product",
+      "tone": "neutral",
+      "confidence": "primary-inferred",
+      "notes": "claude.com was blocked for direct fetch in this environment; title, URL, and date were corroborated by multiple independent secondary sources referencing the same claude.com/blog/ai-ci-cd-on-call URL."
+    },
+    {
+      "id": "anthropic-slack-human-agent-teams-2026",
+      "title": "Anthropic publishes guidance on building 'human-agent teams' with Slack",
+      "summary_en": "Anthropic's official blog outlined lessons from its own internal practice and work with Slack on structuring teams that include AI agents. The post argues that because agents build their understanding of a project from searchable text (Slack messages, code, docs, meeting notes), teams need to share information more proactively and openly than they might for a purely human team.",
+      "source_url": "https://claude.com/blog/building-effective-human-agent-teams",
+      "source_name": "Claude by Anthropic (official blog)",
+      "published_date": "2026-08-19",
+      "category": "product",
+      "tone": "neutral",
+      "confidence": "primary-inferred",
+      "notes": "claude.com was blocked for direct fetch in this environment; an aggregator separately rendered this post's theme under an alternate title — treat the exact title as unconfirmed pending direct verification, though the underlying content and date are corroborated across sources."
+    },
+    {
+      "id": "anthropic-amodei-crisis-of-trust-2026",
+      "title": "Dario Amodei says AI industry's credibility problem is 'a crisis of trust'",
+      "summary_en": "In a public post on his X account, Anthropic CEO Dario Amodei responded to investor Gavin Baker's argument that his own warnings about AI risk have fueled public backlash against data centers and AI companies. Amodei reportedly acknowledged that the most valid criticism of AI companies, including Anthropic, is that they have not yet delivered on promised benefits, and said only genuine breakthroughs — not messaging — will rebuild public trust.",
+      "source_url": "https://techcrunch.com/2026/08/16/anthropic-ceo-says-ai-backlash-is-fundamentally-a-crisis-of-trust/",
+      "source_name": "Dario Amodei via X (reported by TechCrunch)",
+      "published_date": "2026-08-16",
+      "category": "opinion",
+      "tone": "contrarian",
+      "confidence": "primary-inferred",
+      "notes": "x.com and techcrunch.com were both blocked for direct fetch in this environment, so the exact original post text/URL on X could not be independently confirmed by this collector; summary is based on consistent secondary reporting quoting Amodei's own words from his account. Flagging for synthesis agent to seek the primary X post URL if possible."
+    }
+  ],
+  "coverage_note": "Several genuine Anthropic-originated items were found in the Aug 12-22, 2026 window, mostly enterprise/product blog posts and Claude Code changelog entries, plus one CEO social-media statement. Some additional Anthropic-related stories circulated in the press this week (e.g., a Bloomberg report citing unnamed sources that Anthropic plans to change its enterprise data-retention policy, published 2026-08-20; continued speculation about a possible IPO/valuation) but were excluded because, as of collection time, they were not corroborated by any official Anthropic blog post, press release, or social account statement. No overlap was found with last week's collector output (runs/2026-08-13/collectors/industry-anthropic.json), which covered a distinct set of items dated 2026-08-04 through 2026-08-12. Direct WebFetch access to anthropic.com and claude.com was blocked by the network egress proxy in this environment for the entire session; all claude.com/anthropic.com-sourced items above are marked 'primary-inferred' rather than 'primary-confirmed' for this reason, except the Claude Code changelog item verified via the accessible code.claude.com subdomain."
+}

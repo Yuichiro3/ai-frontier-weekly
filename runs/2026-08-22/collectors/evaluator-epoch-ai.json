@@ -1,0 +1,32 @@
+{
+  "collector": "evaluator-collector",
+  "target": "Epoch AI",
+  "run_date": "2026-08-22",
+  "items": [
+    {
+      "id": "epoch-ai-chip-performance-per-dollar-2026-08-13",
+      "title": "AI chip price-performance grew ~49% per year since 2023, doubling every 1.7 years",
+      "summary_en": "Epoch AI's AI Chip Sales Hub data insight reports that the performance-per-dollar of AI chips purchased each quarter has grown by an average of 49% per year (90% CI: 36-66%/year) since 2023, in constant 2025 dollars. Epoch AI states the gains arrive in spurts tied to generational shifts in spending rather than smooth continuous improvement — price-performance was nearly flat through mid-2024, then roughly doubled as Blackwell-generation chips became a majority of new purchases.",
+      "source_url": "https://epoch.ai/data-insights/chip-performance-per-dollar",
+      "source_name": "Epoch AI (Data Insights)",
+      "published_date": "2026-08-13",
+      "category": "research",
+      "tone": "neutral",
+      "confidence": "primary-inferred",
+      "notes": "Epoch AI itself states a wide 90% confidence interval (36-66%/year), reflecting significant estimation uncertainty. Growth is described as lumpy/generation-driven rather than steady, per Epoch's own framing. Could not verify full methodology text directly due to network access block on epoch.ai in this session."
+    },
+    {
+      "id": "epoch-ai-financing-bottleneck-anthropic-case-study-2026-08-12",
+      "title": "Will financing bottleneck AI compute? An Anthropic case study",
+      "summary_en": "Epoch AI published a case study examining Anthropic's ~$50 billion compute infrastructure commitment (announced November 2025), including roughly $35 billion in debt to purchase TPU systems, structured with Broadcom, Apollo, and Blackstone. Epoch AI argues that, based on this case, financing is unlikely to be an immediate bottleneck to frontier AI compute growth, and suggests later deployments could become larger and cheaper to finance as investors grow more comfortable with the asset class.",
+      "source_url": "https://epochai.substack.com/p/will-financing-bottleneck-ai-compute",
+      "source_name": "Epoch AI (official Substack newsletter)",
+      "published_date": "2026-08-12",
+      "category": "research",
+      "tone": "neutral",
+      "confidence": "primary-inferred",
+      "notes": "Epoch AI explicitly frames this as a single-company case study (Anthropic only); generalizing the conclusion to other labs' financing arrangements is an extrapolation, not something Epoch AI claims to have verified broadly. Full original text not directly fetched due to network block on epochai.substack.com; summary based on indexed search snippets of Epoch's own page."
+    }
+  ],
+  "coverage_note": "Two genuinely new Epoch AI primary-source items were identified for this window: an AI chip price-performance data insight (Aug 13) and an Anthropic compute-financing case study (Aug 12). Two other items returned by this week's collection pass were excluded as duplicates or non-informative repeats: a workplace-AI/Ipsos survey item (published Aug 6) is the same publication already reported in last week's run (runs/2026-08-13/collectors/evaluator-epoch-ai.json, id epoch-ai-one-in-five-workers-delegate-2026-08-06); and a 'Frontier Data Centers Hub dataset update' dated Aug 18 was excluded because it is the same continuously-updated dataset already reported last week (id epoch-ai-frontier-data-centers-hub-update-2026-08-12) with no new distinguishing figures or analysis beyond 'the hub was refreshed again' — repeating it would add noise without new information. Direct fetch access to epoch.ai, epochai.org, and epochai.substack.com was blocked by the network egress proxy throughout this run; all summaries above are derived from search-engine-indexed excerpts of Epoch AI's own pages rather than third-party rewrites, but full original text could not be independently verified and should be checked by a human reviewer with direct site access."
+}

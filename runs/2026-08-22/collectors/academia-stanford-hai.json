@@ -1,0 +1,20 @@
+{
+  "collector": "academia-collector",
+  "target": "Stanford HAI",
+  "run_date": "2026-08-22",
+  "items": [
+    {
+      "id": "stanford-hai-open-weight-vs-open-source-2026-08-04",
+      "title": "Open-Weight Models Aren't Enough: Stanford HAI's James Landay Calls for Truly Open-Source AI",
+      "summary_en": "In an opinion piece amid the U.S. policy debate over Chinese open-weight models (e.g., DeepSeek, Alibaba's Qwen, Moonshot's Kimi) narrowing the capability gap with U.S. labs, Stanford HAI Denning Director James Landay argues the debate is framed the wrong way. He distinguishes 'open-weight' models (only released weights) from truly 'open-source' models aligned with the Linux Foundation's Model Openness Framework, which also release code, training data, and tooling for outside scrutiny. Landay argues universities, not companies, are best positioned to build genuinely open frontier AI systems for science and society.",
+      "source_url": "https://hai.stanford.edu/news/open-weight-models-arent-enough-we-need-truly-open-source-ai-models-for-science-and-society",
+      "source_name": "Stanford HAI News (opinion, James Landay)",
+      "published_date": "2026-08-04",
+      "category": "opinion",
+      "tone": "contrarian",
+      "confidence": "primary-inferred",
+      "notes": "Opinion piece by a named HAI director, not a research paper. Published Aug 4 — outside the ideal 1-2 week window for this run, but this is the first time it has been captured by this pipeline (it was not present in last week's academia-stanford-hai.json), so it is included as newly-collected rather than stretched or repeated content. Direct page fetch blocked by network proxy; summarized from search-engine snippets of the original page."
+    }
+  ],
+  "coverage_note": "Only one genuinely new Stanford HAI item survived deduplication against last week's run (runs/2026-08-13/collectors/academia-stanford-hai.json). Three items returned by this week's collection pass were excluded as duplicates of items already reported last week, describing the same posts (same URL, same date): a Stanford/Hoover geopolitics-grants announcement (Aug 11/15, id stanford-hai-hoover-tpa-geopolitics-grants-2026-08-11 last week), a 'governing world models' policy brief (Aug 4, id stanford-hai-world-models-governance-brief-2026-08-04 last week), and an AI-companions loneliness study (Aug 5, id stanford-hai-ai-companions-loneliness-2026-08-05 last week). No item from hai.stanford.edu strictly within the 2026-08-15 to 2026-08-22 window was found this run. Direct fetching of hai.stanford.edu (and several secondary domains) was blocked by the network egress proxy during this run, so the surviving item was reconstructed from search-engine snippets rather than full primary-page text."
+}

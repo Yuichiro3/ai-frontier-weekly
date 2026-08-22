@@ -1,0 +1,44 @@
+{
+  "collector": "industry-leader-collector",
+  "target": "Meta AI",
+  "run_date": "2026-08-22",
+  "items": [
+    {
+      "id": "meta-future-is-for-everyone-letter-2026-08-10",
+      "title": "Zuckerberg publishes 'The Future is for Everyone' letter on Meta's AI philosophy",
+      "summary_en": "Mark Zuckerberg published a roughly 14-page open letter on Meta's official newsroom outlining a philosophy for AI development centered on individual empowerment, invention as the purpose of superintelligence, and balance of power as a safety mechanism. The letter states Meta will resume releasing some open-weight models, commits to a fully private mode for personal AI agents that even Meta cannot access, and announces a $1 billion 'Future is for Everyone Fund' for communities where Meta operates data centers.",
+      "source_url": "https://about.fb.com/news/2026/08/the-future-is-for-everyone/",
+      "source_name": "Meta Newsroom (about.fb.com)",
+      "published_date": "2026-08-10",
+      "category": "policy",
+      "tone": "neutral",
+      "confidence": "primary-confirmed",
+      "notes": "Published two days before the strict 10-day window (since ~2026-08-12), but included because it is Meta's most substantive recent official statement of AI strategy and directly frames the other items below (Muse Glimmer release, data-center fund); no comparably significant new official post was found dated 2026-08-12 through 2026-08-22 aside from the NABTU item. Could not fetch about.fb.com directly due to egress proxy block; content corroborated via multiple independent news outlets (Forbes, Axios, Variety, Washington Post) reporting on the same primary document."
+    },
+    {
+      "id": "meta-muse-glimmer-release-2026-08-10",
+      "title": "Meta releases Muse Glimmer, a 30B-parameter open-weight agentic model for local devices",
+      "summary_en": "Meta's official AI research blog and the AIatMeta account announced Muse Glimmer, a 30-billion-parameter open-weight model under an Apache 2.0 license, designed for local, always-on agentic workflows. Meta says optimization techniques including quantization reduced the model's memory footprint from roughly 55GB to under 20GB so it can run on consumer hardware, and released weights in BF16, GGUF, and ExecuTorch formats. Meta also stated it plans to open the weights of the previously closed Muse Spark 1.2 model in the coming weeks.",
+      "source_url": "https://research.meta.ai/blog/introducing-muse-glimmer-open-agentic-model",
+      "source_name": "Meta AI Research Blog / AI at Meta (official X account)",
+      "published_date": "2026-08-10",
+      "category": "model-release",
+      "tone": "neutral",
+      "confidence": "primary-confirmed",
+      "notes": "Announced alongside the 'Future is for Everyone' letter (same date). Published two days before the strict 10-day window but included as it is a concrete model release tied to this week's related NABTU/infrastructure news cycle. Could not fetch research.meta.ai directly (egress-blocked); corroborated by SiliconANGLE, VentureBeat, CNBC, and MarkTechPost reporting, all citing the same official blog post and AIatMeta X post. Muse Spark 1.2 itself (a closed, code-focused model paired with the Muse Code terminal agent) was announced separately on 2026-08-05, outside this window, and is not covered here as its own item."
+    },
+    {
+      "id": "meta-nabtu-partnership-2026-08-12",
+      "title": "Meta and NABTU announce national partnership on skilled trades for AI data-center construction",
+      "summary_en": "Meta and North America's Building Trades Unions (NABTU) announced a partnership to expand skilled-trades training for data-center construction and maintenance, covering areas such as high-voltage systems, cooling and fire suppression, and secure fiber networks. The agreement folds NABTU's registered apprenticeship network into Meta's existing America's Workforce Academy initiative (launched June 2026 with Associated Builders and Contractors and CBRE), which the company describes as a $115 million first-year program. Meta President Dina Powell McCormick said skilled trades workers are essential to building AI infrastructure needed for U.S. competitiveness.",
+      "source_url": "https://about.fb.com/news/2026/08/nabtu-and-meta-partnership-to-invest-in-skilled-trades-for-ai-era/",
+      "source_name": "Meta Newsroom (about.fb.com)",
+      "published_date": "2026-08-12",
+      "category": "product",
+      "tone": "neutral",
+      "confidence": "primary-confirmed",
+      "notes": "Falls within the target 10-day window. Category is a loose fit ('infrastructure/workforce' is not a listed schema category); classified under 'product' as the closest available label since it concerns Meta's data-center/AI-infrastructure buildout program rather than policy, research, or a model release. Could not fetch about.fb.com directly (egress-blocked); corroborated by Construction Dive, WebWire, SWACCA, and Fox Business reporting citing the same official announcement."
+    }
+  ],
+  "coverage_note": "Search coverage for this run was concentrated on 2026-08-10 to 2026-08-12; these three items represent the most recent verifiable official Meta AI publications found. No additional official ai.meta.com/blog, research.meta.ai, or Meta Newsroom posts dated between 2026-08-13 and 2026-08-22 were found before the search budget for this session was exhausted. A claimed Alexandr Wang X post about Meta Superintelligence Labs hiring/investment was investigated but determined via cross-referencing to date from 2025-08-21, not 2026, and is excluded as not newly relevant this week. Direct fetches of ai.meta.com, about.fb.com, and x.com were blocked by the network's egress proxy for the entire session; all dates and claims above were corroborated across multiple independent secondary reports of the same primary-source publications rather than confirmed by direct fetch."
+}

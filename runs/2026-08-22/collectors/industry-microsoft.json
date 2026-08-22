@@ -1,0 +1,68 @@
+{
+  "collector": "industry-leader-collector",
+  "target": "Microsoft",
+  "run_date": "2026-08-22",
+  "items": [
+    {
+      "id": "microsoft-copilot-cowork-internal-rollout-2026-08-20",
+      "title": "Microsoft says internal 'Copilot Cowork' agent reached 20,000 employee users in three weeks",
+      "summary_en": "Microsoft's internal IT blog described Copilot Cowork, an AI agent built into Microsoft 365 that plans and executes multi-step workflows across Word, Excel, PowerPoint, Outlook and Teams, with approval checkpoints for sensitive steps. Microsoft said the tool reached 20,000 internal users within three weeks of its internal release and gave examples such as an employee turning a client whiteboarding session into a working web prototype.",
+      "source_url": "https://www.microsoft.com/insidetrack/blog/from-ai-assistant-to-capable-teammate-how-copilot-cowork-is-changing-the-way-we-work-at-microsoft/",
+      "source_name": "Microsoft Inside Track (official Microsoft IT blog)",
+      "published_date": "2026-08-20",
+      "category": "product",
+      "tone": "neutral",
+      "confidence": "primary-confirmed",
+      "notes": "Internal case-study post; figures are self-reported by Microsoft Digital, no independent audit cited."
+    },
+    {
+      "id": "microsoft-customer-zero-ai-execution-2026-08-20",
+      "title": "Microsoft outlines 'Customer Zero' internal AI adoption patterns and productivity metrics",
+      "summary_en": "In a companion Inside Track post, Microsoft described its 'Customer Zero' approach of testing AI internally before sharing lessons with enterprise customers, organized around three patterns: human-with-assistant, human-agent teams, and human-led/agent-operated work. Microsoft cited internal metrics including customer-service onboarding assessments completed up to 3.3 times faster, up to 80 hours saved per supply-chain planning cycle, and a 48% reduction in finance quote-to-cash time.",
+      "source_url": "https://www.microsoft.com/insidetrack/blog/from-ai-ambition-to-enterprise-execution-our-customer-zero-journey/",
+      "source_name": "Microsoft Inside Track (official Microsoft IT blog)",
+      "published_date": "2026-08-20",
+      "category": "product",
+      "tone": "neutral",
+      "confidence": "primary-confirmed",
+      "notes": "Self-reported internal metrics from Microsoft Digital/Frontier Company program; overlaps thematically with the Copilot Cowork post published the same day."
+    },
+    {
+      "id": "microsoft-aiops-network-infrastructure-copilot-2026-08-20",
+      "title": "Microsoft details AIOps and 'Network Infrastructure Copilot' for internal network management",
+      "summary_en": "Microsoft's Inside Track blog described two internal AI systems for managing its corporate network (about 100,000 devices and 350,000 users): an AIOps automation layer that creates, correlates and helps resolve tickets, and a natural-language assistant called Network Infrastructure Copilot (NiC) for querying network data. Microsoft said network practitioners have cumulatively saved more than 20,000 hours, and NiC cut documentation-search time from about 25 minutes to under 5 minutes.",
+      "source_url": "https://www.microsoft.com/insidetrack/blog/enhancing-microsoft-network-reliability-with-aiops-and-network-infrastructure-copilot/",
+      "source_name": "Microsoft Inside Track (official Microsoft IT blog)",
+      "published_date": "2026-08-20",
+      "category": "product",
+      "tone": "neutral",
+      "confidence": "primary-confirmed",
+      "notes": "Internal deployment case study; figures self-reported, no third-party verification cited in the post."
+    },
+    {
+      "id": "microsoft-ai-agents-support-tickets-2026-08-13",
+      "title": "Microsoft describes AI agents cutting internal cloud-lab support ticket resolution time",
+      "summary_en": "Microsoft's Inside Track blog described two internal AI agents built for its Managed Cloud Labs platform: an 'Info Agent' that answers how-to questions using retrieval-augmented generation, and a 'Troubleshooting Agent' that diagnoses and attempts to repair VM connectivity failures via Azure Serial Console before handing unresolved cases to human engineers. Microsoft said average resolution time for common connectivity issues fell from about 16 hours to 15 minutes in the first month, saving an estimated 1,200-plus employee hours monthly.",
+      "source_url": "https://www.microsoft.com/insidetrack/blog/resolving-repetitive-support-tickets-at-microsoft-with-ai-automation/",
+      "source_name": "Microsoft Inside Track (official Microsoft IT blog)",
+      "published_date": "2026-08-13",
+      "category": "product",
+      "tone": "neutral",
+      "confidence": "primary-confirmed",
+      "notes": "Internal case study; figures self-reported by Microsoft Digital."
+    },
+    {
+      "id": "microsoft-copilot-app-unification-2026-08-18",
+      "title": "Microsoft begins merging consumer Copilot and Microsoft 365 Copilot into one app, retires several features",
+      "summary_en": "Microsoft published support documentation stating it is unifying the consumer Copilot app and Microsoft 365 Copilot into a single 'Microsoft Copilot' app with a new icon and a web-address change from m365.cloud.microsoft to copilot.cloud.microsoft, with rollout beginning August 18, 2026 across web, desktop and mobile. As part of the change, Microsoft said it is retiring several consumer features, including Group Chats, AI-generated podcasts, Copilot Labs experimental features, and Deep Research, with the animated voice companion 'Mico' also removed from the core consumer app.",
+      "source_url": "https://support.microsoft.com/en-us/microsoft-365-copilot/learning/changes-microsoft-copilot-app",
+      "source_name": "Microsoft Support (official documentation)",
+      "published_date": "2026-08-18",
+      "category": "product",
+      "tone": "neutral",
+      "confidence": "primary-inferred",
+      "notes": "support.microsoft.com could not be directly fetched in this environment (network egress restriction). Details are drawn from a verbatim-quoted excerpt of this official Microsoft Support page surfaced via search, cross-checked against independent tech-press reports (Windows Central, The Register, GeekWire) describing the same page and rollout dates. Recommend the human reviewer or a future run re-verify by direct access."
+    }
+  ],
+  "coverage_note": "Several Microsoft corporate domains (blogs.microsoft.com, news.microsoft.com, azure.microsoft.com, techcommunity.microsoft.com, support.microsoft.com, microsoft.ai) returned network egress errors on direct fetch in this environment, so official Microsoft AI/Research blog posts and Mustafa Suleyman's/Satya Nadella's own posts could not be checked directly this run; WebSearch also hit its per-session quota before all leads could be cross-verified. Coverage therefore leans on microsoft.com/insidetrack (Microsoft's own official IT blog, which was reachable) for the internal AI-deployment items, plus one item (Copilot app unification) reconstructed from a quoted excerpt of a blocked official support page. None of this week's five items overlap with last week's four items (runs/2026-08-13/collectors/industry-microsoft.json: Orchard agentic framework, Project Perception, CARE-X radiology VLM, MindTopo benchmark), all dated 2026-08-03 to 2026-08-12. No new Microsoft AI model release, research paper, or safety report was confirmed published between 2026-08-12 and 2026-08-22 beyond the items listed."
+}
