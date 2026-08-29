@@ -1,0 +1,44 @@
+{
+  "collector": "academia-collector",
+  "target": "The Alan Turing Institute",
+  "run_date": "2026-08-29",
+  "items": [
+    {
+      "id": "turing-el-nino-ai-weather-2026-08-25",
+      "title": "A super El Niño is forming: can AI weather models provide insights on these anomalous climate events?",
+      "summary_en": "A blog post on the Turing's official site (25 August 2026) discusses forecasts of an unusually strong El Niño forming for late 2026 and asks whether AI-based weather/climate models can offer additional insight into such anomalous events beyond traditional physics-based forecasting.",
+      "source_url": "https://www.turing.ac.uk/blog",
+      "source_name": "The Alan Turing Institute Blog",
+      "published_date": "2026-08-25",
+      "category": "research",
+      "tone": "neutral",
+      "confidence": "primary-inferred",
+      "notes": "Title, date and topic confirmed via search-engine index snippet of the Institute's own blog page; the full article text could not be directly fetched because turing.ac.uk is blocked by the local network egress proxy in this session. Not a peer-reviewed paper -- an institute blog commentary."
+    },
+    {
+      "id": "turing-cni-cyber-visibility-2026-08-12",
+      "title": "Turing research: UK lacks a complete picture of cyber-attacks on critical national infrastructure",
+      "summary_en": "A Turing Institute blog post (12 August 2026), titled in some indexes 'The UK's critical infrastructure is at risk from cyber-attacks. Our AI tools will provide a new line of defence,' argues that the UK currently lacks full visibility into the scale and nature of cyber-attacks against critical national infrastructure (CNI), and describes ongoing Turing work building AI-based defensive/monitoring tools for CNI operators.",
+      "source_url": "https://www.turing.ac.uk/blog/uks-critical-infrastructure-risk-cyber-attacks-our-ai-tools-will-provide-new-line-defence",
+      "source_name": "The Alan Turing Institute Blog",
+      "published_date": "2026-08-12",
+      "category": "safety",
+      "tone": "neutral",
+      "confidence": "primary-inferred",
+      "notes": "Published 12 Aug 2026 -- slightly earlier than the ~15 Aug cutoff requested for this run, included because it is the most recent substantive Turing research post found and is directly relevant to the Institute's defence/national-security research theme. Full text not directly fetchable (egress-blocked domain); based on search-index snippet and cross-reference to the Institute's 'Defending Critical National Infrastructure' programme page."
+    },
+    {
+      "id": "turing-safe-ai-engineering-workshop-newcastle-2026-08-15",
+      "title": "Turing's 'Educating Engineers for Safe AI' workshop series concludes with residential event in Newcastle",
+      "summary_en": "The Alan Turing Institute ran the final, residential session (15-16 August 2026, Newcastle) of its 'Educating Engineers for Safe AI' workshop series, following earlier satellite workshops in Edinburgh and Cambridge. The series aims to produce a roadmap and professional-education syllabus to help software and systems engineers build safe, ethical and trustworthy AI in their workplaces.",
+      "source_url": "https://www.turing.ac.uk/events/educating-engineers-safe-ai",
+      "source_name": "The Alan Turing Institute Events",
+      "published_date": "2026-08-16",
+      "category": "safety",
+      "tone": "neutral",
+      "confidence": "primary-inferred",
+      "notes": "Event page details drawn from search-index snippet only; direct fetch of turing.ac.uk blocked in this session. This is an educational/community-building initiative, not a paper or press release, and no outputs/roadmap document from the Newcastle session itself have been located yet."
+    }
+  ],
+  "coverage_note": "Access to www.turing.ac.uk and its cetas.turing.ac.uk subdomain was blocked by the local network egress proxy throughout this run, so no items could be confirmed via direct page fetch -- everything above relies on search-engine index snippets of the Institute's own news/blog pages, cross-checked against secondary coverage where available. Within the requested ~15-29 Aug 2026 window, only one blog post (25 Aug, on AI weather models and the forming super El Niño) was found strictly inside the window; a closely preceding critical-infrastructure cybersecurity post (12 Aug) and a workshop event starting 15 Aug are included as the closest relevant material. No new formal press releases, peer-reviewed papers, or CETaS reports dated within the window were found before the session's web-search quota was exhausted; a follow-up run with restored search capacity and/or unblocked access to turing.ac.uk is recommended to check for items missed."
+}

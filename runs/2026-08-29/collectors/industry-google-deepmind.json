@@ -1,0 +1,20 @@
+{
+  "collector": "industry-leader-collector",
+  "target": "Google DeepMind",
+  "run_date": "2026-08-29",
+  "items": [
+    {
+      "id": "gdm-double-blind-evals-2026-08-27",
+      "title": "Google DeepMind pilots double-blind evaluation of a frontier Gemini model",
+      "summary_en": "Google DeepMind announced a pilot of what it describes as the first double-blind evaluation of a proprietary, frontier-class AI model, designed to prevent benchmark contamination by hiding model weights from evaluators and hiding test prompts from Google inside a cryptographically secured Confidential Space environment. The pilot involved the Singapore AI Safety Institute, OpenMined, AVERI, and MLCommons; AVERI tested Gemini 2.5 Flash Lite using reserved prompts from MLCommons' AILuminate safety benchmark (covering cyberattacks, chemical/biological hazards, hate speech, self-harm, and violent-crime elicitation), while Singapore AISI separately tested the model with confidential, locally relevant harmful-content prompts. The setup reportedly runs on Google Cloud's Confidential Space using an NVIDIA H100 Confidential GPU with Intel TDX memory encryption.",
+      "source_url": "https://deepmind.google/blog/piloting-the-worlds-first-double-blind-ai-evaluations/",
+      "source_name": "Google DeepMind Official Blog",
+      "published_date": "2026-08-27",
+      "category": "safety",
+      "tone": "neutral",
+      "confidence": "primary-inferred",
+      "notes": "Direct WebFetch access to deepmind.google was blocked by the network egress proxy in this session; details are drawn from WebSearch-retrieved summaries that consistently attribute the post to Google DeepMind's Responsibility & Safety blog category (authors reported as William Isaac, Sol Messing, and Kristian Lum) and are corroborated by multiple independent secondary reports (Techmeme, TechRepublic, The New Stack, Tech Times) all citing the same blog URL and date. Confidence marked primary-inferred rather than primary-confirmed because the collector could not directly render the source page."
+    }
+  ],
+  "coverage_note": "Within the ~10-14 day window (2026-08-15 to 2026-08-29), only one clearly in-window official Google DeepMind announcement was found: the double-blind AI evaluation pilot published 2026-08-27. Several other Google DeepMind stories that surfaced in searches this month fall before the window and were excluded per collection scope: the WeatherNext cyclone-forecasting model (blog post, 2026-08-06), the leadership reshuffle in which Demis Hassabis moved from CEO to Chairman of Google DeepMind and Chief Scientist of Alphabet, with DeepMind's chief scientist Jeff Dean departing to start a new company (reported by Bloomberg/Axios, 2026-08-05/06), the 'Visual General Intelligence: A White Paper' publication (2026-08-05), Gemini Robotics 2 (~2026-07-30), and the reported reorganization of the AlphaFold team (~2026-07-30). These are flagged here for awareness but not included as items given the date cutoff. No official Google DeepMind X/social posts specific to the window were independently verified due to search-tool and egress restrictions in this session."
+}

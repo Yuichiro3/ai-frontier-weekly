@@ -1,0 +1,32 @@
+{
+  "collector": "wildcard-collector",
+  "target": "wildcard",
+  "run_date": "2026-08-29",
+  "items": [
+    {
+      "id": "wildcard-continue-yn-permission-fatigue",
+      "title": "Hobbyist's browser game finds humans miss 1 in 3 AI-agent security threats",
+      "summary_en": "Belgian developer Alex Wauters built 'Continue? Y/N', a 60-second browser game putting players in the human-in-the-loop seat approving or denying an AI coding agent's shell commands under time pressure. After analyzing over 40,000 game sessions (409,000 individual decisions), he found players missed about 1 in 3 malicious commands (66.3% mean accuracy), with threats disguised as familiar scripts succeeding twice as often and miss rates worsening under time pressure; nearly a third of sessions ended net-negative.",
+      "source_url": "https://scalex.dev/blog/ai-agent-permissions-stats/",
+      "source_name": "Alex Wauters, personal blog (Scale X)",
+      "published_date": "2026-08-06",
+      "category": "research",
+      "tone": "playful",
+      "confidence": "primary-inferred",
+      "notes": "Direct fetch of the author's blog was blocked by the network egress proxy in this session; figures are cross-corroborated by independent write-ups (The Register, explainx.ai, mr.technology) reporting the same statistics. The original 'Show HN' game launched earlier (HN item 48308376); this stats follow-up (HN item 49195468) and Register coverage are dated around 2026-08-06, slightly before the preferred 10-14 day window, but the thread and game continued to circulate on Hacker News through August 2026."
+    },
+    {
+      "id": "wildcard-hn-ai-detector-august-2026",
+      "title": "Independent tracker finds 20% of Hacker News front page was AI-generated in August 2026",
+      "summary_en": "Developer Salah Adawi runs the 'HN AI Detector', which scores Hacker News front-page stories with the Pangram AI-detection tool. His August 2026 monthly report found that 20% of front-page stories (115 of 582, across 393 distinct domains) were flagged as likely AI-generated, up from 17% in July 2026, suggesting AI-written content's share of tech-community discourse is rising month over month.",
+      "source_url": "https://www.salahadawi.com/hacker-news-ai-detector/monthly/2026-08",
+      "source_name": "Salah Adawi, HN AI Detector",
+      "published_date": "2026-08",
+      "category": "research",
+      "tone": "contrarian",
+      "confidence": "primary-confirmed",
+      "notes": "This is a continuously updated monthly tracker covering the full month rather than a single dated post, so only month-level precision is available for published_date. Findings rely on a single third-party AI-detection tool (Pangram), so the prevalence percentage should be read as indicative, not a definitive ground truth measurement."
+    }
+  ],
+  "coverage_note": "WebFetch to primary source domains (scalex.dev, salahadawi.com, news.ycombinator.com, theregister.com, oreilly.com, feld.com, hn.algolia.com, en.wikipedia.org) was blocked by the network egress proxy throughout this session, and the WebSearch budget was exhausted before additional candidates in the 2026-08-15 to 2026-08-29 window could be fully vetted. Several other contrarian-blog candidates surfaced (e.g., Brad Feld's 'The Argument Against AI Writing Is At Least 2,400 Years Old', Tim O'Reilly's 'Writing with AI') but could not be independently confirmed via direct fetch in this session, so they were excluded rather than included on search-snippet evidence alone."
+}

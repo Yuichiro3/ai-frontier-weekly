@@ -1,0 +1,32 @@
+{
+  "collector": "academia-collector",
+  "target": "Stanford HAI",
+  "run_date": "2026-08-29",
+  "items": [
+    {
+      "id": "stanford-hai-ai-companions-loneliness-2026",
+      "title": "Stanford Study Finds AI Companions May Worsen Loneliness for Vulnerable Users",
+      "summary_en": "Researchers in Diyi Yang's lab at Stanford (research assistant Yutong Zhang and PhD student Dora Zhao) surveyed 1,131 Character.AI users via Prolific, with 244 donating full chat transcripts. Users with limited offline social networks who sought emotional support from AI companion chatbots reported feeling lonelier and having lower well-being, rather than the interaction substituting for human connection.",
+      "source_url": "https://hai.stanford.edu/news/ai-companions-may-worsen-loneliness-for-vulnerable-users-stanford-study-finds",
+      "source_name": "Stanford HAI News",
+      "published_date": "2026-08-04",
+      "category": "research",
+      "tone": "neutral",
+      "confidence": "primary-inferred",
+      "notes": "Publication date is approximate (based on secondary aggregator dating, e.g. news-medical.net URL slug '20260804'); direct fetch of hai.stanford.edu was blocked by network egress restrictions this run, so full article text could not be verified firsthand. This date falls slightly before the requested ~2026-08-15 to 2026-08-29 window but is included as the most substantive recent HAI research item identified; flagged for the Orchestrator to confirm exact date/recency before use."
+    },
+    {
+      "id": "stanford-hai-hoover-tpa-ai-geopolitics-grants-2026",
+      "title": "Stanford HAI and Hoover Institution Fund Three New AI-and-Geopolitics Research Projects",
+      "summary_en": "Stanford HAI and the Hoover Institution's Technology Policy Accelerator awarded three $100,000 seed grants for one-year research projects on AI and geopolitics. One project, led by Mykel Kochenderfer and Amy Zegart, will design AI agents using multilingual text, media, and satellite imagery to help detect nuclear proliferation activity; the other two address U.S.-China AI competition and political influence of foundation models.",
+      "source_url": "https://hai.stanford.edu/news/new-stanford-grants-tackle-ais-impact-on-global-security-and-geopolitics",
+      "source_name": "Stanford HAI News",
+      "published_date": "2026-08-10",
+      "category": "policy",
+      "tone": "neutral",
+      "confidence": "primary-inferred",
+      "notes": "Date is uncertain: cross-source reporting places this between late July and mid-August 2026 (a Hoover Institution mirror suggested 2026-07-22; other secondary summaries suggested ~2026-08-10). Could not verify directly since hai.stanford.edu and hoover.org fetches were blocked by the network egress proxy this run. Also note: Hoover Institution / Technology Policy Accelerator content is a co-publication, not solely HAI -- flagging for possible cross-check with policy-focused collectors."
+    }
+  ],
+  "coverage_note": "Tool access was significantly degraded this run: WebFetch to hai.stanford.edu, news.stanford.edu, hoover.org, and multiple secondary mirrors (medicalxpress, phillyvoice, eurekalert, news-medical.net, digitalinformationworld, medium, arxiv, web.archive.org) was blocked by the network egress proxy, and the WebSearch budget was exhausted before exact publish dates could be confirmed for candidate items. Other Stanford HAI stories identified via search (e.g. 'Stanford Study Exposes Major Flaw in AI Mental Health Safety Testing', dated news.stanford.edu/2026/07; 'The Complexities of Governing Mental Health AI', reposted ~2026-07-28; James Landay commentary on open-weight Chinese AI models, ~2026-07-25; 'Inside the AI Index: 12 Takeaways from the 2026 Report') were excluded from items because they appear to predate the requested ~2026-08-15 to 2026-08-29 window. No item could be confirmed with high confidence as published strictly within that window; the two items included are the closest candidates found but carry explicit date-uncertainty caveats. Recommend a re-run with working direct access to hai.stanford.edu/news once proxy access is restored to confirm exact dates and check for items published after 2026-08-15 that generic web search may not yet have indexed."
+}
