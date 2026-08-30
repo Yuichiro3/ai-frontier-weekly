@@ -1,0 +1,20 @@
+{
+  "collector": "academia-collector",
+  "target": "University of Tokyo / RIKEN AIP",
+  "run_date": "2026-08-29",
+  "items": [
+    {
+      "id": "riken-aip-seminar-wainwright-2026-08-29",
+      "title": "RIKEN AIP hosts seminar: Martin Wainwright on 'Wild refitting for black box prediction'",
+      "summary_en": "RIKEN AIP's Open Seminar Series scheduled a talk by Martin Wainwright titled 'Wild refitting for black box prediction' for Friday, August 29, 2026, 11:00-12:30, at the AIP Nihonbashi Office. The listing was identified via a search-engine snippet of the AIP events page; the full abstract could not be retrieved because direct page fetches to aip.riken.jp were blocked in this collection environment.",
+      "source_url": "https://aip.riken.jp/events/event_187954/",
+      "source_name": "RIKEN AIP Open Seminar Series (event listing)",
+      "published_date": "2026-08-29",
+      "category": "research",
+      "tone": "neutral",
+      "confidence": "primary-inferred",
+      "notes": "Original language: English (event listing on Japanese institution's English-language event page). Content derived only from a search-engine snippet, not a direct page fetch, because aip.riken.jp remained blocked by the network egress proxy in this run (see coverage_note). Talk content/abstract not independently verified beyond title and schedule."
+    }
+  ],
+  "coverage_note": "Direct access to aip.riken.jp and u-tokyo.ac.jp (and all its subdomains, e.g. i.u-tokyo.ac.jp, weblab.t.u-tokyo.ac.jp, riken.jp, www.riken.jp) was retried via WebFetch as requested and is STILL BLOCKED by the network egress proxy in this run, exactly as in the 2026-08-13 run. Additionally, in this run the WebFetch tool returned 'EGRESS_BLOCKED' for every domain tested, including unrelated ones (en.wikipedia.org, www.anthropic.com, prtimes.jp, web.archive.org), indicating this is likely a broader environment-wide egress restriction on this run rather than a block specific to these two academic targets -- this should be flagged so 'blocked' is not silently mistaken for 'no news' two runs in a row. Because full-page fetching was unavailable, this collection relied entirely on WebSearch snippets (which do index titles/dates from the institutions' own pages) until the session's WebSearch quota was exhausted mid-task. Within the roughly Aug 15-29, 2026 window, only one item with a confirmed in-window date and a traceable official URL could be identified: the RIKEN AIP seminar listed above (Aug 29, 2026). Other signals surfaced by search but NOT included as items because dates fell outside the ~10-14 day window or could not be independently verified/attributed to a specific traceable URL within the remaining search budget: (1) media coverage of AIP-affiliated genome-analysis-language-AI work in Yomiuri Shimbun Online, dated Aug 6, 2026; (2) an interview with RIKEN AIP Deputy Director Naonori Ueda in NTT Facilities Journal, dated Aug 3, 2026; (3) a University of Tokyo x SoftBank collaboration on AI ethics ('AIR/E') reportedly launched Aug 6, 2026, for which no specific source URL could be confirmed before the search budget ran out. RIKEN AIP's various 2026 conference-paper-acceptance announcements (ICML, ICLR, AISTATS, ACL, EACL, AAAI-26) were found in search results but appear to predate the Aug 15-29 window (tied to each conference's earlier-in-year notification schedule) and are not reported as new this week. Recommend retrying this target with direct page access once the egress block is resolved, since this run's coverage should be considered incomplete/best-effort rather than a confirmation that nothing new was published."
+}

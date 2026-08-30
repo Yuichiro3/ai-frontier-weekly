@@ -1,0 +1,56 @@
+{
+  "collector": "evaluator-institute-collector",
+  "target": "Epoch AI",
+  "run_date": "2026-08-29",
+  "items": [
+    {
+      "id": "epoch-nvidia-gdp-gap-2026-08-14",
+      "title": "Epoch AI traces a GDP-measurement gap through Nvidia's fabless chip supply chain",
+      "summary_en": "Epoch AI finds that US GDP statistics miss most of Nvidia's US-generated income because Nvidia is fabless: it designs chips domestically but has them manufactured and often sold abroad without explicit compensation for its IP being captured in trade accounts. Epoch AI researcher Yafah Edelman estimates this leaves over $100 billion in Nvidia profit untracked in GDP data, understating US GDP growth by roughly 0.3 percentage points, a gap Epoch AI projects could widen to about 2 points by 2028.",
+      "source_url": "https://epoch.ai/publications/the-nvidia-sized-hole-in-us-gdp-statistics",
+      "source_name": "Epoch AI (Publications)",
+      "published_date": "2026-08-14",
+      "category": "research",
+      "tone": "neutral",
+      "confidence": "primary-inferred",
+      "notes": "Content and figures drawn from search-result snippets of Epoch AI's own page (direct fetch of epoch.ai was blocked in this session, so exact wording/full caveats could not be independently verified). Epoch AI states the gap is concentrated in fabless chipmakers and would barely change even if the analysis were widened to the top five US fabless firms, implying the finding is fairly specific to this accounting structure rather than a broader GDP-methodology critique."
+    },
+    {
+      "id": "epoch-ipsos-ai-workplace-survey-2026-08-14",
+      "title": "Epoch AI/Ipsos survey: 67% of AI-using science/engineering/computer workers rely on employer-provided AI tools",
+      "summary_en": "A joint Epoch AI/Ipsos survey of employed US adults found that 67% of AI-using workers in computer, engineering, and science occupations use employer-provided AI tools rather than personal free/paid plans, a notably higher employer-provided share than in other occupation groups. The survey was fielded July 10-19, 2026 among 1,106 employed US adults, with a stated margin of error of about 3 percentage points at 95% confidence.",
+      "source_url": "https://www.ipsos.com/en-us/epoch-ai-ipsos-august-2026-poll",
+      "source_name": "Ipsos (joint release with Epoch AI)",
+      "published_date": "2026-08-14",
+      "category": "research",
+      "tone": "neutral",
+      "confidence": "primary-inferred",
+      "notes": "This is a joint Epoch AI/Ipsos survey release; I could not independently confirm Epoch AI's own hosted URL for this specific write-up in this session (network access to epoch.ai was blocked), so the Ipsos joint-release page is cited instead. Self-reported survey data; sample size (n=1,106) and ~3pp margin of error are caveats stated by the pollster. Related to, but distinct from, an earlier Aug 6 Epoch AI/Ipsos release on task delegation to AI."
+    },
+    {
+      "id": "epoch-chip-price-performance-2026-08-13",
+      "title": "Epoch AI: AI chip performance-per-dollar has grown ~49% per year since 2023",
+      "summary_en": "Epoch AI's data insight reports that the average dollar spent on AI chips each quarter has yielded about 49% more performance per year (in constant 2025 dollars) since 2023, doubling roughly every 1.7 years. Epoch AI notes the growth is not smooth: price-performance was nearly flat through mid-2024, then jumped as spending shifted toward Blackwell-generation chips becoming the majority of new purchases.",
+      "source_url": "https://epoch.ai/data-insights/chip-performance-per-dollar",
+      "source_name": "Epoch AI (Data Insights)",
+      "published_date": "2026-08-13",
+      "category": "research",
+      "tone": "neutral",
+      "confidence": "primary-inferred",
+      "notes": "Based on purchasing/spending-weighted data rather than raw hardware benchmarks; Epoch AI itself describes the trend as occurring in step-like 'spurts' tied to generational transitions rather than continuous improvement, which is a methodological nuance readers should not smooth over. Direct fetch of epoch.ai was blocked in this session; content taken from search-result snippets of Epoch AI's own page."
+    },
+    {
+      "id": "epoch-financing-bottleneck-anthropic-2026-08-12",
+      "title": "Epoch AI case study: will financing bottleneck AI compute growth? (Anthropic example)",
+      "summary_en": "Epoch AI examines whether financing could become a bottleneck for frontier AI compute buildouts, using Anthropic's compute expansion as a case study. Anthropic announced a $50 billion US compute infrastructure investment in November 2025 despite having under $9 billion in annualized revenue at the time; roughly $35 billion in debt was arranged (with Broadcom, Apollo, and Blackstone involved) to purchase TPU systems, part of a financing platform the parties describe as designed to support over 20 GW of AI data-center deployment for labs including Anthropic and OpenAI through 2028. Epoch AI concludes that, based on this example, financing is unlikely to be the immediate blocker to frontier AI compute growth.",
+      "source_url": "https://epochai.substack.com/p/will-financing-bottleneck-ai-compute",
+      "source_name": "Epoch AI (Substack / Gradient Updates)",
+      "published_date": "2026-08-12",
+      "category": "research",
+      "tone": "neutral",
+      "confidence": "primary-inferred",
+      "notes": "Epoch AI itself frames this explicitly as a single illustrative 'case study' (Anthropic), so the conclusion about financing not bottlenecking compute is presented as a preliminary, example-based inference rather than an industry-wide finding. Direct fetch of epochai.substack.com was blocked in this session; content taken from search-result snippets."
+    }
+  ],
+  "coverage_note": "Epoch AI's most recent identifiable original publications (own site/Substack, verified via search-result snippets since epoch.ai and epochai.substack.com were both blocked to direct fetch in this session) are dated August 12-14, 2026 -- just before the nominal 'since ~2026-08-15' window for this run. No new narrative or analysis post from Epoch AI's own channels dated between 2026-08-15 and 2026-08-29 was found; searches only surfaced routine dataset refresh timestamps in this later window (Notable/Large-Scale AI Models database updated 2026-08-24/25, AI model performance benchmarks dataset updated 2026-08-28, AI Data Center Timelines updated 2026-08-27) without any accompanying new blog write-up or report discovered. An earlier Epoch AI/Ipsos release from 2026-08-06 (on workers delegating tasks to AI) was excluded from items as too far outside the target window, but is closely related to the 2026-08-14 employer-provided-AI-usage item included above -- both derive from the same underlying Epoch AI/Ipsos survey (fielded July 10-19, 2026, n=1,106), which should be treated as one continuing survey effort rather than two independent findings when synthesized. All source pages in this file were accessed only via WebSearch result snippets, not direct WebFetch, because epoch.ai and epochai.substack.com returned EGRESS_BLOCKED errors in this session; confidence is marked 'primary-inferred' rather than 'primary-confirmed' to reflect that limitation."
+}

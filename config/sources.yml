@@ -62,3 +62,32 @@ rotation_history:
       and Turing each returned only one item or a database refresh); no
       rotation action needed yet since this is the baseline week, but future
       runs should watch for repeated thin evaluator coverage.
+  - run_date: "2026-08-29"
+    iso_week: "2026-W35"
+    note: >
+      No run was produced for 2026-W34 (2026-08-20); this run picked back up
+      with the full default target list. UTokyo/RIKEN AIP access to
+      aip.riken.jp was retried directly as flagged last time and is STILL
+      blocked in this collection environment -- this is now confirmed as an
+      environment-wide egress restriction (every WebFetch domain was blocked
+      this run, including unrelated control domains), not a target-specific
+      problem, so it should stop being treated as evaluator-coverage rotation
+      noise and instead be raised with whoever operates the harness. Because
+      almost every collector's direct WebFetch was blocked this run, most
+      items across all categories were reconstructed from WebSearch snippets
+      and cross-checked against independent reporting rather than read
+      directly from the source; this is flagged per-item via a "confidence"
+      field and should improve once direct fetch access is restored.
+      Diversity flag: OpenAI and Anthropic together account for 15 of 38
+      cited items (~40%) in this week's report, versus roughly even coverage
+      last run. This reflects real news volume (both labs disclosed the same
+      Hugging Face agent-containment incident this fortnight) rather than a
+      collection-scope bias -- every target on the list was still collected
+      once -- but it is a real concentration and future runs should watch
+      whether it persists once a third data point is available. Evaluator
+      coverage remains a standing thinness pattern: METR, Epoch AI, and AISI
+      again returned mostly pre-window items (their most recent original
+      publications were dated 2026-08-04 to 2026-08-14, before this run's
+      ~2026-08-15 to 2026-08-29 window), which should be re-checked once
+      access constraints are resolved rather than assumed to mean no new
+      evaluator output existed.

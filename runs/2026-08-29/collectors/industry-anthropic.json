@@ -1,0 +1,92 @@
+{
+  "collector": "industry-leader-collector",
+  "target": "Anthropic",
+  "run_date": "2026-08-29",
+  "items": [
+    {
+      "id": "anthropic-risk-report-aug-2026",
+      "title": "Anthropic publishes August 2026 Risk Report, raises misalignment risk estimate",
+      "summary_en": "Anthropic released its second company-wide Risk Report under its Responsible Scaling Policy, raising its broad estimate of misalignment risk in high-stakes situations from 'very low' to 'low,' citing recent cybersecurity incidents. The report also disclosed an internal-only model referred to as 'Model 2,' described as somewhat more capable than the previously released Mythos 5 but without a capability jump comparable to the one from Claude Opus 4.6 to Mythos Preview; Anthropic said it currently has no plans to release Model 2 externally.",
+      "source_url": "https://www.anthropic.com/aug-2026-risk-report",
+      "source_name": "Anthropic Official Website (Risk Report)",
+      "published_date": "2026-08-14",
+      "category": "safety",
+      "tone": "neutral",
+      "confidence": "primary-confirmed",
+      "notes": "Published one day before this run's ~Aug 15 collection window start; included given its direct relevance to Anthropic's Responsible Scaling Policy tracking and no comparable safety disclosure occurred later in the window."
+    },
+    {
+      "id": "amodei-crisis-of-trust-x-post",
+      "title": "Dario Amodei says AI backlash reflects 'a crisis of trust,' not his own warnings",
+      "summary_en": "Responding to investor Gavin Baker's public argument that Amodei's risk warnings have fueled backlash against AI and data centers, Anthropic CEO Dario Amodei stated on his official X account that he sees the backlash as rooted in a broader public distrust of companies, governments, and the tech industry generally. He said his past writing, including his essay 'Machines of Loving Grace,' presented AI's risks and benefits in roughly equal measure, and reiterated that Anthropic has pushed regulatory proposals meant to slow frontier labs while leaving room for smaller competitors.",
+      "source_url": "https://finance.yahoo.com/technology/ai/articles/anthropic-ceo-says-ai-backlash-165351283.html",
+      "source_name": "Reporting quoting Dario Amodei's official X post (via Yahoo Finance/TechCrunch)",
+      "published_date": "2026-08-16",
+      "category": "opinion",
+      "tone": "contrarian",
+      "confidence": "primary-inferred",
+      "notes": "Statement originated on Amodei's own X account; a direct link to the original post could not be retrieved in this session, so a news outlet quoting/paraphrasing the post is cited instead."
+    },
+    {
+      "id": "claude-academy-launch",
+      "title": "Anthropic launches Claude Academy, a free official learning hub",
+      "summary_en": "On August 20, 2026, Anthropic launched Claude Academy, a free learning platform (academy.claude.com, linked from anthropic.com/learn) offering roughly 355 tutorials and courses on AI fundamentals, prompting, Claude Code, Claude Cowork, Claude Tag, and the Claude Platform. Courses are accessible without sign-in and available in multiple languages, and include hands-on exercises plus completion badges for registered users.",
+      "source_url": "https://www.anthropic.com/learn",
+      "source_name": "Anthropic Official Website (Claude Academy)",
+      "published_date": "2026-08-20",
+      "category": "product",
+      "tone": "neutral",
+      "confidence": "primary-confirmed",
+      "notes": ""
+    },
+    {
+      "id": "claude-memory-unification",
+      "title": "Claude's memory now shared across chat and Cowork, with new user controls",
+      "summary_en": "Anthropic announced on August 25, 2026 that Claude's memory system now works across both the chat interface and Cowork, so information learned in one context carries over to the other instead of requiring users to repeat themselves. Anthropic also added a settings page letting users view, edit, or delete specific remembered topics, and said Claude does not store sensitive categories such as health, beliefs, Social Security numbers, criminal history, or immigration status by default.",
+      "source_url": "https://claude.com/blog/claudes-memory-works-everywhere-and-you-decide-whats-in-it",
+      "source_name": "Claude (Anthropic) Official Blog",
+      "published_date": "2026-08-25",
+      "category": "product",
+      "tone": "neutral",
+      "confidence": "primary-confirmed",
+      "notes": ""
+    },
+    {
+      "id": "anthropic-salesforce-claudeforce",
+      "title": "Anthropic and Salesforce announce expanded 'Claudeforce' partnership",
+      "summary_en": "On August 26, 2026, Salesforce and Anthropic jointly announced an expanded partnership called Claudeforce, aiming to make Claude the default reasoning engine across Salesforce's ecosystem. The initial launch includes a Salesforce plugin inside Claude with dozens of prebuilt sales skills, available to select pilot customers, with a broader beta planned for September. Anthropic CEO Dario Amodei discussed the partnership alongside Salesforce CEO Marc Benioff in a joint interview on CNBC's Closing Bell: Overtime the same day.",
+      "source_url": "https://www.salesforce.com/news/press-releases/2026/08/26/salesforce-and-anthropic-announce-claudeforce/",
+      "source_name": "Salesforce Newsroom (joint announcement with Anthropic)",
+      "published_date": "2026-08-26",
+      "category": "product",
+      "tone": "neutral",
+      "confidence": "primary-confirmed",
+      "notes": "Joint press release hosted on Salesforce's official newsroom (Anthropic did not appear to mirror it on anthropic.com/news at time of collection); Anthropic's participation is directly confirmed via the same-day CNBC interview transcript with Dario Amodei."
+    },
+    {
+      "id": "model-hardware-standard-preview",
+      "title": "Anthropic opens research preview of Model Hardware Standard for robots and lab equipment",
+      "summary_en": "Anthropic announced on August 27, 2026 a research preview of its Model Hardware Standard (MHS), a specification intended to let AI agents such as Claude safely operate physical hardware, including robotic arms, microscopes, and liquid handlers, in scientific and manufacturing settings. The company said MHS is designed to work alongside its existing Model Context Protocol and is being tested with a small set of partners, including Howard Hughes Medical Institute, Carnegie Mellon University, Genentech, and QuEra, ahead of any wider release.",
+      "source_url": "https://www.anthropic.com/news/model-hardware-standard-research-preview",
+      "source_name": "Anthropic Official Newsroom",
+      "published_date": "2026-08-27",
+      "category": "research",
+      "tone": "neutral",
+      "confidence": "primary-confirmed",
+      "notes": "Also announced via Anthropic's official X account on the same date."
+    },
+    {
+      "id": "anthropic-nscale-compute-deal",
+      "title": "Anthropic reported to sign roughly $45 billion compute deal with Nscale",
+      "summary_en": "Bloomberg and CNBC reported on August 26-27, 2026, citing people familiar with the matter, that Anthropic agreed to a six-year deal worth roughly $45 billion to rent about 460 megawatts of AI computing capacity from an Nscale data center planned in West Virginia, expected to use Nvidia's upcoming Vera Rubin chips and come online by late 2027. As of this collection, no Anthropic press release or blog post confirming the deal's terms had been found.",
+      "source_url": "https://www.bloomberg.com/news/articles/2026-08-26/anthropic-to-pay-nscale-45-billion-for-ai-computing-power",
+      "source_name": "Bloomberg News (citing people familiar with the matter)",
+      "published_date": "2026-08-26",
+      "category": "product",
+      "tone": "neutral",
+      "confidence": "secondary-source",
+      "notes": "Reported via business press citing unnamed sources rather than an official Anthropic statement; included per CLAUDE.md guidance that supplementary sources are acceptable if a real, named source is attached, but confidence is marked lower than directly-confirmed items."
+    }
+  ],
+  "coverage_note": "Several official Anthropic items were published in the Aug 15-29, 2026 window across safety (Risk Report, just before the window on Aug 14 but included for relevance), leadership commentary (Amodei's X post), and product areas (Claude Academy, unified memory, Model Hardware Standard research preview, Claudeforce partnership with Salesforce). One notable item (the reported $45B Nscale compute deal) is included as secondary-source because no Anthropic-authored confirmation was located at collection time. Anthropic's Chief Global Affairs Officer hire (Aug 4) and open-weights position/economic index items (late July) fall outside the window and were excluded as not newly relevant this week."
+}

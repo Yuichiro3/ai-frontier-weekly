@@ -1,0 +1,20 @@
+{
+  "collector": "academia-collector",
+  "target": "MIT CSAIL",
+  "run_date": "2026-08-29",
+  "items": [
+    {
+      "id": "mit-csail-attribution-decay-ai-art-20260818",
+      "title": "MIT study finds AI-generated images often can't be traced to specific training data (\"attribution decay\")",
+      "summary_en": "MIT CSAIL researchers, with Zheng Dai as lead author, describe a phenomenon they call 'attribution decay': as generative image models train on larger datasets, the influence of any single training example on a given output shrinks toward zero. In controlled experiments removing a specific image, all works by one artist, or all photos of one person from a training set, the generated output was often unchanged once the dataset was large enough, suggesting no individual example could be identified as responsible for a specific output. The researchers frame this as relevant to ongoing copyright and attribution debates around AI-generated art.",
+      "source_url": "https://news.mit.edu/2026/when-ai-art-has-no-author-generated-images-often-cant-be-traced-to-training-data-0818",
+      "source_name": "MIT News (CSAIL)",
+      "published_date": "2026-08-18",
+      "category": "research",
+      "tone": "neutral",
+      "confidence": "primary-inferred",
+      "notes": "Mirrored on MIT EECS and MIT Schwarzman College of Computing news pages, and covered by Tech Xplore. A secondary source suggested the underlying paper appeared in Nature Communications, but venue and peer-review status could not be independently verified against the primary MIT page this run due to tool/network access restrictions (WebFetch blocked for all MIT domains). Treat peer-review status as unconfirmed until checked directly; do not label definitively as peer-reviewed or preprint."
+    }
+  ],
+  "coverage_note": "Only one CSAIL item was confirmed to fall within the assigned ~Aug 15-29, 2026 window (the Aug 18 'attribution decay' AI-art attribution study). Several other CSAIL stories found in search results (GeoPT physics-aware AI simulation, Aug 10; Prof. Daniela Rus's TIME100 AI 2026 recognition, ~Aug 3-5; a new Spectre-class processor side-channel attack, Aug 6; fusion-power economics analysis, Aug 11) were published before the window and were excluded. Coverage for this run is not exhaustive: WebFetch access was blocked by the network egress proxy for csail.mit.edu, news.mit.edu, eecs.mit.edu, computing.mit.edu, and all third-party mirror sites attempted, and the WebSearch quota was exhausted before a full pass of the Aug 22-29 sub-window could be completed. A follow-up pass with restored tool access is recommended to confirm whether additional CSAIL items were published between Aug 22 and Aug 29, 2026."
+}

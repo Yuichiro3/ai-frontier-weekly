@@ -1,0 +1,32 @@
+{
+  "collector": "academia-collector",
+  "target": "Carnegie Mellon University - Robotics Institute",
+  "run_date": "2026-08-29",
+  "items": [
+    {
+      "id": "cmu-ri-skylark-artisan-2026-08",
+      "title": "Skylark Labs and CMU Robotics Institute Launch Multi-Year Partnership to Develop 'Artisan' Robot Manipulation AI",
+      "summary_en": "Skylark Labs announced a multi-year research partnership with the labs of CMU Robotics Institute professors Jeff Schneider and Zackory Erickson to develop Artisan, an AI model combining vision, touch, and force sensing to help robots grasp unfamiliar objects and perform complex physical tasks such as opening doors, turning valves, and operating tools. Both professors serve on Skylark Labs' technical advisory board.",
+      "source_url": "https://www.techtimes.com/articles/324854/20260818/skylark-labs-carnegie-mellon-researchers-partner-teach-robots-how-pick-unfamiliar-objects.htm",
+      "source_name": "Tech Times (reporting on CMU Robotics Institute faculty partnership)",
+      "published_date": "2026-08-18",
+      "category": "research",
+      "tone": "neutral",
+      "confidence": "secondary-source",
+      "notes": "Industry-academia partnership announcement; ri.cmu.edu and any original CMU/Skylark Labs press release could not be fetched directly due to network egress restrictions during this run, so this item is sourced from third-party tech-news coverage rather than CMU's own site. No peer-reviewed paper identified yet -- early-stage collaboration announcement, not a published result."
+    },
+    {
+      "id": "cmu-ri-human-action-prediction-2026-08",
+      "title": "CMU Robotics Institute Develops Robots That Predict Human Actions for Manufacturing Collaboration",
+      "summary_en": "Carnegie Mellon University's Robotics Institute, including PhD student Ruixuan Liu, is developing technology to let an industrial robot capable of lifting heavy parts (e.g., engine blocks) also predict and adapt to a human co-worker's actions during shared manufacturing tasks. The multi-year effort has been supported by Ford's University Research Program.",
+      "source_url": "https://technical.ly/software-development/cmu-robotics-predict-human-actions/",
+      "source_name": "Technical.ly (reporting on CMU Robotics Institute research)",
+      "published_date": "2026-08-16",
+      "category": "research",
+      "tone": "neutral",
+      "confidence": "secondary-source",
+      "notes": "Ford-funded human-robot collaboration research; the original ri.cmu.edu research page/announcement could not be accessed directly due to network egress restrictions during this run. No peer-reviewed publication identified yet for this specific update."
+    }
+  ],
+  "coverage_note": "Direct access to ri.cmu.edu (including the target 'news' category page), cmu.edu, engineering.cmu.edu, prnewswire.com, skylarklabs.ai, and web.archive.org was blocked by the network egress proxy throughout this run. Coverage for the 2026-08-15 to 2026-08-29 window is therefore based on search-engine indexing and third-party tech-press coverage referencing CMU Robotics Institute faculty, labs, and students, rather than on directly-verified CMU press releases. Two items were identified: an industry manipulation-AI partnership (Skylark Labs/Artisan, 2026-08-18) and a human-action-prediction robotics research update (2026-08-16), both attributed to RI faculty/labs. No additional RI-specific press releases, faculty blog posts, or officially-linked arXiv preprints from within the target window could be confirmed given these access constraints. Recommend a re-run with direct ri.cmu.edu access for fuller verification and to check for items possibly missed."
+}

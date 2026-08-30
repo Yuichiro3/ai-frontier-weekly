@@ -1,0 +1,44 @@
+{
+  "collector": "industry-leader-collector",
+  "target": "Microsoft",
+  "run_date": "2026-08-29",
+  "items": [
+    {
+      "id": "microsoft-skala-1-1-dft-2026-08-20",
+      "title": "Microsoft Research releases Skala 1.1, broadening access to its AI-based density functional theory model",
+      "summary_en": "Microsoft Research published an update on Skala, its deep-learning exchange-correlation functional for density functional theory (DFT) calculations used in computational chemistry and materials science. The new version, trained on roughly 2.5 times more data than its predecessor, is reported to reach a weighted average error of 2.8 kcal/mol on the GMTKN55 benchmark, which the post says outperforms leading hybrid functionals. Microsoft Research also said Skala is now available in the CP2K software package and is being integrated into Psi4, FHI-aims, ORCA, and VASP, alongside a new 'living benchmark' that tracks performance across implementations and hardware.",
+      "source_url": "https://www.microsoft.com/en-us/research/blog/broadening-access-to-skala-creates-a-faster-path-to-predictive-dft/",
+      "source_name": "Microsoft Research Blog",
+      "published_date": "2026-08-20",
+      "category": "research",
+      "tone": "neutral",
+      "confidence": "primary-confirmed",
+      "notes": "Authored by a Microsoft Research team (Ehlert, Battaglia, Hermann, van den Berg, Gori Giorgi, and others). Domain-specific scientific AI tooling rather than a general-purpose model release."
+    },
+    {
+      "id": "microsoft-security-blog-august-2026-agent-governance",
+      "title": "Microsoft Security Blog details new tooling for governing AI agents in enterprise environments",
+      "summary_en": "In its monthly security roundup, Microsoft announced that Microsoft Security Exposure Management now provides general-availability 'Secure Now' guidance aimed at constraining actions that autonomous AI agents can take without explicit user approval. The post also confirmed Microsoft Entra Tenant Governance is now generally available, giving organizations a centralized view and delegated administration across multiple tenants to reduce so-called shadow-tenant risk. Separately, Microsoft Purview's auto-labeling policies were scaled to process up to 500,000 SharePoint and OneDrive files per day, up from 100,000, which Microsoft said supports organizations expanding Microsoft 365 Copilot adoption.",
+      "source_url": "https://www.microsoft.com/en-us/security/blog/2026/08/27/whats-new-in-microsoft-security-august-2026/",
+      "source_name": "Microsoft Security Blog",
+      "published_date": "2026-08-27",
+      "category": "product",
+      "tone": "neutral",
+      "confidence": "primary-confirmed",
+      "notes": "Authored by Alym Rayani, VP of Marketing for Microsoft Security. Framed around securing/governing AI agents as enterprises adopt them; overlaps with product and safety/governance categories."
+    },
+    {
+      "id": "microsoft-agent-365-multitenant-preview-2026-08-18",
+      "title": "Microsoft 365 admin center gains public preview of multi-tenant AI agent management",
+      "summary_en": "Microsoft reportedly moved a multi-tenant agent management capability into public preview within the Microsoft 365 admin center around August 18, 2026, as part of its Agent 365 platform. According to the official Microsoft Tech Community post describing the feature, administrators who manage multiple tenants can see a consolidated inventory of AI agents, install or block agents across selected tenants, and review agent permissions through delegated admin access rather than standing access. Full risk and activity visibility for agents reportedly requires a Microsoft Agent 365 license.",
+      "source_url": "https://techcommunity.microsoft.com/blog/microsoftthreatprotectionblog/monthly-news-august-2026/4544388",
+      "source_name": "Microsoft Tech Community (Microsoft Defender/Threat Protection Blog)",
+      "published_date": "2026-08-18",
+      "category": "product",
+      "tone": "neutral",
+      "confidence": "primary-inferred",
+      "notes": "The source domain (techcommunity.microsoft.com) was blocked to direct fetching by the network egress proxy during this collection run; details are compiled from consistent search-engine summaries of the official Microsoft Tech Community post rather than a direct read of the page. The exact date is the stated feature rollout date, not a confirmed blog-publish timestamp. Flagging for verification before use in the synthesized report."
+    }
+  ],
+  "coverage_note": "Coverage for Microsoft this run is thinner than a typical 10-14 day window would suggest, largely because blogs.microsoft.com (the assigned target URL, including the Official Microsoft Blog and the Microsoft AI blog) was blocked by the network egress proxy for direct fetching, and this run's web-search budget was exhausted before all avenues (e.g. Azure AI Foundry blog, Copilot blog, Ignite 2026 previews) could be checked. Secondary/aggregator coverage this period referenced other items -- e.g. a purported 'Guild Copilots' industry-specific Copilot tier and a Purview 'AI Action Ledger' feature, and CEO Satya Nadella remarks on AI dependency and custom silicon -- but no official Microsoft blog, press release, or verifiable transcript could be located for these within the collection window, so they are omitted per sourcing rules rather than included on secondary attribution alone."
+}
