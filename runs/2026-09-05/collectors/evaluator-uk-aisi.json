@@ -1,0 +1,7 @@
+{
+  "collector": "evaluator-collector",
+  "target": "UK AI Security Institute (AISI)",
+  "run_date": "2026-09-05",
+  "items": [],
+  "coverage_note": "No new AISI-authored reports, blog posts, or dataset releases were found with a publication date inside this week's window (2026-08-29 to 2026-09-05). AISI's most recent own publications -- the inaugural 'Frontier AI Trends Report' (~2026-08-26) and the 'optstop' evaluation-compute tool release (~2026-08-27/28) -- fall just before the window and should already have been captured by the prior run dated 2026-08-29. Direct access to aisi.gov.uk via the fetch tool was blocked by the network egress proxy this session; findings on the timing of the near-window items are based on search-engine snippets of AISI's own pages and corroborating third-party trackers, not a full fetch of the original AISI page -- flagged here as a methodology limitation of this collection run itself. Note: a 2026-08-29 Guardian report describes a 'Loss of Control Observatory' funded by AISI but authored and published by the Centre for Long Term Resilience (CLTR); this is out of scope for this collector since it is not AISI's own publication and CLTR is a separate organization -- flagging for the Orchestrator in case CLTR should be added as a target."
+}

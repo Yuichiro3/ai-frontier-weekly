@@ -1,0 +1,32 @@
+{
+  "collector": "industry-leader-collector",
+  "target": "Google DeepMind",
+  "run_date": "2026-09-05",
+  "items": [
+    {
+      "id": "deepmind-gemini-3-8-flash-launch",
+      "title": "Google DeepMind launches Gemini 3.8 Flash and a gated Gemini 3.8 Flash Cyber variant",
+      "summary_en": "Google released Gemini 3.8 Flash on September 2, 2026, its third Flash-tier model in about six weeks, described as an upgrade over 3.7 Flash for coding, agentic work, and multi-step reasoning at the same speed and price. A restricted sibling model, 3.8 Flash Cyber, is aimed at finding and patching software vulnerabilities and is limited to vetted defenders through a new access program called Fairwind rather than general release. Cited results include a Chrome security team test in which the Cyber variant produced more correct vulnerability patches than larger commercial models, and benchmark scores on terminal-agent and reasoning tests.",
+      "source_url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/3-8-flash-and-3-8-flash-cyber/",
+      "source_name": "Google Blog - official Gemini models announcement",
+      "published_date": "2026-09-02",
+      "category": "model-release",
+      "tone": "neutral",
+      "confidence": "primary-inferred",
+      "notes": "The official blog.google URL and post title ('Introducing Gemini 3.8 Flash and 3.8 Flash Cyber') were confirmed via search indexing, but direct retrieval of the page was blocked by network egress restrictions in this session (all WebFetch calls failed, including to non-news domains). Details above are corroborated across multiple independent secondary tech outlets citing the same post; content has not been directly read by this collector and should be spot-checked before publication."
+    },
+    {
+      "id": "hassabis-g20-innovation-ministerial-remarks",
+      "title": "Demis Hassabis comments on Gemini as a coordination layer at G20 Innovation Ministerial",
+      "summary_en": "At a fireside chat during the G20 Innovation Ministerial in Chapel Hill, North Carolina (reported around September 3-4, 2026), Google DeepMind chair Demis Hassabis reportedly said he expects Gemini to increasingly act as a general-purpose layer that coordinates cheaper, specialized models and agents. Press coverage framed this as his first public appearance since moving from CEO to chairman of Google DeepMind in early August 2026.",
+      "source_url": "https://www.whitehouse.gov/releases/2026/09/g20-innovation-ministerial-concludes-with-consensus-statement/",
+      "source_name": "White House / G20 Innovation Ministerial official event readout",
+      "published_date": "2026-09-04",
+      "category": "opinion",
+      "tone": "neutral",
+      "confidence": "secondary-source",
+      "notes": "Could not access either the White House readout or an official DeepMind transcript directly (WebFetch blocked for all domains this session); the paraphrase of Hassabis's remarks is taken from search-indexed secondary reporting (CNBC, AI Commission) about the event rather than a verified primary transcript. Flagging for verification. The underlying leadership change (Hassabis CEO-to-chairman move) occurred August 5-6, 2026, outside this collection window, and is mentioned only as context for why this appearance was newly relevant, not as a standalone item."
+    }
+  ],
+  "coverage_note": "Search access (WebSearch) was exhausted mid-task and WebFetch was blocked for every domain attempted in this session (including deepmind.google, blog.google, ai.google.dev, en.wikipedia.org, and example.com), so no primary-source page could be read directly this run. The two items above were reconstructed from search-result snippets and cross-checked against multiple independent secondary outlets for consistency, but neither has confidence 'primary-confirmed'. No other Google DeepMind-specific news (e.g., AlphaFold/AlphaGenome updates, Gemini Robotics) was identified as falling within the 2026-08-29 to 2026-09-05 window; the only DeepMind research-adjacent item found (AlphaFold team reorganization) is from late July 2026 and was excluded as stale rather than stretched to fill this report."
+}

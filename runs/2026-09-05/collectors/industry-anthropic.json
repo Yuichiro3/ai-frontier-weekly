@@ -1,0 +1,56 @@
+{
+  "collector": "industry-leader-collector",
+  "target": "Anthropic",
+  "run_date": "2026-09-05",
+  "items": [
+    {
+      "id": "anthropic-fable-mythos-5-1-2026-09-01",
+      "title": "Anthropic releases Claude Fable 5.1 and Claude Mythos 5.1",
+      "summary_en": "Anthropic announced Claude Fable 5.1, a generally available model it describes as its most capable yet for coding and knowledge work, alongside Claude Mythos 5.1, a variant with fewer built-in safeguards offered only to vetted cybersecurity and life-sciences organizations under a restricted-access program. Anthropic also cut cache-read pricing by roughly 75%, and published a joint system card for the two models. Both are the same underlying model, differing only in which safeguards are applied.",
+      "source_url": "https://www.anthropic.com/claude-fable-and-mythos-5-1",
+      "source_name": "Anthropic (official product announcement)",
+      "published_date": "2026-09-01",
+      "category": "model-release",
+      "tone": "neutral",
+      "confidence": "primary-inferred",
+      "notes": "Direct fetch of anthropic.com was blocked by the network egress proxy in this run; facts were corroborated via search-index snippets of the official page and Anthropic's own system-card PDF (www-cdn.anthropic.com), plus secondary reporting (TechCrunch, MacRumors, 9to5Mac, Vellum) that cites the same official source. Recommend re-verifying directly on anthropic.com if network access is restored."
+    },
+    {
+      "id": "anthropic-enterprise-frontier-safeguards-2026-09-01",
+      "title": "Anthropic introduces Enterprise Frontier Safeguards for business customers",
+      "summary_en": "Anthropic announced Enterprise Frontier Safeguards (EFS), a new offering that stores Claude activity-monitoring data in cloud infrastructure controlled by the customer rather than by Anthropic, while Anthropic's automated systems still perform misuse detection. Anthropic says the design was developed with more than 100 enterprise customers across sectors including financial services, healthcare and the public sector, in cooperation with AWS, Google Cloud and Microsoft Azure, and that it will roll out in phases starting later in autumn 2026 at no extra cost. Anthropic states human review by its own employees is not part of this workflow.",
+      "source_url": "https://www.anthropic.com/news/enterprise-frontier-safeguards",
+      "source_name": "Anthropic Official Blog",
+      "published_date": "2026-09-01",
+      "category": "safety",
+      "tone": "neutral",
+      "confidence": "primary-inferred",
+      "notes": "Direct fetch of anthropic.com was blocked by the network egress proxy in this run; facts corroborated via search-index snippets of the official page plus secondary reporting (SecurityWeek, Help Net Security, CNBC, MarkTechPost) referencing the same announcement."
+    },
+    {
+      "id": "anthropic-cowork-built-in-browser-2026-08-26",
+      "title": "Claude Cowork adds a built-in browser to the desktop app",
+      "summary_en": "Anthropic's Claude team announced that the Claude desktop app (Mac, Windows, Linux) now includes a built-in, sandboxed Chromium-based browser inside Cowork, letting Claude open a side-panel browser to navigate sites, read pages, and fill in forms without requiring the user's own browser or an extension. The feature launched live on Enterprise plans with a rollout to Pro, Max and Team users over the following week, and includes site-by-site cookie import so sensitive logins (banking, email, single sign-on) stay excluded by default.",
+      "source_url": "https://claude.com/blog/cowork-built-in-browser",
+      "source_name": "Claude by Anthropic (official blog)",
+      "published_date": "2026-08-26",
+      "category": "product",
+      "tone": "neutral",
+      "confidence": "primary-inferred",
+      "notes": "Direct fetch of claude.com was blocked by the network egress proxy in this run; facts corroborated via search-index snippets of the official blog post plus secondary coverage (The New Stack, Engadget, 9to5Mac). Published slightly before the nominal collection window but included because it falls within the last 10 days of the run date and underlies the Sept 1 EFS/model releases context."
+    },
+    {
+      "id": "anthropic-claude-for-teachers-schools-districts-2026-08-28",
+      "title": "Claude for Teachers expands to US school districts; Detroit pilot announced",
+      "summary_en": "Anthropic expanded Claude for Teachers, previously available to individually verified educators, into a free, centrally managed Enterprise offering for US K-12 schools and districts, with a FERPA-aligned data processing agreement and a commitment that classroom data is not used for model training. As part of this expansion, Anthropic said it will pilot an evaluation of Claude for Teachers in the Detroit Public Schools Community District, training teachers at a handful of schools and studying effects on educator workload and teaching practice.",
+      "source_url": "https://claude.com/blog/claude-for-teachers-now-available-for-schools-and-districts",
+      "source_name": "Claude by Anthropic (official blog)",
+      "published_date": "2026-08-28",
+      "category": "product",
+      "tone": "neutral",
+      "confidence": "primary-inferred",
+      "notes": "Direct fetch of claude.com was blocked by the network egress proxy in this run; facts corroborated via search-index snippets of the official blog post plus secondary coverage (Unite.AI, EdTech Innovation Hub). Published just before the nominal collection window but within the last 10 days of the run date."
+    }
+  ],
+  "coverage_note": "Anthropic published at least four items in or near the 2026-08-29 to 2026-09-05 window, headlined by the Sept 1 Claude Fable 5.1 / Mythos 5.1 model release and the accompanying Enterprise Frontier Safeguards announcement. Two adjacent product posts (Cowork built-in browser, Aug 26; Claude for Teachers district rollout with a Detroit Public Schools pilot, Aug 28) fall just before the window's nominal start but within the last 10 days and are included for that reason. Excluded as out of window: Anthropic's Google/Broadcom TPU compute expansion (reported April 2026, not a new event this week), the Tino Cuellar Chief Global Affairs Officer appointment (Aug 4, 2026), and Anthropic's Project Glasswing 'initial update' research post (May 22, 2026). Also excluded as an item: a Sept 2, 2026 Bloomberg report that NYSE President Lynn Martin told a US House committee that NYSE used Anthropic's Project Glasswing/Claude Mythos to find and fix cybersecurity flaws -- this is third-party congressional testimony reported by Bloomberg, not a statement from an Anthropic-owned channel, so it was not written up as a collector item, only noted here for the synthesis agent's awareness. Direct fetches of anthropic.com and claude.com were blocked by this run's network egress proxy; all official-source facts above were verified via search-engine index snippets of the specific official URLs plus corroborating secondary reporting, and are flagged 'primary-inferred' rather than 'primary-confirmed' as a result. No new items from METR, UK AISI, or Epoch AI about Anthropic were found this week within scope of this collector (industry-only collector; evaluator coverage belongs to a different collector)."
+}

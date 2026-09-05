@@ -1,0 +1,32 @@
+{
+  "collector": "academia-collector",
+  "target": "Carnegie Mellon University - Robotics Institute",
+  "run_date": "2026-09-05",
+  "items": [
+    {
+      "id": "cmu-ri-kaess-onr-cnr-fellow-2026",
+      "title": "RI's Michael Kaess named to inaugural Office of Naval Research Chief of Naval Research Fellows Program",
+      "summary_en": "Michael Kaess, an associate professor in CMU's Robotics Institute and director of the Robot Perception Lab, was named one of 12 inaugural fellows in the U.S. Office of Naval Research's new Chief of Naval Research (CNR) Fellows program, selected from more than 180 nominations across about 70 institutions. The one-year fellowship gives him direct engagement with Navy and Marine Corps science-and-technology challenges related to his research on mobile robot mapping, perception, and navigation.",
+      "source_url": "https://www.ri.cmu.edu/kaess-named-to-inaugural-chief-of-naval-research-fellows-program/",
+      "source_name": "CMU Robotics Institute News",
+      "published_date": "2026-08-15",
+      "category": "research",
+      "tone": "neutral",
+      "confidence": "primary-inferred",
+      "notes": "Published date is an approximate estimate (mid-August 2026), derived from ONR's own CNR Fellows announcement timing referenced in search results; the exact publication date on ri.cmu.edu could not be verified because direct page access was blocked by the network egress proxy during this collection run. Falls before the Aug 29-Sep 5, 2026 target window; included only for continuity since it is the most recent verifiable RI personnel/research item found."
+    },
+    {
+      "id": "cmu-ri-skylark-labs-artisan-partnership-2026",
+      "title": "Skylark Labs and CMU Robotics Institute researchers partner on 'Artisan' robot manipulation AI",
+      "summary_en": "Skylark Labs announced a multi-year research partnership with the labs of CMU Robotics Institute professors Jeff Schneider and Zackory Erickson to develop 'Artisan,' an AI model intended to help robots grasp and manipulate previously unseen objects with varying shape, texture, and weight. Both professors serve on Skylark Labs' technical advisory board; the work will be conducted at Carnegie Mellon.",
+      "source_url": "https://www.techtimes.com/articles/324854/20260818/skylark-labs-carnegie-mellon-researchers-partner-teach-robots-how-pick-unfamiliar-objects.htm",
+      "source_name": "Tech Times (reporting a Skylark Labs / CMU Robotics Institute research partnership)",
+      "published_date": "2026-08-18",
+      "category": "research",
+      "tone": "neutral",
+      "confidence": "secondary-source",
+      "notes": "Reported via a secondary outlet (Tech Times) covering a Skylark Labs press release naming two named CMU Robotics Institute faculty as technical advisors; no independent ri.cmu.edu article could be located or verified (site access blocked this run). Falls before the Aug 29-Sep 5, 2026 target window; included only for continuity as the most recent verifiable RI-linked development."
+    }
+  ],
+  "coverage_note": "No RI news items could be confirmed as published within the strict Aug 29-Sep 5, 2026 collection window. This run was significantly hampered by tooling constraints: WebFetch access to www.ri.cmu.edu, www.cmu.edu, engineering.cmu.edu, www.cs.cmu.edu, and several other verification domains (Wikipedia, Google, web.archive.org, EurekAlert, DVIDS, Tech Times) was blocked by the network egress proxy, and the collector had no file-write tool available in this session. Findings rely solely on WebSearch result snippets, which were exhausted before full verification (search quota reached). The two items included are the most recent RI-linked developments found in search indexing (mid-August 2026) and are explicitly flagged as outside the target window with date/verification caveats; they should be re-verified via direct site access before inclusion in the final report. Recommend a follow-up collection pass once direct access to ri.cmu.edu is restored."
+}

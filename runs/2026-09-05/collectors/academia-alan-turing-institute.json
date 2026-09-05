@@ -1,0 +1,33 @@
+{
+  "collector": "academia-collector",
+  "target": "The Alan Turing Institute",
+  "run_date": "2026-09-05",
+  "collected_at": "2026-09-05T00:00:00Z",
+  "items": [
+    {
+      "id": "turing-sovereignty-vision-2030-2026-09-02",
+      "title": "Turing Institute briefing: UK has a 'narrowing window' to secure AI sovereignty by 2030",
+      "summary_en": "The Alan Turing Institute published a briefing, 'Securing the UK's AI Future: A Sovereignty Vision for 2030,' via its Centre for Emerging Technology and Security (CETAS), arguing the UK has a shrinking window to secure the AI systems and skills its national resilience depends on. It recommends the UK build capability where national control is essential (e.g. certain compute/chip and assurance capacity), partner with trusted allies elsewhere in the AI stack, and export its safety, evaluation and assurance expertise for global influence. It is presented as the first of a two-part series, with a policy roadmap to follow.",
+      "source_url": "https://www.turing.ac.uk/news/uk-must-exploit-narrowing-window-opportunity-build-resilient-ai-future",
+      "source_name": "The Alan Turing Institute (News) / CETAS",
+      "published_date": "2026-09-02",
+      "category": "policy",
+      "tone": "neutral",
+      "confidence": "primary-inferred",
+      "notes": "Primary URL (and companion publication at cetas.turing.ac.uk/publications/securing-uks-ai-future-sovereignty-vision-2030) identified via search indexing, but turing.ac.uk and cetas.turing.ac.uk were unreachable to this collector due to a network egress block this run; content cross-verified against independent secondary coverage (ThinkDigitalPartners, ResultSense) rather than fetched directly from the Institute's own page. English original; not a peer-reviewed paper, a policy briefing."
+    },
+    {
+      "id": "turing-satellite-anomaly-ai4s3-2026-09-01",
+      "title": "Turing Institute's DARe team develops self-supervised AI model to flag satellite behaviour anomalies",
+      "summary_en": "The Alan Turing Institute's Defence AI Research (DARe) programme, working within the UK Space Agency-funded AI4S3 consortium (a Five Eyes collaboration including academic partners such as MIT, Waterloo and Arizona), announced a foundation model that learns normal satellite orbital behaviour from telescope 'light curves' (brightness measurements) using self-supervised learning, then flags anomalies for human analysts. Reported figures state the model correctly flags unusual readings around 88% of the time and can distinguish a spinning from a tumbling spacecraft; it was refined using simulation data from the University of Strathclyde and industry partner GMV. The announcement frames this as a response to rapidly growing satellite traffic (roughly 159 launches in 2000 versus thousands per year by the mid-2020s).",
+      "source_url": "https://www.resultsense.com/news/2026-09-02-turing-satellite-anomaly-detection/",
+      "source_name": "ResultSense (secondary coverage of an Alan Turing Institute press release)",
+      "published_date": "2026-09-01",
+      "category": "research",
+      "tone": "neutral",
+      "confidence": "secondary-source",
+      "notes": "An Alan Turing Institute press release with a matching headline ('New AI system can monitor satellite behaviour to boost space safety') was located on the Institute's own news index for 1 Sept 2026, but the specific article URL could not be confirmed or fetched directly because turing.ac.uk was blocked to this collector this run; figures and technical details here are drawn from secondary reporting, not the Institute's own text. No peer-reviewed paper identified alongside this announcement as of this run."
+    }
+  ],
+  "coverage_note": "Direct access to turing.ac.uk and cetas.turing.ac.uk was blocked by the network egress proxy for this entire run, so all items above are confidence 'primary-inferred' or 'secondary-source' rather than directly verified against the Institute's own pages — this should be re-attempted with direct access if possible. Two items were identified as published within the 2026-08-29 to 2026-09-05 window: the CETAS AI sovereignty briefing (2 Sept) and the DARe/AI4S3 satellite anomaly-detection announcement (1 Sept). Two other Turing blog posts (on a forming 'super El Niño' and on AI tools for critical-national-infrastructure cyber defence) were found dated 25 Aug and 12 Aug respectively — both fall just before the collection window and are excluded on that basis. Ongoing institutional/governance news (UKRI's 2026 review of the Institute's strategic alignment and value-for-money, and CEO George Williamson's tenure) predates this window (originating Feb-April 2026) and is not reported as new this week, though a UKRI-set September 2026 deadline for the Institute to submit a strategic plan was noted in background reporting and may produce a genuine news item in the coming weeks worth checking again."
+}

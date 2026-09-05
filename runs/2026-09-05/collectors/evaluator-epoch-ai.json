@@ -1,0 +1,32 @@
+{
+  "collector": "evaluator-collector",
+  "target": "Epoch AI",
+  "run_date": "2026-09-05",
+  "items": [
+    {
+      "id": "epoch-eci-frontier-14-points-2026-09",
+      "title": "ECI frontier: capability growth measured at 14 points/year since reasoning models arrived",
+      "summary_en": "Epoch AI's data insight 'The ECI frontier has advanced by 14 points per year since the introduction of reasoning models' reports that its Epoch Capabilities Index (ECI) — a composite score built from many benchmarks — has risen linearly by about 14 points per year since OpenAI's first reasoning models (o1-mini/o1-preview) launched in September 2024, versus about 6 points per year for non-reasoning models before that. The analysis uses ECI data as accessed on 1 September 2026 and treats GPT-4.5 (27 Feb 2025) as the last non-reasoning-era frontier model.",
+      "source_url": "https://epoch.ai/data-insights/eci-frontier-trend",
+      "source_name": "Epoch AI Data Insights",
+      "published_date": "2026-09-01",
+      "category": "research",
+      "tone": "neutral",
+      "confidence": "primary-inferred",
+      "notes": "epoch.ai could not be fetched directly in this environment (blocked by network egress proxy); content is derived from search-engine snippets of the institute's own page and its official X account, not an independent page read. This data-insight page appears to be a periodically refreshed tracker rather than a one-off new post this week — related figures attributed to Epoch circulated in third-party coverage as early as April/May 2026 — so the 1 September 2026 figure looks like a data refresh, not a brand-new finding; flagged as a possible update to a prior finding rather than confirmed as such, since last week's collector file was not available for direct comparison. Epoch AI co-founder Jaime Sevilla is quoted (via Epoch's own X account) calling the ECI 'a hard to interpret index,' and the trend line is described as a simple linear fit over models that were SOTA on release only — a methodological simplification Epoch itself flags, not a forecast."
+    },
+    {
+      "id": "epoch-gradient-update-ai-important-number-2026-09",
+      "title": "Gradient Update revisits growth-rate estimates for OpenAI and Anthropic",
+      "summary_en": "In a Gradient Updates post titled 'An update on AI's most important number,' Epoch AI authors Josh You and Lynette Bye revisit their growth-rate tracking for the AI industry, discussing recent revenue/usage growth trends at OpenAI and Anthropic. The post was live/accessed as of 3 September 2026.",
+      "source_url": "https://epoch.ai/gradient-updates/an-update-on-ais-most-important-number",
+      "source_name": "Epoch AI Gradient Updates",
+      "published_date": "2026-09-03",
+      "category": "research",
+      "tone": "neutral",
+      "confidence": "primary-inferred",
+      "notes": "epoch.ai could not be fetched directly in this environment (blocked by network egress proxy); date and content summary are based on search-index snippets referencing the institute's own URL, not a direct page read — treat the 2026-09-03 date as approximate. Epoch AI's own standing disclaimer for the Gradient Updates format states these are shorter, more opinionated posts reflecting individual authors' views and are 'not necessarily endorsed by Epoch as a whole'; flagging this per Epoch's own methodology caveat."
+    }
+  ],
+  "coverage_note": "Two items from Epoch AI's own channels (epoch.ai) fall within or close to the 2026-08-29 to 2026-09-05 window: a refreshed 'ECI frontier' capability-growth data insight (data as of 1 September 2026) and a Gradient Updates opinion post on OpenAI/Anthropic growth rates (accessed 3 September 2026). Both are plausibly recurring/refreshed content rather than confirmed brand-new analyses this week; this could not be fully verified because direct access to epoch.ai, epochai.org, epochai.substack.com, and x.com was blocked by the network egress proxy for this run, forcing reliance on search-engine snippets of Epoch's own pages rather than direct page fetches. Several of Epoch AI's tracking databases (AI companies, AI accelerators/chips, ML models, AI data centers) also show update timestamps across 31 August to 4 September 2026 per search-index metadata, but these are continuously-maintained datasets without an accompanying narrative report, so they were not logged as standalone items. No other new Epoch AI reports, papers, or blog posts distinctly dated within the window were identified; other Epoch AI publications found during this search (e.g., an Nvidia/US GDP accounting analysis, chip performance-per-dollar trends, an Ipsos AI-adoption survey) were dated in mid-August 2026 and therefore fall outside this week's collection window. Collection timestamp: 2026-09-05T00:00:00Z (approximate, session time)."
+}
