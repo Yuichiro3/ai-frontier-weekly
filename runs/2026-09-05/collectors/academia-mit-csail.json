@@ -1,0 +1,32 @@
+{
+  "collector": "academia-collector",
+  "target": "MIT CSAIL",
+  "run_date": "2026-09-05",
+  "items": [
+    {
+      "id": "csail-cwnet-selfdriving-explain-2026-09-02",
+      "title": "MIT and Motional's CW-Net explains why self-driving cars make certain decisions",
+      "summary_en": "MIT CSAIL researchers, working with autonomous-vehicle company Motional, built CW-Net (Concept-Wrapper Network), a system that translates an AV planner's internal reasoning into human-readable concepts such as 'approaching stopped vehicle' or 'close to cyclist' without changing the vehicle's driving performance. In closed-track and public-road tests around Las Vegas, CW-Net's explanations helped safety drivers and non-expert users predict vehicle behavior more accurately, and in one case exposed that a test planner was hallucinating a phantom stopped vehicle near a traffic cone, a pattern traced to its training data.",
+      "source_url": "https://news.mit.edu/2026/system-helps-humans-predict-when-self-driving-cars-will-make-mistakes-0902",
+      "source_name": "MIT News (MIT CSAIL research)",
+      "published_date": "2026-09-02",
+      "category": "research",
+      "tone": "neutral",
+      "confidence": "primary-confirmed",
+      "notes": "Industry collaboration with Motional (Aptiv/Hyundai autonomous-vehicle venture); MIT News institutional article, independently cross-posted by MIT AeroAstro and MIT Schwarzman College of Computing with matching details. No separate arXiv preprint identified from available sources; direct access to news.mit.edu and csail.mit.edu was blocked in this collection environment, so this summary is built from search-engine-retrieved excerpts of the primary article plus corroborating mirrors, not a direct fetch."
+    },
+    {
+      "id": "csail-striatum-neuron-atlas-2026-09-01",
+      "title": "MIT-led team publishes single-cell atlas of the brain's striatum linked to Huntington's, schizophrenia, and addiction",
+      "summary_en": "A team led by Myriam Heiman (MIT Picower Institute), Manolis Kellis (MIT CSAIL professor of computer science), and Dana Gabuzda (Dana-Farber Cancer Institute) used single-cell RNA sequencing to catalog 31 neuron subpopulations in the brain's striatum, including two 'outlier' medium spiny neuron types implicated in schizophrenia, substance-use disorder, and depression. The study also identifies factors that may make specific striatal neurons more vulnerable to Huntington's disease, which the authors say could inform future drug development.",
+      "source_url": "https://news.mit.edu/2026/brains-striatum-atlas-could-guide-researchers-new-drug-treatments-0901",
+      "source_name": "MIT News (Picower Institute / CSAIL collaboration)",
+      "published_date": "2026-09-01",
+      "category": "research",
+      "tone": "neutral",
+      "confidence": "primary-inferred",
+      "notes": "This is primarily a computational-neuroscience/genomics study; the only CSAIL tie is co-senior-author Manolis Kellis. Tangential to core AI/ML research and possibly out of scope for an AI-frontier report — flagging for the Orchestrator to confirm inclusion or reassignment. Journal name and peer-review status could not be confirmed because direct access to news.mit.edu and eurekalert.org (which held the press release) was blocked in this collection environment; content is derived from search-engine excerpts of those primary sources."
+    }
+  ],
+  "coverage_note": "Direct fetch access to csail.mit.edu, news.mit.edu, cap.csail.mit.edu, and most secondary outlets (TechXplore, EurekAlert, MedicalXpress, Wikipedia, MIT AeroAstro, etc.) was blocked by the network egress proxy in this session, and the WebSearch quota was exhausted before exhaustive verification could be completed; findings above rely on WebSearch-retrieved excerpts of primary MIT pages, cross-checked against independent mirrors where available, rather than direct primary-source fetches. Within the 2026-08-29 to 2026-09-05 window, two CSAIL-linked research items were identified (self-driving-car explainability system CW-Net, and a striatum single-cell neuron atlas, the latter only tangentially AI-related). Two other CSAIL news items from the window — an MIT undergraduate team winning the ICPC 2026 North America Championship, and a feature on the Julia programming language's broad scientific use — were found but excluded as outside the AI-research scope of this report. Several CSAIL AI items (a chip-security side-channel exploit, a machine-unlearning method, 'GeoPT' for physics simulation, an AI-image-attribution study, and a robotic 'bifur-circuits' gripper) were published in the preceding two weeks (Aug 10-27, 2026) but fall before this run's collection window and were not included. No Japanese-language content applicable to this target."
+}

@@ -1,0 +1,21 @@
+{
+  "collector": "evaluator-collector",
+  "target": "METR",
+  "run_date": "2026-09-05",
+  "collection_timestamp": "2026-09-05T00:00:00Z",
+  "items": [
+    {
+      "id": "metr-security-update-2026-08-31",
+      "title": "METR discloses two 2026 security incidents: stolen API key led to $600K in AI credit use, plus a separate infrastructure-probing campaign",
+      "summary_en": "METR disclosed that in March 2026 an attacker stole a public-models API key from a researcher's personal, inadvertently-exposed AWS instance and used it for about three weeks, consuming AI model credits with a commercial value of roughly $600,000. Separately, from May 2026 METR was targeted by a sustained, apparently financially-motivated attack campaign that used automated agents to probe its public infrastructure (credential stuffing, OAuth token-grant attempts, phishing attempts on staff), during which a bug in METR's public transcript-viewer's read-only SQL query tool could have allowed access to some unpublished evaluation data. METR says it revoked the affected access, rotated credentials, and does not believe sensitive information was accessed in either incident.",
+      "source_url": "https://metr.org/blog/2026-08-31-security-update/",
+      "source_name": "METR Official Blog",
+      "published_date": "2026-08-31",
+      "category": "safety",
+      "tone": "neutral",
+      "confidence": "primary-confirmed",
+      "notes": "METR's own hedge: it states it does not believe sensitive data was accessed in either incident, but this is METR's internal assessment, not an independently audited conclusion. The $600,000 figure represents the commercial/list value of model credits (supplied free by the unnamed model developer), not a direct monetary loss to METR. Direct WebFetch access to metr.org was blocked by network egress restrictions during this collection run; content was reconstructed from search-engine snippets of METR's own post plus cross-referencing with secondary security-press coverage (The Register, The Hacker News, Dark Reading) that quotes the original post verbatim, to avoid fabrication. Recommend a human or a differently-configured tool verify by loading https://metr.org/blog/2026-08-31-security-update/ directly."
+    }
+  ],
+  "coverage_note": "This week's window (2026-08-29 to 2026-09-05) produced only one qualifying METR-authored item, the Aug 31 security disclosure. No new predeployment model evaluation, time-horizon dataset update, or Frontier Risk Report was published by METR in this window; those categories' most recent instances (GPT-5.6 Sol evaluation, Time Horizon 1.1, Frontier Risk Report Feb-Mar 2026, and the Aug 26 OpenAI/Hugging Face incident investigation) predate the window and were presumably captured in a prior week's run. Full metr.org access was degraded this run due to a network egress block on the domain; findings rely on search-indexed excerpts of the primary source rather than a direct page fetch."
+}
