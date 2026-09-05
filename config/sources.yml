@@ -91,3 +91,32 @@ rotation_history:
       ~2026-08-15 to 2026-08-29 window), which should be re-checked once
       access constraints are resolved rather than assumed to mean no new
       evaluator output existed.
+  - run_date: "2026-09-05"
+    iso_week: "2026-W36"
+    note: >
+      Full default target list, all 15 collectors dispatched. The environment-wide
+      egress restriction flagged the last two runs was worse this time: nearly every
+      collector reported direct WebFetch blocked for its primary-source domain (and,
+      where tested, for unrelated control domains too), so almost the whole report
+      relies on WebSearch-snippet reconstruction plus secondary corroboration rather
+      than direct page reads -- confidence is "primary-inferred" or "secondary-source"
+      for most items this week, with only 5 of 28 items (all Microsoft, plus the two
+      wildcard GitHub items) directly fetched and confirmed. This is now a
+      three-run-running infrastructure problem, not noise, and should be escalated to
+      whoever operates the harness rather than re-flagged a fourth time. University of
+      Tokyo / RIKEN AIP again returned zero items for the third consecutive run;
+      aip.riken.jp access was retried directly as instructed and remains blocked, and
+      five unrelated control domains failed identically in the same collector call,
+      confirming (not just suspecting) an environment-wide block rather than a
+      target-specific one -- this should stop being logged as a coverage gap for this
+      target specifically until the underlying egress issue is fixed.
+      Diversity flag: industry-leader items make up 17 of 28 (61%) of this week's
+      collected items, and OpenAI+Anthropic alone are 8 of 28 (29%) -- both higher than
+      the ~40% industry-wide concentration flagged as "worth watching" last run. This
+      partly reflects real news volume (three labs shipped a cyber-capable model
+      variant within four days of each other), but evaluator coverage was thin again
+      (UK AISI returned zero in-window items; METR and Epoch AI each returned only 1-2)
+      for the third run in a row. Recommend the Orchestrator consider deliberately
+      widening evaluator/academia targets or narrowing industry targets next run if
+      this pattern continues once fetch access is restored, since it is no longer
+      clearly explained by a single week's news cycle.
