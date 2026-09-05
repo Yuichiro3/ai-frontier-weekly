@@ -1,0 +1,32 @@
+{
+  "collector": "wildcard-collector",
+  "target": "wildcard",
+  "run_date": "2026-09-05",
+  "items": [
+    {
+      "id": "ponytail-laziest-senior-dev",
+      "title": "Open-source Claude Code plugin cuts agent-generated code by half with a 'laziest senior dev' decision ladder",
+      "summary_en": "Independent developer Dietrich Gebert released 'Ponytail,' an open-source agent plugin that forces AI coding agents to check whether code needs to exist, is already in the codebase, or is available natively before writing anything new. Against real headless Claude Code sessions (Haiku 4.5) on a FastAPI/React template, the author reports about 54% less code, 22% fewer tokens, 20% lower cost, and 27% faster runs, while claiming no loss of validation, error handling, security, or accessibility coverage.",
+      "source_url": "https://github.com/DietrichGebert/ponytail",
+      "source_name": "Ponytail (GitHub repository, Dietrich Gebert)",
+      "published_date": "2026-06-18",
+      "category": "product",
+      "tone": "contrarian",
+      "confidence": "primary-confirmed",
+      "notes": "Benchmark is self-reported by the project author (12 feature tickets, 4 runs, one baseline repo) and not independently peer-reviewed; date given is the benchmark date stated in the README, not a formal release date. Repo was actively gaining stars on GitHub's daily trending page during this collection window. Pushes back against the common assumption that more agent-generated code/checks equal more safety."
+    },
+    {
+      "id": "minimind-64m-2h-3rmb",
+      "title": "MiniMind project trains a 64M-parameter LLM from scratch in about 2 hours for roughly 3 yuan on a single consumer GPU",
+      "summary_en": "MiniMind, an open-source project by developer Jingyao Gong, provides code to train a small (~64M parameter) language model entirely from scratch. Its README states the supervised fine-tuning stage completes one epoch on a single NVIDIA RTX 3090 in about 2 hours at roughly 3 RMB (about $0.40) in GPU rental cost, framing the model as roughly 1/2700th the size of GPT-3.",
+      "source_url": "https://github.com/jingyaogong/minimind",
+      "source_name": "MiniMind (GitHub repository, Jingyao Gong)",
+      "published_date": "2026-04-01",
+      "category": "research",
+      "tone": "playful",
+      "confidence": "primary-confirmed",
+      "notes": "Author's own README clarifies the '2 hours / 3 yuan' figure covers one SFT epoch only, not full pretraining-to-deployment; project has existed since August 2024 but reappeared on GitHub's weekly trending list during this collection window (week of 2026-08-29 to 2026-09-05). Offered as a contrarian data point against narratives that meaningful LLM training requires large-scale compute budgets."
+    }
+  ],
+  "coverage_note": "Several other candidates surfaced via web search this week (an Otterly.ai 'capybara' SEO experiment on whether Google penalizes AI-generated content, and an independent researcher's 'Terminal Experiment' claiming to answer an unwinnable research question with seven AI models for $128 in eight days) could not be verified this run: the network egress proxy blocked direct access to otterly.ai, strategicintelligenceresearch.com/terminal-experiment.pages.dev, Hacker News, arXiv, and most independent blog domains, and one search-tool summary produced an author attribution that appeared to be confused with an unrelated academic of the same name. Both were excluded per the never-invent-a-source rule rather than reported on secondary snippets alone. Only github.com and raw.githubusercontent.com were reachable, so this week's items are limited to verifiable open-source project READMEs."
+}
