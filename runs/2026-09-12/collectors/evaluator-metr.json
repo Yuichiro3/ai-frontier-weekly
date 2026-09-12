@@ -1,0 +1,21 @@
+{
+  "collector": "evaluator-institute-collector",
+  "target": "METR",
+  "run_date": "2026-09-12",
+  "collection_timestamp": "2026-09-12T00:00:00Z",
+  "items": [
+    {
+      "id": "metr-security-update-2026-08-31",
+      "title": "METR discloses two 2026 security incidents: stolen API key and infrastructure probing",
+      "summary_en": "METR disclosed two security incidents from earlier in 2026: in March, an exposed API key on a researcher's personal instance let attackers consume roughly $600,000 worth of model credits (commercial value, not direct financial loss) over three weeks, and in May, attackers systematically probed METR's public-facing infrastructure, including an attempt to access an internal endpoint. METR states its investigation, done with external security consultants, found no evidence that sensitive information was accessed in either case, and it has since revoked/rotated credentials, added spend alerts, and architecturally separated public-facing applications from internal infrastructure.",
+      "source_url": "https://metr.org/blog/2026-08-31-security-update/",
+      "source_name": "METR Official Blog",
+      "published_date": "2026-08-31",
+      "category": "safety",
+      "tone": "neutral",
+      "confidence": "primary-inferred",
+      "notes": "Direct WebFetch access to metr.org was blocked by this session's network egress proxy, so this summary was reconstructed from multiple secondary outlets (e.g. The Register, Infosecurity Magazine, The Hacker News) that quote/paraphrase METR's original post, cross-checked for consistency; the primary URL itself could not be fetched. This is an organizational/operational security disclosure, not an AI-capability or model-safety evaluation finding, so it falls outside METR's usual research output but is included because it is METR's only original publication dated within this collection window. METR itself frames the incidents as 'near-misses' and states it found 'no evidence sensitive information was accessed' -- this is METR's own self-reported conclusion, not independently audited, and should be read as a stated caveat rather than a verified fact."
+    }
+  ],
+  "coverage_note": "METR's only original publication (metr.org) dated within the 2026-08-29 to 2026-09-12 window is the security-incident disclosure above (2026-08-31). No new frontier-model evaluation, time-horizon update, or research paper was published by METR in this window. This continues the thin evaluator-coverage pattern noted in prior runs' rotation_history for capability/safety-evaluation research specifically: METR's two other recent posts -- the OpenAI/Hugging Face incident investigation (2026-08-26) and a funding update (2026-08-14) -- both predate this window's start (2026-08-29) and were excluded as not new to this run. Direct WebFetch access to metr.org was blocked by the network egress proxy in this collection environment; findings rely on cross-checked secondary reporting of METR's own post rather than a direct read, which should be treated as lower-confidence than a direct fetch."
+}
