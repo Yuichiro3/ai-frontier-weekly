@@ -91,3 +91,39 @@ rotation_history:
       ~2026-08-15 to 2026-08-29 window), which should be re-checked once
       access constraints are resolved rather than assumed to mean no new
       evaluator output existed.
+  - run_date: "2026-09-12"
+    iso_week: "2026-W37"
+    note: >
+      Full default target list covered again (3 evaluators, 6 industry
+      leaders, 5 academic institutions, wildcard). The environment-wide
+      egress restriction flagged in the previous two runs persisted a THIRD
+      consecutive time: every collector reported WebFetch blocked for every
+      domain attempted this run (including, per the CMU RI collector, a
+      neutral test domain), so every item in this run's report is reconstructed
+      from WebSearch snippets and cross-checked secondary reporting rather
+      than a direct read of any primary page -- flagged per-item via the
+      "confidence" field and in a dedicated methodology note in the report,
+      not just buried in citations. This should now be escalated to whoever
+      operates the harness rather than logged a fourth time as routine noise.
+      UTokyo/RIKEN AIP access (riken.jp, aip.riken.jp, u-tokyo.ac.jp) is
+      STILL blocked for a third consecutive run -- same escalation applies.
+      Three collectors (UK AI Security Institute, Stanford HAI, Carnegie
+      Mellon Robotics Institute) returned zero items this run; all three
+      attribute this explicitly to blocked access and an exhausted
+      per-session WebSearch quota rather than confirmed absence of news, and
+      the report states this rather than implying nothing happened at those
+      institutions. Evaluator coverage remains thin in substance: METR's only
+      in-window publication was an operational security disclosure (not a
+      capability/safety evaluation), AISI published nothing in-window, and
+      Epoch AI was the only evaluator contributing new measurement this week
+      (FrontierMath Erdős, long-context latency scaling, data-center power
+      growth). Diversity flag: OpenAI and Anthropic together account for 10
+      of 31 items (~32%) this run -- the SECOND consecutive run with a
+      concentration flag (was ~40% last run). This again tracks real news
+      volume (a cluster of cyber-capability and containment-incident
+      disclosures from both labs in the same window) rather than a
+      collection-scope bias, since every target was still collected once,
+      but a third consecutive concentrated run would be worth a rotation
+      response (e.g. splitting OpenAI/Anthropic into narrower named-leader
+      targets to make room for deeper academia/evaluator coverage instead of
+      widening scope further).
