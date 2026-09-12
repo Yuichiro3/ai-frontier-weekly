@@ -1,0 +1,45 @@
+{
+  "collector": "evaluator-institute-collector",
+  "target": "Epoch AI",
+  "run_date": "2026-09-12",
+  "collection_timestamp": "2026-09-12T00:00:00Z",
+  "items": [
+    {
+      "id": "epoch-ai-frontiermath-erdos-2026-09-01",
+      "title": "Epoch AI launches FrontierMath Erdős, a 68-problem benchmark of open Erdős problems",
+      "summary_en": "On September 1, 2026, Epoch AI announced FrontierMath Erdős, a new benchmark of 68 open problems drawn from the Erdős-problems corpus, curated by mathematician Thomas Bloom and formalized in the Lean proof assistant. Models are given a fixed compute budget to produce a complete Lean proof or disproof for each problem; in Epoch's initial official run, OpenAI's GPT-6 Astra solved 2 of the 68 problems (about 3%) and was the only model to solve any.",
+      "source_url": "https://epoch.ai/latest/announcing-frontiermath-erdos",
+      "source_name": "Epoch AI (official site, 'Latest' announcements)",
+      "published_date": "2026-09-01",
+      "category": "research",
+      "tone": "neutral",
+      "confidence": "primary-inferred",
+      "notes": "Direct fetch of epoch.ai was blocked by the network egress proxy this session; details are compiled from search-engine indexing of the official Epoch AI page (URL confirmed on the epoch.ai domain), not a direct read of the full page. This is the initial benchmark run with a very hard problem set (only one model solved anything), so results should be read as an early snapshot rather than a mature leaderboard."
+    },
+    {
+      "id": "epoch-ai-long-context-latency-2026-09-08",
+      "title": "Epoch AI: GPT-5.6 latency scales quadratically with context length, Claude 5 stays near-linear",
+      "summary_en": "Epoch AI published a study on September 8, 2026 measuring time-to-first-token (TTFT) up to roughly one million tokens of context for four frontier models. OpenAI's GPT-5.6 Terra and Sol showed clear upward curvature (quadratic-like growth) in TTFT as prompts lengthened, while Anthropic's Claude Sonnet 5 stayed close to linear scaling and Claude Opus 5 was noisier but also consistent with linear scaling. Epoch interprets this as evidence that OpenAI and Anthropic have made different architectural choices for long-context inference.",
+      "source_url": "https://epoch.ai/publications/long-context-latency-scaling-gpt-vs-claude",
+      "source_name": "Epoch AI (official publications page)",
+      "published_date": "2026-09-08",
+      "category": "research",
+      "tone": "neutral",
+      "confidence": "primary-inferred",
+      "notes": "Direct fetch of epoch.ai was blocked by the network egress proxy this session; details compiled from search-engine indexing of the official page, not a direct read. Only four models were tested, and Epoch does not claim the finding generalizes beyond these specific model families/versions."
+    },
+    {
+      "id": "epoch-ai-frontier-datacenter-power-2026-09",
+      "title": "Epoch AI: largest AI data center's power capacity has doubled every ~10 months since mid-2024",
+      "summary_en": "In an early-September 2026 data insight, Epoch AI reports that the IT power capacity of the world's largest AI data center has grown at 2.3x per year (90% CI: 1.9x-2.7x) since mid-2024, a doubling time of about 10 months (90% CI: 8-13 months), based on a log-linear regression over record-holding facilities. xAI's Colossus 2 (~950 MW) currently holds the record. Epoch projects five facilities that could set new power records through 2028, finding that expansions at New Carlisle and Colossus 2 roughly track the historical trend into early 2027, while three subsequent facilities are projected to fall to about half the trend's predicted capacity.",
+      "source_url": "https://epoch.ai/data-insights/frontier-data-center-power",
+      "source_name": "Epoch AI (Data Insights)",
+      "published_date": "2026-09-04",
+      "category": "research",
+      "tone": "neutral",
+      "confidence": "primary-inferred",
+      "notes": "Direct fetch of epoch.ai was blocked by the network egress proxy this session; the September 4, 2026 date and figures come from search-engine indexing of the official page and could not be independently re-verified by directly loading the page, so treat the exact date as approximate. Epoch itself frames the growth rate and doubling time with explicit 90% confidence intervals and flags that its own forward projection diverges from trend for 3 of the 5 facilities it examined, i.e., Epoch itself signals this projection is uncertain beyond early 2027."
+    }
+  ],
+  "coverage_note": "Three Epoch AI items were identified as published within the 2026-08-29 to 2026-09-12 window (FrontierMath Erdős launch on Sept 1; long-context latency scaling study on Sept 8; frontier data-center power data insight around Sept 4). All three are marked 'primary-inferred' rather than 'primary-confirmed' because the network egress proxy blocked direct access to epoch.ai, epochai.org, and epochai.substack.com throughout this run, so content and dates were reconstructed from search-engine snippets of Epoch AI's own pages rather than a direct read of the original text. A possible fourth item (an Epoch Capabilities Index update referenced in passing by search results) could not be confirmed as falling within this window before the session's web-search quota was exhausted, so it was excluded rather than guessed. No aggregator or third-party summary was used as a substitute source; all source_url values point to epoch.ai's own domain."
+}

@@ -1,0 +1,21 @@
+{
+  "collector": "industry-leader-collector",
+  "target": "Sakana AI",
+  "run_date": "2026-09-12",
+  "collection_timestamp": "2026-09-12T00:00:00Z",
+  "items": [
+    {
+      "id": "sakana-sumitomo-scsk-partnership-2026-09-10",
+      "title": "Sakana AI forms comprehensive business partnership with Sumitomo Corp and SCSK",
+      "summary_en": "Sakana AI, trading house Sumitomo Corp, and IT services firm SCSK announced a comprehensive business partnership to expand deployment of domestically developed AI in Japan. The companies said they will start with projects in finance and manufacturing, explore cybersecurity services built on Sakana's own orchestration AI model, and jointly develop enterprise AI products and applications for social infrastructure, with Sumitomo also considering applying lessons from the domestic rollout to overseas markets.",
+      "source_url": "https://asia.nikkei.com/business/technology/artificial-intelligence/sumitomo-partners-with-sakana-ai-to-push-japan-built-ai-model",
+      "source_name": "Nikkei Asia",
+      "published_date": "2026-09-10",
+      "category": "product",
+      "tone": "neutral",
+      "confidence": "secondary-source",
+      "notes": "Consistently reported the same day by multiple independent business-press outlets, indicating an official joint announcement by the three companies. Sakana AI's own blog (sakana.ai/blog) and official social accounts were inaccessible during this collection run due to network egress restrictions on this run's tooling, so the item could not be cross-checked directly against a company-published statement; confidence is therefore marked secondary-source rather than primary-confirmed."
+    }
+  ],
+  "coverage_note": "Sakana AI's official blog and social accounts could not be directly accessed during this run (sakana.ai and most secondary outlets returned network egress errors), so this collection relies on web-search snippets rather than full primary-source verification. Within the 2026-08-29 to 2026-09-12 window, the only clearly dated, multiply-corroborated news involving Sakana AI is the Sumitomo Corp / SCSK partnership announced 2026-09-10. Other Sakana AI activity found in searches (the NVIDIA Nemotron integration into Sakana Fugu, announced ~2026-07-16, and a product-team interview published ~2026-07-30) falls outside the collection window and is not included. Some search results referenced unverified product names from a low-quality aggregator site; these could not be confirmed against any official Sakana AI source and were excluded per sourcing rules."
+}

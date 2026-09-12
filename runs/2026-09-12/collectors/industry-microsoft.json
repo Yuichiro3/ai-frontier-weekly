@@ -1,0 +1,57 @@
+{
+  "collector": "industry-leader-collector",
+  "target": "Microsoft",
+  "run_date": "2026-09-12",
+  "collection_timestamp": "2026-09-12T00:00:00Z",
+  "items": [
+    {
+      "id": "msft-responsible-ai-2026-report",
+      "title": "Microsoft publishes third annual Responsible AI Transparency Report and governance update",
+      "summary_en": "Microsoft's leadership blog described updates to the company's Responsible AI Standard aimed at agentic and more capable generative systems. The post cites a new AI Red Teaming Agent tool for probing AI systems, an External Red Team Alliance spanning 18 universities on six continents, ISO 42001 certification for Microsoft 365 Copilot, Foundry and GitHub Copilot, and expanded evaluation partnerships with public-sector bodies in Singapore, Australia, the UK and the US.",
+      "source_url": "https://blogs.microsoft.com/on-the-issues/2026/09/01/responsible-ai-in-2026-how-we-are-adapting-for-whats-ahead/",
+      "source_name": "Microsoft On the Issues (Official Blog)",
+      "published_date": "2026-09-01",
+      "category": "safety",
+      "tone": "neutral",
+      "confidence": "primary-confirmed",
+      "notes": "Direct fetch of blogs.microsoft.com was blocked by this session's network egress proxy; content confirmed via search-engine indexing of the official URL and cross-checked against secondary coverage (e.g. technode.global, cryptobriefing.com) that attributes the same details to the same post."
+    },
+    {
+      "id": "msft-aft-uft-school-ai-standard",
+      "title": "Microsoft, AFT and UFT announce enforceable National AI Safety & Privacy Standard for schools",
+      "summary_en": "Microsoft Vice Chair and President Brad Smith joined American Federation of Teachers president Randi Weingarten and United Federation of Teachers president Michael Mulgrew to announce a National AI Safety & Privacy Standard that US school districts can add to their Microsoft agreements. The standard bars using student or educator data to train AI models, prohibits tracking of students, requires human oversight of AI decisions affecting students, and requires plain-language transparency for educators and parents. Microsoft said the protections become available to every US school district on November 1, 2026, without needing to renegotiate existing contracts.",
+      "source_url": "https://news.microsoft.com/source/2026/09/09/aft-uft-and-microsoft-announce-national-ai-safety-privacy-standard-for-schools-to-protect-students-families-and-educators/",
+      "source_name": "Microsoft Source (Official Newsroom)",
+      "published_date": "2026-09-09",
+      "category": "policy",
+      "tone": "neutral",
+      "confidence": "primary-confirmed",
+      "notes": "Direct fetch of news.microsoft.com was blocked by this session's network egress proxy; content confirmed via search-engine indexing of the official URL and corroborated by the AFT's own press release."
+    },
+    {
+      "id": "msft-safe-participation-framework",
+      "title": "Microsoft unveils 'Safe Participation Framework' for young people's AI and online experiences",
+      "summary_en": "Microsoft announced a Safe Participation Framework built on three pillars: safety built into products by design, age-differentiated experiences, and education and empowerment for young users. Concrete steps described include strengthened protections against child sexual abuse material across Bing's generative image and video tools, a requirement that all Copilot users sign in with restrictions for children under 13 (or higher where local law requires), and a new Windows Age API intended to give developers privacy-preserving age signals without collecting unnecessary personal data.",
+      "source_url": "https://blogs.microsoft.com/on-the-issues/2026/09/10/safe-participation-framework-opportunity-and-safety-for-the-next-generation-in-the-age-of-ai/",
+      "source_name": "Microsoft On the Issues (Official Blog)",
+      "published_date": "2026-09-10",
+      "category": "safety",
+      "tone": "neutral",
+      "confidence": "primary-confirmed",
+      "notes": "Direct fetch of blogs.microsoft.com was blocked by this session's network egress proxy; content confirmed via search-engine indexing of the official URL, with a companion post on blogs.windows.com dated 2026-09-08 covering related Windows family-safety features."
+    },
+    {
+      "id": "github-copilot-hydrafusion",
+      "title": "GitHub Copilot introduces Project HydraFusion multi-model orchestration",
+      "summary_en": "GitHub (a Microsoft subsidiary) announced Project HydraFusion, a research preview in GitHub Copilot CLI that performs runtime orchestration across multiple AI models rather than relying on a single selected model. Depending on the task, the system can use one model, cascade across several, or have one model draft a solution while another critiques or tests it. GitHub reported that on its TerminalBench 2.1 evaluation the approach lowered estimated cost by 67% versus a comparison run with Claude Opus 5 while also raising the share of correctly completed tasks by 4.9 percentage points. The feature is available in experimental mode across all Copilot plans.",
+      "source_url": "https://github.blog/ai-and-ml/github-copilot/project-hydrafusion-frontier-quality-via-multi-model-orchestration/",
+      "source_name": "The GitHub Blog (Microsoft subsidiary, official)",
+      "published_date": "2026-09-04",
+      "category": "product",
+      "tone": "neutral",
+      "confidence": "primary-inferred",
+      "notes": "Direct fetch of github.blog was blocked by this session's network egress proxy; summary reconstructed from the official page's indexed title/content and cross-checked against multiple independent technical outlets (MarkTechPost, Gigazine) that describe the same benchmark figures and availability."
+    }
+  ],
+  "coverage_note": "Four official Microsoft items were found within the 2026-08-29 to 2026-09-12 window, concentrated on responsible-AI governance, child/teen safety, an enforceable school-data standard, and a GitHub Copilot product update. A widely circulated story about Microsoft tripling data-center capacity to ~38 GW by 2032 (reported first by Bloomberg on 2026-09-10/11) was excluded because it is sourced to unnamed people familiar with Microsoft's plans rather than an official Microsoft blog post, press release, or on-the-record statement; it should be re-checked next run in case Microsoft confirms it officially. A separate claim about a 'GPT-6 Astra' Microsoft launch, seen only on a low-quality aggregator site, could not be corroborated by any Microsoft or industry-standard primary source and was excluded as unreliable. This session's network egress proxy blocked direct fetches of blogs.microsoft.com, news.microsoft.com and github.blog, so item summaries rely on search-engine-indexed content of those exact official URLs plus cross-referencing against independent secondary coverage; no claim here is sourced solely to an aggregator."
+}

@@ -1,0 +1,45 @@
+{
+  "collector": "industry-leader-collector",
+  "target": "Meta AI",
+  "run_date": "2026-09-12",
+  "collection_timestamp": "2026-09-12T00:00:00Z",
+  "items": [
+    {
+      "id": "meta-ai-muse-personal-agent-2026-09-08",
+      "title": "Meta launches Muse, a personal AI agent for everyday tasks",
+      "summary_en": "Meta introduced Muse, described as a personal AI agent that can act on a user's behalf: browsing the web through a visible built-in browser, filling out forms, booking travel, and handling small transactions such as buying tickets or scheduling appointments. It runs on a dedicated secure virtual machine in Meta's cloud and is rolling out in the US on iOS, Android and the web, with support for Meta's AI glasses to follow. Meta said it plans to later offer a 'Confidential VM' option encrypting user data with a key only the user holds.",
+      "source_url": "https://about.fb.com/news/2026/09/introducing-muse-personal-ai-agent/",
+      "source_name": "Meta Newsroom",
+      "published_date": "2026-09-08",
+      "category": "product",
+      "tone": "neutral",
+      "confidence": "primary-inferred",
+      "notes": "Direct fetch of about.fb.com was blocked by network egress restrictions during this collection session; summary is based on the official URL/headline plus consistent secondary reporting describing content attributed to Meta's own announcement. Separate reporting said internal employee testing flagged reliability and data-exposure issues; this is not confirmed on Meta's own post and is not included as fact here."
+    },
+    {
+      "id": "meta-ai-muse-spark-1-3-2026-09-02",
+      "title": "Meta releases Muse Spark 1.3 model update",
+      "summary_en": "Meta's AI research team published an update introducing Muse Spark 1.3, a revision of its proprietary multimodal reasoning model with a 1-million-token context window and reported gains in coding and agentic-task performance and long-context retrieval. The model now powers the Meta AI assistant across the Meta AI app, Instagram and Facebook, and is priced on Meta's Model API at roughly $1.25 per million input tokens and $4.25 per million output tokens.",
+      "source_url": "https://research.meta.ai/blog/introducing-muse-spark-1-3",
+      "source_name": "Meta AI Research Blog",
+      "published_date": "2026-09-02",
+      "category": "model-release",
+      "tone": "neutral",
+      "confidence": "primary-inferred",
+      "notes": "Direct fetch of research.meta.ai was blocked by network egress restrictions during this session; details are drawn from the official post's URL/title plus corroborating secondary reporting. No detailed system-card-style safety evaluation numbers were reported to be included in the post itself, per secondary summaries; this should be verified against the primary post directly when accessible."
+    },
+    {
+      "id": "meta-ai-infrastructure-lab-tour-2026-09-08",
+      "title": "Meta shows inside its infrastructure lab for next-generation AI hardware",
+      "summary_en": "Meta published a walkthrough of its Infrastructure Lab in Menlo Park, presented by Meta's Tom Shaw, showing hardware under development intended to power future AI systems. According to secondary reporting on the piece, the post did not disclose performance specifications or a deployment timeline for the hardware shown.",
+      "source_url": "https://about.fb.com/news/2026/09/inside-metas-infrastructure-lab/",
+      "source_name": "Meta Newsroom",
+      "published_date": "2026-09-08",
+      "category": "research",
+      "tone": "neutral",
+      "confidence": "primary-inferred",
+      "notes": "Direct fetch of about.fb.com was blocked by network egress restrictions during this session; summary relies on the official URL/title and a secondary write-up describing its content."
+    }
+  ],
+  "coverage_note": "Three Meta AI items were identified from official Meta channels (Meta Newsroom at about.fb.com and Meta AI Research blog) published within the 2026-08-29 to 2026-09-12 window: the Muse personal AI agent launch, the Muse Spark 1.3 model update, and an Infrastructure Lab hardware walkthrough. Network egress restrictions in this collection session blocked direct fetching of ai.meta.com, about.fb.com, research.meta.ai and several news domains, so item details were reconstructed from search-engine snippets of the official pages plus consistent secondary reporting rather than a full direct read of the primary source; this is flagged as 'primary-inferred' confidence on each item. A widely reported Meta acquisition of Swedish AI startup Stilla.ai, first reported by Axios on 2026-09-09, was NOT included as an item because no official Meta blog post, newsroom release, or verified Meta social account confirmation could be found during this session -- the only on-record confirmation located was a statement from Stilla's own founders, not from Meta. A separate closed-loop liquid-cooling explainer possibly published by Meta Newsroom carried conflicting date signals and could not be verified within the collection window, so it was excluded rather than guessed."
+}

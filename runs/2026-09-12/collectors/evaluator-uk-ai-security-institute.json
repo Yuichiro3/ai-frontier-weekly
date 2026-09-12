@@ -1,0 +1,8 @@
+{
+  "collector": "evaluator-institute-collector",
+  "target": "UK AI Security Institute (AISI)",
+  "run_date": "2026-09-12",
+  "collection_timestamp": "2026-09-12T00:00:00Z",
+  "items": [],
+  "coverage_note": "No new AISI-authored publications (blog posts, reports, or dataset releases) were found on aisi.gov.uk dated within the collection window 2026-08-29 to 2026-09-12. Extensive search (site:aisi.gov.uk and targeted queries) surfaced no items in-window. The most recent AISI blog post identified prior to the window is 'Optimal stopping: spending evaluation compute where it counts' (optstop tool), https://www.aisi.gov.uk/blog/optimal-stopping-spending-evaluation-compute-where-it-counts, which appears to date from approximately 2026-08-27 -- just before the window opens -- and is therefore not included as an item this run. Direct WebFetch access to aisi.gov.uk was blocked by the network egress proxy in this environment, so findings rely on search-engine result snippets of AISI's own pages rather than full-page verification; this should be treated as a lower-confidence check than a direct site crawl, and a follow-up direct check of https://www.aisi.gov.uk/blog is recommended when fetch access is available."
+}

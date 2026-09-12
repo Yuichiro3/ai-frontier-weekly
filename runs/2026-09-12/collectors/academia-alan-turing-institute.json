@@ -1,0 +1,33 @@
+{
+  "collector": "academia-collector",
+  "target": "The Alan Turing Institute",
+  "run_date": "2026-09-12",
+  "collection_timestamp": "2026-09-12T00:00:00Z",
+  "items": [
+    {
+      "id": "turing-ai4s3-satellite-anomaly-2026-09-01",
+      "title": "New AI System Detects Abnormal Satellite Behaviour to Improve Space Safety",
+      "summary_en": "Researchers at the Alan Turing Institute's Defence Artificial Intelligence Research (DARe) programme, working within the multinational AI4S3 (AI for Space Safety and Sustainability) consortium with partners including the University of Strathclyde, University of Arizona, MIT and University of Waterloo, developed a self-supervised AI model that learns normal satellite orbital behaviour from telescope light-curve data and flags anomalies for human analysts to investigate. The peer-reviewed study, published in the journal Expert Systems, reports the model correctly flags unusual readings in roughly 88% of cases and can distinguish a spinning spacecraft from a tumbling one; next steps include extending the approach with radar, hyperspectral and orbit data.",
+      "source_url": "https://www.turing.ac.uk/news/new-ai-powered-tool-identify-threats-space-and-improve-national-security",
+      "source_name": "The Alan Turing Institute (press release)",
+      "published_date": "2026-09-01",
+      "category": "research",
+      "tone": "neutral",
+      "confidence": "primary-inferred",
+      "notes": "Underlying study is peer-reviewed and published in the journal Expert Systems (not a preprint). The Institute's own news page could not be fetched directly this run because turing.ac.uk domains were blocked by the network egress proxy; facts were cross-verified via multiple independent secondary reports that reproduce the Turing Institute's press release content and headline."
+    },
+    {
+      "id": "turing-cetas-ai-sovereignty-briefing-2026-09-02",
+      "title": "Turing Institute's CETaS warns of a narrowing window to secure the UK's AI future",
+      "summary_en": "The Centre for Emerging Technology and Security (CETaS) at the Alan Turing Institute published a policy briefing, 'Securing the UK's AI Future: A Sovereignty Vision for 2030,' arguing that the UK has a narrowing window of opportunity to secure the systems, infrastructure and expertise critical to national AI resilience. Informed by a structured SWOT analysis and internal expert workshops, the briefing recommends building sovereign capability where national control is essential, partnering with trusted allies where they offer unique advantages, and exporting UK expertise in AI safety, evaluation and assurance; it identifies opportunities across semiconductor design, compute infrastructure, specialist AI systems and next-generation architectures, with a companion policy roadmap due as part of a two-part series.",
+      "source_url": "https://cetas.turing.ac.uk/publications/securing-uks-ai-future-sovereignty-vision-2030",
+      "source_name": "Alan Turing Institute -- Centre for Emerging Technology and Security (CETaS)",
+      "published_date": "2026-09-02",
+      "category": "policy",
+      "tone": "neutral",
+      "confidence": "primary-inferred",
+      "notes": "This is a policy briefing/opinion piece, not a peer-reviewed study. The cetas.turing.ac.uk and turing.ac.uk pages could not be fetched directly this run because these domains were blocked by the network egress proxy; content was cross-verified via secondary reports and a Turing Institute social media post referencing the same briefing title and date."
+    }
+  ],
+  "coverage_note": "Two primary-source items were identified for this window (2026-08-29 to 2026-09-12): a peer-reviewed satellite-anomaly-detection study (Sept 1) and a CETaS AI-sovereignty policy briefing (Sept 2). Direct access to turing.ac.uk and cetas.turing.ac.uk was blocked by the network egress proxy for this run, so item details were cross-verified against multiple independent secondary reports rather than fetched from the Institute's own pages directly; this is noted per item. A further Turing/CETaS item referencing 'AI in national security' and workforce skills, apparently published around 2026-09-10, was found in search results but could not be corroborated in enough detail from accessible sources to report reliably and is therefore omitted rather than risk inaccuracy; it may warrant follow-up next run. A UKRI governance/value-for-money review of the Institute (institutional funding and strategy, not a research or policy output) was also noted but excluded as out of scope for this research-and-policy-focused collection."
+}

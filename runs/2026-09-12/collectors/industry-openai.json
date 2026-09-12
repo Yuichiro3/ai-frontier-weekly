@@ -1,0 +1,81 @@
+{
+  "collector": "industry-leader-collector",
+  "target": "OpenAI",
+  "run_date": "2026-09-12",
+  "collection_timestamp": "2026-09-12T00:00:00Z",
+  "items": [
+    {
+      "id": "openai-path-to-astra-2026-09",
+      "title": "OpenAI outlines safeguards as Astra becomes first model to reach 'Critical' cyber capability tier",
+      "summary_en": "OpenAI published a post describing the safety review behind its Astra model, stating that Astra is the first model to reach the 'Critical' cybersecurity capability level under its Preparedness Framework, meaning it can find previously unknown vulnerabilities and chain exploits with little human guidance. The company said it restarted a previously paused large frontier reinforcement-learning training run on August 28 after adding monitoring and containment safeguards, and acknowledged the new safeguards add friction that it intends to tune over time.",
+      "source_url": "https://openai.com/index/path-to-astra/",
+      "source_name": "OpenAI Official Blog",
+      "published_date": "2026-09-02",
+      "category": "safety",
+      "tone": "neutral",
+      "confidence": "primary-inferred",
+      "notes": "Exact publication date approximated (Sept 1-2) based on corroborating OpenAI X post and secondary coverage; openai.com could not be fetched directly due to network egress restrictions, so wording is paraphrased from search snippets quoting the official post and OpenAI's own X account."
+    },
+    {
+      "id": "openai-gpt6-astra-launch-2026-09-03",
+      "title": "OpenAI launches GPT-6 Astra with staged rollout and restricted initial access",
+      "summary_en": "OpenAI released GPT-6 Astra on September 3, 2026, describing it as its most capable and aligned model to date, with strengthened performance in computer use, browsing, software engineering, science and professional work. Because Astra crossed the 'Critical' cybersecurity capability threshold, OpenAI limited initial access to a smaller set of organizations before widening availability to ChatGPT Plus, Pro, Business and Enterprise users, the API, Azure and Bedrock, alongside additional safeguards such as encrypted model checkpoints and expanded misalignment monitoring.",
+      "source_url": "https://deploymentsafety.openai.com/gpt-6-astra",
+      "source_name": "OpenAI Deployment Safety Hub (GPT-6 Astra System Card)",
+      "published_date": "2026-09-03",
+      "category": "model-release",
+      "tone": "neutral",
+      "confidence": "secondary-source",
+      "notes": "Details (context window, rollout sequencing, pricing) confirmed across multiple independent secondary reports referencing the official system card; direct fetch of openai.com/deploymentsafety.openai.com was blocked in this environment, so figures are not independently re-verified against the primary text."
+    },
+    {
+      "id": "openai-navier-stokes-2026-09-08",
+      "title": "OpenAI reports an internal model produced a solution to the Navier-Stokes Millennium Prize Problem",
+      "summary_en": "OpenAI said an unreleased internal model, more capable than GPT-6 Astra, produced with a swarm of agents a machine-checked solution to the Navier-Stokes existence and smoothness problem, one of the seven Clay Mathematics Institute Millennium Prize Problems that had remained open for about 90 years. According to OpenAI, roughly 10,000 concurrent agents worked on the problem and reached a candidate solution about 88 hours after starting, after which GPT-6 Astra was used to formalize the proof in the Lean theorem-proving system over an additional roughly 17 hours.",
+      "source_url": "https://openai.com/index/navier-stokes-solution/",
+      "source_name": "OpenAI Official Blog",
+      "published_date": "2026-09-08",
+      "category": "research",
+      "tone": "neutral",
+      "confidence": "primary-inferred",
+      "notes": "Some details (agent count, timing, cost) are cited from OpenAI's own X thread and reposted community discussion; the claim of a full 'solution' has drawn public disagreement about credit and verification status, which the synthesis stage may wish to flag alongside independent mathematician commentary not covered by this collector (see also the wildcard collector's Terence Tao item on a related, separate AI-assisted fluid-dynamics result)."
+    },
+    {
+      "id": "openai-chatgpt-ads-1b-2026-08-31",
+      "title": "OpenAI says ChatGPT Ads reached $1 billion annualized revenue run rate",
+      "summary_en": "OpenAI announced that its ChatGPT advertising product surpassed a $1 billion annualized revenue run rate in under 200 days since launch, alongside expansion of self-serve ad access to markets including Europe, India, and the Middle East and North Africa. The company said ChatGPT ads are now live in more than 40 countries and framed the milestone as part of a broader revenue diversification strategy alongside enterprise, subscription and API income.",
+      "source_url": "https://openai.com/index/expanding-access-to-ai-with-chatgpt-ads/",
+      "source_name": "OpenAI Official Blog",
+      "published_date": "2026-08-31",
+      "category": "product",
+      "tone": "neutral",
+      "confidence": "primary-inferred",
+      "notes": "Figures corroborated by independent business-press reporting citing the same OpenAI post; direct fetch of the primary page was blocked in this environment."
+    },
+    {
+      "id": "openai-research-acceleration-2026-09-06",
+      "title": "OpenAI discloses internal data on coding-agent use accelerating its own research",
+      "summary_en": "OpenAI published internal figures on how coding agents are changing daily work inside its research organization, stating that by mid-August 2026 the company recorded roughly 3.1 'agent workdays' for every human workday across research, with median researchers using over $600 per day of inference and the 90th percentile over $7,000 per day. The post also disclosed safety-related incidents, including a temporary reinforcement-learning training pause tied to a Hugging Face-related incident, a July 20 shutdown of a compromised training container service, and added restrictions on the Astra model class after evidence of possible critical cyber capabilities.",
+      "source_url": "https://openai.com/index/research-acceleration-view-inside-openai/",
+      "source_name": "OpenAI Official Blog",
+      "published_date": "2026-09-06",
+      "category": "research",
+      "tone": "neutral",
+      "confidence": "primary-inferred",
+      "notes": "Direct fetch of the primary page was blocked in this environment; figures cross-checked against independent summaries that quote the OpenAI post directly."
+    },
+    {
+      "id": "openai-work-now-within-reach-2026-09-08",
+      "title": "OpenAI CFO Sarah Friar publishes essay on converting model capability into revenue",
+      "summary_en": "OpenAI CFO Sarah Friar published an essay describing the company's business strategy as compounding advantages from research, product reach and full-stack compute investment. The essay states OpenAI's products reach more than one billion weekly active users and 2.5 million businesses, that GPT-5.6 Sol cut serving costs by 20% and improved token efficiency by 15%, and that a new in-house inference chip, described as 'Jalapeño,' delivers 1.5 to 1.9 times the throughput per watt of commercial systems it compared it to.",
+      "source_url": "https://openai.com/index/the-work-now-within-reach/",
+      "source_name": "OpenAI Official Blog",
+      "published_date": "2026-09-08",
+      "category": "opinion",
+      "tone": "neutral",
+      "confidence": "primary-inferred",
+      "notes": "Direct fetch of the primary page was blocked in this environment; content cross-checked against independent summaries quoting the essay."
+    }
+  ],
+  "coverage_note": "Several OpenAI announcements found during research fall outside the 2026-08-29 to 2026-09-12 collection window and were excluded rather than stretched: the Daybreak cybersecurity expansion and GPT-5.6-Cyber (~2026-08-10), Zero Data Retention / Private Safety Processing (~2026-08-19), the Asana/Codex case study and 'DevDay is going global' announcement (~2026-08-17/18), and the OpenAI-NVIDIA 10-gigawatt partnership (originally announced 2025-09-22). This run's network egress proxy blocked direct fetches of openai.com pages; all items above are drawn from official OpenAI URLs but verified via search-result snippets and independent secondary reporting that quote or closely paraphrase the primary posts, so confidence is marked 'primary-inferred' or 'secondary-source' rather than 'primary-confirmed' throughout."
+}
