@@ -1,0 +1,21 @@
+{
+  "collector": "academia-collector",
+  "target": "MIT CSAIL",
+  "run_date": "2026-09-12",
+  "collection_timestamp": "2026-09-12T00:00:00Z",
+  "items": [
+    {
+      "id": "mit-csail-cwnet-self-driving-explainability-20260902",
+      "title": "MIT/Motional system helps humans predict when self-driving cars will make mistakes",
+      "summary_en": "MIT CSAIL researchers, working with autonomous-vehicle company Motional, developed CW-Net (Concept-Wrapper Network), a module that plugs into a self-driving car's planning system and translates its internal neural-network reasoning into human-readable concepts, such as 'approaching stopped vehicle' or 'close to cyclist.' In closed-track tests and a larger simulation study, safety drivers and non-expert users given CW-Net's explanations were better able to predict the vehicle's next actions than those without them. Secondary coverage reports the work was published in Nature, indicating peer review, though the MIT press release itself could not be directly verified during this collection run.",
+      "source_url": "https://news.mit.edu/2026/system-helps-humans-predict-when-self-driving-cars-will-make-mistakes-0902",
+      "source_name": "MIT News (CSAIL)",
+      "published_date": "2026-09-02",
+      "category": "research",
+      "tone": "neutral",
+      "confidence": "primary-inferred",
+      "notes": "Could not directly fetch news.mit.edu due to network egress restrictions in this run; summary reconstructed from WebSearch snippets and cross-referenced via MIT Schwarzman College of Computing / MIT AeroAstro reposts and independent tech press (e.g., electronicsforu.com, artificialintelligence-news.com). Multiple secondary sources state the underlying study was published in Nature (peer-reviewed), but this was not independently confirmed against the journal itself; not labeled a preprint since secondary sources describe it as already published."
+    }
+  ],
+  "coverage_note": "Only one MIT CSAIL AI-relevant publication could be confirmed as falling within the 2026-08-29 to 2026-09-12 window (the CW-Net self-driving explainability system, 2026-09-02). Several other CSAIL AI items surfaced in searches (e.g., machine unlearning, GeoPT physics simulation, chip-security exploit, bifur-circuits robotics, LLM calibration/'I'm not sure' work) all had publication dates before 2026-08-29 and were excluded as out of window. Collection was significantly hampered because WebFetch access to news.mit.edu, www.csail.mit.edu, www.eecs.mit.edu, computing.mit.edu, and nearly all other domains attempted was blocked by the network egress proxy throughout this run, and the session's WebSearch quota was exhausted before a fully exhaustive sweep could be completed. As a result, additional in-window CSAIL AI news may exist but was not captured here; this gap should be flagged for a follow-up pass with restored tool access."
+}

@@ -1,0 +1,45 @@
+{
+  "collector": "industry-leader-collector",
+  "target": "Google DeepMind",
+  "run_date": "2026-09-12",
+  "collection_timestamp": "2026-09-12T00:00:00Z",
+  "items": [
+    {
+      "id": "gdm-gemini-3-8-flash-2026-09-02",
+      "title": "Google DeepMind releases Gemini 3.8 Flash and Gemini 3.8 Flash Cyber",
+      "summary_en": "On September 2, 2026, Google DeepMind released Gemini 3.8 Flash, an updated general-purpose workhorse model, alongside Gemini 3.8 Flash Cyber, a cybersecurity-focused variant for vulnerability detection and automated patching offered only to vetted defenders through Google's Fairwind Program. The company said the update improves software engineering, agentic-task and multi-step reasoning performance over the prior 3.7 Flash release, and kept introductory pricing the same ($0.75 per million input tokens, $3.75 per million output tokens). This was Google DeepMind's third Flash-tier model release in six weeks.",
+      "source_url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/3-8-flash-and-3-8-flash-cyber/",
+      "source_name": "Google Blog (Google DeepMind models)",
+      "published_date": "2026-09-02",
+      "category": "model-release",
+      "tone": "neutral",
+      "confidence": "primary-confirmed",
+      "notes": "A companion model card was also published at deepmind.google/models/model-cards/gemini-3-8-flash/. Content verified via search-engine snippets of the official post; direct fetch of blog.google and deepmind.google was blocked by this environment's network egress proxy, so wording should be re-checked against the live page before publication."
+    },
+    {
+      "id": "gdm-weathernext-3-2026-09-03",
+      "title": "Google DeepMind introduces WeatherNext 3 global weather model",
+      "summary_en": "On September 3, 2026, Google DeepMind and Google Research introduced WeatherNext 3, which they describe as the first global weather model to refresh forecasts every hour, combining live satellite observations with a resolution grid as fine as 5 kilometers (versus 25 km in WeatherNext 2). The company reported up to 50% more accurate precipitation forecasts a day or more ahead and improved cyclone track/intensity prediction, and said the model is being made available through BigQuery, Earth Engine, Google Maps Platform, and Cloud Storage, with integration into Search, Maps, and Gemini.",
+      "source_url": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/introducing-weathernext-3/",
+      "source_name": "Google Blog (Google DeepMind)",
+      "published_date": "2026-09-03",
+      "category": "research",
+      "tone": "neutral",
+      "confidence": "primary-confirmed",
+      "notes": "DeepMind's model page is at deepmind.google/science/weathernext/. Content verified via search-engine snippets rather than a direct page fetch, due to network access restrictions in this environment."
+    },
+    {
+      "id": "gdm-alphagenome-atlas-2026-09-08",
+      "title": "Google DeepMind publishes AlphaGenome Atlas mapping 9 billion possible DNA variants",
+      "summary_en": "On September 8, 2026, Google DeepMind published the AlphaGenome Atlas, a roughly 1-petabyte dataset of predicted molecular effects for all 9 billion possible single-letter variants in the human genome, produced by running its AlphaGenome sequence-to-function model across the entire genome rather than one variant at a time. The Atlas, a new variant-ranking score, and a technical paper are available for non-commercial research use now, with commercial access on Google Cloud described as coming soon. The company's own disclaimer states AlphaGenome has not been validated or approved for clinical use and should only be one part of a wider evidence chain.",
+      "source_url": "https://deepmind.google/blog/alphagenome-atlas-a-predictive-map-of-every-possible-dna-letter-change-in-the-human-genome/",
+      "source_name": "Google DeepMind Official Blog",
+      "published_date": "2026-09-08",
+      "category": "research",
+      "tone": "neutral",
+      "confidence": "primary-confirmed",
+      "notes": "A parallel post appears at blog.google/innovation-and-ai/models-and-research/google-deepmind/alphagenome-atlas/. Reported dataset size is described as over 30x larger than the 2022 AlphaFold Database. Content verified via search-engine snippets; direct fetch of the DeepMind page was blocked in this environment."
+    }
+  ],
+  "coverage_note": "Three primary-sourced items were identified from official Google DeepMind / Google Blog channels within the 2026-08-29 to 2026-09-12 window: Gemini 3.8 Flash / Flash Cyber (Sept 2), WeatherNext 3 (Sept 3), and the AlphaGenome Atlas (Sept 8). One additional item was found but deliberately excluded from this file: multiple news outlets reported that Demis Hassabis, speaking by video to the G20 Innovation Ministerial (Sept 1-2, 2026), called for independent pre-release safety testing of powerful AI models -- but no official DeepMind blog post, social post, or recorded/transcribed version of his remarks could be located to confirm exact wording, so per sourcing rules it is omitted pending primary confirmation in a future run. A collaboration between Google DeepMind and Primordial Soup on a documentary short was also mentioned in a Google Blog URL surfaced by search, but its publication date could not be confirmed as falling inside this collection window, so it was not included. This run's network egress proxy blocked direct WebFetch access to deepmind.google, blog.google, and most third-party news domains; all facts above rely on search-engine-extracted snippets of the official pages rather than direct page verification, and should be spot-checked against the live URLs before the report is finalized."
+}

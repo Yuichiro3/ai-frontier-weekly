@@ -1,0 +1,21 @@
+{
+  "collector": "academia-collector",
+  "target": "University of Tokyo / RIKEN AIP",
+  "run_date": "2026-09-12",
+  "collection_timestamp": "2026-09-12T00:00:00Z",
+  "items": [
+    {
+      "id": "riken-aip-math-ai-symposium-2026",
+      "title": "RIKEN reports holding 'Mathematics & AI Symposium 2026'",
+      "summary_en": "RIKEN's official news section reportedly published an item (URL date-code 20260904) describing a 'RIKEN Mathematics & AI Symposium 2026' that brought together international researchers to discuss AI-driven mathematical discovery and the use of mathematical theory to improve AI reliability, with roughly 300 in-person and online attendees. The exact symposium dates could not be confirmed: search-engine summaries of the page conflicted (one suggested mid-to-late August, another implied an early-September event), and the underlying page could not be directly fetched to resolve this because riken.jp domains are blocked in this collection environment.",
+      "source_url": "https://www.riken.jp/en/news_pubs/news/2026/20260904_5/index.html",
+      "source_name": "RIKEN official news (English)",
+      "published_date": "2026-09-04",
+      "category": "research",
+      "tone": "neutral",
+      "confidence": "secondary-source",
+      "notes": "Reconstructed via WebSearch only; the primary page at riken.jp could not be directly accessed or verified due to an environment-wide egress block on riken.jp/aip.riken.jp domains (confirmed on this run and the two prior runs, 2026-08-13 and 2026-08-29). Event date details are uncertain/conflicting across search summaries -- treat specifics with caution pending direct verification. This is a RIKEN-wide mathematics/AI event, not confirmed as organized specifically by the AIP center. Original language: Japanese-origin institution reported via its own English-language news page."
+    }
+  ],
+  "coverage_note": "Direct access to aip.riken.jp, www.riken.jp, pri.riken.jp, and www.u-tokyo.ac.jp was blocked by the environment's egress proxy on this run, confirming the access restriction persists for a THIRD consecutive run (2026-08-13, 2026-08-29, 2026-09-12). This appears to be an environment-wide egress restriction rather than an absence of news at the target and should be raised with whoever operates the harness rather than treated as evaluator/academia rotation noise. WebSearch-based reconstruction was attempted as a fallback per instructions. Most reconstructed candidate items (AIP conference paper-acceptance posts for ICML/ACL/ICLR/AISTATS/CVPR/EACL 2026, an NTT Facilities Journal interview with Naonori Ueda, a RIKEN iTHEMS fellowship for Leo Speidel) either predate the 2026-08-29 to 2026-09-12 collection window or fall outside AIP's scope (genomics research at a different RIKEN center), so they were excluded. Only one plausibly in-window item (a Mathematics & AI Symposium 2026 news post) could be reconstructed, and it is flagged as secondary-source/low-confidence because it could not be cross-checked against the primary page. No University of Tokyo AI-specific research news within the window could be reliably reconstructed via search either; the only U-Tokyo AI-related items found (GCI World 2026 course, Institute for AI and Beyond) either concern a future event (starting 2026-09-17, outside the window) or lack a clear in-window publication date."
+}

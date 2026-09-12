@@ -1,0 +1,8 @@
+{
+  "collector": "academia-collector",
+  "target": "Carnegie Mellon University - Robotics Institute",
+  "run_date": "2026-09-12",
+  "collection_timestamp": "2026-09-12T00:00:00Z",
+  "items": [],
+  "coverage_note": "No items collected this run due to a tooling/network failure, not a lack of source material. The WebFetch tool returned EGRESS_BLOCKED for every URL attempted in this session -- including the target page (https://www.ri.cmu.edu/category/news), related CMU domains (www.cmu.edu, cs.cmu.edu), an external mirror proxy (r.jina.ai), a primary source (onr.navy.mil), arxiv.org, and even a neutral test domain (example.com) -- indicating the fetch tool was non-functional for the entire run rather than blocking a specific site. WebSearch (snippet-only, no page verification) also hit its per-session call budget before the RI news archive could be checked exhaustively for the 2026-08-29 to 2026-09-12 window. One candidate item surfaced in search snippets -- Michael Kaess (RI faculty) named an inaugural fellow of the Office of Naval Research's Chief of Naval Research Fellows program -- but available snippets date the ONR announcement to approximately 2026-08-27, before this window's start, and the exact date of any corresponding ri.cmu.edu post could not be verified without page access, so it was excluded rather than guessed. Recommend re-running this collector once WebFetch access is restored to check https://www.ri.cmu.edu/category/news directly for the 2026-08-29 to 2026-09-12 period."
+}

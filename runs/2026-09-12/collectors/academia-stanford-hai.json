@@ -1,0 +1,8 @@
+{
+  "collector": "academia-collector",
+  "target": "Stanford HAI",
+  "run_date": "2026-09-12",
+  "collection_timestamp": "2026-09-12T00:00:00Z",
+  "items": [],
+  "coverage_note": "No Stanford HAI items could be confirmed as published within the 2026-08-29 to 2026-09-12 collection window. Tooling constraints limited this run: WebFetch returned EGRESS_BLOCKED for hai.stanford.edu and every alternate source tried (Wikipedia, arXiv, phys.org, SiliconANGLE, X/Twitter, Google/Bing search, Substack, and others), so the hai.stanford.edu/news listing could not be read directly, and the WebSearch quota was exhausted after ~14 queries before all candidate items could be date-verified. The most recent Stanford HAI items identifiable via search snippets and their apparent dates were: 'Stanford research on AI companions and well-being' (~2026-08-04), Stanford HAI/Hoover Institution Technology Policy Accelerator grants for projects on nuclear proliferation detection, US-China AI competition, and political influence (~2026-08-10), 'The Commercial Landscape of AI Sovereignty Offerings' policy brief (~2026-07), and a RegLab study on state reporting requirements (~2026-07) -- all of these predate the collection window and are therefore excluded from items. Two additional HAI pieces ('Open-Weight Models Aren't Enough. We Need Truly Open-Source AI Models for Science and Society' by James Landay, and 'The Complexities of Governing Mental Health AI') were found via search but their publication dates could not be confirmed with the tools available in this run, so they were omitted rather than risk misdating them. Recommend a re-run with working direct access to hai.stanford.edu/news or a restored WebSearch quota to properly cover this window."
+}
