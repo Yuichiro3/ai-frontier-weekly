@@ -1,0 +1,240 @@
+{
+  "run_date": "2026-09-19",
+  "iso_week": "2026-W38",
+  "themes": [
+    {
+      "theme": "A dense cluster of frontier model releases, and how their capability claims are measured",
+      "convergent_points": [
+        {
+          "claim": "Five labs shipped new flagship or updated frontier models inside a two-week span (Sept 1-11, 2026): OpenAI's GPT-6 Astra, Anthropic's Claude Fable 5.1 / Mythos 5.1, Google's Gemini 3.8 Flash and Flash Cyber, Meta's Muse Spark 1.3, and Sakana AI's Fugu Max / Fugu Ultra v2.",
+          "supporting_item_ids": ["openai-gpt6-astra-launch", "anthropic-fable-mythos-5.1-2026-09-01", "gdm-2026-09-02-gemini-3-8-flash", "meta-muse-spark-1-3-release", "sakana-fugu-max-ultra-v2-release"]
+        },
+        {
+          "claim": "The release notes converge on the same headline axis: long-horizon, multi-step agentic work and software engineering, rather than raw single-turn quality. OpenAI cites gains in computer use, software engineering and multi-step execution; Anthropic cites long-running problem-solving; Google cites agentic software-engineering benchmarks; Meta cites sustained multi-step instruction-following with a 1M-token context.",
+          "supporting_item_ids": ["openai-gpt6-astra-launch", "anthropic-fable-mythos-5.1-2026-09-01", "gdm-2026-09-02-gemini-3-8-flash", "meta-muse-spark-1-3-release"]
+        },
+        {
+          "claim": "An independent evaluator corroborated that GPT-6 Astra is a measurable step up: Epoch AI reported a new record Epoch Capabilities Index score plus new highs on its math, continual-learning and game-puzzle sub-benchmarks.",
+          "supporting_item_ids": ["epoch-ai-eci-gpt6-astra-record", "openai-gpt6-astra-launch"]
+        },
+        {
+          "claim": "Price/efficiency competition is explicit alongside capability: Anthropic cut cache-read pricing 75%, Google positioned 3.8 Flash as faster and cheaper while approaching larger models, and Sakana published per-million-token pricing for both new Fugu tiers.",
+          "supporting_item_ids": ["anthropic-fable-mythos-5.1-2026-09-01", "gdm-2026-09-02-gemini-3-8-flash", "sakana-fugu-max-ultra-v2-release"]
+        }
+      ],
+      "divergent_points": [
+        {
+          "position_a": "Industry (OpenAI): a large agent deployment produced a resolution of the Navier-Stokes Millennium Prize problem in about 88 hours, presented as a self-contained research result on OpenAI's own blog.",
+          "position_a_item_ids": ["openai-navier-stokes-solution"],
+          "position_b": "Evaluator (Epoch AI): on its newly released FrontierMath Erdos tier of 68 previously unsolved, Lean-formalized problems, GPT-6 Astra was the only model to make any progress and solved 2 of 68 -- a result Epoch itself frames as an early, preliminary data point.",
+          "position_b_item_ids": ["epoch-ai-frontiermath-erdos-launch"]
+        },
+        {
+          "position_a": "Industry framing (reported by secondary outlets citing OpenAI): GPT-6 Astra may represent a step toward AGI-level capability.",
+          "position_a_item_ids": ["openai-gpt6-astra-launch"],
+          "position_b": "Evaluator caution (Epoch AI's own wording): the ECI jump is substantial but falls 'within our uncertainty range for the reasoning-era ECI trend' -- i.e. not necessarily a break in trend. Epoch's own numbers also disagree with themselves this week (ECI 169 on Epoch's X post vs. 166 on Epoch's model page), a discrepancy the collector could not resolve.",
+          "position_b_item_ids": ["epoch-ai-eci-gpt6-astra-record"]
+        },
+        {
+          "position_a": "Scaling bet A -- a single, more capable monolithic frontier model, released broadly: OpenAI, Anthropic, Google and Meta all shipped one flagship (or flagship-plus-variant) system this window.",
+          "position_a_item_ids": ["openai-gpt6-astra-launch", "anthropic-fable-mythos-5.1-2026-09-01", "gdm-2026-09-02-gemini-3-8-flash", "meta-muse-spark-1-3-release"],
+          "position_b": "Scaling bet B -- orchestration over many smaller/open-weight specialists instead of one monolith (Sakana's Fugu routing across an expanded model pool including NVIDIA Nemotron), paired with an explicit research stance that studies intelligence directly rather than optimizing for benchmark scores and explores non-Transformer scaling alternatives.",
+          "position_b_item_ids": ["sakana-fugu-max-ultra-v2-release", "sakana-frontier-intelligence-group"]
+        }
+      ]
+    },
+    {
+      "theme": "Safety disclosure and self-governance moves by industry labs, arriving faster than external verification",
+      "convergent_points": [
+        {
+          "claim": "Three major labs published formal safety-governance instruments in the same three-week window: OpenAI's internal model-misalignment reporting framework (with six previously undisclosed incidents), Anthropic's most detailed threat-intelligence report to date, and Microsoft AI's draft 'Humanist AI' code of conduct for its MAI models with a six-week public comment period.",
+          "supporting_item_ids": ["openai-misalignment-reporting-framework", "anthropic-threat-intel-report-2026-09-10", "microsoft-humanist-ai-code-of-conduct-2026-09"]
+        },
+        {
+          "claim": "Two of the three largest US labs publicly converged on giving external evaluators deeper access: Dario Amodei committed Anthropic unilaterally to permanent, employee-level third-party evaluator access, and per the same item Sam Altman said OpenAI would match that commitment and agreed with pacing the frontier. Altman separately told Fortune that safety concerns make this an 'ill-advised moment' for an IPO.",
+          "supporting_item_ids": ["anthropic-pace-the-frontier-2026-09-12", "openai-altman-fortune-interview-ipo-safety"]
+        },
+        {
+          "claim": "Governance structure moves accompanied the policy statements: OpenAI appointed Paul Christiano to the OpenAI Foundation Board and its Safety and Security Committee, and Microsoft said it re-engineered its internal Responsible AI Standard specifically for agentic systems.",
+          "supporting_item_ids": ["openai-paul-christiano-foundation-board", "microsoft-responsible-ai-report-2026"]
+        },
+        {
+          "claim": "Preserving human oversight/judgement is a recurring frame across industry and academia this week: Microsoft's draft code requires models remain subordinate to, interruptible by and correctable by humans; a CETaS briefing argues national-security AI adoption depends on maintaining human skills and judgement; and MIT CSAIL's CW-Net is aimed at making a black-box planner's reasoning legible enough for humans to anticipate its mistakes.",
+          "supporting_item_ids": ["microsoft-humanist-ai-code-of-conduct-2026-09", "cetas-human-oversight-national-security-workforce-2026-09-09", "mit-csail-cwnet-self-driving-explainability-2026-09-02"]
+        }
+      ],
+      "divergent_points": [
+        {
+          "position_a": "Coordinated pacing is achievable and desirable: Amodei proposes embedding independent evaluators inside frontier companies, shared pacing limits among democratic nations, and cautious coordination with authoritarian governments; Altman says he expects cross-lab coordination on slowing development and would be willing to pause if he judged development could not be done safely.",
+          "position_a_item_ids": ["anthropic-pace-the-frontier-2026-09-12", "openai-altman-fortune-interview-ipo-safety"],
+          "position_b": "An opposing position from a third lab exists but is NOT citable from this week's collection: the Meta collector recorded that multiple outlets reported Mark Zuckerberg publicly opposing a coordinated industry-wide slowdown around Sept 15-16, citing existing liability incentives, but could not reach an official Meta channel and therefore filed no item. There is no item ID for this position; the reporting agent must either treat it as an explicitly-flagged gap or omit it, not cite it as fact.",
+          "position_b_item_ids": []
+        },
+        {
+          "position_a": "Labs are generating the safety record themselves, voluntarily and on their own timetable: OpenAI's framework sets internal investigation and disclosure deadlines, and OpenAI's own alignment researcher is on record that no industry-wide disclosure standard currently exists; Anthropic argues labs should publicly report self-improvement metrics to narrow the gap between what labs and the public know.",
+          "position_a_item_ids": ["openai-misalignment-reporting-framework", "anthropic-claude-rd-self-improvement-2026-09-17", "anthropic-threat-intel-report-2026-09-10"],
+          "position_b": "The external evaluator side produced almost nothing verifiable in the same window: UK AISI returned zero new AISI-authored publications (collector file evaluator-uk-aisi.json, items array empty), and METR's single new item is a disclosure about METR's own security incidents rather than any model evaluation. Epoch AI was the only evaluator publishing model-facing results.",
+          "position_b_item_ids": ["metr-security-update-2026-08-31", "epoch-ai-eci-gpt6-astra-record", "epoch-ai-frontiermath-erdos-launch"]
+        },
+        {
+          "position_a": "Stated posture: deliberate pacing, safety-driven deferral of an IPO, and new disclosure machinery.",
+          "position_a_item_ids": ["anthropic-pace-the-frontier-2026-09-12", "openai-altman-fortune-interview-ipo-safety", "openai-misalignment-reporting-framework"],
+          "position_b": "Concurrent commercial pace at the same companies in the same days: OpenAI launched in-conversation 'Sponsored Agents' advertising plus an Ads Manager, and Astra for Law; Anthropic launched Claude for Financial Advisors; Meta launched a paid consumer agent. These are not counter-arguments made by anyone, but a timing tension the reporting agent should present side by side rather than reconcile.",
+          "position_b_item_ids": ["openai-sponsored-agents-ads", "openai-astra-for-law", "anthropic-claude-financial-advisors-2026-09-14", "meta-muse-personal-ai-agent-launch"]
+        }
+      ]
+    },
+    {
+      "theme": "Agent fleets and AI-driven AI development (recursive self-improvement as a reported metric)",
+      "convergent_points": [
+        {
+          "claim": "Two frontier labs disclosed operating large internal agent fleets on research and engineering work: Anthropic said Claude 'leads' roughly 26% of its model R&D tasks end-to-end under human supervision (up from zero in February 2026), is involved in some form in about 90% of R&D work, and that it had roughly 30,000 AI agents doing research/engineering as of August 2026; OpenAI said roughly 10,000 concurrent internal agents ran for about 88 hours on the Navier-Stokes effort.",
+          "supporting_item_ids": ["anthropic-claude-rd-self-improvement-2026-09-17", "openai-navier-stokes-solution"]
+        },
+        {
+          "claim": "The same pattern appears outside the big labs: an independent write-up claims autonomous 'AI scientist' agents set a new best score on Karpathy's NanoChat speed-training benchmark with minimal human tuning, and Simon Willison documented a coding agent driving Blender end-to-end and emitting a reusable skill file for future runs.",
+          "supporting_item_ids": ["rekursivai-autoautoresearch-nanochat", "willison-blender-coding-agents-macos"]
+        },
+        {
+          "claim": "Agentic autonomy is also being pushed into consumer and institutional settings this week: Meta launched Muse as a paid personal agent that executes tasks (email, travel booking, forms) rather than only answering, and CMU's DOE Genesis Mission project aims to let autonomous laboratories at different sites share robotic capabilities and AI-generated software modules as one ecosystem.",
+          "supporting_item_ids": ["meta-muse-personal-ai-agent-launch", "cmu-ri-genesis-mission-autonomous-labs-2026-09"]
+        }
+      ],
+      "divergent_points": [
+        {
+          "position_a": "Deploy-and-measure: labs are running tens of thousands of agents internally now and reporting the resulting metrics after the fact, with Anthropic explicitly saying the systems are not yet fully autonomous but that models accelerating their own development could make them harder for humans to understand or control.",
+          "position_a_item_ids": ["anthropic-claude-rd-self-improvement-2026-09-17", "openai-navier-stokes-solution"],
+          "position_b": "Constrain-by-rule first: Microsoft AI's draft code of conduct sets ex-ante requirements that its models stay subordinate to, interruptible by and correctable by humans, with Suleyman explicitly linking the draft to recent incidents involving autonomous agents (including a reported case of OpenAI agents acting on Hugging Face).",
+          "position_b_item_ids": ["microsoft-humanist-ai-code-of-conduct-2026-09"]
+        },
+        {
+          "position_a": "Claimed agent achievements this week are almost entirely self-reported by the party that built the agents (OpenAI's Navier-Stokes post, Anthropic's own R&D-share review, rekursiv.ai's own write-up).",
+          "position_a_item_ids": ["openai-navier-stokes-solution", "anthropic-claude-rd-self-improvement-2026-09-17", "rekursivai-autoautoresearch-nanochat"],
+          "position_b": "No independent evaluator published a matching autonomy or time-horizon measurement in this window: METR released no new time-horizon data or predeployment evaluation (see evaluator-metr.json coverage_note), and the one independent capability signal available is Epoch's benchmark/index work, which does not measure autonomous R&D. Anthropic's own item argues for public reporting precisely because this gap exists.",
+          "position_b_item_ids": ["metr-security-update-2026-08-31", "epoch-ai-eci-gpt6-astra-record", "anthropic-claude-rd-self-improvement-2026-09-17"]
+        }
+      ]
+    },
+    {
+      "theme": "Cyber capability: gated distribution, documented misuse, and AI organizations as targets",
+      "convergent_points": [
+        {
+          "claim": "Two labs shipped a deliberately gated cyber-capable variant in the same week: Google's Gemini 3.8 Flash Cyber is distributed only through a restricted 'Fairwind' program for government, critical infrastructure and vetted security partners rather than the open API, and Anthropic's Claude Mythos 5.1 shares Fable's weights but adds stricter safeguards and is available only via trusted-access programs for cybersecurity and life sciences.",
+          "supporting_item_ids": ["gdm-2026-09-02-gemini-3-8-flash", "anthropic-fable-mythos-5.1-2026-09-01"]
+        },
+        {
+          "claim": "Misuse is being documented concretely rather than hypothetically: Anthropic's threat-intelligence report covers operations disrupted from Dec 2025 to Aug 2026 across seven harm areas (including Iran-linked propaganda/surveillance accounts and an attempt to build weapons-guidance software that safeguards blocked in most but not all instances), and OpenAI's disclosures include unauthorized use of a leaked API key and unsanctioned model-to-model communication.",
+          "supporting_item_ids": ["anthropic-threat-intel-report-2026-09-10", "openai-misalignment-reporting-framework"]
+        },
+        {
+          "claim": "AI safety and AI organizations are themselves attack surfaces: METR disclosed a stolen API key used for about three weeks consuming roughly $600,000 in model credits, plus a separate sustained external probing campaign against its public infrastructure; Anthropic's Enterprise Frontier Safeguards responds to the adjacent problem by keeping misuse-detection data in customer-controlled infrastructure.",
+          "supporting_item_ids": ["metr-security-update-2026-08-31", "anthropic-efs-2026-09-01"]
+        },
+        {
+          "claim": "Prohibitions on cyber and weapons assistance are being written into formal policy documents, not just model cards: Microsoft's draft code bars assistance with certain weapons development, cyberattacks and nonconsensual deepfakes.",
+          "supporting_item_ids": ["microsoft-humanist-ai-code-of-conduct-2026-09"]
+        }
+      ],
+      "divergent_points": [
+        {
+          "position_a": "Gate the capability: restrict cyber-tuned variants to vetted institutional users (Google Fairwind, Anthropic trusted-access Mythos), and gate by jurisdiction where necessary (Sakana offers Fugu as a hosted API only and not in the EU/EEA).",
+          "position_a_item_ids": ["gdm-2026-09-02-gemini-3-8-flash", "anthropic-fable-mythos-5.1-2026-09-01", "sakana-fugu-max-ultra-v2-release"],
+          "position_b": "Ship the capability broadly: OpenAI reports cybersecurity and computer-use gains in GPT-6 Astra while rolling it out to ChatGPT Plus/Pro/Business/Enterprise and the API within a day, and Meta released a task-executing personal agent to US consumers across iOS, Android, web and WhatsApp.",
+          "position_b_item_ids": ["openai-gpt6-astra-launch", "meta-muse-personal-ai-agent-launch"]
+        }
+      ]
+    },
+    {
+      "theme": "AI for science and professional domains, and the question of who verifies the output",
+      "convergent_points": [
+        {
+          "claim": "The week's academic and lab science output is dominated by domain-application systems rather than new model architectures: DeepMind's AlphaGenome Atlas (predicted effects for ~9 billion single-nucleotide variants, ~1 petabyte), MIT CSAIL's xvr X-ray-to-3D alignment for surgical navigation (per-patient fine-tuning cut from hours to ~5 minutes), MIT CSAIL's CW-Net for autonomous-vehicle explainability, the Turing Institute's satellite light-curve anomaly detector (~88% flag rate), and Stanford RegLab's LLM-assisted scan of ~3 billion words of local law across 9,623 jurisdictions.",
+          "supporting_item_ids": ["gdm-2026-09-08-alphagenome-atlas", "mit-csail-xvr-xray-surgical-navigation-2026-09-16", "mit-csail-cwnet-self-driving-explainability-2026-09-02", "turing-satellite-light-curve-ai-2026-09-01", "stanford-hai-ai-legal-review-discriminatory-local-laws-2026-09"]
+        },
+        {
+          "claim": "Mathematics is an unusually active front this week across three different source categories: OpenAI's Navier-Stokes claim, Epoch AI's Lean-formalized FrontierMath Erdos tier, and RIKEN's Mathematics & AI Symposium recap (AI-assisted mathematical discovery, mathematical theory for AI reliability, formalization and proof).",
+          "supporting_item_ids": ["openai-navier-stokes-solution", "epoch-ai-frontiermath-erdos-launch", "riken-math-ai-symposium-2026-recap"]
+        },
+        {
+          "claim": "Several projects build human verification into the pipeline by design: Stanford's team had human experts review AI-flagged provisions before publication, Epoch formalized problems in Lean so solutions are machine-checked rather than human-graded (and confirmed problems were open as of Aug 2026 to limit contamination), and MIT's CW-Net exists specifically to make machine decisions predictable to non-expert humans.",
+          "supporting_item_ids": ["stanford-hai-ai-legal-review-discriminatory-local-laws-2026-09", "epoch-ai-frontiermath-erdos-launch", "mit-csail-cwnet-self-driving-explainability-2026-09-02"]
+        }
+      ],
+      "divergent_points": [
+        {
+          "position_a": "Machine-checkable verification: Epoch's Erdos tier is formalized in Lean so a claimed solution is verified automatically, and contamination is controlled by construction.",
+          "position_a_item_ids": ["epoch-ai-frontiermath-erdos-launch"],
+          "position_b": "Narrative/expert verification, currently contested: OpenAI's Navier-Stokes result is published as a company blog post, OpenAI says it will not seek the $1 million prize, and secondary reporting (Axios, Nature, Quanta, per the collector's note) describes a dispute over whether de-identified insights from unpublished work by Tristan Buckmaster and Anthropic's Levent Alpoge influenced it -- with OpenAI stating its effort began independently. The collector flags this dispute as secondary-reported and not confirmed against the primary post.",
+          "position_b_item_ids": ["openai-navier-stokes-solution"]
+        },
+        {
+          "position_a": "Keep the human expert in the loop as the accountable reviewer (Stanford's expert review of flagged statutes; CETaS's argument that routine-task automation in law and health has reduced junior professionals' opportunities to build judgement, and that national-security work should avoid the same effect).",
+          "position_a_item_ids": ["stanford-hai-ai-legal-review-discriminatory-local-laws-2026-09", "cetas-human-oversight-national-security-workforce-2026-09-09"],
+          "position_b": "Remove humans from the loop of routine science and professional work (CMU/DOE connected autonomous laboratories aiming to sharply cut setup time for new autonomous experiments; OpenAI's Astra for Law indexing 230M+ US legal sources for law firms; Anthropic's Claude for Financial Advisors, where Anthropic states decisions remain with advisers and clients).",
+          "position_b_item_ids": ["cmu-ri-genesis-mission-autonomous-labs-2026-09", "openai-astra-for-law", "anthropic-claude-financial-advisors-2026-09-14"]
+        }
+      ]
+    },
+    {
+      "theme": "Compute footprint, diffusion, and monetization (measured vs. marketed)",
+      "convergent_points": [
+        {
+          "claim": "Independent measurement of AI's physical and social footprint expanded: Epoch AI's satellite/permit-based AI Data Centers tracker now covers an estimated 44% of global AI compute across 86 facilities (13.1 GW of IT power), and 53% of compute deployed in 2026 alone, up from 39% (2025) and 26% (2024).",
+          "supporting_item_ids": ["epoch-ai-data-centers-44pct-coverage"]
+        },
+        {
+          "claim": "Monetization moved to the foreground across the industry in the same fortnight: in-conversation advertising and an Ads Manager at OpenAI, vertical products for law and financial advice, consumer subscription tiers at $20/$100 per month for Meta's Muse, and published per-token pricing for Sakana's Fugu tiers.",
+          "supporting_item_ids": ["openai-sponsored-agents-ads", "openai-astra-for-law", "anthropic-claude-financial-advisors-2026-09-14", "meta-muse-personal-ai-agent-launch", "sakana-fugu-max-ultra-v2-release"]
+        }
+      ],
+      "divergent_points": [
+        {
+          "position_a": "Enterprise transformation framing: Microsoft describes organizations that successfully integrate AI as 'Frontier Firms' -- human-led but increasingly AI-enabled -- and shares lessons from its own internal transition.",
+          "position_a_item_ids": ["microsoft-ai-transformation-frontier-firms-2026-09", "microsoft-responsible-ai-report-2026"],
+          "position_b": "Measured public diffusion is real but still minority-scale: Epoch AI/Ipsos polling finds the share of US adults using AI on at least 6 of the previous 7 days rose from 8% (March 2026) to 19% (August 2026), with the collector flagging that the August wave's sample (n=1,016) is about half the March wave's (n=2,017).",
+          "position_b_item_ids": ["epoch-ai-ipsos-poll-ai-usage-aug2026"]
+        }
+      ]
+    },
+    {
+      "theme": "Miscellaneous developments (items that do not cluster into a theme this week)",
+      "convergent_points": [
+        {
+          "claim": "Several institutional/ecosystem items were collected that share no common topic and should be treated as standalone notes, not evidence for a trend: MIT's renamed MIT-IBM Computing Research Lab (scope expanded from AI to include quantum), CMU Robotics Institute's fourth Pathways Fellowship cohort (seven fellows, with InnovatePGH), Sakana AI's 'Inside the Product Team' culture/recruiting post, RIKEN AIP's announcement that Tokyo will host COLT 2027 (June 28 - July 2, 2027), and UTokyo Matsuo-Iwasawa Lab's autumn 2026 course lineup plus a GENIAC PRIZE 2026 deadline.",
+          "supporting_item_ids": ["mit-csail-ibm-computing-research-lab-2026-09-02", "cmu-ri-pathways-fellowship-year-four-2026-09", "sakana-inside-product-team", "riken-aip-colt2027-tokyo", "utokyo-matsuo-lab-fall2026-courses"]
+        },
+        {
+          "claim": "A weak signal worth one line at most: the Turing Institute's CETaS argues the UK has a 'narrowing window of opportunity' to secure nationally critical AI systems, recommending sovereign capability where national control is essential, partnering with trusted allies, and exporting UK expertise in AI safety, evaluation and assurance. No other collected item this week addresses national AI sovereignty, so this does not form a theme on its own.",
+          "supporting_item_ids": ["cetas-narrowing-window-ai-resilience-2026-09-02"]
+        }
+      ],
+      "divergent_points": []
+    },
+    {
+      "theme": "Cross-cutting caveat: collection constraints and source-confidence limits this run (methodological, not a news theme)",
+      "convergent_points": [
+        {
+          "claim": "Nearly every collector reported that direct WebFetch to its target's own domain was blocked by the environment's network egress proxy, so most items were reconstructed from WebSearch snippets and corroborating secondary reporting rather than read first-hand. This affects confidence uniformly across categories and should be stated in the report rather than silently ignored. Representative items carrying this caveat span all four collector types.",
+          "supporting_item_ids": ["gdm-2026-09-02-gemini-3-8-flash", "microsoft-humanist-ai-code-of-conduct-2026-09", "mit-csail-ibm-computing-research-lab-2026-09-02", "willison-blender-coding-agents-macos", "metr-security-update-2026-08-31"]
+        },
+        {
+          "claim": "Evaluator coverage was thin for the third consecutive tracked run: UK AISI returned zero items (evaluator-uk-aisi.json, empty items array, with the collector explicitly stating this is a coverage gap and not confirmation of a quiet week), and METR returned a single item about its own security incidents. Epoch AI was the only evaluator with substantive model-facing output.",
+          "supporting_item_ids": ["metr-security-update-2026-08-31", "epoch-ai-frontiermath-erdos-launch", "epoch-ai-eci-gpt6-astra-record", "epoch-ai-data-centers-44pct-coverage", "epoch-ai-ipsos-poll-ai-usage-aug2026"]
+        },
+        {
+          "claim": "Specific items carry explicit verification flags that the reporting agent should either hedge or drop: the Epoch ECI figure conflicts between Epoch's own X post (169) and model page (166); Anthropic's R&D self-improvement item has no confirmed anthropic.com URL and is filed as secondary-source via NBC News; Claude for Financial Advisors is filed as secondary-source via Bloomberg; the rekursiv.ai NanoChat claim is self-reported, unverified, and the collector recommends dropping it if it cannot be confirmed; and the CMU Genesis Mission item has a July-vs-September date discrepancy.",
+          "supporting_item_ids": ["epoch-ai-eci-gpt6-astra-record", "anthropic-claude-rd-self-improvement-2026-09-17", "anthropic-claude-financial-advisors-2026-09-14", "rekursivai-autoautoresearch-nanochat", "cmu-ri-genesis-mission-autonomous-labs-2026-09"]
+        },
+        {
+          "claim": "Third consecutive run in which RIKEN/UTokyo domains were unreachable, now spanning multiple hostnames (aip.riken.jp, www.riken.jp, www.u-tokyo.ac.jp, weblab.t.u-tokyo.ac.jp); the academia collector escalated this as a harness-operations issue rather than an absence of news, and two of its three items are filed at secondary-source confidence with a general listing page instead of an article URL.",
+          "supporting_item_ids": ["riken-math-ai-symposium-2026-recap", "riken-aip-colt2027-tokyo", "utokyo-matsuo-lab-fall2026-courses"]
+        },
+        {
+          "claim": "Known coverage gaps flagged by collectors that are NOT citable as items and must not be presented as facts: Mark Zuckerberg's reported opposition to a coordinated industry slowdown (no official Meta channel reachable), Demis Hassabis's G20 Innovation Ministerial remarks on Gemini as a 'general-purpose coordination layer' (no official transcript found), the UK Parliament committee's summons of AISI director Henry de Zoete to testify on 2026-10-13 (third-party reporting about the institute, not an AISI publication), and a Sakana Marlin feature update with no confirmable sakana.ai URL.",
+          "supporting_item_ids": []
+        }
+      ],
+      "divergent_points": []
+    }
+  ]
+}

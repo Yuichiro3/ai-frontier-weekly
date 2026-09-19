@@ -1,0 +1,44 @@
+{
+  "collector": "academia-collector",
+  "target": "MIT CSAIL",
+  "run_date": "2026-09-19",
+  "items": [
+    {
+      "id": "mit-csail-cwnet-self-driving-explainability-2026-09-02",
+      "title": "CW-Net gives humans interpretable explanations of self-driving car decisions",
+      "summary_en": "MIT CSAIL and AeroAstro researchers, working with autonomous-vehicle company Motional, developed CW-Net, a 'concept-wrapper' classifier that translates a black-box AV motion planner's reasoning into human-interpretable concepts (e.g. 'approaching stopped vehicle', 'close to cyclist'). In closed-track tests and a larger simulation study, these explanations helped both safety drivers and non-expert users more accurately predict the vehicle's next move, which the researchers say could improve trust and safety around AV mistakes.",
+      "source_url": "https://news.mit.edu/2026/system-helps-humans-predict-when-self-driving-cars-will-make-mistakes-0902",
+      "source_name": "MIT News (CSAIL)",
+      "published_date": "2026-09-02",
+      "category": "research",
+      "tone": "neutral",
+      "confidence": "primary-confirmed",
+      "notes": "Peer-reviewed paper published in Nature (2026); co-senior author Julie Shah directs CSAIL's Interactive Robotics Group. Content verified via MIT News search snippets and mirrored coverage on MIT AeroAstro and EurekAlert (press-release syndication); direct WebFetch of news.mit.edu was blocked by network egress rules in this session."
+    },
+    {
+      "id": "mit-csail-xvr-xray-surgical-navigation-2026-09-16",
+      "title": "MIT CSAIL's xvr technique speeds up X-ray-to-3D-scan alignment for surgical navigation",
+      "summary_en": "A CSAIL-led team headed by postdoc Vivek Gopalakrishnan developed xvr, a patient-specific AI method that rapidly aligns intraoperative X-rays with preoperative 3D scans for orthopedic and neurosurgical navigation. By pretraining a foundation model on synthetic X-rays generated from over 2,000 patient volumes, xvr cuts per-patient fine-tuning from hours to about five minutes, and the team reports it outperforms prior AI methods by roughly an order of magnitude across patients, body parts, and procedures.",
+      "source_url": "https://news.mit.edu/2026/new-ai-technique-could-make-minimally-invasive-surgeries-safer-more-precise-0916",
+      "source_name": "MIT News (CSAIL)",
+      "published_date": "2026-09-16",
+      "category": "research",
+      "tone": "neutral",
+      "confidence": "primary-confirmed",
+      "notes": "Peer-reviewed paper published in Nature (2026). MIT says it is collaborating with surgical robotics companies and clinical groups toward deployment. Content verified via MIT News search snippets and mirrored coverage on MIT Schwarzman College of Computing and EurekAlert; direct WebFetch of news.mit.edu was blocked in this session."
+    },
+    {
+      "id": "mit-csail-ibm-computing-research-lab-2026-09-02",
+      "title": "MIT affiliates detail ties to renamed MIT-IBM Computing Research Lab for AI and quantum tech transfer",
+      "summary_en": "MIT News profiled how MIT researchers, including CSAIL senior research scientist Aude Oliva (who serves as MIT director of the lab), engage with the newly renamed MIT-IBM Computing Research Lab -- formerly the MIT-IBM Watson AI Lab -- to bring academic AI theory into IBM's production systems. The rename reflects an expanded scope that now includes quantum computing alongside the lab's original AI research focus.",
+      "source_url": "https://news.mit.edu/2026/from-mit-to-ibm-expediting-ai-and-quantum-deployment-0902",
+      "source_name": "MIT News",
+      "published_date": "2026-09-02",
+      "category": "policy",
+      "tone": "neutral",
+      "confidence": "primary-inferred",
+      "notes": "Institutional feature on lab collaboration/tech-transfer rather than a single new research paper. Details drawn from MIT News search-result snippets only; the full article could not be fetched directly because news.mit.edu was blocked by this session's network egress proxy, so wording should be treated as an approximate paraphrase pending verification against the original."
+    }
+  ],
+  "coverage_note": "Two new peer-reviewed CSAIL results (CW-Net, xvr) and one institutional feature (MIT-IBM Computing Research Lab) were published in the 2026-08-29 to 2026-09-19 window. Several other CSAIL AI items identified in searches (GeoPT physics-pretraining, a machine-unlearning study, and the TONTOU chip-security attack) were published just before the window (2026-08-10, 2026-08-18, 2026-08-27 respectively) and were excluded as out-of-window; TONTOU is also arguably outside AI-frontier scope (CPU/systems security) rather than AI research. All of csail.mit.edu, news.mit.edu, computing.mit.edu, aeroastro.mit.edu, and csailmit.substack.com were blocked by the network egress proxy in this session, so this collection relies on corroborated WebSearch snippets rather than direct article fetches; a human or a future run with network access should verify the exact wording against the primary MIT News pages."
+}

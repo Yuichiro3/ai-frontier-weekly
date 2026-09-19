@@ -1,0 +1,44 @@
+{
+  "collector": "academia-collector",
+  "target": "University of Tokyo / RIKEN AIP",
+  "run_date": "2026-09-19",
+  "items": [
+    {
+      "id": "riken-math-ai-symposium-2026-recap",
+      "title": "RIKEN publishes recap of RIKEN Mathematics & AI Symposium 2026",
+      "summary_en": "RIKEN published a recap of the RIKEN Mathematics & AI Symposium 2026, an international symposium held August 18-21, 2026 at RIKEN's Tokyo campus and jointly hosted by RIKEN AIP, the RIKEN Pioneering Research Institute (PRI), and the RIKEN Mathematical, Computational and Information Science Domain. About 300 participants (in-person and online) discussed topics including AI-assisted mathematical discovery, using mathematical theory to improve understanding of AI reliability, and formalization/proof.",
+      "source_url": "https://www.riken.jp/en/news_pubs/news/2026/20260904_5/index.html",
+      "source_name": "RIKEN (official news)",
+      "published_date": "2026-09-04",
+      "category": "research",
+      "tone": "neutral",
+      "confidence": "primary-inferred",
+      "notes": "Original language: Japanese/English bilingual RIKEN site; summarized in English here. Content verified only via WebSearch snippets -- direct access to riken.jp was blocked by the collection environment's egress proxy (third consecutive run with RIKEN/UTokyo domains blocked). The symposium itself ran Aug 18-21, 2026 (before this run's collection window), but this recap article was published Sept 4, 2026, within window."
+    },
+    {
+      "id": "riken-aip-colt2027-tokyo",
+      "title": "RIKEN AIP announces Tokyo will host COLT 2027",
+      "summary_en": "RIKEN AIP's news page announced that the 40th Annual Conference on Learning Theory (COLT 2027), a leading international venue for theoretical machine learning research, will be held in Tokyo from June 28 to July 2, 2027. Hosting the event underscores RIKEN AIP's standing in the international computational/statistical learning theory community.",
+      "source_url": "https://aip.riken.jp/news-list/",
+      "source_name": "RIKEN AIP News (official)",
+      "published_date": "2026-09-07",
+      "category": "research",
+      "tone": "neutral",
+      "confidence": "secondary-source",
+      "notes": "Exact article URL/slug could not be confirmed because aip.riken.jp is blocked by the collection environment's egress proxy for the third consecutive run; found only via a WebSearch snippet referencing an announcement posted 2026-09-07 on aip.riken.jp/news. The URL given here is the general news-listing page, not the specific article -- flag for re-verification once direct access is restored."
+    },
+    {
+      "id": "utokyo-matsuo-lab-fall2026-courses",
+      "title": "UTokyo Matsuo-Iwasawa Lab publishes fall 2026 AI/data-science course lineup",
+      "summary_en": "The University of Tokyo's Matsuo-Iwasawa Laboratory (Matsuo Lab) published its lineup of AI and data-science courses opening in autumn 2026, continuing its practice of offering 30+ courses per year on topics such as large language model applications and physical-AI robotics. The lab separately flagged its 'GENIAC PRIZE 2026' contest, with an individual-member application deadline of September 30, 2026.",
+      "source_url": "https://weblab.t.u-tokyo.ac.jp/news/open_courses/",
+      "source_name": "University of Tokyo Matsuo-Iwasawa Lab (official site)",
+      "published_date": "2026-09-08",
+      "category": "product",
+      "tone": "neutral",
+      "confidence": "secondary-source",
+      "notes": "Original language: Japanese; summarized in English here. Found via WebSearch only -- direct access to weblab.t.u-tokyo.ac.jp was blocked by the collection environment's egress proxy. This is course/education promotion rather than a research result; included for completeness but is lower priority per CLAUDE.md's source hierarchy (§2)."
+    }
+  ],
+  "coverage_note": "ESCALATION: Direct access to aip.riken.jp, www.riken.jp, www.u-tokyo.ac.jp, and weblab.t.u-tokyo.ac.jp was blocked by the collection environment's egress proxy in this run. This is the THIRD consecutive weekly run (following 2026-08-13 and 2026-08-29) in which RIKEN/UTokyo domains could not be reached directly, and this run additionally confirms the block now spans multiple distinct hostnames beyond aip.riken.jp alone. Per CLAUDE.md's source-rotation/diversity guidance, this should be escalated to whoever operates the collection harness rather than treated as 'no news this week.' As a fallback, WebSearch was used to identify likely news items and dates. Within the search-derived window (2026-08-29 to 2026-09-19), three items were identified: a RIKEN Mathematics & AI Symposium 2026 recap, an announcement that RIKEN AIP will host COLT 2027 in Tokyo, and a UTokyo Matsuo Lab course-lineup update. No peer-reviewed publications, preprints, or major model/product releases from this target could be confirmed for this window given the access restriction; some additional items (e.g., a possible music-information-team conference award, an Aug 25 Sugiyama public lecture just before the window) were seen in search results but excluded here because dates fell outside the window or details could not be reliably disambiguated from older archived records with the same title pattern."
+}

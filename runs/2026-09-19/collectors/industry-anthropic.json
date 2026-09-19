@@ -1,0 +1,80 @@
+{
+  "collector": "industry-leader-collector",
+  "target": "Anthropic",
+  "run_date": "2026-09-19",
+  "items": [
+    {
+      "id": "anthropic-fable-mythos-5.1-2026-09-01",
+      "title": "Anthropic releases Claude Fable 5.1 and Claude Mythos 5.1",
+      "summary_en": "Anthropic introduced Claude Fable 5.1, a general-availability model for coding and knowledge work, and Claude Mythos 5.1, a variant with the same underlying weights but stricter safeguards available only through trusted-access programs for cybersecurity and life-sciences use. The company said Fable 5.1 improves on long-running problem-solving tasks at lower cost than its predecessor, and cut cache-read pricing by 75%. Anthropic said it ran expert red-teaming, automated evaluations, and a tabletop exercise pairing PhD biologists with AI specialists before release.",
+      "source_url": "https://www.anthropic.com/claude-fable-and-mythos-5-1",
+      "source_name": "Anthropic Official Site",
+      "published_date": "2026-09-01",
+      "category": "model-release",
+      "tone": "neutral",
+      "confidence": "primary-confirmed",
+      "notes": "Content verified via WebSearch retrieval of the anthropic.com page; direct WebFetch to anthropic.com was blocked by network egress proxy in this session."
+    },
+    {
+      "id": "anthropic-efs-2026-09-01",
+      "title": "Anthropic launches Enterprise Frontier Safeguards for zero-retention customers",
+      "summary_en": "Anthropic announced Enterprise Frontier Safeguards (EFS), which stores Claude activity/detection data in infrastructure controlled by the customer rather than Anthropic, aiming to combine zero data retention with automated misuse-detection. The company said EFS was developed with over 100 customers across finance, healthcare, manufacturing, telecom, law, retail and the public sector, plus cloud partners AWS, Google Cloud and Microsoft Azure, and will roll out in phases starting later in autumn 2026. Anthropic said it will not charge for the feature.",
+      "source_url": "https://www.anthropic.com/news/enterprise-frontier-safeguards",
+      "source_name": "Anthropic Official Blog",
+      "published_date": "2026-09-01",
+      "category": "product",
+      "tone": "neutral",
+      "confidence": "primary-confirmed",
+      "notes": "Content verified via WebSearch retrieval of the anthropic.com page; direct WebFetch to anthropic.com was blocked by network egress proxy in this session."
+    },
+    {
+      "id": "anthropic-threat-intel-report-2026-09-10",
+      "title": "Anthropic publishes September 2026 threat intelligence report on Claude misuse",
+      "summary_en": "Anthropic published its most detailed threat-intelligence report to date, covering misuse operations disrupted between December 2025 and August 2026 across seven harm areas: cyber operations, influence operations, surveillance, scams/fraud, biological misuse, conventional weapons development, and model distillation. The report describes cases including Iran-linked accounts used for propaganda and surveillance and a group in Yemen that attempted to use Claude to build weapons-guidance software, which Anthropic said its safeguards blocked in most but not all instances. Anthropic said it disrupted every operation documented in the report and that none involved its most capable models, Fable or Mythos.",
+      "source_url": "https://www.anthropic.com/threat-intelligence-report-september-2026",
+      "source_name": "Anthropic Official Blog",
+      "published_date": "2026-09-10",
+      "category": "safety",
+      "tone": "neutral",
+      "confidence": "primary-confirmed",
+      "notes": "Content verified via WebSearch retrieval of the anthropic.com page and corroborated by Anthropic's own X/Twitter announcement thread; direct WebFetch to anthropic.com was blocked in this session."
+    },
+    {
+      "id": "anthropic-pace-the-frontier-2026-09-12",
+      "title": "Dario Amodei publishes 'We Must Pace the Frontier' essay, commits to third-party evaluator access",
+      "summary_en": "Anthropic CEO Dario Amodei published an essay arguing the AI industry should deliberately slow the rate at which capabilities advance rather than freeze progress outright, proposing a three-part plan: embedding independent evaluators inside frontier AI companies, agreeing shared safety standards and pacing limits among democratic nations, and cautious coordination with authoritarian governments. Amodei said Anthropic is unilaterally committing to the first step, giving third-party evaluators permanent, employee-level access to its models and facilities comparable to internal risk-assessment teams, with exceptions where law or contracts require. OpenAI CEO Sam Altman publicly said he agreed with pacing the frontier and that OpenAI would match Anthropic's evaluator-access commitment.",
+      "source_url": "https://darioamodei.com/post/we-must-pace-the-frontier",
+      "source_name": "Dario Amodei (Anthropic CEO), personal blog essay",
+      "published_date": "2026-09-12",
+      "category": "policy",
+      "tone": "neutral",
+      "confidence": "primary-confirmed",
+      "notes": "Published on Amodei's personal site rather than anthropic.com, but treated as an official channel of the company's CEO per CLAUDE.md source priority category 2; also cross-posted by Amodei on X the same day."
+    },
+    {
+      "id": "anthropic-claude-rd-self-improvement-2026-09-17",
+      "title": "Anthropic says Claude now leads about a quarter of its own model R&D tasks",
+      "summary_en": "Anthropic said in a blog post that Claude is increasingly involved in developing its own successor models: an internal review found Claude 'leads' roughly 26% of model R&D tasks end-to-end from a high-level prompt under human supervision, up from zero in February 2026, and is involved in some form in about 90% of R&D work. The company said it is not yet fully autonomous, but that models accelerating their own development could make systems harder for humans to understand or control, and argued for publicly reporting such metrics to narrow the gap between what frontier labs and the public know about progress toward recursive self-improvement. Anthropic also disclosed it had roughly 30,000 AI agents doing research and engineering work as of August 2026.",
+      "source_url": "https://www.nbcnews.com/tech/tech-news/anthropic-says-model-claude-helping-build-next-version-rcna598494",
+      "source_name": "NBC News, reporting on an Anthropic blog post",
+      "published_date": "2026-09-17",
+      "category": "research",
+      "tone": "neutral",
+      "confidence": "secondary-source",
+      "notes": "Multiple outlets (NBC News, TechXplore, Detroit News, CP24) independently quote the same Anthropic blog-post language, but the exact anthropic.com/news URL could not be confirmed within this session because anthropic.com was blocked to direct WebFetch and the WebSearch call budget was exhausted before a direct link could be isolated. Flagged as secondary-source pending URL confirmation."
+    },
+    {
+      "id": "anthropic-claude-financial-advisors-2026-09-14",
+      "title": "Anthropic launches Claude for Financial Advisors",
+      "summary_en": "Anthropic introduced 'Claude for Financial Advisors,' a package combining Claude with financial-analytics and portfolio tools, offering pre-built skills for tasks such as pre-meeting preparation, compliance and AI-policy review, portfolio-rebalance review, and estate/tax briefings. The offering integrates with third-party platforms including Charles Schwab, iCapital, Envestnet, Orion, Wealthbox and Zocks, and is priced roughly $70-$120 per user per month; Anthropic said investment decisions remain with advisers and clients, not the model.",
+      "source_url": "https://www.bloomberg.com/news/articles/2026-09-14/anthropic-pitches-new-claude-tool-for-financial-advisors",
+      "source_name": "Bloomberg, reporting on Anthropic announcement",
+      "published_date": "2026-09-14",
+      "category": "product",
+      "tone": "neutral",
+      "confidence": "secondary-source",
+      "notes": "Reported consistently across multiple outlets (Bloomberg, AdvisorHub, U.S. News, Wealth Management) citing an Anthropic announcement; the exact anthropic.com/news permalink could not be independently confirmed in this session due to blocked direct access to anthropic.com and exhaustion of the WebSearch call budget."
+    }
+  ],
+  "coverage_note": "Anthropic published several items in this window (2026-08-29 to 2026-09-19): Enterprise Frontier Safeguards and the Claude Fable 5.1/Mythos 5.1 model release (both Sept 1), a September threat-intelligence/misuse report (Sept 10), CEO Dario Amodei's 'We Must Pace the Frontier' essay committing to third-party evaluator access (Sept 12), and a research update on Claude's growing role in its own model R&D (Sept 17). A widely-reported Claude for Financial Advisors launch (~Sept 14) is included at secondary-source confidence because the exact anthropic.com URL could not be confirmed after anthropic.com became unreachable via WebFetch and the session's WebSearch budget was exhausted. A separately reported Claude for Small Business workflow expansion (~Sept 15) was excluded entirely because only weaker aggregator-style sources could be found for it within the remaining research budget. Excluded as out of scope for this run: the Google/Broadcom TPU compute deal expansion (originally announced April 2026, outside this window) and unconfirmed press speculation about a possible October 2026 IPO/valuation, which is not an Anthropic statement. The UK AI Security Institute's own evaluation of Claude Mythos Preview's cyber capabilities was noted but left to the safety-institute collector's scope."
+}

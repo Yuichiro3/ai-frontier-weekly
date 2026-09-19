@@ -1,0 +1,32 @@
+{
+  "collector": "industry-leader-collector",
+  "target": "Meta AI",
+  "run_date": "2026-09-19",
+  "items": [
+    {
+      "id": "meta-muse-spark-1-3-release",
+      "title": "Meta releases Muse Spark 1.3 model with expanded agentic capabilities",
+      "summary_en": "Meta Superintelligence Labs introduced Muse Spark 1.3, made available through Muse Code and the Meta Model API. Meta describes the update as tuned for agentic workflows and competitive coding tasks, with a 1-million-token context window and improved ability to sustain long, multi-step instructions without dropping constraints, compared with earlier Muse Spark versions.",
+      "source_url": "https://research.meta.ai/blog/introducing-muse-spark-1-3",
+      "source_name": "Meta AI Research Blog",
+      "published_date": "2026-09-02",
+      "category": "model-release",
+      "tone": "neutral",
+      "confidence": "primary-confirmed",
+      "notes": "Direct WebFetch of research.meta.ai was blocked by network egress restrictions during this run; content confirmed via search-index snippets of the official post rather than a full page read. Recommend a follow-up fetch when network access allows to verify benchmark claims directly."
+    },
+    {
+      "id": "meta-muse-personal-ai-agent-launch",
+      "title": "Meta launches Muse, a paid personal AI agent for U.S. consumers",
+      "summary_en": "Meta announced Muse, which it calls a personal AI agent built to complete tasks such as sending email, booking travel, filling out forms, and turning goals into action plans, rather than only answering questions. It launched first in the United States on iOS, Android, the web, and WhatsApp, with a free tier plus paid 'Power' ($20/month) and 'Maximum' ($100/month) tiers, running on the Muse Spark model family from Meta Superintelligence Labs. Meta says users can opt out of having their Muse interactions used for model training.",
+      "source_url": "https://about.fb.com/news/2026/09/introducing-muse-personal-ai-agent/",
+      "source_name": "Meta Newsroom",
+      "published_date": "2026-09-08",
+      "category": "product",
+      "tone": "neutral",
+      "confidence": "primary-confirmed",
+      "notes": "Direct WebFetch of about.fb.com was blocked by network egress restrictions during this run; content confirmed via search-index snippets of the official Newsroom post rather than a full page read."
+    }
+  ],
+  "coverage_note": "Two official Meta announcements fell within the 2026-08-29 to 2026-09-19 window: the Muse Spark 1.3 model update (Sep 2) and the Muse personal AI agent launch (Sep 8). Separately, multiple news outlets (Axios, Boston Globe, CNBC, US News, and others) reported that Mark Zuckerberg posted on social media around Sep 15-16, 2026, opposing Anthropic's call for a coordinated industry-wide AI slowdown and citing existing liability incentives; this collector could not independently locate or access his original post on an official Meta channel (facebook.com/threads.net were blocked by network egress restrictions this run), so it is omitted here pending primary-source verification rather than being reported via secondary press coverage. Meta Connect 2026, expected to include new AI glasses announcements, is scheduled for Sep 23, 2026 -- after this collection window -- and is therefore not covered in this run."
+}

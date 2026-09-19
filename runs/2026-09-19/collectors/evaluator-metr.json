@@ -1,0 +1,20 @@
+{
+  "collector": "evaluator-institute-collector",
+  "target": "METR",
+  "run_date": "2026-09-19",
+  "items": [
+    {
+      "id": "metr-security-update-2026-08-31",
+      "title": "METR discloses two 2026 security incidents: stolen API key and infrastructure probing",
+      "summary_en": "METR published a security update describing two incidents: in March 2026, attackers stole an API key for METR's general-access model account (exposed via a researcher's misconfigured personal EC2 instance) and used it for about three weeks, consuming roughly $600,000 in model credits; in May 2026, METR observed a separate, sustained external probing campaign against its public-facing infrastructure, including one unsuccessful attempt to reach an inadvertently exposed internal endpoint. METR states it believes no sensitive information was accessed in either incident and describes its response.",
+      "source_url": "https://metr.org/blog/2026-08-31-security-update/",
+      "source_name": "METR Official Blog",
+      "published_date": "2026-08-31",
+      "category": "safety",
+      "tone": "neutral",
+      "confidence": "primary-inferred",
+      "notes": "Confidence marked primary-inferred rather than primary-confirmed because direct WebFetch access to metr.org, metr.substack.com, and metr1.substack.com was blocked by the network egress proxy in this environment; content reconstructed from WebSearch snippets of the original post. METR itself hedges with 'believes no sensitive information was accessed' rather than asserting certainty -- flagging this as the institute's own caveat. Secondary outlets (The Hacker News, Infosecurity Magazine) picked up this story in early September 2026, but those are not cited here as sources since the primary METR post is available. This is a new disclosure of two prior (March/May 2026) incidents, not a revision of METR's Aug 26 Hugging Face incident report from the previous run."
+    }
+  ],
+  "coverage_note": "This run's window (2026-08-29 to 2026-09-19, ~3 weeks due to a skipped intervening week) was unusually quiet for METR's own publications. Only one genuinely new item was identified: the Aug 31, 2026 security update. Two other candidate items were excluded as already covered by the 2026-08-29 run (verified against that run's collector file): the brief independent investigation of the OpenAI/Hugging Face hacking incident (published 2026-08-26) and the funding update (published 2026-08-14). No new METR time-horizon data release, predeployment model evaluation, or Notes-section post dated between 2026-09-01 and 2026-09-19 was found via WebSearch. Direct access to metr.org and metr.substack.com was blocked end-to-end by the environment's egress proxy for this entire run, so this should be treated as 'not found via search' rather than a definitive 'nothing published' -- consistent with the environment-wide egress restriction flagged in the 2026-08-29 rotation history note, and worth raising with whoever operates the harness if it persists further."
+}
