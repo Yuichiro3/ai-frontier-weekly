@@ -91,3 +91,34 @@ rotation_history:
       ~2026-08-15 to 2026-08-29 window), which should be re-checked once
       access constraints are resolved rather than assumed to mean no new
       evaluator output existed.
+  - run_date: "2026-09-19"
+    iso_week: "2026-W38"
+    note: >
+      No run was produced for 2026-W36 or 2026-W37 (2026-09-05, 2026-09-12);
+      this run's collection window spans roughly 2026-08-29 to 2026-09-19
+      (three weeks) to cover the gap. Full default target list covered (3
+      evaluators, 6 industry leaders, 5 academic institutions, wildcard).
+      Diversity flag: source concentration has RESOLVED from the 2026-08-29
+      run's ~40% OpenAI/Anthropic share -- OpenAI is the single largest
+      source this run at 6 of 42 items (~14%), with no other domain above
+      7%, spread across 25 distinct domains. Evaluator coverage is a
+      recurring thin spot for a third consecutive tracked run: UK AI Security
+      Institute returned zero new items this run (direct aisi.gov.uk access
+      blocked; treated explicitly as a coverage gap, not "no news"), METR
+      returned only a self-reported security-incident disclosure rather than
+      a model evaluation, and Epoch AI was the only evaluator publishing
+      model-facing results -- this pattern should be watched and may warrant
+      an evaluator-specific rotation/outreach change if it persists further.
+      Access flag (new, environment-wide): nearly every collector this run
+      reported direct WebFetch access to its target's own domain blocked by
+      the collection environment's network egress proxy, forcing reliance on
+      WebSearch snippets and secondary corroboration; this lowered per-item
+      confidence broadly (many items marked "primary-inferred" or
+      "secondary-source" rather than "primary-confirmed") rather than being
+      isolated to one target. University of Tokyo / RIKEN AIP direct access
+      was blocked for a THIRD consecutive tracked run (following 2026-08-13
+      and 2026-08-29), now confirmed to span multiple distinct hostnames
+      (aip.riken.jp, www.riken.jp, www.u-tokyo.ac.jp,
+      weblab.t.u-tokyo.ac.jp) -- this should be escalated to whoever
+      operates the collection harness rather than continuing to be logged as
+      a rotation note only.
