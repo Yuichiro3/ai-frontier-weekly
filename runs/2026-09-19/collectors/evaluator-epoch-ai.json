@@ -1,0 +1,56 @@
+{
+  "collector": "evaluator-institute-collector",
+  "target": "Epoch AI",
+  "run_date": "2026-09-19",
+  "items": [
+    {
+      "id": "epoch-ai-frontiermath-erdos-launch",
+      "title": "Epoch AI launches FrontierMath Erdős, a benchmark of unsolved Erdős-type math problems",
+      "summary_en": "Epoch AI released FrontierMath Erdős, a new tier of its FrontierMath suite containing 68 previously unsolved Erdős-type problems curated by mathematician Thomas Bloom and formalized in Lean so solutions are machine-checked rather than human-graded. At launch, only OpenAI's GPT-6 Astra made any progress, solving 2 of the 68 problems.",
+      "source_url": "https://epoch.ai/latest/announcing-frontiermath-erdos",
+      "source_name": "Epoch AI (Official site, 'Latest')",
+      "published_date": "2026-09-01",
+      "category": "research",
+      "tone": "neutral",
+      "confidence": "primary-confirmed",
+      "notes": "Epoch AI states problems were confirmed open/unsolved as of August 2026 specifically to avoid training-data contamination. Result set is very small (2/68 solved by any model at launch) -- treat as an early/preliminary data point, not a stable capability estimate. A supporting technical note is also posted as a PDF (https://epoch.ai/files/frontiermath-erdos.pdf, authors Tom Adamczewski, Epoch AI, and Thomas F. Bloom)."
+    },
+    {
+      "id": "epoch-ai-eci-gpt6-astra-record",
+      "title": "Epoch Capabilities Index (ECI): GPT-6 Astra sets a new record score",
+      "summary_en": "Epoch AI's own @EpochAIResearch account reported that OpenAI's GPT-6 Astra (released September 3, 2026) set a new Epoch Capabilities Index record, with new highs also recorded on Epoch's math, continual-learning, and game-puzzle sub-benchmarks. Epoch explicitly noted the jump is a substantial one but falls within its stated uncertainty range for the current 'reasoning-era' ECI trend.",
+      "source_url": "https://x.com/EpochAIResearch/status/2095602754282783108",
+      "source_name": "Epoch AI (official @EpochAIResearch account on X)",
+      "published_date": "2026-09-03",
+      "category": "research",
+      "tone": "neutral",
+      "confidence": "primary-confirmed",
+      "notes": "METHODOLOGY CAVEAT (Epoch's own wording): the score increase is described by Epoch as 'within our uncertainty range for the reasoning-era ECI trend' -- i.e., not necessarily a trend-break. DISCREPANCY FLAG: Epoch's X post gives an ECI of 169 (up from a prior best of 163), while Epoch's own model page (https://epoch.ai/models/gpt-6-astra), as reflected in third-party citations, lists an ECI of 166. Could not fetch either page directly this run (egress blocked) to resolve whether this is a later recalibration, a different sub-metric, or a reporting error -- flagged for reconciliation before this figure is used in the report."
+    },
+    {
+      "id": "epoch-ai-data-centers-44pct-coverage",
+      "title": "Epoch AI expands AI Data Centers tracker to ~44% of estimated global AI compute",
+      "summary_en": "Epoch AI announced that its AI Data Centers database, which uses satellite imagery and permit data, now covers an estimated 44% of global AI compute across 86 hyperscale, colocation, and purpose-built AI facilities (a combined 13.1 GW of IT power capacity). Epoch also reported that its coverage of compute deployed in 2026 alone has reached 53%, up from 39% in 2025 and 26% in 2024.",
+      "source_url": "https://x.com/EpochAIResearch/status/2100278844456599798",
+      "source_name": "Epoch AI (official @EpochAIResearch account on X)",
+      "published_date": "2026-09-17",
+      "category": "research",
+      "tone": "neutral",
+      "confidence": "primary-confirmed",
+      "notes": "Coverage figures are Epoch's own estimates based on satellite/permit data, which the institute itself characterizes as an evolving, expanding dataset rather than a complete census of global AI compute -- treat the 44% figure as an estimate, not a precise measurement. Related dataset page: https://epoch.ai/data/ai-data-centers."
+    },
+    {
+      "id": "epoch-ai-ipsos-poll-ai-usage-aug2026",
+      "title": "Epoch AI/Ipsos polling: share of US adults using AI 6+ days/week more than doubled since March 2026",
+      "summary_en": "A new wave of Epoch AI's polling series with Ipsos found that the share of US adults reporting AI use on at least 6 of the previous 7 days rose from 8% (March 2026 survey) to 19% (August 2026 survey), while the share using AI on just one day fell from 17% to 10%. Results are based on two separate Epoch AI/Ipsos surveys of US adults: March 3-5, 2026 (n=2,017) and August 28-30, 2026 (n=1,016).",
+      "source_url": "https://epoch.ai/data/polling",
+      "source_name": "Epoch AI (Polling data page)",
+      "published_date": "2026-09-09",
+      "category": "research",
+      "tone": "neutral",
+      "confidence": "primary-inferred",
+      "notes": "SAMPLE SIZE CAVEAT: the August 2026 wave (n=1,016) is roughly half the size of the March wave (n=2,017); Epoch does not appear to flag this explicitly as a limitation in available excerpts, but it is a methodology point worth noting when comparing the two waves. URL CAVEAT: could not confirm the exact dedicated article URL for this write-up (egress to epoch.ai blocked, search budget exhausted) -- cited the general Epoch AI polling data page instead of a possible more specific data-insights post; a co-published version also exists on Ipsos's own site (https://www.ipsos.com/en-us/epoch-ai-ipsos-august-2026-poll), which is a joint publication rather than a third-party summary."
+    }
+  ],
+  "coverage_note": "Active three-week window for Epoch AI: a new FrontierMath tier (Erdős problems), an Epoch Capabilities Index record tied to GPT-6 Astra's release, an expanded AI Data Centers tracker, and a new wave of Epoch/Ipsos AI-usage polling. Two other Epoch publications referenced in Epoch AI's September 12, 2026 newsletter ('The Epoch Brief') -- 'Will Huawei catch up to Nvidia by 2030?' and 'The Nvidia-sized hole in US GDP statistics' -- were found to predate the collection window (published May 25, 2026 and August 24, 2026 respectively) and were excluded as out-of-window, not re-reported. Direct WebFetch access to epochai.org and epoch.ai was blocked by the network egress proxy for this session; all findings reconstructed from WebSearch result snippets rather than full-page fetches."
+}

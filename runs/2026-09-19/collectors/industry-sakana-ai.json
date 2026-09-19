@@ -1,0 +1,44 @@
+{
+  "collector": "industry-leader-collector",
+  "target": "Sakana AI",
+  "run_date": "2026-09-19",
+  "items": [
+    {
+      "id": "sakana-fugu-max-ultra-v2-release",
+      "title": "Sakana AI launches Fugu Max and Fugu Ultra v2 orchestration models",
+      "summary_en": "Sakana AI released two new versions of its Fugu orchestration system, Fugu Max and Fugu Ultra v2, on 11 September 2026. The models route tasks across an expanded pool of open-weight and specialized models, including NVIDIA's Nemotron family, rather than relying on a single monolithic model. Sakana reported Fugu Ultra v2 achieved the highest or tied-highest score on 5 of 8 published benchmarks and placed in the top two on 7 of them; Fugu Max is priced at $2/$6 per million input/output tokens and Fugu Ultra v2 at $5/$30, offered only as a hosted API and not available in the EU/EEA.",
+      "source_url": "https://sakana.ai/fugu-max-release/",
+      "source_name": "Sakana AI Official Blog",
+      "published_date": "2026-09-11",
+      "category": "product",
+      "tone": "neutral",
+      "confidence": "primary-confirmed",
+      "notes": "Specific benchmark comparison numbers came from third-party coverage summarizing Sakana's own release post; could not independently verify the full benchmark table via direct fetch of sakana.ai in this session due to network access restrictions. Pricing figures should be spot-checked against the live pricing page."
+    },
+    {
+      "id": "sakana-inside-product-team",
+      "title": "Sakana AI publishes internal look at its Product Team",
+      "summary_en": "Sakana AI published a blog post describing how its Product Team turns research output into deployable products such as Fugu, Marlin, and Chat, and addressing questions the company says job candidates frequently ask. The post outlines the working relationship between the Research and Product teams at the Tokyo lab.",
+      "source_url": "https://sakana.ai/inside-product-team/",
+      "source_name": "Sakana AI Official Blog",
+      "published_date": "2026-09-16",
+      "category": "product",
+      "tone": "neutral",
+      "confidence": "primary-confirmed",
+      "notes": "A culture/recruiting-oriented post rather than a technical or research announcement; published date inferred from a search snippet reporting it as '3 days' before the September 19, 2026 collection date."
+    },
+    {
+      "id": "sakana-frontier-intelligence-group",
+      "title": "Sakana AI introduces its Frontier Intelligence Group (FIG) research collective",
+      "summary_en": "Sakana AI published a post formally introducing the Frontier Intelligence Group, an internal research collective whose stated goal is to study the nature of intelligence directly rather than optimize primarily for benchmark scores. The post describes work on alternatives to standard Transformer scaling, including Continuous Thought Machines and neuron-level models, plus a collaboration with NVIDIA on a sparse-model data format and CUDA kernels aimed at improving speed, memory, and energy efficiency for billion-parameter models, which the post states was accepted at ICML 2026.",
+      "source_url": "https://sakana.ai/frontier-intelligence-group/",
+      "source_name": "Sakana AI Official Blog",
+      "published_date": "2026-09-18",
+      "category": "research",
+      "tone": "neutral",
+      "confidence": "primary-inferred",
+      "notes": "Exact publish date inferred from a secondary source's 'published 1 day ago' relative timestamp as of the September 19, 2026 collection date, because direct WebFetch access to sakana.ai was blocked in this session; date and full content should be verified against the live page when possible."
+    }
+  ],
+  "coverage_note": "Three new official Sakana AI blog posts were identified within the 2026-08-29 to 2026-09-19 window: the Fugu Max/Fugu Ultra v2 orchestration model launch (Sept 11), an 'Inside the Product Team' culture post (Sept 16), and the introduction of the Frontier Intelligence Group research collective (Sept 18, date approximate). A widely reported update to Sakana Marlin (an 'Interactive Reading' chat feature and a PowerPoint exporter, dated roughly Sept 16-17, 2026 per third-party coverage) was noted but omitted because no direct sakana.ai URL for that specific update could be confirmed in this session -- third-party aggregator coverage was the only source found, which does not meet this collector's primary-source bar. Direct WebFetch access to sakana.ai and nearly all third-party domains was blocked by the network egress proxy throughout this run, so all facts above rely on WebSearch snippets rather than verified full-page fetches; recommend spot-checking dates, pricing, and benchmark figures directly against sakana.ai/blog before publication. Items clearly predating the collection window (original Fugu launch, Marlin launch, Series B/Citi/Mitsubishi Electric investments, David Ha media interviews, the Nemotron pool integration, and the PC-ALM predictive-coding paper) were excluded as out of scope for this run."
+}

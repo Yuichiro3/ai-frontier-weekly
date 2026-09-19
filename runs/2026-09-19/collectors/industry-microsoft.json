@@ -1,0 +1,44 @@
+{
+  "collector": "industry-leader-collector",
+  "target": "Microsoft",
+  "run_date": "2026-09-19",
+  "items": [
+    {
+      "id": "microsoft-humanist-ai-code-of-conduct-2026-09",
+      "title": "Microsoft AI publishes draft 'Humanist AI' code of conduct for its own models",
+      "summary_en": "On September 14, 2026, Microsoft AI CEO Mustafa Suleyman published a draft code of conduct for Microsoft's in-house MAI model family, stating models must remain subordinate to, interruptible by, and correctable by humans, and must not assist with certain weapons development, cyberattacks, or nonconsensual deepfakes. Microsoft opened a six-week public comment period, with a revised version planned before the end of the year. Suleyman linked the move to recent incidents involving autonomous AI agents, including a reported case of OpenAI agents acting on Hugging Face.",
+      "source_url": "https://microsoft.ai/news/mai-code-of-conduct/",
+      "source_name": "Microsoft AI (official blog)",
+      "published_date": "2026-09-14",
+      "category": "safety",
+      "tone": "neutral",
+      "confidence": "primary-inferred",
+      "notes": "Could not directly fetch microsoft.ai due to network egress restrictions in this environment; details drawn from search-engine snippets of the official post plus corroborating quotes attributed to Suleyman in Axios, Fortune, VentureBeat, and Decrypt, and Suleyman's own announcement on X. Recommend direct verification against microsoft.ai/news/mai-code-of-conduct/ before publication."
+    },
+    {
+      "id": "microsoft-responsible-ai-report-2026",
+      "title": "Microsoft publishes 2026 Responsible AI Transparency Report update",
+      "summary_en": "On September 1, 2026, Microsoft's 'On the Issues' blog published a post describing how the company has re-engineered its internal Responsible AI Standard and is strengthening governance processes specifically for agentic AI systems, framed as preparation for the remainder of the year.",
+      "source_url": "https://blogs.microsoft.com/on-the-issues/2026/09/01/responsible-ai-in-2026-how-we-are-adapting-for-whats-ahead/",
+      "source_name": "Microsoft On the Issues (official blog)",
+      "published_date": "2026-09-01",
+      "category": "safety",
+      "tone": "neutral",
+      "confidence": "primary-inferred",
+      "notes": "Could not directly fetch blogs.microsoft.com due to network egress restrictions; summary based on the official post's title/description as returned by search, not a full read of body text. Recommend direct verification before publication."
+    },
+    {
+      "id": "microsoft-ai-transformation-frontier-firms-2026-09",
+      "title": "Microsoft shares lessons from its own internal AI transformation, 'Frontier Firms' framing",
+      "summary_en": "On September 17, 2026, the Official Microsoft Blog published a post reflecting on Microsoft's internal AI adoption process, describing organizations that successfully integrate AI as 'Frontier Firms' -- companies it characterizes as human-led but increasingly AI-enabled -- and sharing internal lessons from that transition.",
+      "source_url": "https://blogs.microsoft.com/blog/2026/09/17/what-weve-learned-from-microsofts-own-ai-transformation/",
+      "source_name": "The Official Microsoft Blog",
+      "published_date": "2026-09-17",
+      "category": "opinion",
+      "tone": "neutral",
+      "confidence": "primary-inferred",
+      "notes": "Could not directly fetch blogs.microsoft.com due to network egress restrictions; summary based on the official post's title/description as returned by search, not a full read of body text. Recommend direct verification before publication."
+    }
+  ],
+  "coverage_note": "Three items found for the 2026-08-29 to 2026-09-19 window, all from official Microsoft channels (microsoft.ai and blogs.microsoft.com): the 'Humanist AI' code of conduct draft (Sept 14), the 2026 Responsible AI Transparency Report post (Sept 1), and a post on Microsoft's internal AI transformation / 'Frontier Firms' (Sept 17). Other candidate items (e.g. MAI-Code-1.1-Flash GA on Aug 11, various Copilot/SharePoint feature updates) either fell before the collection window or could only be sourced via secondary/aggregator blogs (e.g. Big Hat Group, Releasebot, covenant-tech.net) rather than an official Microsoft channel, so they were excluded per sourcing rules. Direct WebFetch access to blogs.microsoft.com, microsoft.ai, azure.microsoft.com, and techcommunity.microsoft.com was blocked by the environment's network egress proxy for this run, so all three items rely on search-engine snippets of the official pages plus corroborating secondary reporting rather than a full direct read -- flagged as primary-inferred and should be spot-checked before the report is finalized."
+}

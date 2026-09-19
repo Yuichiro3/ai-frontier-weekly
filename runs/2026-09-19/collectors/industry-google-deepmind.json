@@ -1,0 +1,32 @@
+{
+  "collector": "industry-leader-collector",
+  "target": "Google DeepMind",
+  "run_date": "2026-09-19",
+  "items": [
+    {
+      "id": "gdm-2026-09-02-gemini-3-8-flash",
+      "title": "Google launches Gemini 3.8 Flash and Gemini 3.8 Flash Cyber",
+      "summary_en": "Google introduced two new lightweight Gemini models on 2 September 2026: Gemini 3.8 Flash, a faster, cheaper general-purpose model said to approach larger frontier models on some benchmarks including agentic software-engineering tasks, and Gemini 3.8 Flash Cyber, a specialised variant tuned for detecting and patching software vulnerabilities. Flash Cyber is distributed only through a new restricted program called Fairwind, aimed at government agencies, critical-infrastructure operators and vetted security partners rather than through the open Gemini API.",
+      "source_url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/3-8-flash-and-3-8-flash-cyber/",
+      "source_name": "Google Blog (Gemini models)",
+      "published_date": "2026-09-02",
+      "category": "model-release",
+      "tone": "neutral",
+      "confidence": "primary-inferred",
+      "notes": "Official blog.google URL was located via search (exact title match) but could not be directly fetched this session because the network egress proxy blocked blog.google; details were cross-checked against several independent secondary write-ups (e.g. Forkast, Develeap, Pragma-code) that all cite the same official post."
+    },
+    {
+      "id": "gdm-2026-09-08-alphagenome-atlas",
+      "title": "DeepMind releases AlphaGenome Atlas, a genome-wide DNA-variant-effect database",
+      "summary_en": "On 8 September 2026, Google DeepMind published AlphaGenome Atlas, a free, searchable database of predicted molecular effects for roughly 9 billion possible single-nucleotide human DNA changes plus over 100 million short insertions/deletions. The predictions, generated with the AlphaGenome model released in June 2025, are combined into an AlphaGenome Variant Impact score that ranks how disruptive a mutation is likely to be. DeepMind describes the resulting dataset as about one petabyte, more than 30 times the size of the AlphaFold Database, and offers it through a web portal, a free non-commercial API, and as a tool inside Google Antigravity, alongside case studies contributed by the Broad Institute and the University of Exeter.",
+      "source_url": "https://deepmind.google/blog/alphagenome-atlas-a-predictive-map-of-every-possible-dna-letter-change-in-the-human-genome/",
+      "source_name": "Google DeepMind Official Blog",
+      "published_date": "2026-09-08",
+      "category": "research",
+      "tone": "neutral",
+      "confidence": "primary-inferred",
+      "notes": "Exact deepmind.google/blog URL identified via search results (title match); direct fetch of the page was blocked by this session's network egress proxy, so figures were cross-verified against independent secondary coverage (The Register, MarkTechPost) rather than read first-hand."
+    }
+  ],
+  "coverage_note": "Two items found for this window, both with strong (though not directly-fetched) primary-source URLs on official Google/DeepMind blogs. One additional item was noticed but deliberately excluded: Demis Hassabis reportedly gave a virtual fireside chat / remarks at the G20 Innovation Ministerial (Chapel Hill, 1-2 Sept 2026) about Gemini becoming a 'general-purpose coordination layer' for cheaper specialized models and agents -- this was widely covered by outlets like Axios and CNBC, but no official DeepMind transcript, video, or blog recap could be located or fetched this session, so it falls short of the 'official channel or direct transcript' bar and was left out rather than sourced secondhand. Separately, Google DeepMind's leadership reorganization (Demis Hassabis moving from CEO to Chairman of DeepMind / Chief Scientist of Alphabet, Koray Kavukcuoglu taking over daily operations) was dated 2026-08-05, which falls before this run's collection window (2026-08-29 to 2026-09-19) and was presumably already covered in an earlier run; it is not repeated here. Given the unusual severity of the network restrictions (nearly all outbound domains blocked for WebFetch), confidence on both items is treated as closer to 'primary-inferred' than a fully verified 'primary-confirmed' -- neither official page could be loaded directly this session to confirm exact wording/date, only corroborated via independent secondary sources agreeing with the same URL and date."
+}

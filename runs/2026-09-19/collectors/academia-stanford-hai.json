@@ -1,0 +1,20 @@
+{
+  "collector": "academia-collector",
+  "target": "Stanford HAI",
+  "run_date": "2026-09-19",
+  "items": [
+    {
+      "id": "stanford-hai-ai-legal-review-discriminatory-local-laws-2026-09",
+      "title": "AI Review of 9,600+ U.S. Jurisdictions Finds Millions Living Under Discriminatory Local Laws",
+      "summary_en": "Stanford Law School and Stanford HAI's RegLab built an LLM-assisted statutory research pipeline (reported under the name STARA) that scanned roughly 3 billion words of local law across 9,623 U.S. jurisdictions, covering about 75% of the U.S. population. The researchers estimate at least 50 million Americans live in localities with overtly discriminatory statutes still on the books -- including formal segregation mandates, poll taxes, and denial of women's suffrage -- and flagged more than 30,000 statutes containing offensive language, with human experts reviewing AI-flagged provisions before publication.",
+      "source_url": "https://hai.stanford.edu/news/ai-legal-review-says-millions-live-under-discriminatory-local-laws",
+      "source_name": "Stanford HAI News (cross-published by Stanford Law School)",
+      "published_date": "2026-09-08",
+      "category": "research",
+      "tone": "neutral",
+      "confidence": "primary-inferred",
+      "notes": "Related HAI policy briefs on the same project: 'Making Local Law Legible: LLM-Assisted Detection of Discrimination' (authors: Dan Bateyko, Yasmine Mabene, Derek Ouyang, Daniel E. Ho; Stanford HAI Policy & Society / RegLab, 2026) at https://hai.stanford.edu/policy/making-local-law-legible-llm-assisted-detection-of-discrimination, and 'Cleaning Up Policy Sludge: An AI Statutory Research System' at https://hai.stanford.edu/policy/cleaning-up-policy-sludge-an-ai-statutory-research-system. Peer-review status of the underlying working paper could not be confirmed; treat as an institutional policy brief/working paper, not yet confirmed peer-reviewed [preprint/working-paper status unverified]. Confidence set to 'primary-inferred' rather than 'primary-confirmed' because WebFetch was blocked by network egress restrictions on hai.stanford.edu and law.stanford.edu this run; content is based on search-engine snippets quoting the official pages, not a direct page fetch."
+    }
+  ],
+  "coverage_note": "Tool access was significantly constrained this run: WebFetch was blocked by the network egress proxy for all domains tested (hai.stanford.edu, law.stanford.edu, news.stanford.edu, arxiv.org, and others), and the WebSearch quota was exhausted before collection could be considered exhaustive. Only one item was confirmed as genuinely new and datable within the 2026-08-29 to 2026-09-19 window: the Stanford Law/HAI RegLab study on AI-assisted review of discriminatory local statutes (~Sept 8, 2026). Other Stanford HAI news encountered in search results -- the 2026 AI Index Report (published Aug 4, 2026), the HAI/Stanford Data Science merger and James Landay/Fei-Fei Li leadership transition (announced May 4, 2026), and the AI and Organizations Lab launch (May 2026) -- all fall before the collection window and were excluded as not new. A possible item, 'Researchers Worldwide Compete to Shape the Future of AI in Organizations,' surfaced in search results without a confirmed publication date; it was excluded rather than risk misdating it, and is flagged here for a follow-up check next run."
+}

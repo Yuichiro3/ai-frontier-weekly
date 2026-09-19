@@ -1,0 +1,44 @@
+{
+  "collector": "academia-collector",
+  "target": "The Alan Turing Institute",
+  "run_date": "2026-09-19",
+  "items": [
+    {
+      "id": "turing-satellite-light-curve-ai-2026-09-01",
+      "title": "New AI tool detects anomalous satellite behaviour from reflected sunlight to boost space safety",
+      "summary_en": "Researchers at the Alan Turing Institute's Defence AI Research Centre (DARe), working with the University of Strathclyde, MIT, University of Arizona, University of Waterloo and industry partners, developed an AI model that predicts satellite anomalies and motion by learning from 'light curves' -- patterns of sunlight reflected off orbiting objects. The system reportedly flags unusual readings 88% of the time and can distinguish a spinning spacecraft from a tumbling one, which could aid space traffic management and collision-avoidance decisions as the number of satellites in orbit grows rapidly.",
+      "source_url": "https://www.turing.ac.uk/news/new-ai-powered-tool-identify-threats-space-and-improve-national-security",
+      "source_name": "The Alan Turing Institute (News)",
+      "published_date": "2026-09-01",
+      "category": "research",
+      "tone": "neutral",
+      "confidence": "primary-inferred",
+      "notes": "Corroborated by University of Strathclyde press release (project co-lead Prof. Massimiliano Vasile) and secondary science-press coverage. No peer-reviewed paper link was found in the sources checked; unclear if underlying study is a preprint or unpublished internal result -- flagged for verification. Direct fetch of turing.ac.uk was blocked in this environment, so URL/details are based on search-result snippets, not a direct page read."
+    },
+    {
+      "id": "cetas-narrowing-window-ai-resilience-2026-09-02",
+      "title": "CETaS: UK faces a 'narrowing window of opportunity' to secure its AI-driven national resilience",
+      "summary_en": "The Turing's Centre for Emerging Technology and Security (CETaS) published a policy briefing arguing the UK must act soon to secure the AI systems, infrastructure and expertise most critical to national resilience. It recommends building sovereign capability where national control is essential, partnering with trusted allies where they offer unique advantages, and exporting UK expertise in AI safety, evaluation and assurance to extend global influence.",
+      "source_url": "https://www.turing.ac.uk/news/uk-must-exploit-narrowing-window-opportunity-build-resilient-ai-future",
+      "source_name": "The Alan Turing Institute / CETaS",
+      "published_date": "2026-09-02",
+      "category": "policy",
+      "tone": "neutral",
+      "confidence": "primary-inferred",
+      "notes": "Policy briefing/opinion piece, not a peer-reviewed research output. Details drawn from search-result summaries; direct fetch of turing.ac.uk was blocked in this environment."
+    },
+    {
+      "id": "cetas-human-oversight-national-security-workforce-2026-09-09",
+      "title": "CETaS briefing: preserving human judgement and oversight is key to AI adoption in national security",
+      "summary_en": "A CETaS briefing paper -- the first output of a wider project on intelligence analysis and the future workforce -- argues that successful AI adoption in defence and national security will depend on organisations maintaining human skills, judgement and oversight alongside increasingly capable AI systems. It draws on evidence from the legal and health sectors, where routine-task automation has reportedly reduced junior professionals' opportunities to develop judgement and reasoning skills, to caution against similar effects in national security work.",
+      "source_url": "https://www.turing.ac.uk/news/ai-key-future-national-security-decision-making-brings-its-own-risks",
+      "source_name": "The Alan Turing Institute / CETaS",
+      "published_date": "2026-09-09",
+      "category": "policy",
+      "tone": "neutral",
+      "confidence": "primary-inferred",
+      "notes": "Policy briefing paper, not peer-reviewed research. Details drawn from search-result summaries; direct fetch of turing.ac.uk was blocked in this environment."
+    }
+  ],
+  "coverage_note": "Three new Turing Institute items were identified in the 2026-08-29 to 2026-09-19 window: a DARe satellite-anomaly-detection AI announcement (Sep 1) and two CETaS policy briefings (Sep 2, Sep 9). Other Turing-related items found during research were explicitly excluded as out-of-window or unconfirmed: the CETaS 'Adding Fuel to the Fire' AI-disinformation report and the International AI Safety Report 2026 were both published in February 2026, well before this window. A UKRI review deeming the Institute's value-for-money 'not yet satisfactory' dates to April 2026 and is not a Turing publication; it is mentioned here only as background context because September 2026 is cited as a deadline for the Institute's response plan, but no new primary-source document from Turing about this was found in-window. A possible follow-up item on 'Project Aemelia' (AI-enabled satellite radar/Space Domain Awareness, originally announced December 2025) was suggested by a search snippet dated around Sep 9, 2026, but could not be independently confirmed with a distinct URL/date via available tools, so it was omitted rather than risk misattribution. Direct access to www.turing.ac.uk was blocked by the network egress proxy for the WebFetch tool throughout this run, so all findings rely on WebSearch snippets and corroborating secondary sources (e.g., University of Strathclyde) rather than direct verification of the Institute's own pages -- a human reviewer should spot-check the listed source_urls before publication."
+}

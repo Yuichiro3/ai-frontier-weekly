@@ -1,0 +1,32 @@
+{
+  "collector": "wildcard-collector",
+  "target": "wildcard",
+  "run_date": "2026-09-19",
+  "items": [
+    {
+      "id": "willison-blender-coding-agents-macos",
+      "title": "Simon Willison gets a coding agent to render 3D scenes in Blender via a reusable skill",
+      "summary_en": "Independent researcher/engineer Simon Willison documented using ChatGPT's Codex mode (macOS) to drive the open-source 3D tool Blender through natural-language prompts, iterating a 'pelican riding a bicycle' render across three rounds (roughly 2m39s, 3m51s, and 5m59s) and having the agent produce a reusable 'Blender Local' skill file so future scenes can be generated with one instruction. He followed up days later with a browser-based .blend file viewer built the same way.",
+      "source_url": "https://simonwillison.net/2026/Sep/5/blender-coding-agents-macos/",
+      "source_name": "Simon Willison's Weblog (TIL)",
+      "published_date": "2026-09-05",
+      "category": "product",
+      "tone": "playful",
+      "confidence": "primary-inferred",
+      "notes": "Could not directly fetch simonwillison.net (blocked by this session's network egress proxy); content corroborated via search-engine snippets and an independent GitHub PR (steveash/hitchhikers-guide-to-ai-native-engineering#3437) quoting the same live URL and a Sept 9, 2026 follow-up post. Recommend a direct read-through before publishing if access allows."
+    },
+    {
+      "id": "rekursivai-autoautoresearch-nanochat",
+      "title": "Autonomous 'AI Scientist' agents claim a new best score on Karpathy's NanoChat speed-training benchmark",
+      "summary_en": "A blog post from rekursiv.ai reports that a team of autonomous AI research agents ('auto-auto-research') reached a mean of 0.887791 bits-per-byte across 10 seeds on Andrej Karpathy's community NanoChat benchmark, within a five-minute training budget on a single B200 GPU. The post frames this as evidence that AI systems can now meaningfully self-optimize small-scale language-model training loops with minimal human tuning, though the claim comes from the team's own writeup rather than an independent benchmark authority.",
+      "source_url": "https://rekursiv.ai/blog/autoautoresearch/",
+      "source_name": "rekursiv.ai blog",
+      "published_date": "2026-09-07",
+      "category": "research",
+      "tone": "playful",
+      "confidence": "secondary-source",
+      "notes": "rekursiv.ai was blocked by this session's network egress proxy, so this entry is based on a search-engine snippet quoting the page rather than a direct read of the source. Author/team identity beyond 'rekursiv.ai' could not be independently confirmed. Recommend manual verification before including in the final report, or dropping if it cannot be confirmed."
+    }
+  ],
+  "coverage_note": "Two items found via broad web search (roughly last 2-3 weeks of Sept 2026). Confidence on item 2 is lower than usual for this collector because the source domain was blocked for direct fetch in this session; a human or a subsequent run with unrestricted access should confirm it before publication."
+}

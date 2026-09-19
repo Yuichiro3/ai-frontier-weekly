@@ -1,0 +1,32 @@
+{
+  "collector": "academia-collector",
+  "target": "Carnegie Mellon University - Robotics Institute",
+  "run_date": "2026-09-19",
+  "items": [
+    {
+      "id": "cmu-ri-genesis-mission-autonomous-labs-2026-09",
+      "title": "CMU Robotics Institute Project to Connect Autonomous Laboratories Selected for DOE Genesis Mission Funding",
+      "summary_en": "Carnegie Mellon University researchers, including Robotics Institute faculty, are developing AI-based tools to let autonomous laboratories at different sites share robotic capabilities and AI-generated software modules as one connected research ecosystem. The project, funded through the U.S. Department of Energy's Genesis Mission, aims to sharply cut the time needed to stand up new autonomous science experiments, with CMU partnering with national laboratories and other universities.",
+      "source_url": "https://www.ri.cmu.edu/connecting-autonomous-laboratories-to-speed-scientific-advancement/",
+      "source_name": "CMU Robotics Institute News",
+      "published_date": "2026-09-03",
+      "category": "research",
+      "tone": "neutral",
+      "confidence": "primary-inferred",
+      "notes": "A version of this story first appeared on CMU's main news site dated July 2026 (cmu.edu/news/stories/archives/2026/july/connecting-autonomous-laboratories-to-speed-scientific-advancement); the Robotics Institute's own news listing shows it under Sept 3, 2026, likely reflecting a cross-post/re-listing date. Direct fetch of ri.cmu.edu was blocked by network egress restrictions during this collection run, so this entry relies on search-engine snippets rather than a rendered page; please spot-check before publication."
+    },
+    {
+      "id": "cmu-ri-pathways-fellowship-year-four-2026-09",
+      "title": "CMU Robotics Institute Pathways Fellowship Launches Fourth Cohort",
+      "summary_en": "The Robotics Institute's Pathways Fellowship, run in partnership with InnovatePGH to support non-traditional entrepreneurial talent in robotics, began its fourth year of programming with a new cohort of seven engineers, designers, and entrepreneurs.",
+      "source_url": "https://www.ri.cmu.edu/2026-cmu-ri-pathways/",
+      "source_name": "CMU Robotics Institute News",
+      "published_date": "2026-09-15",
+      "category": "research",
+      "tone": "neutral",
+      "confidence": "primary-inferred",
+      "notes": "This is an institutional workforce/entrepreneurship program announcement rather than a technical AI research result; included for completeness since it is a primary item on RI's own news feed within the collection window. Direct fetch of ri.cmu.edu was blocked by network egress restrictions during this run, so this entry relies on search-engine snippets rather than a rendered page; please spot-check before publication."
+    }
+  ],
+  "coverage_note": "Two items found within the 2026-08-29 to 2026-09-19 window on ri.cmu.edu's own news feed; both are institutional/program items rather than new technical research findings. Several other items were reviewed and excluded as out of window or out of scope for a frontier-AI-research briefing: 'RI Alum Damion Shelton Named Associate VP and Executive Director of the Swartz Center for Entrepreneurship' (ri.cmu.edu, Sept 1, 2026 -- personnel/administrative, not research); 'Robotics Innovation Center Earns LEED Platinum Certification for Sustainable Construction' (cmu.edu, Sept 2026 -- facilities/sustainability, not AI/robotics research); the BFM-Zero humanoid behavioral foundation model paper (CMU + Meta, arXiv 2511.04131, posted ~Nov 2025 -- outside window); 'Team Chiron Advances to Final Phase of DARPA Triage Challenge' (ri.cmu.edu, posted Nov 11, 2025 -- outside window); and Ford-funded human-action-prediction robot work led by PhD student Ruixuan Liu (reported early August 2026, before this window's start). No new peer-reviewed publications or arXiv preprints newly linked from ri.cmu.edu were identified within the window. Network egress to ri.cmu.edu, cmu.edu, cs.cmu.edu, arxiv.org, and web.archive.org was blocked for direct WebFetch during this run, limiting verification to search-engine snippets; flagged per-item above. Note: the Genesis Mission item has a date discrepancy worth human attention -- original CMU main-site story dated July 2026 vs. RI's own listing showing Sept 3, 2026."
+}
