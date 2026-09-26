@@ -91,3 +91,42 @@ rotation_history:
       ~2026-08-15 to 2026-08-29 window), which should be re-checked once
       access constraints are resolved rather than assumed to mean no new
       evaluator output existed.
+  - run_date: "2026-09-26"
+    iso_week: "2026-W39"
+    note: >
+      No runs were produced for 2026-W36/37/38 (2026-09-05, 2026-09-12,
+      2026-09-19); this run covers a wide ~4-week window (2026-08-29 to
+      2026-09-26) with the full default target list, 15 collector calls, 67
+      total items. The environment-wide egress restriction flagged in the
+      last two runs is now confirmed as a THIRD consecutive occurrence:
+      nearly every collector this run reported WebFetch returning
+      EGRESS_BLOCKED for its target domain (and, for two collectors, for
+      unrelated control domains too), forcing reliance on WebSearch snippets
+      and secondary corroboration instead of direct page reads. Of 67 items,
+      only 21 are "primary-confirmed"; 37 are "primary-inferred" and 9 are
+      "secondary-source". This should be raised with whoever operates the
+      harness rather than treated as a per-target rotation issue -- it is
+      now a recurring pattern across three straight tracked runs, not a
+      one-off. UK AI Security Institute (AISI) returned zero items for the
+      second time (previously covered under the combined evaluator note;
+      this is its first run as a standalone file, evaluator-aisi.json) --
+      still not confirmed as "nothing published" given the same egress
+      block affected its domain. Evaluator coverage overall remains
+      concentrated: Epoch AI supplied 10 of the 12 evaluator items this run,
+      with METR contributing only 2 and AISI 0 -- worth actively diversifying
+      evaluator coverage (e.g. explicitly re-prompting METR/AISI with wider
+      date ranges) rather than letting Epoch AI's higher publication cadence
+      implicitly dominate that category. Diversity flag: Anthropic (11) and
+      Epoch AI (10) were the two largest single-source contributors this
+      run, but combined industry-leader concentration eased versus last run
+      -- OpenAI + Anthropic together are 18 of 67 items (~27%), down from
+      ~40% in 2026-W35. Google DeepMind was likely under-collected (only 2
+      items) due to the same access restriction combined with an exhausted
+      per-collector WebSearch budget; a follow-up pass is recommended once
+      access is restored. Quality gates run this cycle: citation integrity
+      passed (all 67 report reference IDs trace to a collector item, no
+      orphaned citations); deduplication passed (no same news item cited
+      from two different collectors; the only repeated source URLs are
+      distinct sub-announcements from the same Meta Connect 2026 recap
+      page, which is expected); CEFR heuristic passed (average sentence
+      length ~15 words, within the B2-C1 target band).
