@@ -1,0 +1,56 @@
+{
+  "collector": "industry-leader-collector",
+  "target": "Sakana AI",
+  "run_date": "2026-09-26",
+  "items": [
+    {
+      "id": "sakana-schmidhuber-advisor-2026-09-24",
+      "title": "Jürgen Schmidhuber joins Sakana AI as Chief Scientific Advisor",
+      "summary_en": "Sakana AI announced that AI researcher Jürgen Schmidhuber has joined the company as Chief Scientific Advisor, a role in which he will guide the direction of Sakana AI's Recursive Self-Improvement (RSI) Lab while keeping his existing positions and traveling regularly to Tokyo. Sakana AI's post frames his 1980s work on recursive self-improvement and meta-learning as foundational to some of the company's recent research, including the Darwin Gödel Machine and The AI Scientist.",
+      "source_url": "https://sakana.ai/schmidhuber/",
+      "source_name": "Sakana AI Official Blog",
+      "published_date": "2026-09-24",
+      "category": "research",
+      "tone": "neutral",
+      "confidence": "primary-inferred",
+      "notes": "Could not directly render sakana.ai/schmidhuber/ due to egress-proxy block on the sakana.ai domain; content corroborated via Nikkei Asia coverage and multiple secondary outlets citing the same blog post and an official Sakana AI social post. Recommend a direct fetch/verification pass by an agent with unblocked access before final publication."
+    },
+    {
+      "id": "sakana-fugu-max-ultra-v2-2026-09-11",
+      "title": "Sakana AI launches Fugu Max and Fugu Ultra v2 multi-agent orchestration systems",
+      "summary_en": "Sakana AI released two new versions of its Fugu orchestration system: Fugu Max, aimed at cost-efficiency by routing tasks across a pool of open-weight and specialized models, and Fugu Ultra v2, aimed at higher-quality output for complex reasoning, research and software-engineering tasks using a deeper model pool. Per the announcement, Fugu is not a foundation model itself but a trained router/orchestrator that can also recursively call instances of itself; both tiers are available through Sakana's OpenAI-compatible API.",
+      "source_url": "https://sakana.ai/fugu-max-release/",
+      "source_name": "Sakana AI Official Blog",
+      "published_date": "2026-09-11",
+      "category": "product",
+      "tone": "neutral",
+      "confidence": "primary-inferred",
+      "notes": "Could not directly render the sakana.ai blog post due to egress-proxy block; content corroborated via multiple secondary tech-press write-ups (MarkTechPost, dated 2026-09-10; Pondero, dated 2026-09-12) that reference the same official post title 'Introducing Fugu Max and Fugu Ultra v2: Orchestrating the Pareto Frontier'. Specific pricing/benchmark figures cited by secondary press were not independently verified against the primary post and are omitted here."
+    },
+    {
+      "id": "sakana-pc-alm-2026-09-14",
+      "title": "Sakana AI researchers publish PC-ALM, a backpropagation-free training method for very deep networks",
+      "summary_en": "Sakana AI researchers Jeffrey Seely and Julian Gould published work on Augmented Lagrangian Predictive Coding (PC-ALM), a layer-local alternative to backpropagation. According to the publication, PC-ALM trains residual networks up to 1,000 layers deep using only local layer-to-layer updates, reaching accuracy within about two percentage points of standard backpropagation on benchmark image classification tasks, and the team released an MIT-licensed JAX reference implementation.",
+      "source_url": "https://pub.sakana.ai/pc-alm/",
+      "source_name": "Sakana AI Publications (pub.sakana.ai)",
+      "published_date": "2026-09-14",
+      "category": "research",
+      "tone": "neutral",
+      "confidence": "primary-inferred",
+      "notes": "Could not directly render pub.sakana.ai due to egress-proxy block; content corroborated via MarkTechPost (dated 2026-09-14) and an associated arXiv preprint referencing the same authors and method, plus an official SakanaAI GitHub repo (SakanaAI/pc-alm)."
+    },
+    {
+      "id": "sakana-sumitomo-scsk-partnership-2026-09-10",
+      "title": "Sakana AI forms business partnership with Sumitomo Corporation and SCSK",
+      "summary_en": "Sakana AI, SCSK Corp, and Sumitomo Corporation announced a comprehensive business partnership to accelerate deployment of domestically developed AI across Japanese industry, with initial focus on finance and manufacturing and consideration of cybersecurity and overseas expansion. The arrangement combines Sakana AI's model and product development with SCSK's systems-integration expertise and Sumitomo Corporation's business network, which the announcement describes as reaching roughly 100,000 companies.",
+      "source_url": "https://sakana.ai/scsk-sc-partnership/",
+      "source_name": "Sakana AI Official Blog",
+      "published_date": "2026-09-10",
+      "category": "product",
+      "tone": "neutral",
+      "confidence": "primary-inferred",
+      "notes": "Could not directly render sakana.ai due to egress-proxy block; content corroborated via Nikkei Asia and Digitimes coverage (both dated 2026-09-10) referencing the same official announcement. Original post is in Japanese per its URL title snippet; summary is based on secondary-press paraphrase of its content, so treat financial/industry-scope details as approximate pending direct verification."
+    }
+  ],
+  "coverage_note": "Four items found from official Sakana AI channels within the 2026-08-29 to 2026-09-26 window: the Schmidhuber advisory appointment (Sep 24), the Fugu Max/Fugu Ultra v2 orchestration release (Sep 11), the PC-ALM backpropagation-free training publication (Sep 14), and the Sumitomo/SCSK business partnership (Sep 10). Two other Sakana AI stories surfaced in research but fall outside the window and were excluded: the RSI Lab launch (early June 2026) and the Digital Red Queen / Core War adversarial-evolution research with MIT (January 2026); the Schmidhuber item references the RSI Lab as context but is reported here only for its own Sep 24 announcement content. The Conductor/multi-agent-orchestration research paper underlying Fugu appears to predate this window (associated arXiv submission suggests late 2025) and was treated as background, not a standalone item. IMPORTANT CAVEAT: sakana.ai, pub.sakana.ai, and x.com were all blocked by the network egress proxy for WebFetch, so none of the four items above could be directly fetched and verified against the primary source text — all summaries were built from WebSearch result snippets and cross-checked against independent secondary tech-press coverage citing the same official posts by title and date. A follow-up fetch of the four sakana.ai/pub.sakana.ai URLs from an unblocked environment is recommended before the report is finalized."
+}

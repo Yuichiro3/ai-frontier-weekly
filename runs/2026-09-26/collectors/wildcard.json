@@ -1,0 +1,32 @@
+{
+  "collector": "wildcard-collector",
+  "target": "independent-sources",
+  "run_date": "2026-09-26",
+  "items": [
+    {
+      "id": "willison-coding-agents-harder-2026-09-24",
+      "title": "Simon Willison: Coding Agents Are Making Software Engineering Harder, Not Easier",
+      "summary_en": "Independent software engineer Simon Willison (creator of Datasette and the LLM CLI tool) argues that the more he works with coding agents, the more convinced he is that they make software engineering harder rather than easier. He says unlocking their full potential requires extraordinary discipline and domain knowledge, pushing back against narratives that agentic coding tools make software development trivially easy.",
+      "source_url": "https://simonwillison.net/2026/Sep/24/harder/",
+      "source_name": "Simon Willison's Weblog",
+      "published_date": "2026-09-24",
+      "category": "opinion",
+      "tone": "contrarian",
+      "confidence": "primary-inferred",
+      "notes": "Direct page fetch was blocked by network egress restrictions. Content verified via the author's matching cross-post quote appearing independently on his X/Twitter account, plus consistent references in independent newsletters (Buttondown's 'Beyond the Hype' piece, Heavybit's High Leverage podcast page) that quote the same note. Author is a well-known, publicly identifiable independent engineer."
+    },
+    {
+      "id": "mvakde-small-transformer-arc-2026-09",
+      "title": "Independent Researcher Trains a Small Transformer in ~90 Minutes That Beats Several LLMs on ARC Puzzles",
+      "summary_en": "In a personal blog post titled 'I trained a small transformer in 1.5hrs and it beats many LLMs,' a researcher going by mvakde describes training a compact, task-specific transformer on ARC-style abstract-reasoning puzzles that outperforms several general-purpose large language models on that narrow benchmark. The post sparked a Hacker News discussion about what narrow, specialized wins like this do (and don't) imply about general reasoning progress.",
+      "source_url": "https://mvakde.github.io/blog/44-on-arc-1/",
+      "source_name": "mvakde's personal blog",
+      "published_date": "2026-09-02",
+      "category": "research",
+      "tone": "playful",
+      "confidence": "secondary-source",
+      "notes": "Publish date is approximate, inferred from the Hacker News AI Digest issue that referenced it, not from a directly confirmed on-page date — direct fetch of the blog was blocked by network egress restrictions. Content description is based on a third-party digest paraphrase of the original post and its HN discussion (news.ycombinator.com/item?id=49519939); specific claimed figures (training time, which LLMs were beaten) could not be independently re-verified against the primary page text."
+    }
+  ],
+  "coverage_note": "Collection window 2026-08-29 to 2026-09-26. Several other offbeat candidates surfaced via Hacker News AI digests but were excluded for insufficient independent verification given this session's tooling constraints (most personal-blog, arXiv, and HN domains were blocked for direct WebFetch, and the WebSearch budget was exhausted before full corroboration): an arXiv preprint on an 'AI web-slop' content classifier claiming 98% held-out accuracy (news.ycombinator.com/item?id=49800566, arxiv.org/abs/2609.15369), a Dan Luu retrospective grading AI-skeptic Ed Zitron's predictions (danluu.com/zitron/), a contrarian post 'Why I'm still bearish on LLMs after Navier-Stokes' (dank.systems/posts/2026-09-15-ai-bear.html), and an open-source PCB-design agent called 'Copperhead.' These were not fabricated — real URLs exist — but are omitted here rather than reported as confirmed facts, per the rule against presenting unverified claims as settled."
+}

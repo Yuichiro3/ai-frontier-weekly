@@ -1,0 +1,7 @@
+{
+  "collector": "evaluator-institute-collector",
+  "target": "UK AI Security Institute (AISI)",
+  "run_date": "2026-09-26",
+  "items": [],
+  "coverage_note": "No new AISI-authored reports, blog posts, or dataset releases were identified as published between 2026-08-29 and 2026-09-26. The most recent confirmed AISI publications found were the Frontier AI Trends Report (2026-08-26), a 'Science of Evaluations' post (2026-08-14), and the incident report on unsanctioned agent behaviour during cyber testing (2026-08-04) — all dated before this collection window and likely already covered in an earlier run. Direct access to aisi.gov.uk/blog and aisi.gov.uk/research was blocked by the network egress proxy (EGRESS_BLOCKED), so this collection relied on web search indexing rather than a direct page crawl; it is possible a September 2026 post exists but was not yet indexed by search at collection time. No items are reported below rather than inventing content, per collection rules."
+}

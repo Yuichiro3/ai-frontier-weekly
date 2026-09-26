@@ -1,0 +1,92 @@
+{
+  "collector": "industry-leader-collector",
+  "target": "OpenAI",
+  "run_date": "2026-09-26",
+  "items": [
+    {
+      "id": "openai-path-to-astra-2026-09-01",
+      "title": "OpenAI previews \"Path to Astra\": first model to hit Critical cyber capability threshold",
+      "summary_en": "Ahead of releasing GPT-6 Astra, OpenAI published a preview of how it evaluated the model under its Preparedness Framework, stating Astra is the first model to reach the \"Critical\" cybersecurity capability tier. The post describes Astra's ability to identify and build zero-day exploits and multi-step attack chains against hardened systems, and says the most advanced cyber capabilities will be restricted to vetted defenders through a program called Daybreak Blue.",
+      "source_url": "https://openai.com/index/path-to-astra/",
+      "source_name": "OpenAI Official Blog",
+      "published_date": "2026-09-01",
+      "category": "safety",
+      "tone": "neutral",
+      "confidence": "primary-inferred",
+      "notes": "Companion posts published in the same announcement cluster (not read directly): 'Pacing model development in an era of cyber-critical capabilities' (per secondary reporting, describes a two-week pause in RL training to harden research environments and monitoring before release), and 'Responding to the next frontier of critical cyber capabilities'. Exact publish dates for these two companion posts could not be independently confirmed, so they are noted here rather than listed as separate items."
+    },
+    {
+      "id": "openai-gpt6-astra-launch-2026-09-03",
+      "title": "OpenAI launches GPT-6 Astra",
+      "summary_en": "OpenAI released GPT-6 Astra to approved users on September 3, 2026, with general availability the following day. OpenAI describes it as a major step-up for cybersecurity, professional work, software engineering, and science, built on a 'recurrent depth' architecture.",
+      "source_url": "https://openai.com/index/gpt-6-astra/",
+      "source_name": "OpenAI Official Blog",
+      "published_date": "2026-09-03",
+      "category": "model-release",
+      "tone": "neutral",
+      "confidence": "primary-inferred",
+      "notes": "Rollout date corroborated by CNBC (2026-09-03) and Al Jazeera (2026-09-04) reporting; page content not directly rendered due to egress block on openai.com."
+    },
+    {
+      "id": "openai-gpt6-astra-system-card-2026-09-03",
+      "title": "GPT-6 Astra system card: Critical cyber threshold confirmed, monitorability trade-offs disclosed",
+      "summary_en": "OpenAI's published safety overview/system card for GPT-6 Astra confirms the model meets the 'Critical' threshold for cybersecurity capability under its Preparedness Framework, including finding previously unknown vulnerabilities and building working exploits with limited human guidance. The card also discloses that Astra's recurrent-depth architecture produces internal reasoning traces that are less legible/monitorable than its predecessor (GPT-5.6 Sol), and reports improved robustness against a curated prompt-injection attack set (Gray Swan IPI Arena) relative to that predecessor.",
+      "source_url": "https://openai.com/index/safety-overview-gpt-6-astra/",
+      "source_name": "OpenAI Official Blog / Deployment Safety Hub",
+      "published_date": "2026-09-03",
+      "category": "safety",
+      "tone": "neutral",
+      "confidence": "primary-inferred",
+      "notes": "Full system card also mirrored at deploymentsafety.openai.com/gpt-6-astra. Specific benchmark figures (e.g. attack-success-rate percentages) come from secondary summaries of the card, not a directly rendered page, so treat exact numbers as unverified pending direct access."
+    },
+    {
+      "id": "openai-gpt6-sol-luna-2026-09-22",
+      "title": "OpenAI introduces GPT-6 Sol and GPT-6 Luna",
+      "summary_en": "OpenAI released two additional models in the GPT-6 family, Sol (a reasoning model aimed at complex coding and agentic workflows) and Luna, made available in the API, Codex, and ChatGPT on September 22, 2026.",
+      "source_url": "https://openai.com/index/introducing-gpt-6-sol-and-luna/",
+      "source_name": "OpenAI Official Blog",
+      "published_date": "2026-09-22",
+      "category": "model-release",
+      "tone": "neutral",
+      "confidence": "primary-inferred",
+      "notes": "Date corroborated by OpenAI Developer Community announcement thread and GitHub Changelog entry both dated 2026-09-22."
+    },
+    {
+      "id": "openai-ai-policy-window-2026-09-09",
+      "title": "OpenAI calls for mandatory, capability-based national AI safety regulation",
+      "summary_en": "In a blog post by Chief Global Affairs Officer Chris Lehane, OpenAI said voluntary safety commitments are no longer sufficient and called on the US Congress to pass mandatory, capability-based national AI regulation, including independent capability assessments, incident reporting, and common standards for when development should slow or stop. The post also confirmed OpenAI's support for four California bills covering safety assessment infrastructure, AI-auditor standards, protections for minors, and safeguards against AI-enabled biological threats.",
+      "source_url": "https://openai.com/index/ai-policy-window/",
+      "source_name": "OpenAI Official Blog",
+      "published_date": "2026-09-09",
+      "category": "policy",
+      "tone": "neutral",
+      "confidence": "primary-inferred",
+      "notes": "Two of the referenced California bills (SB 813, AB 1405) were signed into law by Governor Newsom the same day, per secondary reporting."
+    },
+    {
+      "id": "openai-gov-access-expansion-2026-09-10",
+      "title": "OpenAI expands discounted AI access and cyber-defense support to US governments",
+      "summary_en": "OpenAI announced an expanded, multi-year arrangement (via the US General Services Administration OneGov program) offering federal, state, local, and tribal government bodies a reduced standard license fee, discounted usage costs, and an expanded 'Government Academy' training and cyber-defense support offering.",
+      "source_url": "https://openai.com/index/expanding-ai-access-us-government/",
+      "source_name": "OpenAI Official Blog",
+      "published_date": "2026-09-10",
+      "category": "product",
+      "tone": "neutral",
+      "confidence": "primary-inferred",
+      "notes": "Exact publish date approximate (converging secondary reports place it 2026-09-10/11); could not directly render openai.com page to confirm. Agreement reportedly runs through December 2028."
+    },
+    {
+      "id": "openai-chatgpt-ads-expansion-2026-09-23",
+      "title": "ChatGPT Ads expands to seven more Asian markets",
+      "summary_en": "OpenAI expanded its ChatGPT Ads product to Indonesia, Malaysia, the Philippines, Singapore, Thailand, Vietnam, and Taiwan, bringing total availability to more than 60 countries.",
+      "source_url": "https://openai.com/index/expanding-access-to-ai-with-chatgpt-ads/",
+      "source_name": "OpenAI Official Blog",
+      "published_date": "2026-09-23",
+      "category": "product",
+      "tone": "neutral",
+      "confidence": "primary-inferred",
+      "notes": "Page title per search index: 'A milestone in expanding access to AI'."
+    }
+  ],
+  "coverage_note": "OpenAI published substantial primary-source material this window, centered on the GPT-6 model family launch (Astra on Sept 3, plus Sol and Luna on Sept 22) and an unusually candid Preparedness Framework disclosure that Astra is the first OpenAI model to cross the 'Critical' cybersecurity capability threshold, alongside a stated temporary slowdown in RL training to harden monitoring/security before release. OpenAI also made two notable policy moves (a call for mandatory federal AI regulation on Sept 9, and expanded discounted government access on ~Sept 10) and a product expansion (ChatGPT Ads into Southeast Asia/Taiwan on Sept 23). Not included: OpenAI DevDay 2026 (scheduled Sept 29, i.e. after this window's end and after run_date) — its announcement blog post exists but its publish date could not be confirmed, so it was omitted rather than guessed; flag for next week's collector once the event has occurred. Also not included: press reports of a US Senate investigation into an alleged agentic hack involving Hugging Face and a separate report about an unfiled EU incident report — these were reported by third-party outlets, not stated by OpenAI itself, so they fall outside this collector's official-source-only scope; noting them here in case OpenAI issues an official response worth following up on. CAVEAT: openai.com was unreachable via direct WebFetch this session (network egress proxy blocked it), so every item above is 'primary-inferred' rather than 'primary-confirmed' — content was reconstructed from WebSearch result snippets that cite/quote the official openai.com/index/ URLs plus corroborating independent press (CNBC, Al Jazeera, TechXplore, GitHub Changelog, OpenAI Developer Community). Recommend a follow-up pass with working WebFetch access re-verify exact wording and any numeric claims directly against the live openai.com pages before final publication."
+}

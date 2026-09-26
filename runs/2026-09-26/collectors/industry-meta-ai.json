@@ -1,0 +1,68 @@
+{
+  "collector": "industry-leader-collector",
+  "target": "Meta AI",
+  "run_date": "2026-09-26",
+  "items": [
+    {
+      "id": "meta-muse-spark-1-3-release",
+      "title": "Meta releases Muse Spark 1.3, its most capable model yet for coding and agentic tasks",
+      "summary_en": "Meta AI Research published a post introducing Muse Spark 1.3 on September 2, 2026, describing improved handling of complex, long-form instructions, clarifying-question behavior when prompts are ambiguous, and confirmation prompts before consequential actions. The model rolled out in Muse Code and via the Meta Model API with a 1M-token context window. Meta's Chief AI Officer was reported as describing it as the company's largest single jump in model performance, bringing it near parity with recent OpenAI and Anthropic models.",
+      "source_url": "https://research.meta.ai/blog/introducing-muse-spark-1-3",
+      "source_name": "Meta AI Research Blog",
+      "published_date": "2026-09-02",
+      "category": "model-release",
+      "tone": "neutral",
+      "confidence": "primary-inferred",
+      "notes": "research.meta.ai was blocked for direct WebFetch verification; details cross-referenced via search-indexed summaries of the official post and corroborating same-day coverage (Axios, Bloomberg, SiliconANGLE, The Register). The competitive-parity characterization attributed to Meta's Chief AI Officer was reported by secondary outlets and was not independently confirmed on the official page."
+    },
+    {
+      "id": "meta-connect-2026-muse-charm",
+      "title": "Meta unveils Muse Charm, a standalone pocket device for talking to its Muse AI agent",
+      "summary_en": "At Meta Connect 2026 (September 23-24), Meta announced Muse Charm, a small puck- or keychain-sized hardware device dedicated to voice interaction with the Muse AI assistant via a real-time voice model. Mark Zuckerberg said the device is planned to ship in time for the 2026 holiday season; pricing was not announced at the event.",
+      "source_url": "https://about.fb.com/news/2026/09/the-biggest-news-from-connect-2026/",
+      "source_name": "Meta Newsroom",
+      "published_date": "2026-09-23",
+      "category": "product",
+      "tone": "neutral",
+      "confidence": "primary-inferred",
+      "notes": "about.fb.com was blocked for direct WebFetch verification; details compiled from search-indexed summaries of the official Meta Newsroom and meta.com/blog Connect recap posts, cross-checked against contemporaneous press coverage (Engadget, 9to5Mac, Tom's Guide, FourWeekMBA)."
+    },
+    {
+      "id": "meta-connect-2026-muse-realtime-avatar",
+      "title": "Meta gives its Muse assistant a face, body and voice with a new real-time avatar capability",
+      "summary_en": "At Meta Connect 2026, Meta introduced a real-time avatar capability for Muse, giving the previously text/voice-only assistant a visual, animated presence with face, body and voice. The feature was presented as part of a broader effort to make Muse more personable across Meta's apps and devices.",
+      "source_url": "https://www.meta.com/blog/meta-connect-2026-everything-we-announced/",
+      "source_name": "Meta Official Blog",
+      "published_date": "2026-09-23",
+      "category": "product",
+      "tone": "neutral",
+      "confidence": "primary-inferred",
+      "notes": "meta.com was blocked for direct WebFetch verification; summarized from search-indexed content of the official Connect 2026 recap post."
+    },
+    {
+      "id": "meta-connect-2026-muse-glasses-integration",
+      "title": "Meta expands Muse AI assistant into its glasses lineup, including new camera-free Ray-Ban Meta Audio",
+      "summary_en": "Meta said Muse will be integrated across its smart-glasses line so users can talk to the assistant directly through their glasses, positioning the devices as always-on access points to Muse. The company also introduced Ray-Ban Meta Audio, described as its first camera-free, audio-only glasses with about 12-hour battery life, alongside a refreshed Ray-Ban Meta Gen 3, both announced at Connect 2026 and framed around always-available AI assistant access.",
+      "source_url": "https://about.fb.com/news/2026/09/the-biggest-news-from-connect-2026/",
+      "source_name": "Meta Newsroom",
+      "published_date": "2026-09-23",
+      "category": "product",
+      "tone": "neutral",
+      "confidence": "primary-inferred",
+      "notes": "Direct WebFetch of about.fb.com and meta.com blocked; compiled from search-indexed summaries of official Connect 2026 recap posts and corroborating reporting (Engadget, 9to5Mac, Tom's Guide)."
+    },
+    {
+      "id": "meta-connect-2026-muse-code-open-weights",
+      "title": "Meta says Muse Code exits beta and signals plans for open-weight Muse models",
+      "summary_en": "In Connect 2026 coverage tied to the Muse Spark 1.3 line, Meta indicated that Muse Code, its coding/agentic-workflow product, has moved out of beta for long-horizon engineering tasks, and signaled that open-weight versions of Muse models are planned, alongside new image and voice models. No firm release date for the open-weight models was given.",
+      "source_url": "https://www.meta.com/blog/meta-connect-2026-everything-we-announced/",
+      "source_name": "Meta Official Blog",
+      "published_date": "2026-09-23",
+      "category": "model-release",
+      "tone": "neutral",
+      "confidence": "secondary-source",
+      "notes": "The 'Muse Code out of beta' and open-weights-teaser claims were most clearly stated in secondary press coverage (e.g., The Register); official Meta blog/newsroom confirmation could not be directly fetched due to network restrictions, so this item is flagged as secondary-source pending direct verification against the official page."
+    }
+  ],
+  "coverage_note": "Two primary developments fell within the Aug 29-Sep 26, 2026 collection window: the September 2 release of Muse Spark 1.3 (Meta AI Research blog) and the September 23-24 Meta Connect 2026 keynote/product event, which included several Muse-related AI product announcements (Muse Charm device, real-time avatar, glasses integration, Muse Code exiting beta, open-weights teaser). Direct WebFetch access to ai.meta.com, meta.com, about.fb.com, research.meta.ai, developers.meta.com and youtube.com was blocked by the network egress proxy throughout this run, so item details were compiled from search-engine-indexed summaries of those official pages, cross-checked against multiple independent press reports for consistency, rather than from directly fetched primary-source text. No standalone new Llama, SAM/Segment Anything, or dedicated safety/research-paper posts from ai.meta.com were identified as newly published within this window beyond what is listed above, but a complete listing of the blog's full post history for the window could not be verified due to the fetch block; a follow-up pass with working direct access is recommended."
+}

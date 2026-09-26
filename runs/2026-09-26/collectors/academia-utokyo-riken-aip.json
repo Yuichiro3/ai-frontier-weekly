@@ -1,0 +1,56 @@
+{
+  "collector": "academia-collector",
+  "target": "University of Tokyo / RIKEN AIP",
+  "run_date": "2026-09-26",
+  "items": [
+    {
+      "id": "riken-aip-erato-suzuki-mathematical-ai-informatics-2026-09",
+      "title": "JST-ERATO launches 'Suzuki Mathematical AI Informatics' project led by RIKEN AIP's Taiji Suzuki",
+      "summary_en": "According to search-indexed RIKEN AIP news listings, the Japan Science and Technology Agency (JST) ERATO program has launched a new project titled 'Suzuki Mathematical AI Informatics,' led by Taiji Suzuki, Team Director of RIKEN AIP's Deep Learning Theory Team and Professor at the University of Tokyo's Graduate School of Information Science and Technology. The announcement appears to date to around September 7, 2026. The project is expected to focus on the mathematical/theoretical foundations of AI informatics, building on Suzuki's prior work on statistical learning theory and deep learning theory. Original language: Japanese/English mixed institutional page.",
+      "source_url": "https://www.jst.go.jp/erato/suzuki/news.html",
+      "source_name": "JST ERATO program page (Suzuki Mathematical AI Informatics Project) — referenced via RIKEN AIP news listing",
+      "published_date": "2026-09-07",
+      "category": "research",
+      "tone": "neutral",
+      "confidence": "secondary-source",
+      "notes": "Could not directly fetch aip.riken.jp or jst.go.jp (EGRESS_BLOCKED) to confirm exact wording, precise announcement URL, or full project scope; based on WebSearch snippets only. Exact article URL on aip.riken.jp could not be determined. Treat date as approximate."
+    },
+    {
+      "id": "riken-aip-colt2027-announcement-2026-09",
+      "title": "RIKEN AIP announces involvement in COLT 2027 (40th Annual Conference on Learning Theory)",
+      "summary_en": "RIKEN AIP's news page reportedly carried an announcement, dated around September 7, 2026, about the 40th Annual Conference on Learning Theory (COLT 2027), an international venue for theoretical machine learning research. This appears to be a forthcoming-conference/call-for-papers style announcement rather than a new research result.",
+      "source_url": "https://aip.riken.jp/news-list/",
+      "source_name": "RIKEN AIP News (listing page)",
+      "published_date": "2026-09-07",
+      "category": "research",
+      "tone": "neutral",
+      "confidence": "secondary-source",
+      "notes": "Low substantive content (event/CFP announcement, not a research finding). Direct page unreachable due to EGRESS_BLOCKED; based on WebSearch snippet only. Precise article URL unknown."
+    },
+    {
+      "id": "riken-math-ai-symposium-2026-recap",
+      "title": "RIKEN publishes recap of Mathematics & AI Symposium 2026",
+      "summary_en": "RIKEN published a news recap (dated September 4, 2026) of the RIKEN Mathematics & AI Symposium 2026, held August 18-21, 2026 at RIKEN's Tokyo campus under the theme 'Mathematics and AI: Mathematical Sciences and Formal Reasoning.' Roughly 300 participants (in-person and online) discussed topics including using AI to solve mathematical problems, using mathematical theory to improve AI reliability/interpretability, formalization and proof, and autonomous scientific discovery.",
+      "source_url": "https://www.riken.jp/en/news_pubs/news/2026/20260904_5/index.html",
+      "source_name": "RIKEN official news page",
+      "published_date": "2026-09-04",
+      "category": "research",
+      "tone": "neutral",
+      "confidence": "secondary-source",
+      "notes": "Event itself (Aug 18-21, 2026) occurred just before the 2026-08-29 cutoff of the prior run, but this recap article was published within the current window (2026-09-04). Could not fetch www.riken.jp or pri.riken.jp directly (EGRESS_BLOCKED); summary based on WebSearch snippet only."
+    },
+    {
+      "id": "riken-aip-sugiyama-zdnet-korea-interview-2026-09",
+      "title": "RIKEN AIP Director Masashi Sugiyama discusses ten years of basic AI research in ZDNet Korea interview",
+      "summary_en": "In an article published by ZDNet Korea on September 18, 2026 (in Korean), RIKEN AIP Center Director Masashi Sugiyama reflects on ten years since AIP's founding (2016) and the case for sustained basic research at a national AI institute. The article describes AIP's structure around three pillars: (1) fundamental theory research into the mathematical principles of machine learning to establish trust, interpretability, and safety; (2) goal-oriented research applying AI with domain expertise (e.g., medicine, disaster response, scientific discovery); and (3) research on the ethical, legal, and social issues (ELSI) arising from AI's expansion in society.",
+      "source_url": "https://zdnet.co.kr/view/?no=20260918100536",
+      "source_name": "ZDNet Korea (interview/commentary by RIKEN AIP Director Masashi Sugiyama)",
+      "published_date": "2026-09-18",
+      "category": "opinion",
+      "tone": "neutral",
+      "confidence": "secondary-source",
+      "notes": "Original language: Korean; summary translated into English by the collector. Direct fetch of aip.riken.jp and zdnet.co.kr both returned EGRESS_BLOCKED, so it could not be confirmed this is officially linked from AIP's own site, nor could exact article text be verified beyond the WebSearch summary. Treat as secondary-source pending verification."
+    }
+  ],
+  "coverage_note": "Direct WebFetch access to aip.riken.jp and u-tokyo.ac.jp remained blocked this run (EGRESS_BLOCKED), consistent with the prior two runs (2026-08-13, 2026-08-29). Additionally, this run the block appears broader: www.riken.jp, pri.riken.jp, www.jst.go.jp, mail.math.nagoya-u.ac.jp, zdnet.co.kr, and even an unrelated control domain (arxiv.org) all returned EGRESS_BLOCKED, suggesting a wider environment-wide egress restriction this week rather than a target-specific one. All four items above are therefore based solely on WebSearch result snippets and could not be independently verified against the original primary-source pages; confidence is set to 'secondary-source' throughout as a result. No peer-reviewed publications, arXiv preprints, or substantive new lab research results attributable to University of Tokyo AI groups were identified within the 2026-08-29 to 2026-09-26 window; the one University of Tokyo AI item found via search (MatAgent / Institute of Industrial Science materials-discovery LLM framework) was published in December 2025 and is out of this window, so it was excluded. A Science Tokyo (the TIT/TMDU merger institution, distinct from the University of Tokyo) collaboration with FRONTEO was also excluded as out of scope for this target. If direct site access is restored in a future run, all four items here should be re-verified against the primary RIKEN AIP / JST pages before being used in the final report with higher confidence."
+}

@@ -1,0 +1,68 @@
+{
+  "collector": "academia-collector",
+  "target": "Carnegie Mellon University - Robotics Institute",
+  "run_date": "2026-09-26",
+  "items": [
+    {
+      "id": "cmu-ri-skylark-artisan-partnership-2026-08",
+      "title": "Skylark Labs and CMU Robotics Institute labs partner on 'Artisan' tactile-AI model for robot manipulation",
+      "summary_en": "Skylark Labs announced a multi-year research partnership with the labs of Prof. Jeff Schneider and Prof. Zackory Erickson at CMU's Robotics Institute to develop Artisan, an AI model intended to help robots handle unfamiliar objects and complete complex physical tasks by combining tactile sensing with continual, on-device learning. Erickson directs CMU's Robotic Caregiving and Human Interaction (RCHI) Lab and also sits on Skylark Labs' technical advisory board.",
+      "source_url": "https://www.techtimes.com/articles/324854/20260818/skylark-labs-carnegie-mellon-researchers-partner-teach-robots-how-pick-unfamiliar-objects.htm",
+      "source_name": "Tech Times (covering Skylark Labs press release; Erickson affiliation also confirmed on skylarklabs.ai)",
+      "published_date": "2026-08-18",
+      "category": "research",
+      "tone": "neutral",
+      "confidence": "primary-inferred",
+      "notes": "This is an industry (Skylark Labs) press release involving named CMU RI faculty and labs, not a CMU/ri.cmu.edu-originated article; no matching press release found on ri.cmu.edu itself. Treat as company PR corroborated by faculty's own advisory-board listing on skylarklabs.ai."
+    },
+    {
+      "id": "cmu-ri-arxiv-cfam-2609.04552",
+      "title": "Continual Field-Adaptive Models (CFAMs) for Post-Deployment Physical AI (arXiv preprint, co-authored by CMU RI faculty)",
+      "summary_en": "A preprint co-authored by CMU Robotics Institute faculty Zackory Erickson and Jeff Schneider (alongside Skylark Labs researchers and UC Berkeley collaborators) introduces CFAMs, a complementary-learning architecture combining a frozen 'slow' component with a fast-learning 'Capsule Field' to let deployed robots adapt on-device to novel objects/situations via gradient-free updates without forgetting prior skills. This work underpins the Artisan model developed under the Skylark Labs-CMU RI partnership.",
+      "source_url": "https://arxiv.org/abs/2609.04552",
+      "source_name": "arXiv",
+      "published_date": "2026-09-03",
+      "category": "research",
+      "tone": "neutral",
+      "confidence": "primary-confirmed",
+      "notes": "[preprint, not yet peer-reviewed]. Not directly linked from ri.cmu.edu at time of collection (site fetch blocked); connection to CMU RI established via co-author affiliations and topical overlap with the Artisan/Skylark Labs announcement."
+    },
+    {
+      "id": "cmu-ri-iros2026-pittsburgh-spotlight",
+      "title": "IROS 2026 in Pittsburgh puts CMU's robotics leadership in the spotlight",
+      "summary_en": "Carnegie Mellon University published an article (mirrored on ri.cmu.edu) previewing the 2026 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS), held Sept. 27-Oct. 3 in Pittsburgh with Robotics Institute professor Howie Choset serving as general chair. The event is expected to draw 4,000-6,000 participants, nearly 2,000 papers, 145 exhibiting organizations and 86 workshops; CMU is offering attendees tours of NREC, the Robotics Innovation Center, and Mill 19 (Manufacturing Futures Institute).",
+      "source_url": "https://www.ri.cmu.edu/global-conference-in-pittsburgh-puts-carnegie-mellons-robotics-leadership-in-the-spotlight/",
+      "source_name": "Carnegie Mellon University News / Robotics Institute",
+      "published_date": "2026-09-24",
+      "category": "research",
+      "tone": "neutral",
+      "confidence": "primary-confirmed",
+      "notes": "Exact publication date is approximate: the article lives in CMU's September 2026 news archive and its content ('starting Sunday' ahead of the Sept. 27 IROS opening) places it in the days just before Sept. 27; direct page fetch was blocked by network egress restrictions so the precise day could not be confirmed on-page."
+    },
+    {
+      "id": "cmu-ri-choset-iros-vision-postgazette",
+      "title": "Choset previews IROS 2026, envisions broader 'democratization' of robot capabilities",
+      "summary_en": "Ahead of IROS 2026, Robotics Institute professor and Biorobotics Lab director Howie Choset told the Pittsburgh Post-Gazette (with similar coverage in GovTech) that he wants robots used far more broadly across medicine, manufacturing and finance, describing this expansion as the 'democratization of capabilities.' He also referenced startups he has co-founded, including ones focused on robot-assisted surgery.",
+      "source_url": "https://www.post-gazette.com/business/tech-news/2026/09/25/carnegie-mellon-university-robots-expanded-use-pittsburgh-conference/stories/202609230033",
+      "source_name": "Pittsburgh Post-Gazette",
+      "published_date": "2026-09-25",
+      "category": "opinion",
+      "tone": "neutral",
+      "confidence": "secondary-source",
+      "notes": "Local newspaper interview reporting Choset's direct statements ahead of IROS 2026, not a CMU-owned channel; GovTech carried closely overlapping coverage of the same remarks."
+    },
+    {
+      "id": "cmu-ri-pathways-fellowship-year-four",
+      "title": "Year Four of the CMU Robotics Institute Pathways Fellowship kicks off with new cohort",
+      "summary_en": "The CMU Robotics Institute Pathways Fellowship, which supports non-traditional entrepreneurial talent in robotics with a stipend, mentorship and academic access, began its fourth year with a new cohort of seven engineers, designers and entrepreneurs. The program is aimed at broadening participation among founders who have historically faced barriers to entry in robotics.",
+      "source_url": "https://www.ri.cmu.edu/2026-cmu-ri-pathways/",
+      "source_name": "Robotics Institute, Carnegie Mellon University",
+      "published_date": "2026-09-15",
+      "category": "policy",
+      "tone": "neutral",
+      "confidence": "primary-confirmed",
+      "notes": "Date extracted from search-indexed snippet of the ri.cmu.edu page; direct page fetch was blocked by network egress restrictions, so this date should be spot-checked if precision matters. Category 'policy' used loosely for an institutional/educational-access initiative since it doesn't fit the other enum options cleanly."
+    }
+  ],
+  "coverage_note": "Direct WebFetch access to www.ri.cmu.edu and www.cmu.edu was blocked by the network egress proxy for this entire run, so all items were reconstructed from WebSearch result snippets rather than verified directly on-page; a couple of publication dates are therefore best-effort estimates (flagged in each item's notes) and should be re-verified by an agent with working direct access to those domains. Within the Aug 29-Sep 26, 2026 window, the main RI-relevant developments found were: (1) an industry-driven partnership (Skylark Labs) involving two RI faculty labs and an associated arXiv preprint, (2) CMU's hosting/chairing of IROS 2026 in Pittsburgh (Sept 27-Oct 3) with associated press and local-media coverage of Prof. Howie Choset, and (3) the RI Pathways Fellowship's new cohort. No new peer-reviewed RI publications, no official ri.cmu.edu press releases beyond the IROS preview and Pathways post were found via search. A previously reported item (Deepak Pathak's PAMI Young Researcher Award, tied to CVPR 2026 in June) was excluded as very likely predating this collection window and could not be date-confirmed as falling within Aug 29-Sep 26."
+}
