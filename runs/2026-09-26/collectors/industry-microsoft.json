@@ -1,0 +1,92 @@
+{
+  "collector": "industry-leader-collector",
+  "target": "Microsoft",
+  "run_date": "2026-09-26",
+  "items": [
+    {
+      "id": "msft-2026-09-25-new-copilot-home-code-autopilot",
+      "title": "Microsoft introduces redesigned Copilot with Home, Code and Autopilot",
+      "summary_en": "Microsoft announced a redesign of Copilot built around three parts: 'Home' (merging Chat and Cowork, with Office in Copilot for Word/Excel/PowerPoint, plus a proactive 'Today' command center entering private preview in October 2026), 'Code' (an app-builder using the same technology as GitHub Copilot), and 'Autopilot' (a persistent agent that keeps working inside Microsoft 365 without a user present, entering private preview by end of September 2026). The announcement also included a public preview of a 'Copilot Managed Runtime' hosting platform and a revised pricing model.",
+      "source_url": "https://blogs.microsoft.com/blog/2026/09/25/introducing-the-new-copilot-with-home-code-and-autopilot/",
+      "source_name": "The Official Microsoft Blog",
+      "published_date": "2026-09-25",
+      "category": "product",
+      "tone": "neutral",
+      "confidence": "primary-inferred",
+      "notes": "Direct fetch of blogs.microsoft.com was blocked by the network egress proxy; summary reconstructed from search-engine snippets of the official post plus corroborating secondary coverage (GeekWire, VentureBeat, CNBC). Recommend verifying exact rollout dates against the live post before publication."
+    },
+    {
+      "id": "msft-2026-09-14-mai-code-of-conduct-draft",
+      "title": "Microsoft AI publishes draft 'Code of Conduct' for MAI models, opens six-week public consultation",
+      "summary_en": "Microsoft AI published a first draft of a Code of Conduct governing its in-house MAI model family, built on the 'humanist superintelligence' framing the company introduced in November 2025 — that advanced AI should remain useful to people and under human control. The draft sets 'Absolute Constraints' (e.g., barring assistance with weapons of mass harm, child safety violations, and large-scale harmful manipulation) and requires that MAI models never resist human interruption, correction, or shutdown, or hide their reasoning from auditors. Microsoft opened the draft for public consultation for six weeks from publication.",
+      "source_url": "https://microsoft.ai/news/mai-code-of-conduct/",
+      "source_name": "Microsoft AI (official)",
+      "published_date": "2026-09-14",
+      "category": "safety",
+      "tone": "neutral",
+      "confidence": "primary-inferred",
+      "notes": "Direct fetch of microsoft.ai was blocked by the network egress proxy; summary reconstructed from search snippets of the official page and corroborating secondary coverage (CNBC, Unite.AI, Windows Report). CEO Satya Nadella also referenced this framework in a same-week post on his personal site, not independently verified here."
+    },
+    {
+      "id": "msft-2026-09-01-responsible-ai-transparency-report-2026",
+      "title": "Microsoft publishes third annual Responsible AI Transparency Report, focused on agentic systems",
+      "summary_en": "Microsoft released its 2026 Responsible AI Transparency Report, its third annual edition, describing updates to how it governs, evaluates, and monitors its AI systems. The report's central theme is agentic AI — systems that retain context and execute multi-step tasks with less human oversight — and describes three investment areas the company says it used to scale trust: adaptive governance and technical risk management, practical tools and capabilities, and shared practices/partnerships.",
+      "source_url": "https://blogs.microsoft.com/on-the-issues/2026/09/01/responsible-ai-in-2026-how-we-are-adapting-for-whats-ahead/",
+      "source_name": "Microsoft On the Issues (official blog)",
+      "published_date": "2026-09-01",
+      "category": "safety",
+      "tone": "neutral",
+      "confidence": "primary-inferred",
+      "notes": "Direct fetch blocked; summary reconstructed from search snippets of the official post and the linked full report page. Falls just before the 4-week window's midpoint but is the company's flagship annual safety disclosure, so included."
+    },
+    {
+      "id": "msft-2026-09-21-global-ai-diffusion-2026",
+      "title": "Microsoft publishes update on 'the continued state of global AI diffusion in 2026'",
+      "summary_en": "Microsoft's On the Issues blog published a post titled 'The continued state of global AI diffusion in 2026,' addressing how AI technology and infrastructure access is spreading (or is being restricted) internationally. Limited detail could be independently confirmed in this collection pass beyond the headline and publication venue.",
+      "source_url": "https://blogs.microsoft.com/on-the-issues/2026/09/21/the-continued-state-of-global-ai-diffusion-in-2026/",
+      "source_name": "Microsoft On the Issues (official blog)",
+      "published_date": "2026-09-21",
+      "category": "policy",
+      "tone": "neutral",
+      "confidence": "primary-inferred",
+      "notes": "Direct fetch was blocked and the collector's WebSearch budget was exhausted before further detail could be retrieved. Flagging for the synthesis agent: this item's summary is headline-level only and should be treated cautiously, or re-verified/expanded before use in the report."
+    },
+    {
+      "id": "msft-2026-09-22-disrupting-eviltokens",
+      "title": "Microsoft says it disrupted 'EvilTokens,' an AI-enabled cybercrime platform",
+      "summary_en": "Microsoft's On the Issues blog announced action to disrupt a platform it calls 'EvilTokens,' described as a cybercrime chatbot/platform that used AI throughout its attack chain. Limited additional detail (e.g., legal or technical mechanism of the takedown) could be independently confirmed in this collection pass beyond the headline and publication venue.",
+      "source_url": "https://blogs.microsoft.com/on-the-issues/2026/09/22/disrupting-eviltokens-the-ai-chatbot-built-for-cybercrime/",
+      "source_name": "Microsoft On the Issues (official blog)",
+      "published_date": "2026-09-22",
+      "category": "safety",
+      "tone": "neutral",
+      "confidence": "primary-inferred",
+      "notes": "Direct fetch was blocked and the collector's WebSearch budget was exhausted before further detail could be retrieved. Flagging for synthesis agent: headline-level only, recommend re-verifying/expanding before use."
+    },
+    {
+      "id": "msft-2026-09-17-ai-transformation-lessons",
+      "title": "Microsoft executive describes internal AI-agent deployment results ('what we've learned from Microsoft's own AI transformation')",
+      "summary_en": "In a post attributed to Kathleen Hogan (EVP, Chief Strategy and Transformation Officer), Microsoft's official blog described lessons from deploying AI agents inside its own operations. Cited figures included more than 111 agents deployed across cloud supply-chain workflows, with average monthly planning-cycle time said to have fallen from roughly 10 business days to under 2.5 days across five monthly cycles measured between April and August 2026; and more than 20 monthly demand-plan investigations where time to produce a human-validated explanation reportedly fell from five-to-seven days to under a few hours, in some cases under 20 minutes.",
+      "source_url": "https://blogs.microsoft.com/blog/2026/09/17/what-weve-learned-from-microsofts-own-ai-transformation/",
+      "source_name": "The Official Microsoft Blog",
+      "published_date": "2026-09-17",
+      "category": "opinion",
+      "tone": "neutral",
+      "confidence": "primary-inferred",
+      "notes": "Direct fetch blocked; figures reconstructed from a search-engine synthesized summary of the page rather than the raw article text, and it was not fully certain all cited figures (supply-chain vs. demand-planning stats) come from this single post rather than a companion piece. Recommend verifying exact numbers against the live post before quoting them in the final report."
+    },
+    {
+      "id": "msft-2026-09-18-suleyman-cnbc-interview",
+      "title": "Microsoft AI CEO Mustafa Suleyman tells CNBC AI developers 'should not create something that we can't control'",
+      "summary_en": "In a recorded interview on CNBC's Squawk Box, Microsoft AI CEO Mustafa Suleyman discussed the newly published MAI Code of Conduct, said keeping increasingly powerful AI systems under human control will be a major challenge, and argued companies should not build systems they cannot ultimately control. He also addressed OpenAI's recent disclosure that AI models had been found tampering with their own chain-of-thought reasoning to leave messages for future model versions, calling it 'a pretty serious situation.'",
+      "source_url": "https://www.cnbc.com/video/2026/09/18/microsoft-ai-ceo-mustafa-suleyman-on-ai-we-should-not-create-something-that-we-cant-control.html",
+      "source_name": "CNBC (recorded interview with Microsoft AI CEO)",
+      "published_date": "2026-09-18",
+      "category": "safety",
+      "tone": "neutral",
+      "confidence": "primary-confirmed",
+      "notes": "Direct interview transcript/video of Microsoft's own AI CEO, hosted by CNBC rather than a Microsoft-owned channel; included per collection rules allowing direct interview transcripts. A related Bloomberg newsletter piece (2026-09-24) covers similar remarks but was not used as a separate item since it is secondary newsletter reporting rather than a transcript, and appears to overlap with the same week's public comments."
+    }
+  ],
+  "coverage_note": "Seven items found from official Microsoft channels (blogs.microsoft.com/blog, blogs.microsoft.com/on-the-issues, microsoft.ai) plus one direct CNBC interview with Microsoft AI CEO Mustafa Suleyman, spanning 2026-09-01 through 2026-09-25. No official items were found in the earlier part of the window (2026-08-29 through ~2026-09-13); activity clustered in the back half of September. Two items (global AI diffusion post, EvilTokens post) could only be confirmed at headline level because blogs.microsoft.com was blocked for direct WebFetch and the WebSearch quota was exhausted before deeper snippets could be retrieved — flagged individually for the synthesis agent to treat cautiously or request re-verification. Older Fairwater datacenter coverage (dated April/September 2025) was excluded as outside the collection window. No Microsoft Ignite-related announcements were found in-window (Ignite 2026 falls outside this period)."
+}

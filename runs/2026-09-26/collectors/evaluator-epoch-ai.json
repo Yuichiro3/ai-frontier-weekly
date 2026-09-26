@@ -1,0 +1,128 @@
+{
+  "collector": "evaluator-institute-collector",
+  "target": "Epoch AI",
+  "run_date": "2026-09-26",
+  "items": [
+    {
+      "id": "epoch-latency-scaling-2026-09-08",
+      "title": "Epoch AI compares long-context latency scaling across GPT-5.6 and Claude Sonnet 5/Opus 5",
+      "summary_en": "Epoch AI published an analysis of how time-to-first-token scales with context length across models, finding GPT-5.6 shows quadratic growth in latency as context length increases while Claude Sonnet 5 and Claude Opus 5 show near-linear growth over the same range.",
+      "source_url": "https://epoch.ai/data-insights/long-context-latency-scaling",
+      "source_name": "Epoch AI",
+      "published_date": "2026-09-08",
+      "category": "research",
+      "tone": "neutral",
+      "confidence": "primary-inferred",
+      "notes": "Direct WebFetch to epoch.ai was blocked (EGRESS_BLOCKED); reconstructed from WebSearch snippets referencing this epoch.ai page. Epoch AI's own methodology caveat: small sample (4 models across 2 labs)."
+    },
+    {
+      "id": "epoch-ai-chip-users-explorer-2026-09-09",
+      "title": "Epoch AI launches 'AI Chip Users' explorer estimating compute capacity by lab",
+      "summary_en": "Epoch AI released a new data explorer estimating AI chip/compute capacity for major labs, including OpenAI, Google DeepMind, Anthropic, Meta Superintelligence Labs, and SpaceXAI, based on public disclosures and Epoch's own modeling assumptions.",
+      "source_url": "https://epoch.ai/data-insights/ai-chip-users",
+      "source_name": "Epoch AI",
+      "published_date": "2026-09-09",
+      "category": "research",
+      "tone": "neutral",
+      "confidence": "primary-inferred",
+      "notes": "Direct WebFetch to epoch.ai was blocked; reconstructed from WebSearch snippets. Epoch AI's own caveat: wide uncertainty intervals on compute estimates given reliance on public/partial disclosures."
+    },
+    {
+      "id": "epoch-eci-gpt6-astra-2026-09-16",
+      "title": "GPT-6 Astra tops Epoch Capabilities Index, sets new Math-ECI record, trails on SWE-ECI",
+      "summary_en": "Epoch AI's Epoch Capabilities Index (ECI) scored GPT-6 Astra at 166, the highest overall ECI recorded to date, and 170 on the math-specific Math-ECI sub-index, also a new record. However, Epoch found Astra trails Claude Fable 5.1 specifically on the software-engineering SWE-ECI sub-index.",
+      "source_url": "https://epoch.ai/data-insights/eci-gpt-6-astra",
+      "source_name": "Epoch AI",
+      "published_date": "2026-09-16",
+      "category": "research",
+      "tone": "neutral",
+      "confidence": "primary-inferred",
+      "notes": "Direct WebFetch to epoch.ai was blocked; reconstructed from WebSearch snippets. An Epoch researcher has publicly cautioned that the ECI is 'a hard to interpret index,' which is included here as a self-stated methodology caveat."
+    },
+    {
+      "id": "epoch-frontiermath-erdos-launch-2026-09-16",
+      "title": "Epoch AI launches FrontierMath Erdős benchmark of unsolved Erdős problems",
+      "summary_en": "Epoch AI launched a new benchmark, FrontierMath Erdős, consisting of 68 unsolved Erdős problems formalized in the Lean proof assistant. In initial testing, GPT-6 Astra solved 2 of the 68 problems.",
+      "source_url": "https://epoch.ai/frontiermath/erdos",
+      "source_name": "Epoch AI",
+      "published_date": "2026-09-16",
+      "category": "research",
+      "tone": "neutral",
+      "confidence": "primary-inferred",
+      "notes": "Direct WebFetch to epoch.ai was blocked; reconstructed from WebSearch snippets. Publication date inferred from surrounding context rather than directly confirmed on-page."
+    },
+    {
+      "id": "epoch-chip-smuggling-china-2026-09-17",
+      "title": "Epoch AI trade-data analysis estimates ~$3B in AI chips smuggled to China via Malaysia",
+      "summary_en": "Epoch AI published a trade-data analysis estimating approximately $3 billion worth of AI chips were smuggled into China via Malaysia, as part of a broader estimated range of 290,000 to 1.6 million H100-equivalent chips smuggled into China overall.",
+      "source_url": "https://epoch.ai/data-insights/chip-smuggling-china-malaysia",
+      "source_name": "Epoch AI",
+      "published_date": "2026-09-17",
+      "category": "policy",
+      "tone": "neutral",
+      "confidence": "primary-inferred",
+      "notes": "Direct WebFetch to epoch.ai was blocked; reconstructed from WebSearch snippets. Epoch AI's own caveat: wide uncertainty interval on the total smuggled-chip estimate (290K-1.6M H100e). Publication date framing inferred from surrounding context."
+    },
+    {
+      "id": "epoch-arxiv-ai-use-acknowledgments-2026-09-18",
+      "title": "Epoch AI finds AI-use acknowledgments in arXiv math preprints rose from 4% to 25% over five months",
+      "summary_en": "Epoch AI's analysis found the share of arXiv math preprints containing an acknowledgment of AI tool use rose from about 4% in April 2026 to about 25% in August 2026.",
+      "source_url": "https://epoch.ai/data-insights/arxiv-ai-acknowledgments",
+      "source_name": "Epoch AI",
+      "published_date": "2026-09-18",
+      "category": "research",
+      "tone": "neutral",
+      "confidence": "primary-inferred",
+      "notes": "Direct WebFetch to epoch.ai was blocked; reconstructed from WebSearch snippets. Possible topical overlap noted with an independently authored third-party arXiv preprint covering a similar period; treat as Epoch AI's own independent analysis unless later shown otherwise."
+    },
+    {
+      "id": "epoch-plunging-price-of-thought-2026-09-22",
+      "title": "Epoch AI: cost of a fixed AI performance level has fallen ~47% per quarter since 2023",
+      "summary_en": "In an analysis titled 'The plunging price of thought,' Epoch AI found that across five benchmarks, the cost of achieving a fixed level of AI performance has fallen by roughly 47% per quarter (about 13x per year) since 2023.",
+      "source_url": "https://epoch.ai/data-insights/plunging-price-of-thought",
+      "source_name": "Epoch AI",
+      "published_date": "2026-09-22",
+      "category": "research",
+      "tone": "neutral",
+      "confidence": "primary-inferred",
+      "notes": "Direct WebFetch to epoch.ai was blocked; reconstructed from WebSearch snippets. Based on 5 benchmarks; Epoch AI's own methodology caveat is a limited benchmark sample."
+    },
+    {
+      "id": "epoch-furniture-assembly-benchmark-2026-09-23",
+      "title": "Epoch AI's Furniture Assembly Benchmark: top score rose 28 points in 10 months, open-weight models lag ~7 months",
+      "summary_en": "Epoch AI's Furniture Assembly Benchmark (FAB) showed the top model score rising from about 52% to 80% (a 28-point increase) over 10 months. Epoch found open-weight models lag proprietary frontier models by roughly 7 months on this benchmark.",
+      "source_url": "https://epoch.ai/data-insights/furniture-assembly-benchmark",
+      "source_name": "Epoch AI",
+      "published_date": "2026-09-23",
+      "category": "research",
+      "tone": "neutral",
+      "confidence": "primary-inferred",
+      "notes": "Direct WebFetch to epoch.ai was blocked; reconstructed from WebSearch snippets. Epoch AI's own methodology caveat: small sample (60 images / 3 builds)."
+    },
+    {
+      "id": "epoch-huawei-nvidia-compute-roadmap-2026-09-24",
+      "title": "Epoch AI updates Huawei-vs-Nvidia AI compute roadmap analysis",
+      "summary_en": "Epoch AI updated its analysis comparing Huawei's and Nvidia's AI compute output, estimating Huawei's 2026 AI compute production remains under 4% of Nvidia's, with the gap persisting through Epoch's projections to 2030.",
+      "source_url": "https://epoch.ai/data-insights/huawei-nvidia-compute-roadmap",
+      "source_name": "Epoch AI",
+      "published_date": "2026-09-24",
+      "category": "research",
+      "tone": "neutral",
+      "confidence": "primary-inferred",
+      "notes": "Direct WebFetch to epoch.ai was blocked; reconstructed from WebSearch snippets. Epoch AI's own caveat: forward-looking 2030 projection depends on stated assumptions, including Huawei's memory-chip access."
+    },
+    {
+      "id": "epoch-eci-frontier-growth-rate-update-2026-09-25",
+      "title": "Epoch AI updates ECI frontier growth-rate estimate to 14 points/year since reasoning models",
+      "summary_en": "Epoch AI updated its estimate of the Epoch Capabilities Index (ECI) frontier growth rate to roughly 14 points per year, measured since the introduction of reasoning models.",
+      "source_url": "https://epoch.ai/data-insights/eci-frontier-growth-rate-update",
+      "source_name": "Epoch AI",
+      "published_date": "2026-09-25",
+      "category": "research",
+      "tone": "neutral",
+      "confidence": "primary-inferred",
+      "notes": "Direct WebFetch to epoch.ai was blocked; reconstructed from WebSearch snippets. This item explicitly updates/refines an earlier 2026 Epoch AI data insight on the same topic, per the collection rule to flag when a finding updates a previous one."
+    }
+  ],
+  "coverage_note": "Ten Epoch AI items were identified within the 2026-08-29 to 2026-09-26 window, all sourced to epoch.ai URLs; no Epoch AI publications were identified for the earlier part of the window (Aug 29-Sep 7), with activity resuming Sep 8 onward. Direct WebFetch access to epoch.ai/epochai.org was blocked by the network egress proxy for this entire run, so all items were reconstructed from WebSearch result snippets that quote or reference Epoch AI's own page titles, URLs, and figures, rather than from direct page fetches; this should be spot-checked before publication. Methodology caveats self-stated by Epoch AI (small/limited benchmark samples, wide uncertainty intervals on compute and smuggling estimates, and forward-looking projections dependent on stated assumptions) are flagged per-item in notes."
+}

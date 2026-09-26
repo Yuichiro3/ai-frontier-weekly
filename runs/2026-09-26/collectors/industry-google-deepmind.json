@@ -1,0 +1,32 @@
+{
+  "collector": "industry-leader-collector",
+  "target": "Google DeepMind",
+  "run_date": "2026-09-26",
+  "items": [
+    {
+      "id": "gdm-weathernext3-2026-09-03",
+      "title": "Google DeepMind launches WeatherNext 3, an hourly global weather AI model",
+      "summary_en": "Google DeepMind and Google Research introduced WeatherNext 3, described as their most advanced global weather forecasting model to date. It is the first version to produce forecasts every hour by drawing directly on raw satellite imagery, offering surface-variable resolution as fine as 5 kilometers. The model is being integrated into Search, Gemini, Maps, Google Maps Platform, BigQuery, Google Earth Engine, and Cloud, and the announcement cites independent live evaluations by Brightband showing sizeable precipitation-forecast accuracy gains over prior systems.",
+      "source_url": "https://deepmind.google/science/weathernext/",
+      "source_name": "Google DeepMind (official site) / Google Blog",
+      "published_date": "2026-09-03",
+      "category": "product",
+      "tone": "neutral",
+      "confidence": "primary-confirmed",
+      "notes": "Corroborated by a companion post at blog.google/innovation-and-ai/models-and-research/google-deepmind/introducing-weathernext-3/ and by independent press coverage (e.g. TechCrunch). Could not directly fetch either official page this run (egress blocked); date and content are based on consistent WebSearch snippets from multiple independent sources."
+    },
+    {
+      "id": "gdm-hassabis-g20-2026-09-02",
+      "title": "Demis Hassabis discusses Gemini as a coordination layer for specialized AI agents at G20 Innovation Ministerial",
+      "summary_en": "Speaking at the G20 Innovation Ministerial in Chapel Hill, North Carolina (Sept 1-2, 2026), Google DeepMind co-founder and chair Demis Hassabis said Gemini could increasingly act as a general-purpose layer that coordinates cheaper, specialized models and agents, rather than being a single dominant model. Press reports describe this as his first public remarks since DeepMind's August 2026 leadership reorganization, in which he moved from chief executive to chair of Google DeepMind and chief scientist at Alphabet.",
+      "source_url": "https://www.cnbc.com/2026/09/02/g20-innovation-ministerial-live-updates.html",
+      "source_name": "CNBC (live coverage of G20 Innovation Ministerial remarks)",
+      "published_date": "2026-09-02",
+      "category": "product",
+      "tone": "neutral",
+      "confidence": "secondary-source",
+      "notes": "This is press coverage of live remarks at a public conference, not an official DeepMind transcript or blog post — no official Google DeepMind channel republishing these remarks could be located, and the CNBC page itself could not be fetched directly to verify exact wording (egress blocked). Treat the paraphrase as approximate. The related August 2026 Hassabis leadership-role change itself falls outside this run's collection window and is not reported as a new item here."
+    }
+  ],
+  "coverage_note": "Access limitations this run: deepmind.google (including /discover/blog), blog.google, research.google, and most news-outlet domains were blocked for direct WebFetch verification, and the collector's WebSearch budget was exhausted partway through research. As a result, only two items could be confirmed with reasonable confidence as falling inside the 2026-08-29 to 2026-09-26 window: the WeatherNext 3 launch (2026-09-03) and Hassabis's G20 Innovation Ministerial remarks (2026-09-02). Several other candidate stories were found via search but excluded because their publication dates could not be reliably confirmed as inside this window or their primary source could not be verified: a possible 'AlphaGo at 10' retrospective on the DeepMind blog (conflicting dates in search snippets); a 'double-blind AI evaluations' pilot with the Singapore AI Safety Institute, OpenMined, AVERI and MLCommons (multiple sources dated this 2026-08-27/28, just before this window and likely already covered by the prior 2026-08-29 run); an AMIE/Nature Medicine disease-management study (no reliable in-window date found); and Gemini Robotics 2 / Gemini Robotics ER 2 and an Isomorphic Labs bioresilience post (all dated July 2026, outside this window). This target likely suffered under-collection this week due to the network restrictions; a follow-up pass with working deepmind.google access is recommended."
+}

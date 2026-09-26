@@ -1,0 +1,32 @@
+{
+  "collector": "evaluator-institute-collector",
+  "target": "METR",
+  "run_date": "2026-09-26",
+  "items": [
+    {
+      "id": "metr-security-update-2026-08-31",
+      "title": "METR discloses two 2026 security incidents affecting its infrastructure",
+      "summary_en": "METR published an update disclosing two security incidents from earlier in 2026: in March, attackers stole an API key used for inference on public models and consumed a substantial amount of credits; in May, attackers systematically probed METR's publicly accessible infrastructure, including one unsuccessful attempt to reach internal data via an inadvertently exposed endpoint. METR states it believes no sensitive information was accessed in either case but treated both as near-misses and has since increased security investment, citing its handling of nonpublic model access and confidential information as core to its work.",
+      "source_url": "https://metr.org/blog/2026-08-31-security-update/",
+      "source_name": "METR Official Blog",
+      "published_date": "2026-08-31",
+      "category": "safety",
+      "tone": "neutral",
+      "confidence": "primary-confirmed",
+      "notes": "Self-reported by METR; no independent/third-party audit of the incidents is cited in the post. METR itself frames both incidents as having 'limited consequences' but 'near-misses' — a self-assessed severity level, not externally verified."
+    },
+    {
+      "id": "metr-claude-opus-5-5-predeployment-eval-2026-09-22",
+      "title": "METR publishes summary of its predeployment evaluation of Claude Opus 5.5",
+      "summary_en": "METR conducted a preliminary predeployment evaluation of Anthropic's Claude Opus 5.5, based on roughly 10 business days of API access, testing the model on five tasks (including a 'Budget NanoGPT Speedrun,' a language-model conceptual-argumentation task, training a program, building a game-playing agent, and an open-ended research task). METR concluded Opus 5.5 likely offers somewhat greater AI-R&D productivity than the prior model it compared against, but called this an incremental rather than discontinuous capability jump, noting the model still shows qualitative weaknesses in long-horizon judgment, foresight, and open-ended reasoning relative to expert humans.",
+      "source_url": "https://metr.org/blog/2026-09-22-claude-opus-5-5/",
+      "source_name": "METR Official Blog",
+      "published_date": "2026-09-22",
+      "category": "research",
+      "tone": "neutral",
+      "confidence": "primary-inferred",
+      "notes": "METR itself flags this as a time-limited, preliminary evaluation (~10 business days of access, only five tasks) — explicitly a small-sample, non-exhaustive assessment, not a full capability profile. Confidence marked 'primary-inferred' rather than 'primary-confirmed' because the collector could not directly fetch metr.org (blocked by network egress proxy) and instead reconstructed the summary from third-party-indexed search snippets of METR's own post; the name of the prior model METR compared Opus 5.5 against could not be independently double-checked against the live page and should be verified before being quoted in the final report. This item does not contradict a prior week's METR finding — it is METR's first published evaluation of this specific model; unlike some earlier METR evaluation posts (e.g. the Claude Opus 4.5 time-horizon estimate reported in prior weeks), this Opus 5.5 summary does not appear to include a new quantitative time-horizon figure, which is a change in reporting format worth flagging to the synthesis agent."
+    }
+  ],
+  "coverage_note": "Window checked: 2026-08-29 to 2026-09-26. Two primary-source METR items published in this window were found (security update, Aug 31; Claude Opus 5.5 predeployment evaluation summary, Sept 22). No new HCAST/RE-Bench dataset release, no new standalone time-horizon estimate update, and no new Frontier Risk Report were published by METR in this window. One related METR post (independent investigation of the OpenAI/Hugging Face agent-hacking incident, published 2026-08-26) falls just before the window start and was excluded as it should have been in scope for the prior (2026-08-29) run rather than this one. Direct WebFetch access to metr.org and metr.substack.com was blocked by the network egress proxy; all details were sourced via search-engine snippets of METR's own URLs rather than a direct page fetch, which is a limitation of this collection run and should be spot-checked before publication."
+}

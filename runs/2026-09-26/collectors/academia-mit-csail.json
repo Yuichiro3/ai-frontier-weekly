@@ -1,0 +1,68 @@
+{
+  "collector": "academia-collector",
+  "target": "MIT CSAIL",
+  "run_date": "2026-09-26",
+  "items": [
+    {
+      "id": "mit-csail-cwnet-explainable-av-2026-09-02",
+      "title": "CW-Net Explains Autonomous Vehicle Decisions to Improve Driver Trust",
+      "summary_en": "MIT CSAIL researchers, working with Motional, developed CW-Net (Concept-Wrapper Network), which translates a self-driving car's deep-learning planner into human-understandable concepts such as 'approaching stopped vehicle' or 'close to cyclist.' In on-road tests on a private track and public roads, plus a larger simulation study, CW-Net's explanations helped safety drivers and non-expert users more accurately predict the vehicle's next actions without degrading driving performance.",
+      "source_url": "https://news.mit.edu/2026/system-helps-humans-predict-when-self-driving-cars-will-make-mistakes-0902",
+      "source_name": "MIT News (CSAIL research)",
+      "published_date": "2026-09-02",
+      "category": "research",
+      "tone": "neutral",
+      "confidence": "primary-confirmed",
+      "notes": "Peer-reviewed, published in Nature (Sept 2026); collected from MIT News release linked from CSAIL's own research page."
+    },
+    {
+      "id": "mit-csail-hardflow-2026-09-14",
+      "title": "HardFlow Algorithm Lets Generative AI Satisfy Hard Constraints in Safety-Critical Tasks",
+      "summary_en": "CSAIL researchers introduced HardFlow, an algorithm that lets pretrained generative-AI (flow-based) models satisfy strict 'hard' constraints — e.g., collision-free robot paths or physical boundary conditions — by enforcing constraints only on the final output rather than at every intermediate generation step, using control-theory-based corrections. In robotics and computer-vision experiments, the team reports HardFlow achieved consistent constraint satisfaction while outperforming existing projection-based sampling methods on solution quality.",
+      "source_url": "https://news.mit.edu/2026/new-method-enables-ai-safety-critical-situations-0914",
+      "source_name": "MIT News (CSAIL research)",
+      "published_date": "2026-09-14",
+      "category": "research",
+      "tone": "neutral",
+      "confidence": "primary-confirmed",
+      "notes": "Peer-reviewed, published in IEEE Transactions on Pattern Analysis and Machine Intelligence (2026)."
+    },
+    {
+      "id": "mit-csail-xvr-2026-09-16",
+      "title": "xvr: Patient-Specific AI Speeds X-ray-to-3D-Scan Registration for Surgical Navigation",
+      "summary_en": "A CSAIL team led by Vivek Gopalakrishnan developed xvr, an AI system that matches intraoperative X-rays to a patient's preoperative 3D scan (CT/MRI) within seconds at sub-millimeter precision, by generating roughly 1,000 synthetic X-rays per second from the 3D scan for comparison. The researchers report it outperforms existing registration methods by about an order of magnitude across varied patients, body parts, and procedures, with potential to improve safety in orthopedic and neurosurgical navigation; real-time deployment and handling of moving body parts are planned next steps.",
+      "source_url": "https://news.mit.edu/2026/new-ai-technique-could-make-minimally-invasive-surgeries-safer-more-precise-0916",
+      "source_name": "MIT News (CSAIL research)",
+      "published_date": "2026-09-16",
+      "category": "research",
+      "tone": "neutral",
+      "confidence": "primary-confirmed",
+      "notes": "Peer-reviewed, published in Nature (Sept 16, 2026)."
+    },
+    {
+      "id": "mit-csail-david-siegel-fellow-2026-09-23",
+      "title": "David Siegel Joins MIT as Innovation Fellow to Advance AI-Driven Scientific Discovery",
+      "summary_en": "Computer scientist, entrepreneur, and philanthropist David Siegel (MIT SM '86, PhD '91) will serve as MIT's Innovation Fellow for the 2026-27 academic year, collaborating with the MIT Schwarzman College of Computing to explore how AI can accelerate scientific discovery at MIT and beyond. Siegel was an early backer of the MIT Quest for Intelligence (recently renamed the MIT Siegel Family Quest for Intelligence) and co-chairs the College of Computing's External Advisory Committee.",
+      "source_url": "https://news.mit.edu/2026/mit-welcomes-david-siegel-innovation-fellow-0923",
+      "source_name": "MIT News (MIT Schwarzman College of Computing)",
+      "published_date": "2026-09-23",
+      "category": "research",
+      "tone": "neutral",
+      "confidence": "primary-confirmed",
+      "notes": "Institutional/personnel and funding-collaboration announcement rather than a new technical research result; included for scope on CSAIL's AI-for-science strategic direction."
+    },
+    {
+      "id": "mit-csail-next-endeavor-panel-2026-09-21",
+      "title": "CSAIL Director Daniela Rus and Stanford HAI's James Landay Debate Academia's Role in Shaping AI",
+      "summary_en": "At the 'Next Endeavor' session of the Imagination in Action summit (Sept 14-15, 2026, Google Bay View, held with Stanford HAI), CSAIL director Daniela Rus and Stanford HAI's James Landay argued that universities have a distinct role in AI development due to their independence from corporate incentives. They emphasized human-centered, physically-grounded AI that augments rather than replaces people, the importance of open-source models for democratization and security, and a shift toward edge computing for privacy and sustainability.",
+      "source_url": "https://www.forbes.com/sites/johnwerner/2026/09/21/mit-csail-and-stanford-hai-two-prominent-ai-labs-and-their-common-goals/",
+      "source_name": "Forbes (contributor coverage of Imagination in Action / Next Endeavor panel)",
+      "published_date": "2026-09-21",
+      "category": "opinion",
+      "tone": "neutral",
+      "confidence": "secondary-source",
+      "notes": "Primary event was a public talk by CSAIL's own director, but no official MIT/CSAIL transcript, video, or blog writeup of the panel was located during this run; summary relies on secondary journalistic coverage (Forbes). Flagging per collection rules that this should be treated as secondary-source pending a primary CSAIL/MIT posting."
+    }
+  ],
+  "coverage_note": "New MIT CSAIL/MIT News items were found in the 2026-08-29 to 2026-09-26 window, covering explainable AI for autonomous vehicles (CW-Net, Sept 2), constrained generative AI for safety-critical systems (HardFlow, Sept 14), AI-assisted surgical navigation (xvr, Sept 16), a new AI-focused Innovation Fellowship (David Siegel, Sept 23), and a director-level public panel on academia's role in AI (Next Endeavor, Sept 14-15/reported Sept 21). No new arXiv preprints officially linked from CSAIL's own site were identified this window beyond papers already appearing in peer-reviewed venues (Nature, IEEE TPAMI). Excluded as out of scope for an AI-frontier report: MIT's ICPC 2026 North America Championship win (competitive programming achievement, not AI research/safety/policy/product). Web search budget was exhausted before a final confirmatory sweep of the exact Aug 29-Sep 1 and Sep 19-26 sub-windows could be completed; treat window completeness as good-but-not-exhaustive."
+}
