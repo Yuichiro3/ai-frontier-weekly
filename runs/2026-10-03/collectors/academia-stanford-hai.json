@@ -1,0 +1,32 @@
+{
+  "collector": "academia-collector",
+  "target": "Stanford HAI",
+  "run_date": "2026-10-03",
+  "items": [
+    {
+      "id": "hai-2026-09-benchmarks-validity",
+      "title": "Stanford studies find AI benchmarks often fail to measure what they claim",
+      "summary_en": "Stanford researchers and collaborators applied psychometric validity checks to AI benchmarks. Across 56 widely used benchmarks they found many do not reliably measure the concept they are named for, and that benchmarks with the same label can disagree. Per the HAI write-up, the two studies are to be presented in October at the Third Annual Conference on Language Modeling in San Francisco.",
+      "source_url": "https://hai.stanford.edu/news/the-tests-that-grade-ai-may-be-getting-it-wrong",
+      "source_name": "Stanford HAI News (mirror: https://news.stanford.edu/stories/2026/09/ai-benchmarking-measurement-research)",
+      "published_date": "2026-09 (exact day unverified)",
+      "category": "research",
+      "tone": "contrarian",
+      "confidence": "primary-inferred",
+      "notes": "hai.stanford.edu blocked; snippets only; may predate window. Peer-review status of the papers not checked."
+    },
+    {
+      "id": "hai-2026-data-science-scholars",
+      "title": "Stanford HAI welcomes 15 new Data Science Scholars",
+      "summary_en": "HAI announced a new cohort of 15 Data Science Scholars, PhD researchers in a two-year fellowship spanning fields from computer science to law, neuroscience and materials science.",
+      "source_url": "https://hai.stanford.edu/news/stanford-hai-welcomes-15-new-data-science-scholars",
+      "source_name": "Stanford HAI News",
+      "published_date": "unknown",
+      "category": "research",
+      "tone": "neutral",
+      "confidence": "primary-inferred",
+      "notes": "Date unverified; may be outside window; low newsworthiness."
+    }
+  ],
+  "coverage_note": "hai.stanford.edu blocked; items from snippets only. Likely just before window and excluded: 'Prompt Response' expert series (~2026-09-22) https://hai.stanford.edu/news/can-ai-be-slowed-down-stanford-hai-experts-weigh-the-risks-rules-and-race-ahead. Upcoming events not news: AI100 report expected October; 'Confronting Our AI Future' 2026-10-28."
+}

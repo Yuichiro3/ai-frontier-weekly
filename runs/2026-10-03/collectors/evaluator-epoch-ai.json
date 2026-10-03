@@ -1,0 +1,92 @@
+{
+  "collector": "evaluator-institute-collector",
+  "target": "Epoch AI",
+  "run_date": "2026-10-03",
+  "items": [
+    {
+      "id": "epoch-2026-10-01-datacenter-coverage",
+      "title": "Epoch updates AI data center database; coverage of global AI compute estimated at 45%",
+      "summary_en": "Epoch's AI data centers dataset gives independent estimates of power, compute and cost built from satellite imagery, permits and construction knowledge. As of 1 Oct 2026 it estimates its coverage of global deployed AI computing capacity at 45%, with a wide 90% interval of 24% to 83%.",
+      "source_url": "https://epoch.ai/data/ai-data-centers",
+      "source_name": "Epoch AI Data",
+      "published_date": "2026-10-01",
+      "category": "research",
+      "tone": "neutral",
+      "confidence": "primary-inferred",
+      "notes": "Search snippet only; epoch.ai blocked. 45% may conflict with the 53% figure in the 16 Sep item (different measure/date); not reconciled."
+    },
+    {
+      "id": "epoch-2026-10-bio-ai-models",
+      "title": "Epoch expands its database of biological AI models to 1,196 models",
+      "summary_en": "Epoch released an expanded analysis and database of AI models in biology. Of 1,196 models, 1,124 were annotated with AI assistance only and 72 received dedicated manual annotation.",
+      "source_url": "https://epoch.ai/publications/expanding-our-analysis-of-biological-ai-models",
+      "source_name": "Epoch AI Publications",
+      "published_date": "2026-10-01",
+      "category": "research",
+      "tone": "neutral",
+      "confidence": "primary-inferred",
+      "notes": "Exact date unverified (search summary said 1-2 Oct). Mostly AI-assisted annotation is a quality caveat."
+    },
+    {
+      "id": "epoch-2026-09-23-furniture-assembly",
+      "title": "AI scores on Epoch's furniture assembly benchmark rise from 28% to 80% in ten months",
+      "summary_en": "Epoch reports the frontier score went from 28% (Opus 4.5, Nov 2025) to 80% (Astra, Sep 2026). Open-weight models trail closed-weight models by about 7 months.",
+      "source_url": "https://epoch.ai/publications/furniture-assembly",
+      "source_name": "Epoch AI Publications",
+      "published_date": "2026-09-23",
+      "category": "research",
+      "tone": "neutral",
+      "confidence": "primary-inferred",
+      "notes": "Snippet only; before window (earlier-gap item). Epoch's own benchmark; real-world generalisation unverified."
+    },
+    {
+      "id": "epoch-2026-09-22-plunging-price-of-thought",
+      "title": "Cost of reaching a given AI performance level falling about 13x per year",
+      "summary_en": "Epoch estimates the price of a fixed level of AI performance has fallen about 47% per quarter since 2023 (roughly 13x per year), faster than DNA sequencing, compute and lithium batteries.",
+      "source_url": "https://epoch.ai/publications/the-plunging-price-of-thought",
+      "source_name": "Epoch AI Publications",
+      "published_date": "2026-09-22",
+      "category": "research",
+      "tone": "neutral",
+      "confidence": "primary-inferred",
+      "notes": "Snippet only; earlier-gap item; methodology not reviewed."
+    },
+    {
+      "id": "epoch-2026-09-16-eci-astra",
+      "title": "GPT-6 Astra tops Epoch Capabilities Index but trails on software engineering",
+      "summary_en": "Epoch's data insight reports GPT-6 Astra at 166 on the ECI, ahead of Claude Fable 5.1 (164) and GPT-5.6 Sol (162). Astra's Math-ECI of 170 is a record, while its SWE-ECI of 164 is below Fable 5.1's 167.",
+      "source_url": "https://epoch.ai/data-insights/astra-eci-breakdown",
+      "source_name": "Epoch AI Data Insights",
+      "published_date": "2026-09-16",
+      "category": "research",
+      "tone": "neutral",
+      "confidence": "primary-inferred",
+      "notes": "Snippet only; earlier-gap item. 1-3 point gaps may be within uncertainty."
+    },
+    {
+      "id": "epoch-2026-09-16-datacenter-research-scaling",
+      "title": "Epoch scales up AI data center research; captures about 53% of new 2026 compute",
+      "summary_en": "Epoch says it has captured an estimated 53% of newly deployed compute so far in 2026, up from 39% in 2025 and 26% in 2024.",
+      "source_url": "https://epoch.ai/latest/scaling-ai-data-centers-research",
+      "source_name": "Epoch AI Latest",
+      "published_date": "2026-09-16",
+      "category": "research",
+      "tone": "neutral",
+      "confidence": "primary-inferred",
+      "notes": "Snippet only; earlier-gap item. See 45% note above."
+    },
+    {
+      "id": "epoch-2026-09-14-ai-usage-polling",
+      "title": "Share of US adults using AI 6+ days a week rose from 8% to 19% (Mar to Aug 2026)",
+      "summary_en": "According to Epoch AI and Ipsos polling, heavy weekly AI use among US adults rose from 8% in March 2026 to 19% in August 2026.",
+      "source_url": "https://epoch.ai/latest",
+      "source_name": "Epoch AI Latest (index; specific post URL not identified)",
+      "published_date": "2026-09-14",
+      "category": "research",
+      "tone": "neutral",
+      "confidence": "primary-inferred",
+      "notes": "Snippet only; sample design not checked; earlier-gap item."
+    }
+  ],
+  "coverage_note": "epoch.ai blocked; all items from search summaries, none verified on page. In-window (26 Sep-3 Oct): only the 1 Oct data-center update and bio-AI database. Five items are earlier-gap (14-23 Sep). Coverage likely incomplete."
+}
