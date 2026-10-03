@@ -1,0 +1,32 @@
+{
+  "collector": "academia-collector",
+  "target": "Carnegie Mellon University - Robotics Institute",
+  "run_date": "2026-10-03",
+  "items": [
+    {
+      "id": "cmu-ri-iros-2026-pittsburgh",
+      "title": "CMU highlights its robotics presence at IROS 2026 in Pittsburgh",
+      "summary_en": "According to search-result excerpts of CMU's story, Pittsburgh hosted IROS 2026 from Sept. 27 to Oct. 3. Roughly 300 members of the CMU community attended, and CMU researchers presented about 180 papers and organized workshops.",
+      "source_url": "https://www.ri.cmu.edu/global-conference-in-pittsburgh-puts-carnegie-mellons-robotics-leadership-in-the-spotlight/",
+      "source_name": "CMU Robotics Institute news",
+      "published_date": "unverified (September 2026)",
+      "category": "research",
+      "tone": "neutral",
+      "confidence": "primary-inferred",
+      "notes": "ri.cmu.edu blocked; facts from search excerpt only; conference coverage, not a research result. Mirror: https://www.cmu.edu/news/stories/archives/2026/september/global-conference-in-pittsburgh-puts-carnegie-mellons-robotics-leadership-in-the-spotlight"
+    },
+    {
+      "id": "cmu-ri-pathways-fellowship-2026",
+      "title": "RI Pathways Fellowship begins its fourth year",
+      "summary_en": "Per the search excerpt, the CMU Robotics Institute Pathways Fellowship, run with InnovatePGH, began its fourth year on Sept. 15, 2026, with a cohort of seven aspiring engineers, designers and entrepreneurs.",
+      "source_url": "https://www.ri.cmu.edu/2026-cmu-ri-pathways/",
+      "source_name": "CMU Robotics Institute news",
+      "published_date": "unverified (on or after 2026-09-15)",
+      "category": "opinion",
+      "tone": "neutral",
+      "confidence": "primary-inferred",
+      "notes": "Search excerpt only; likely outside window and low relevance to frontier AI."
+    }
+  ],
+  "coverage_note": "Partial. ri.cmu.edu and cmu.edu blocked; items from search excerpts only. RI research stories 'Knowing Their Limits' (~Sep 28) and 'LAMP Helps Robots Find a Way Through' (~Sep 24) seen but URLs unverified; worth a manual check."
+}

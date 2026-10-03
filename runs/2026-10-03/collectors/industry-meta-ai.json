@@ -1,0 +1,7 @@
+{
+  "collector": "industry-leader-collector",
+  "target": "Meta AI",
+  "run_date": "2026-10-03",
+  "items": [],
+  "coverage_note": "No items verified. ai.meta.com and about.fb.com were blocked by the egress proxy; this is a collection gap, not evidence of no news. Unverified leads (URL path only, pages not read): https://about.fb.com/news/2026/09/launching-meta-enterprise-platform/ and https://about.fb.com/news/2026/09/introducing-meta-one-subscription-service-more-features-ai/. Likely product/corporate news rather than research."
+}

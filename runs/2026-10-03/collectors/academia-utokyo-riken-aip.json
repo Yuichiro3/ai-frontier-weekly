@@ -1,0 +1,20 @@
+{
+  "collector": "academia-collector",
+  "target": "University of Tokyo / RIKEN AIP",
+  "run_date": "2026-10-03",
+  "items": [
+    {
+      "id": "riken-aip-emnlp2026-acceptances-20260929",
+      "title": "RIKEN AIP researchers have 9 main-conference papers accepted to EMNLP 2026",
+      "summary_en": "RIKEN AIP announced that papers involving its researchers were accepted to EMNLP 2026. According to the search snippet, these are nine papers in the Main Conference, seven in Findings, and two in other tracks or co-located events.",
+      "source_url": "https://aip.riken.jp/news/emnlp2026/?lang=en",
+      "source_name": "RIKEN AIP News",
+      "published_date": "2026-09-29",
+      "category": "research",
+      "tone": "neutral",
+      "confidence": "primary-inferred",
+      "notes": "aip.riken.jp still blocked; title, date and counts from a search snippet only. Acceptance announcement; paper titles not reviewed."
+    }
+  ],
+  "coverage_note": "aip.riken.jp still blocked by egress proxy (third consecutive run). Other seen: CLeaR 2027 call for papers (2026-09-30, admin notice, excluded). Out of window: ZDNet Korea interview (2026-09-18) https://aip.riken.jp/news/202609zdnetkorea/?lang=en. UTokyo AI items could not be dated, none included. Coverage incomplete."
+}

@@ -1,0 +1,32 @@
+{
+  "collector": "industry-leader-collector",
+  "target": "Sakana AI",
+  "run_date": "2026-10-03",
+  "items": [
+    {
+      "id": "sakana-rsi-lab-2026-09",
+      "title": "Sakana AI establishes Recursive Self-Improvement (RSI) Lab",
+      "summary_en": "Sakana AI announced a dedicated research group, the RSI Lab, tasked with redesigning the AI development process itself using AI. The post sits within the company's earlier self-improving-AI work, such as the Darwin Gödel Machine.",
+      "source_url": "https://sakana.ai/rsi-lab/",
+      "source_name": "Sakana AI Official Blog",
+      "published_date": "2026-09 (exact day unverified)",
+      "category": "research",
+      "tone": "neutral",
+      "confidence": "primary-inferred",
+      "notes": "sakana.ai blocked; content from search snippets; date may predate the 2026-09-26 window."
+    },
+    {
+      "id": "sakana-schmidhuber-2026-09",
+      "title": "Jürgen Schmidhuber joins Sakana AI as Chief Scientific Advisor",
+      "summary_en": "Sakana AI welcomed Jürgen Schmidhuber as Chief Scientific Advisor. He is to help guide the RSI Lab's research direction and will reportedly be in Tokyo regularly.",
+      "source_url": "https://sakana.ai/schmidhuber/",
+      "source_name": "Sakana AI Official Blog",
+      "published_date": "2026-09 (exact day unverified)",
+      "category": "opinion",
+      "tone": "neutral",
+      "confidence": "primary-inferred",
+      "notes": "Snippet-only; date unconfirmed, possibly before window. Personnel announcement; 'opinion' is nearest category."
+    }
+  ],
+  "coverage_note": "sakana.ai blocked by egress proxy; no post read and no exact dates confirmed; no item confirmed inside the window. Excluded as out of window/secondary: Fugu Max release (~2026-09-11, https://sakana.ai/fugu-release/), Sumitomo/SCSK partnership (Digitimes, 2026-09-10)."
+}

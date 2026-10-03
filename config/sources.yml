@@ -91,3 +91,17 @@ rotation_history:
       ~2026-08-15 to 2026-08-29 window), which should be re-checked once
       access constraints are resolved rather than assumed to mean no new
       evaluator output existed.
+  - run_date: "2026-10-03"
+    iso_week: "2026-W40"
+    note: >
+      No runs for 2026-W36 to W39; this run covered the full default target
+      list with a 2026-09-26 to 2026-10-03 window. The egress block seen in
+      the previous run persisted (third consecutive run affected): only 2 of
+      25 items are primary-confirmed (both Anthropic); METR, Google DeepMind,
+      Meta AI, MIT CSAIL and the Alan Turing Institute returned zero items,
+      and UTokyo/RIKEN AIP is still unreadable directly (single snippet-based
+      item). This should be raised with whoever operates the harness.
+      Diversity: Epoch AI supplied 7 of 25 items (28%), OpenAI + Anthropic 7
+      of 25 (28%), down from ~40% last run; Epoch's share is inflated because
+      5 of its items predate the window. Evaluator coverage again came from
+      search snippets, not primary pages.
