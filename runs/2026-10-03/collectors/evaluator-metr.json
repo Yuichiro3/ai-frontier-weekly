@@ -1,0 +1,7 @@
+{
+  "collector": "evaluator-institute-collector",
+  "target": "METR",
+  "run_date": "2026-10-03",
+  "items": [],
+  "coverage_note": "INCOMPLETE. Direct fetches of metr.org were blocked by the network egress proxy (EGRESS_BLOCKED); no METR primary page could be read, so no items were recorded. Unverified leads (secondary search summary only, no URLs, not confirmed): a METR post on a per-action monitor for safer evals (~2026-09-27); written Senate testimony by METR's president (~2026-09-30); a METR summary of a predeployment evaluation of a Claude model (~2026-09-22). A human or later run should verify these directly."
+}
