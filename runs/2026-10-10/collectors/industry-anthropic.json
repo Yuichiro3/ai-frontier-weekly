@@ -1,0 +1,68 @@
+{
+  "collector": "industry-leader-collector",
+  "target": "Anthropic",
+  "run_date": "2026-10-10",
+  "items": [
+    {
+      "id": "anthropic-2026-10-07-claude-haiku-5-5",
+      "title": "Anthropic introduces Claude Haiku 5.5",
+      "summary_en": "Anthropic released Claude Haiku 5.5, a small model it describes as its cheapest, fastest and most capable small model so far. It is aimed at large-scale, cost-sensitive workloads. According to a search snippet of the launch, the same announcement cut Sonnet 5.5 cache-read pricing and added monthly API credits for Max and Team subscribers.",
+      "source_url": "https://www.anthropic.com/claude-haiku-5-5",
+      "source_name": "Anthropic Official Website",
+      "published_date": "2026-10-07",
+      "category": "model-release",
+      "tone": "neutral",
+      "confidence": "primary-inferred",
+      "notes": "Article body not fetched; based on newsroom listing teaser and search snippet. Pricing and credit details need verification."
+    },
+    {
+      "id": "anthropic-2026-10-08-usage-policy-update",
+      "title": "Anthropic publishes 2026 Usage Policy update",
+      "summary_en": "Anthropic published a new version of its usage policy. According to a search snippet, changes include a new section on deceptive campaigns, tighter election rules and a clearer weapons prohibition.",
+      "source_url": "https://www.anthropic.com/news/2026-usage-policy-update",
+      "source_name": "Anthropic Official Website",
+      "published_date": "2026-10-08",
+      "category": "policy",
+      "tone": "neutral",
+      "confidence": "primary-inferred",
+      "notes": "Full page not fetched; change list from a search snippet only."
+    },
+    {
+      "id": "anthropic-2026-10-08-cyber-mission",
+      "title": "Anthropic launches the Anthropic Cyber Mission",
+      "summary_en": "Anthropic announced the Cyber Mission, described as a long-term commitment to securing systems society depends on. According to a search snippet, it includes a Critical Infrastructure Defense Program for operational technology and OSS Scanner, a free opt-in vulnerability scanning service for open-source projects.",
+      "source_url": "https://www.anthropic.com/news/anthropic-cyber-mission",
+      "source_name": "Anthropic Official Website",
+      "published_date": "2026-10-08",
+      "category": "safety",
+      "tone": "neutral",
+      "confidence": "primary-inferred",
+      "notes": "Full page not fetched; details from a search snippet."
+    },
+    {
+      "id": "anthropic-2026-10-08-genesis-mission-commitment",
+      "title": "Anthropic states commitment to American scientific discovery",
+      "summary_en": "Anthropic published a post titled 'Building on our commitment to American scientific discovery', described in the listing as support for scientific research in the United States. The listing gave no further detail, and the URL slug refers to a 'Genesis Mission'.",
+      "source_url": "https://www.anthropic.com/news/genesis-mission-commitment",
+      "source_name": "Anthropic Official Website",
+      "published_date": "2026-10-08",
+      "category": "policy",
+      "tone": "neutral",
+      "confidence": "primary-inferred",
+      "notes": "Only the listing teaser was seen. Category guessed from the title; Genesis Mission link inferred from the slug only."
+    },
+    {
+      "id": "anthropic-2026-10-06-cyber-verification-program",
+      "title": "Anthropic expands the Cyber Verification Program",
+      "summary_en": "Anthropic expanded its Cyber Verification Program so that qualifying security professionals can get advanced cyber capabilities and reduced blocking by classifiers. According to a search snippet, the program now has three access tiers.",
+      "source_url": "https://www.anthropic.com/news/cyber-verification-program",
+      "source_name": "Anthropic Official Website",
+      "published_date": "2026-10-06",
+      "category": "safety",
+      "tone": "neutral",
+      "confidence": "primary-inferred",
+      "notes": "Full page not fetched; based on listing teaser and search snippet."
+    }
+  ],
+  "coverage_note": "Five newsroom posts inside the window (Oct 6, 7, 8 x3); none dated Oct 9-10 surfaced. WebFetch returned only a summarized listing and WebSearch only snippets, so all items are primary-inferred. Excluded as out-of-window: Claude Frontier Academy (2026-10-02), Barclays story (2026-10-01), Sonnet 5.5 (2026-09-28), novel enzyme system (~2026-09-23), Opus 5.5 (~2026-09-22). Social accounts, research page and engineering blog not checked. Collection date 2026-10-10."
+}

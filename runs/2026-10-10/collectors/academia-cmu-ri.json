@@ -1,0 +1,32 @@
+{
+  "collector": "academia-collector",
+  "target": "Carnegie Mellon University - Robotics Institute",
+  "run_date": "2026-10-10",
+  "items": [
+    {
+      "id": "cmu-ri-iros-2026-facilities-tour",
+      "title": "CMU robotics facilities open to IROS 2026 attendees in Pittsburgh",
+      "summary_en": "According to search-result snippets, hundreds of academics and industry leaders toured CMU robotics and engineering facilities on Oct. 1 during IROS 2026. RI's Howie Choset was general chair, and the conference was reportedly last held in Pittsburgh in 1995. Demos reportedly included the AirLab's autonomous drones and the Soft Machines Lab's starfish-inspired robots.",
+      "source_url": "https://www.ri.cmu.edu/cmu-robotics-expertise-and-facilities-attract-iros-2026-conference-attendees/",
+      "source_name": "CMU Robotics Institute News (also mirrored on cmu.edu news)",
+      "published_date": "2026-10-01",
+      "category": "research",
+      "tone": "neutral",
+      "confidence": "primary-inferred",
+      "notes": "Page not fetched (DNS failure). Date inferred from event date and archive path. Event predates the window start (2026-10-03), so it may be out of window. Institutional news, not a research result."
+    },
+    {
+      "id": "cmu-doe-genesis-mission-schneider",
+      "title": "CMU researchers selected for next round of DOE Genesis Mission awards, including RI's Jeff Schneider",
+      "summary_en": "According to search snippets, CMU researchers were selected for the next round of DOE Genesis Mission awards. RI research professor Jeff Schneider will collaborate on a project led by Commonwealth Fusion Systems to build an AI-enabled digital twin of its SPARC fusion machine.",
+      "source_url": "https://www.cmu.edu/news/stories/archives/2026/october/cmu-researchers-selected-for-next-round-of-doe-genesis-mission-awards",
+      "source_name": "Carnegie Mellon University News",
+      "published_date": "2026-10-08",
+      "category": "policy",
+      "tone": "neutral",
+      "confidence": "primary-inferred",
+      "notes": "Page not fetched (DNS failure). Snippet only; date unverified. University-wide story with an RI angle."
+    }
+  ],
+  "coverage_note": "All fetches failed (ENOTFOUND); only search snippets available, so no item is primary-confirmed. RI homepage items 'CMU Researchers Give Robots a Delicate Touch' and 'Peg-in-Hole Isn't Kid Stuff' were listed but no text or dates retrieved; worth a retry. Coverage likely incomplete."
+}

@@ -1,0 +1,7 @@
+{
+  "collector": "academia-collector",
+  "target": "University of Tokyo / RIKEN AIP",
+  "run_date": "2026-10-10",
+  "items": [],
+  "coverage_note": "No in-window items could be verified. Direct fetch retried and still FAILED: aip.riken.jp/news/ and riken.jp/en/news_pubs/news/ returned getaddrinfo ENOTFOUND (DNS failure, not an HTTP block). Two web searches returned no October 2026 item; newest RIKEN AIP result 2026-07-27 (NTU AI-CoRE & RIKEN AIP workshop), newest UTokyo ~June 2026. This does not confirm nothing was published; confidence in 'nothing new' is low. Third consecutive run affected."
+}

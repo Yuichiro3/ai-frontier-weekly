@@ -1,0 +1,7 @@
+{
+  "collector": "industry-leader-collector",
+  "target": "Sakana AI",
+  "run_date": "2026-10-10",
+  "items": [],
+  "coverage_note": "No primary-source item dated within 2026-10-03 to 2026-10-10 found. Direct fetches of sakana.ai/blog failed (ENOTFOUND). A cached search-index snapshot lists 'SAIL: Scaling In-Context Imitation Learning' (2026-09-28) as newest, before the window. Other pre-window posts in the snapshot: 1000-layer networks without backpropagation (2026-09-14), Frontier Intelligence Group announcement (2026-09-18), Inside Sakana AI's Product Team (2026-09-17), Fugu Max / Fugu Ultra v2 (2026-09-11); dates unverified. X account @SakanaAILabs not checked. Confidence that nothing was published is low to moderate. Secondary reports (e.g. conflicting Series B figures) were not used."
+}

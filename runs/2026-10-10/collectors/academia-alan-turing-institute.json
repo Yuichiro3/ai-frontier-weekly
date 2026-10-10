@@ -1,0 +1,56 @@
+{
+  "collector": "academia-collector",
+  "target": "The Alan Turing Institute",
+  "run_date": "2026-10-10",
+  "items": [
+    {
+      "id": "turing-2026-10-trustees",
+      "title": "Turing Institute adds three new trustees to its Board",
+      "summary_en": "The Alan Turing Institute has appointed Tracey Bowen-Lowe, Catherine Graham and Rakshit Kapoor as non-executive directors and trustees. They join as Carina Namih finishes her term. Interim chair Dr Vanessa Lawrence said the appointments add expertise for the institute's AI and data science work.",
+      "source_url": "https://www.edtechinnovationhub.com/news/alan-turing-institute-appoints-three-new-trustees-from-ey-darktrace-and-chubb",
+      "source_name": "EdTech Innovation Hub (secondary report of Turing announcement)",
+      "published_date": "2026-10-05",
+      "category": "policy",
+      "tone": "neutral",
+      "confidence": "secondary-source",
+      "notes": "Primary turing.ac.uk page NOT fetched (DNS failure). Date from a search summary, unverified. Governance item, marginal relevance to AI research."
+    },
+    {
+      "id": "turing-2026-satellite-anomaly-model",
+      "title": "Turing defence researchers' AI model flags unusual satellite behaviour",
+      "summary_en": "Researchers at the Turing's Defence AI Research Centre built a model that learns from telescope brightness readings to flag abnormal satellite activity. It is meant to support space traffic management and collision avoidance. Coverage says it is published in the journal Expert Systems and is part of the UK Space Agency-funded AI4 Space Safety and Sustainability consortium.",
+      "source_url": "https://www.strath.ac.uk/whystrathclyde/news/2026/aitooldetectsunusualsatellitebehaviourtoimprovespacesafety/",
+      "source_name": "University of Strathclyde news (partner institution)",
+      "published_date": "2026-09-02",
+      "category": "research",
+      "tone": "neutral",
+      "confidence": "secondary-source",
+      "notes": "Likely outside the window. A search summary claimed a Turing item dated 9 Oct ('New AI model will boost UK's ability to safeguard vital satellites') but it could not be found or confirmed. An 88% detection figure appeared in only one outlet and is not included. Needs human check against turing.ac.uk."
+    },
+    {
+      "id": "turing-2026-grid-evidence-pack",
+      "title": "Turing evidence pack on AI for grid operations",
+      "summary_en": "A Turing evidence pack says AI-based forecasting delivers over 50 million pounds per year in balancing cost savings. It sets out steps for energy regulators and government bodies to speed up adoption. These details come from a search summary, not the page itself.",
+      "source_url": "https://www.turing.ac.uk/news/publications/evidence-pack-ai-grid-operations",
+      "source_name": "The Alan Turing Institute (publication page, found via search)",
+      "published_date": "unknown",
+      "category": "policy",
+      "tone": "neutral",
+      "confidence": "primary-inferred",
+      "notes": "Primary URL but content not fetched and date unknown. Do not treat as in-window without verification."
+    },
+    {
+      "id": "turing-2026-cetas-frontier-risk",
+      "title": "CETaS report on acting under uncertainty about frontier AI risk, plus a 2M pound grant",
+      "summary_en": "According to a search summary, a report dated 23 September 2026 argues that uncertainty about future existential threats should not delay action. The same summary says the Turing's CETaS centre received a 2 million pound grant from Coefficient Giving to study security risks of transformative AI.",
+      "source_url": "https://cetas.turing.ac.uk/",
+      "source_name": "CETaS (Turing) homepage",
+      "published_date": "2026-09-23",
+      "category": "safety",
+      "tone": "neutral",
+      "confidence": "primary-inferred",
+      "notes": "Outside the window; context only. Link is the CETaS homepage, not the specific report. Title and authors unverified."
+    }
+  ],
+  "coverage_note": "turing.ac.uk/news fetch failed (ENOTFOUND). Everything comes from search summaries and third-party pages; none primary-confirmed. In-window candidates: trustee appointments (~5 Oct, unverified) and a possible 9 Oct satellite-AI release that could not be located. No in-window research or model-release item confirmed. Retry recommended."
+}

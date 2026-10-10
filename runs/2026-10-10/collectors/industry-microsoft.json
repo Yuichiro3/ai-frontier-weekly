@@ -1,0 +1,68 @@
+{
+  "collector": "industry-leader-collector",
+  "target": "Microsoft",
+  "run_date": "2026-10-10",
+  "items": [
+    {
+      "id": "microsoft-windows-surface-oct2026-event",
+      "title": "Microsoft holds Windows and Surface news event in San Francisco covering on-device AI and agent sandboxing",
+      "summary_en": "Per Microsoft's newsroom page, the event covered hybrid intelligence on PCs, a sandboxing layer for AI agents, and a new Surface Laptop Ultra. The page also references a model named MAI-Code-1.1-Flash. Nadella and NVIDIA's Jensen Huang appear in the event imagery.",
+      "source_url": "https://news.microsoft.com/windows-surface-october-2026-news/",
+      "source_name": "Microsoft News (official newsroom)",
+      "published_date": "2026-10-08",
+      "category": "product",
+      "tone": "neutral",
+      "confidence": "primary-inferred",
+      "notes": "Direct fetch FAILED (DNS). Content from a search snippet; date approximate. MAI-Code-1.1-Flash details not verified."
+    },
+    {
+      "id": "microsoft-copilot-windows-hybrid-intelligence",
+      "title": "Copilot on Windows to get 'Hybrid Intelligence' using local models and, with permission, PC context",
+      "summary_en": "A Microsoft Source newsroom item reportedly dated October 8 says Copilot on Windows will use local models alongside cloud ones. With user permission, it can draw on context from the PC.",
+      "source_url": "https://news.microsoft.com/source/view-all/",
+      "source_name": "Microsoft Source (official newsroom)",
+      "published_date": "2026-10-08",
+      "category": "product",
+      "tone": "neutral",
+      "confidence": "primary-inferred",
+      "notes": "Fetch FAILED. URL is the generic listing, not the article. Date and wording from a search summary. Possibly the same event as the item above (potential duplicate)."
+    },
+    {
+      "id": "microsoft-m365-copilot-usage-billing-csp",
+      "title": "Usage-based billing default for new Microsoft 365 Copilot Business CSP licenses moved to December 1, 2026",
+      "summary_en": "Partner Center announcements say usage-based billing will be on by default for new Microsoft 365 Copilot Business licenses bought through CSP, starting December 1, 2026 (previously November 2). The default spending limit is 4,000 Copilot Credits per user per month, adjustable by admins.",
+      "source_url": "https://learn.microsoft.com/en-us/partner-center/announcements/2026-october",
+      "source_name": "Microsoft Learn - Partner Center announcements",
+      "published_date": "2026-10-01",
+      "category": "product",
+      "tone": "neutral",
+      "confidence": "primary-inferred",
+      "notes": "Not fetched; search snippet. Date is the page's month, not a confirmed day (likely outside window). Commercial item, low research relevance."
+    },
+    {
+      "id": "microsoft-copilot-sharepoint-oct2026",
+      "title": "Copilot in SharePoint reported generally available from September 30; new features listed",
+      "summary_en": "A Microsoft Tech Community post says Copilot in SharePoint began rolling out as generally available on September 30. New features include PDF page-level editing, version restore through chat, and email sending.",
+      "source_url": "https://techcommunity.microsoft.com/blog/spblog/what%E2%80%99s-new-in-copilot-in-sharepoint-october-2026/4535423",
+      "source_name": "Microsoft Tech Community Blog (SharePoint)",
+      "published_date": "2026-10-01",
+      "category": "product",
+      "tone": "neutral",
+      "confidence": "primary-inferred",
+      "notes": "Not fetched; snippet only. Date approximate; GA date (Sept 30) is just outside the window."
+    },
+    {
+      "id": "microsoft-ocp-global-summit-2026-preview",
+      "title": "Microsoft previews its presence at OCP Global Summit 2026 (October 12-15)",
+      "summary_en": "A Microsoft Azure infrastructure blog post announces Microsoft's participation in the OCP Global Summit, taking place October 12-15, 2026, with AI infrastructure work to be presented.",
+      "source_url": "https://techcommunity.microsoft.com/blog/azureinfrastructureblog/microsoft-at-ocp-global-summit-2026/4562337",
+      "source_name": "Microsoft Tech Community Blog (Azure Infrastructure)",
+      "published_date": "2026-10-09",
+      "category": "product",
+      "tone": "neutral",
+      "confidence": "secondary-source",
+      "notes": "Not fetched; publication date unknown, estimated from pre-event timing. Unverified."
+    }
+  ],
+  "coverage_note": "Partial, low-verification. All direct fetches failed (ENOTFOUND); everything comes from one web-search result summary, no pages opened, dates approximate. The search also mentioned an Oct 1 item on transcription/multilingual voice models and an Oct 2 Digital Defense Report on AI and cybersecurity; no URLs returned, so no items created. No Microsoft research, safety or policy statements found."
+}

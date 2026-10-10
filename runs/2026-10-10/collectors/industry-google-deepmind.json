@@ -1,0 +1,20 @@
+{
+  "collector": "industry-leader-collector",
+  "target": "Google DeepMind",
+  "run_date": "2026-10-10",
+  "items": [
+    {
+      "id": "gdm-embeddinggemma-2-2026-10-06",
+      "title": "Google releases EmbeddingGemma 2, an open multimodal embedding model",
+      "summary_en": "According to the search-result description of the official Google blog post, EmbeddingGemma 2 is an open embedding model that places code, images, video and audio in one shared embedding space. It is reported to be built on the Gemma 4 architecture, to have about 740 million parameters, and to be released under an Apache 2.0 license.",
+      "source_url": "https://blog.google/innovation-and-ai/technology/developers-tools/embeddinggemma-2/",
+      "source_name": "Google Blog (Innovation & AI > Developers & Tools)",
+      "published_date": "2026-10-06",
+      "category": "model-release",
+      "tone": "neutral",
+      "confidence": "primary-inferred",
+      "notes": "Page could not be fetched (DNS failure for blog.google). Details and date come only from a web-search result summary. The post is on blog.google, not deepmind.google; the DeepMind attribution is unconfirmed. Verify before use."
+    }
+  ],
+  "coverage_note": "All WebFetch attempts to deepmind.google and the post failed (ENOTFOUND). Only one low-confidence item from a search snippet. A DeepMind post on identifying AI-generated content (~2026-10-07) was mentioned but had no URL or body text, so no item was created. Collection is incomplete; re-run with working network access."
+}
