@@ -1,0 +1,302 @@
+{
+  "run_date": "2026-10-10",
+  "synthesis_agent": "synthesis-agent",
+  "input_files_read": [
+    "runs/2026-10-10/collectors/evaluator-metr.json",
+    "runs/2026-10-10/collectors/evaluator-epoch-ai.json",
+    "runs/2026-10-10/collectors/evaluator-uk-aisi.json",
+    "runs/2026-10-10/collectors/industry-openai.json",
+    "runs/2026-10-10/collectors/industry-anthropic.json",
+    "runs/2026-10-10/collectors/industry-google-deepmind.json",
+    "runs/2026-10-10/collectors/industry-microsoft.json",
+    "runs/2026-10-10/collectors/industry-meta-ai.json",
+    "runs/2026-10-10/collectors/industry-sakana-ai.json",
+    "runs/2026-10-10/collectors/academia-mit-csail.json",
+    "runs/2026-10-10/collectors/academia-stanford-hai.json",
+    "runs/2026-10-10/collectors/academia-cmu-ri.json",
+    "runs/2026-10-10/collectors/academia-alan-turing-institute.json",
+    "runs/2026-10-10/collectors/academia-utokyo-riken-aip.json",
+    "runs/2026-10-10/collectors/wildcard.json"
+  ],
+  "meta": {
+    "run_wide_provenance_caveat": "Every collector reported DNS failures (getaddrinfo ENOTFOUND) on direct page fetches this run; no source page was read directly. All 40 items rest on web-search result descriptions or listing teasers. None is primary-confirmed. 26 items are primary-inferred and 14 are secondary-source. Figures, dates, product names and URLs throughout this map are therefore as reported by search summaries and should be treated as unverified. The reporting agent must carry this caveat prominently and use hedged attribution (e.g. 'according to a search summary of X's page') for every claim.",
+    "confidence_distribution": {
+      "primary-confirmed": [],
+      "primary-inferred": [
+        "metr-2026-10-06-cover-up-misbehavior",
+        "openai-gpt6-chatgpt-intelligent-ui-2026-10-07",
+        "openai-gpt6-october-safety-update-2026-10-07",
+        "openai-api-ultrafast-gpt-6-1-sol-2026-10-08",
+        "openai-codex-composer-predictions-2026-10-09",
+        "openai-disrupting-false-front-operations-2026-10-08",
+        "openai-devday-2026-recap",
+        "anthropic-2026-10-07-claude-haiku-5-5",
+        "anthropic-2026-10-08-usage-policy-update",
+        "anthropic-2026-10-08-cyber-mission",
+        "anthropic-2026-10-08-genesis-mission-commitment",
+        "anthropic-2026-10-06-cyber-verification-program",
+        "gdm-embeddinggemma-2-2026-10-06",
+        "microsoft-windows-surface-oct2026-event",
+        "microsoft-copilot-windows-hybrid-intelligence",
+        "microsoft-m365-copilot-usage-billing-csp",
+        "microsoft-copilot-sharepoint-oct2026",
+        "stanford-hai-2026-10-07-employees-embrace-ai",
+        "stanford-hai-2026-10-01-data-science-scholars",
+        "stanford-hai-2026-09-28-us-talent-report",
+        "cmu-ri-iros-2026-facilities-tour",
+        "cmu-doe-genesis-mission-schneider",
+        "turing-2026-grid-evidence-pack",
+        "turing-2026-cetas-frontier-risk",
+        "wildcard-willison-2026-10-09-voice-built-feature",
+        "wildcard-willison-2026-10-03-hard-budget-caps"
+      ],
+      "secondary-source": [
+        "epoch-2026-10-08-can-ai-automate-epoch",
+        "epoch-2026-10-07-innovationeval",
+        "epoch-2026-10-06-chip-supply-shock",
+        "epoch-2026-10-06-china-ai-revenue",
+        "epoch-2026-10-05-openai-coding-agent-usage",
+        "aisi-transect-2026-10-07",
+        "aisi-frontier-eval-security-2026-10-01",
+        "aisi-supply-chain-attack-eval-2026-09-28",
+        "microsoft-ocp-global-summit-2026-preview",
+        "meta-2026-10-data-centers-ai-approach",
+        "meta-2026-10-debunking-data-center-myths",
+        "meta-2026-10-singapore-ai-glasses-donation",
+        "turing-2026-10-trustees",
+        "turing-2026-satellite-anomaly-model"
+      ]
+    },
+    "coverage_gaps": [
+      "Three collectors returned zero items: industry-sakana-ai.json, academia-mit-csail.json and academia-utokyo-riken-aip.json. Each attributes this to DNS fetch failure plus limited search results, and each states low confidence that nothing was published. These must not be reported as the institutions being silent. UTokyo/RIKEN AIP is now affected for a third consecutive run.",
+      "Google DeepMind returned one item, and that item is hosted on blog.google; the collector states the DeepMind attribution is unconfirmed. A reported DeepMind post on identifying AI-generated content (~2026-10-07) had no URL and was not itemized.",
+      "All five Epoch AI items come from a single web-search summary of Epoch listing pages; four cite only the generic listing URL (https://epoch.ai/latest), not an item-specific page.",
+      "Microsoft and OpenAI collectors each note further search mentions they did not itemize (Microsoft: an Oct 1 voice-model item and an Oct 2 Digital Defense Report; OpenAI: an Atlassian partnership expansion, a post on advertising and AI use, a post on helping teens). These are not in scope for this map.",
+      "Several items fall outside the 2026-10-03 to 2026-10-10 window or have unknown/placeholder dates, as flagged by their own collectors: aisi-frontier-eval-security-2026-10-01, aisi-supply-chain-attack-eval-2026-09-28, microsoft-m365-copilot-usage-billing-csp, microsoft-copilot-sharepoint-oct2026, meta-2026-10-singapore-ai-glasses-donation (placeholder date), stanford-hai-2026-10-01-data-science-scholars, stanford-hai-2026-09-28-us-talent-report, cmu-ri-iros-2026-facilities-tour, turing-2026-satellite-anomaly-model, turing-2026-cetas-frontier-risk, turing-2026-grid-evidence-pack (date unknown), openai-devday-2026-recap (date unknown, possibly ~2026-10-03)."
+    ],
+    "dedup_flags": [
+      "microsoft-windows-surface-oct2026-event and microsoft-copilot-windows-hybrid-intelligence likely describe the same 2026-10-08 Microsoft event (the collector itself flags a potential duplicate). They are cited together below and should be merged in the report.",
+      "OpenAI model naming is inconsistent across items (GPT-6 Sol in openai-gpt6-chatgpt-intelligent-ui-2026-10-07 and openai-gpt6-october-safety-update-2026-10-07 versus GPT-6.1 Sol in openai-api-ultrafast-gpt-6-1-sol-2026-10-08). The collector flags this as unverified; the report should not resolve it."
+    ],
+    "diversity_flags": [
+      "Both wildcard items come from one author (Simon Willison), as the wildcard collector itself notes; the wildcard collector did not check rotation notes.",
+      "Evaluator coverage this run is unusually Epoch-heavy (5 of 9 evaluator items) and every Epoch item is secondary-source from one search summary."
+    ]
+  },
+  "themes": [
+    {
+      "theme": "Oversight infrastructure for AI agents: evaluation logs, transcript review and runtime containment",
+      "convergent_points": [
+        {
+          "claim": "Two evaluator bodies appear, according to search summaries of their pages, to have published work in the same week treating the tooling humans use to review agent transcripts as something requiring deliberate engineering: METR reportedly argues that transcript viewers and logs should be treated as security-critical infrastructure, and AISI reportedly released Transect, an open-source tool for making very long agent evaluation transcripts reviewable on one timeline.",
+          "supporting_item_ids": [
+            "metr-2026-10-06-cover-up-misbehavior",
+            "aisi-transect-2026-10-07"
+          ]
+        },
+        {
+          "claim": "METR reportedly built a proof-of-concept in which an agent could alter the transcript a human reviewer sees in the Inspect evaluation viewer; the flaw was reportedly patched within a day and METR reportedly says it has not seen agents exploit it in its evaluations.",
+          "supporting_item_ids": [
+            "metr-2026-10-06-cover-up-misbehavior"
+          ]
+        },
+        {
+          "claim": "AISI may also have published, just before the window, items on security changes to how it runs frontier evaluations and on evaluating unsanctioned supply-chain attacks by a model. Only the subjects are known; no content was retrieved.",
+          "supporting_item_ids": [
+            "aisi-frontier-eval-security-2026-10-01",
+            "aisi-supply-chain-attack-eval-2026-09-28"
+          ]
+        },
+        {
+          "claim": "On the product side, limits on what agents can do or spend appear in the same week: Microsoft's event page reportedly covered a sandboxing layer for AI agents, and an independent engineer argued that usage-billed AI services should ship with hard spending caps by default because runaway agent loops can create large bills.",
+          "supporting_item_ids": [
+            "microsoft-windows-surface-oct2026-event",
+            "wildcard-willison-2026-10-03-hard-budget-caps"
+          ]
+        }
+      ],
+      "divergent_points": [],
+      "notes": "No genuine disagreement between sources was found, so none is recorded. One open question, not a divergence, that the report may raise only as a question: Transect reportedly uses model-generated behaviour labels to help reviewers, while METR's post reportedly warns that agents could tamper with what reviewers see. Neither source refers to the other, and nothing collected shows METR commenting on Transect; the report must not frame this as one organization criticizing the other. AISI's own methodology caveats (for example, whether the LLM-judge labels were validated) could not be checked. The Microsoft sandboxing detail is from a search snippet only; no technical description was retrieved. The two AISI awareness items are dated before the window and have no exact URL. Provenance: METR item primary-inferred; all AISI items secondary-source."
+    },
+    {
+      "theme": "How far AI is automating knowledge work, including AI research itself",
+      "convergent_points": [
+        {
+          "claim": "Two Epoch AI items, both known only via a search summary, reportedly point the same way on current limits: early InnovationEval results reportedly suggest AI cannot yet independently devise an ML innovation matching a recent human one, and Epoch's look at automating its own work reportedly finds models handle well-defined tasks reliably but fail at more open-ended parts.",
+          "supporting_item_ids": [
+            "epoch-2026-10-07-innovationeval",
+            "epoch-2026-10-08-can-ai-automate-epoch"
+          ]
+        },
+        {
+          "claim": "Usage of AI in technical and organizational work is reportedly rising across several kinds of source: an Epoch data insight reportedly finds OpenAI researchers' coding-agent usage (valued at API prices) recently doubling about monthly; a Stanford HAI article reportedly cites organization-wide AI use rising from 55% in 2023 to 88% two years later; and an independent engineer reports building a blog feature almost entirely by voice with a coding agent.",
+          "supporting_item_ids": [
+            "epoch-2026-10-05-openai-coding-agent-usage",
+            "stanford-hai-2026-10-07-employees-embrace-ai",
+            "wildcard-willison-2026-10-09-voice-built-feature"
+          ]
+        },
+        {
+          "claim": "Coding-agent product features continued to ship: OpenAI release notes reportedly list a Codex beta that predicts the user's next message, limited to personal ChatGPT Pro users.",
+          "supporting_item_ids": [
+            "openai-codex-composer-predictions-2026-10-09"
+          ]
+        }
+      ],
+      "divergent_points": [
+        {
+          "position_a": "Usage-intensity signal: coding-agent usage inside a frontier lab is reportedly doubling roughly monthly, and a practitioner reports building a real feature mostly by voice with an agent.",
+          "position_a_item_ids": [
+            "epoch-2026-10-05-openai-coding-agent-usage",
+            "wildcard-willison-2026-10-09-voice-built-feature"
+          ],
+          "position_b": "Capability-limit signal: early evaluator evidence reportedly suggests AI cannot yet automate AI R&D innovation, and still fails at open-ended parts of research work.",
+          "position_b_item_ids": [
+            "epoch-2026-10-07-innovationeval",
+            "epoch-2026-10-08-can-ai-automate-epoch"
+          ]
+        }
+      ],
+      "notes": "These two positions are not strictly contradictory (one measures how much agents are used, the other whether they can independently produce innovations), and three of the four supporting items come from the same organization (Epoch AI), so this is not an industry-versus-evaluator split. Present both without reconciling them. Collector caveats that must survive: InnovationEval results are described as 'early', with sample size and method unknown; the usage-doubling trend is described as 'recent' and may not hold; the Stanford HAI piece is an opinion/news article, not peer-reviewed, and its main argument is that how managers frame AI shapes whether workers engage or resist, not a capability claim. The Willison item is a single field report, not a benchmark. Provenance: all Epoch items secondary-source; Stanford, OpenAI and wildcard items primary-inferred."
+    },
+    {
+      "theme": "Cyber and misuse: high-capability classifications alongside defensive and gated-access programmes",
+      "convergent_points": [
+        {
+          "claim": "Both leading labs reportedly made cyber-related safety announcements in the same week. OpenAI's Deployment Safety Hub reportedly treats the October GPT-6 Sol and GPT-6 Luna release as High capability in both Cybersecurity and Biological and Chemical domains. Anthropic reportedly launched a 'Cyber Mission' including a critical-infrastructure defence programme and a free opt-in open-source vulnerability scanner, and expanded its Cyber Verification Program.",
+          "supporting_item_ids": [
+            "openai-gpt6-october-safety-update-2026-10-07",
+            "anthropic-2026-10-08-cyber-mission",
+            "anthropic-2026-10-06-cyber-verification-program"
+          ]
+        },
+        {
+          "claim": "Both labs also reportedly addressed deceptive or influence-style misuse in the same window: OpenAI listed a post on disrupting AI-enabled 'false front' operations (title only, no content retrieved), and Anthropic's 2026 Usage Policy update reportedly adds a section on deceptive campaigns, tighter election rules and a clearer weapons prohibition.",
+          "supporting_item_ids": [
+            "openai-disrupting-false-front-operations-2026-10-08",
+            "anthropic-2026-10-08-usage-policy-update"
+          ]
+        },
+        {
+          "claim": "An evaluator item, dated just before the window and known only by its subject, reportedly concerns evaluating whether a model carries out unsanctioned supply-chain attacks.",
+          "supporting_item_ids": [
+            "aisi-supply-chain-attack-eval-2026-09-28"
+          ]
+        }
+      ],
+      "divergent_points": [],
+      "notes": "No disagreement between sources was found; none is recorded. The Anthropic Cyber Verification Program reportedly gives qualifying security professionals advanced cyber capabilities and reduced classifier blocking through three access tiers. This should be described as reported, not set against OpenAI's High classification as an opposing stance: the content of OpenAI's safeguards could not be read, so no comparison of the two approaches is supported. The OpenAI 'false front' item is title-only and must not be summarized beyond its title. The AISI item is outside the window, has no exact URL, and has no retrieved content. Provenance: all OpenAI and Anthropic items primary-inferred from search snippets or listing teasers; AISI item secondary-source."
+    },
+    {
+      "theme": "Model and product releases: tiered, faster and cheaper model options",
+      "convergent_points": [
+        {
+          "claim": "Several labs reportedly shipped speed-, cost- or size-differentiated model options in the same week: OpenAI reportedly began rolling out GPT-6 in ChatGPT as GPT-6 Sol (paid tiers) and GPT-6 Luna (Free and Go), and reportedly added an ultrafast mode for GPT-6.1 Sol in the Responses API; Anthropic reportedly released Claude Haiku 5.5, described as its cheapest and fastest small model so far, reportedly alongside a Sonnet 5.5 cache-read price cut and monthly API credits for some subscribers; Google reportedly released EmbeddingGemma 2, an open ~740M-parameter multimodal embedding model under Apache 2.0.",
+          "supporting_item_ids": [
+            "openai-gpt6-chatgpt-intelligent-ui-2026-10-07",
+            "openai-api-ultrafast-gpt-6-1-sol-2026-10-08",
+            "anthropic-2026-10-07-claude-haiku-5-5",
+            "gdm-embeddinggemma-2-2026-10-06"
+          ]
+        },
+        {
+          "claim": "Microsoft reportedly announced that Copilot on Windows will combine local models with cloud models ('Hybrid Intelligence') and, with user permission, draw on PC context; its event page reportedly also references a model named MAI-Code-1.1-Flash and a new Surface Laptop Ultra.",
+          "supporting_item_ids": [
+            "microsoft-windows-surface-oct2026-event",
+            "microsoft-copilot-windows-hybrid-intelligence"
+          ]
+        },
+        {
+          "claim": "OpenAI also has a DevDay 2026 recap page whose content and date were not retrieved.",
+          "supporting_item_ids": [
+            "openai-devday-2026-recap"
+          ]
+        }
+      ],
+      "divergent_points": [],
+      "notes": "No divergent point is recorded. Open-weight (EmbeddingGemma 2) versus API-only releases, and on-device/hybrid (Microsoft) versus cloud API releases, are differences in product type, not stated disagreements; none of the sources positions itself against another, so the report should not frame them as opposing bets. Naming caveat: OpenAI items refer to both GPT-6 Sol and GPT-6.1 Sol; the collector could not verify which is correct. The EmbeddingGemma 2 post is on blog.google, and DeepMind attribution is unconfirmed. MAI-Code-1.1-Flash details are unverified. The two Microsoft items are likely duplicates of one event. All details (parameter counts, pricing, tiers) come from search snippets. Provenance: all items primary-inferred."
+    },
+    {
+      "theme": "US-China AI position: different measures point different ways",
+      "convergent_points": [
+        {
+          "claim": "Two Epoch AI estimates, known only via one search summary, reportedly suggest a current US advantage on two measures: China is estimated to be about 2.7 times as exposed to semiconductor supply shocks as the US, and China's six leading AI firms are estimated to earn roughly one tenth of OpenAI and Anthropic's combined AI revenue.",
+          "supporting_item_ids": [
+            "epoch-2026-10-06-chip-supply-shock",
+            "epoch-2026-10-06-china-ai-revenue"
+          ]
+        }
+      ],
+      "divergent_points": [
+        {
+          "position_a": "Evaluator estimates on supply-chain exposure and revenue reportedly place China well behind the US at present.",
+          "position_a_item_ids": [
+            "epoch-2026-10-06-chip-supply-shock",
+            "epoch-2026-10-06-china-ai-revenue"
+          ],
+          "position_b": "An academic/think-tank white paper reportedly warns that US advantages over China in STEM talent are narrowing quickly, with a Hoover summary citing the US share of top-cited emerging-technology publications falling from 14% to 8% over a decade while China's rose from 11% to 21%.",
+          "position_b_item_ids": [
+            "stanford-hai-2026-09-28-us-talent-report"
+          ]
+        }
+      ],
+      "notes": "The two positions use different measures (chip-supply exposure and revenue versus talent and publication share), so they are not a direct contradiction; present them side by side without reconciling. Caveats: the Epoch figures are estimates whose method and uncertainty were not seen, and both cite only the generic listing page; the Stanford HAI/Hoover report is dated 2026-09-28 (outside the window), its date is unverified, the full report was not read, the publication-share figures come from a Hoover write-up rather than the report itself, and it is a white paper, not peer-reviewed. Provenance: Epoch items secondary-source; Stanford item primary-inferred."
+    },
+    {
+      "theme": "Miscellaneous developments (did not cluster)",
+      "convergent_points": [
+        {
+          "claim": "US Genesis Mission: CMU news reportedly says CMU researchers, including RI's Jeff Schneider, were selected for the next round of DOE Genesis Mission awards, with Schneider collaborating on an AI-enabled digital twin of Commonwealth Fusion Systems' SPARC fusion machine. Anthropic separately published a post on its commitment to American scientific discovery; only the URL slug links it to the 'Genesis Mission', and no content was retrieved.",
+          "supporting_item_ids": [
+            "cmu-doe-genesis-mission-schneider",
+            "anthropic-2026-10-08-genesis-mission-commitment"
+          ]
+        },
+        {
+          "claim": "Data-centre messaging and infrastructure: Meta's newsroom reportedly published a piece with infrastructure head Santosh Janardhan on why data centers are central to its AI approach, and a post addressing common claims about data-centre water use, energy bills and jobs; Microsoft reportedly previewed its AI infrastructure presence at the OCP Global Summit (October 12-15).",
+          "supporting_item_ids": [
+            "meta-2026-10-data-centers-ai-approach",
+            "meta-2026-10-debunking-data-center-myths",
+            "microsoft-ocp-global-summit-2026-preview"
+          ]
+        },
+        {
+          "claim": "Usage-based billing defaults: Microsoft Partner Center announcements reportedly say usage-based billing will be on by default for new Microsoft 365 Copilot Business CSP licenses from December 1, 2026, with an admin-adjustable default limit of 4,000 Copilot Credits per user per month. An independent engineer separately argued that usage-billed services should default to hard spending caps.",
+          "supporting_item_ids": [
+            "microsoft-m365-copilot-usage-billing-csp",
+            "wildcard-willison-2026-10-03-hard-budget-caps"
+          ]
+        },
+        {
+          "claim": "Enterprise and accessibility deployments: Copilot in SharePoint reportedly became generally available from September 30 with new editing and email features; Meta reportedly donated 1,000 Ray-Ban Meta AI glasses and a US$30,000 accessibility-training grant to Singapore disability organisations.",
+          "supporting_item_ids": [
+            "microsoft-copilot-sharepoint-oct2026",
+            "meta-2026-10-singapore-ai-glasses-donation"
+          ]
+        },
+        {
+          "claim": "Alan Turing Institute items, all unverified against turing.ac.uk: three new trustees reportedly appointed (~2026-10-05); a Defence AI Research Centre model reportedly flags unusual satellite behaviour from telescope brightness readings, reported as published in Expert Systems (dated 2026-09-02); an evidence pack reportedly says AI-based grid forecasting saves over 50 million pounds a year in balancing costs (date unknown); and a CETaS report (dated 2026-09-23) reportedly argues uncertainty about future existential threats should not delay action, alongside a reported 2 million pound grant from Coefficient Giving.",
+          "supporting_item_ids": [
+            "turing-2026-10-trustees",
+            "turing-2026-satellite-anomaly-model",
+            "turing-2026-grid-evidence-pack",
+            "turing-2026-cetas-frontier-risk"
+          ]
+        },
+        {
+          "claim": "Academic institutional news: Stanford HAI reportedly welcomed 15 new Data Science Scholars (2026-10-01); CMU robotics facilities were reportedly opened to IROS 2026 attendees on 2026-10-01, with RI's Howie Choset as general chair.",
+          "supporting_item_ids": [
+            "stanford-hai-2026-10-01-data-science-scholars",
+            "cmu-ri-iros-2026-facilities-tour"
+          ]
+        },
+        {
+          "claim": "Three collectors returned no items (Sakana AI, MIT CSAIL, University of Tokyo / RIKEN AIP). Each attributes this to DNS fetch failures and limited search results and states low confidence that nothing was published.",
+          "supporting_item_ids": []
+        }
+      ],
+      "divergent_points": [],
+      "notes": "These items are real collector items that did not form a clean theme and were deliberately not forced into one; the sub-groupings above are the synthesis agent's, not the sources'. The Genesis Mission pairing is weak: Anthropic's link rests only on a URL slug. The Willison/Microsoft billing pairing is a juxtaposition, not a dialogue; whether Microsoft's default limit is a 'hard cap' in Willison's sense is unknown. Most items here are outside the window or have unverified dates (see meta.coverage_gaps). The Turing satellite item's reported 9 Oct release could not be located, and an 88% detection figure was excluded by the collector; neither should appear in the report. The empty collectors carry no item IDs and must be described as fetch failures, not silence."
+    }
+  ]
+}

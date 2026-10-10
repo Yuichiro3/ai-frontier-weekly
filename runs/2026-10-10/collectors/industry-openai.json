@@ -1,0 +1,80 @@
+{
+  "collector": "industry-leader-collector",
+  "target": "OpenAI",
+  "run_date": "2026-10-10",
+  "items": [
+    {
+      "id": "openai-gpt6-chatgpt-intelligent-ui-2026-10-07",
+      "title": "GPT-6 rolls out in ChatGPT with 'Intelligent UI'",
+      "summary_en": "According to OpenAI's pages as surfaced by search, GPT-6 began rolling out in ChatGPT with an interface that can combine text, visuals and interactive tools such as calculators in answers. Plus, Pro, Business and Enterprise users get GPT-6 Sol first; Free and Go users get GPT-6 Luna starting the following day.",
+      "source_url": "https://openai.com/news/",
+      "source_name": "OpenAI News (index page; exact post URL not retrieved)",
+      "published_date": "2026-10-07",
+      "category": "product",
+      "tone": "neutral",
+      "confidence": "primary-inferred",
+      "notes": "Direct fetch failed (DNS). Details come from a search-tool summary, not the post. Specific post URL and title not verified."
+    },
+    {
+      "id": "openai-gpt6-october-safety-update-2026-10-07",
+      "title": "GPT-6 Sol and GPT-6 Luna October 2026 safety update classifies models as High capability in cyber and bio/chem",
+      "summary_en": "OpenAI's Deployment Safety Hub update says it is treating the October release of GPT-6 Sol and GPT-6 Luna as High capability in both Cybersecurity and Biological and Chemical domains. A PDF version is also listed.",
+      "source_url": "https://deploymentsafety.openai.com/gpt-6-october",
+      "source_name": "OpenAI Deployment Safety Hub",
+      "published_date": "2026-10-07",
+      "category": "safety",
+      "tone": "neutral",
+      "confidence": "primary-inferred",
+      "notes": "Fetch failed (DNS). Known only via search summary. PDF alternative: https://cdn.openai.com/pdf/gpt-6-october.pdf."
+    },
+    {
+      "id": "openai-api-ultrafast-gpt-6-1-sol-2026-10-08",
+      "title": "Ultrafast mode for GPT-6.1 Sol arrives in the Responses API",
+      "summary_en": "OpenAI release notes reportedly state that ultrafast mode is available for GPT-6.1 Sol in the Responses API to all API users, subject to rate limits. It supports global processing and US and EU data residency.",
+      "source_url": "https://openai.com/products/release-notes/",
+      "source_name": "OpenAI Release Notes",
+      "published_date": "2026-10-08",
+      "category": "product",
+      "tone": "neutral",
+      "confidence": "primary-inferred",
+      "notes": "Fetch failed. Search summary only. Search said GPT-6.1 Sol here versus GPT-6 elsewhere; naming not verified. A conflicting relative date appeared for the release notes page, so the date is uncertain."
+    },
+    {
+      "id": "openai-codex-composer-predictions-2026-10-09",
+      "title": "Codex beta: composer predictions suggest next message",
+      "summary_en": "A beta Codex feature called composer predictions suggests the user's next message in a thread. It is limited to personal ChatGPT Pro users for now.",
+      "source_url": "https://openai.com/products/release-notes/",
+      "source_name": "OpenAI Release Notes",
+      "published_date": "2026-10-09",
+      "category": "product",
+      "tone": "neutral",
+      "confidence": "primary-inferred",
+      "notes": "Fetch failed. Search summary only; date and exact URL unverified."
+    },
+    {
+      "id": "openai-disrupting-false-front-operations-2026-10-08",
+      "title": "OpenAI post on disrupting AI-enabled 'false front' operations",
+      "summary_en": "OpenAI listed a safety post about disrupting AI-enabled 'false front' operations. No further details were retrieved.",
+      "source_url": "https://openai.com/news/",
+      "source_name": "OpenAI News (index page; exact post URL not retrieved)",
+      "published_date": "2026-10-08",
+      "category": "safety",
+      "tone": "neutral",
+      "confidence": "primary-inferred",
+      "notes": "Title only, from search summary. Content not read. Needs verification."
+    },
+    {
+      "id": "openai-devday-2026-recap",
+      "title": "DevDay 2026 Recap",
+      "summary_en": "OpenAI has a DevDay 2026 recap page. Its content was not retrieved.",
+      "source_url": "https://openai.com/index/devday-2026-recap/",
+      "source_name": "OpenAI",
+      "published_date": "unknown",
+      "category": "product",
+      "tone": "neutral",
+      "confidence": "primary-inferred",
+      "notes": "Fetch failed. A search result showed '7 days ago' (about 2026-10-03), unverified; may fall at the window edge."
+    }
+  ],
+  "coverage_note": "All direct fetches of openai.com and deploymentsafety.openai.com failed (ENOTFOUND). Every item rests on a single web-search summary, so 'primary-inferred' at best; dates and titles need human verification. Search also listed, without detail, an Atlassian partnership expansion (~Oct 6), a post on advertising and AI use (~Oct 5) and a post on helping teens (~Oct 7); not made into items. Some relative dates conflicted."
+}

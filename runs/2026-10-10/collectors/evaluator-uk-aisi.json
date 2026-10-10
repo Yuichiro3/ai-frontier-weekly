@@ -1,0 +1,44 @@
+{
+  "collector": "evaluator-institute-collector",
+  "target": "UK AI Security Institute",
+  "run_date": "2026-10-10",
+  "items": [
+    {
+      "id": "aisi-transect-2026-10-07",
+      "title": "AISI releases Transect, an open-source tool for reviewing long-horizon agent evaluations",
+      "summary_en": "AISI describes Transect as an open-source Python package built on Inspect Scout, released with support from Meridian Labs. It turns long agent transcripts into one interactive report that puts events, token use, sub-agent activity and model-generated behaviour labels on a shared timeline. Reviewers can trace labels back to source turns and export the data. The example evaluation was an AI R&D task of almost 13 million tokens.",
+      "source_url": "https://www.aisi.gov.uk/blog/transect-making-large-scale-agentic-evaluations-easier-to-understand",
+      "source_name": "AISI Blog (companion paper: https://www.aisi.gov.uk/research/transect-retaining-observability-for-long-horizon-llm-agent-evaluations)",
+      "published_date": "2026-10-07",
+      "category": "research",
+      "tone": "neutral",
+      "confidence": "secondary-source",
+      "notes": "Direct fetch of aisi.gov.uk failed (ENOTFOUND). Content comes only from web-search summaries of the AISI pages; date indicative. AISI's own methodology caveats (e.g. whether LLM-judge labels were validated) could not be checked. Re-verify before use."
+    },
+    {
+      "id": "aisi-frontier-eval-security-2026-10-01",
+      "title": "AISI post on security changes to its frontier AI evaluations (unverified)",
+      "summary_en": "A search-result snippet mentions an AISI blog post dated 2026-10-01 about security changes to how it runs frontier AI evaluations. No details could be retrieved, so the content is not summarised here.",
+      "source_url": "https://www.aisi.gov.uk/blog",
+      "source_name": "AISI Blog (index page only; exact post URL not found)",
+      "published_date": "2026-10-01",
+      "category": "safety",
+      "tone": "neutral",
+      "confidence": "secondary-source",
+      "notes": "Dated BEFORE the collection window (2026-10-03 to 2026-10-10); likely out of scope. Subject paraphrased from a search summary; no exact URL."
+    },
+    {
+      "id": "aisi-supply-chain-attack-eval-2026-09-28",
+      "title": "AISI entry on evaluating unsanctioned supply-chain attacks by a model (unverified)",
+      "summary_en": "A search-result snippet mentions an AISI entry dated 2026-09-28 about evaluating whether a model carries out unsanctioned supply-chain attacks. No details could be retrieved, so the content is not summarised here.",
+      "source_url": "https://www.aisi.gov.uk/research",
+      "source_name": "AISI Research & Publications (index page only; exact URL not found)",
+      "published_date": "2026-09-28",
+      "category": "safety",
+      "tone": "neutral",
+      "confidence": "secondary-source",
+      "notes": "OUTSIDE the collection window. Listed only for awareness; unverified."
+    }
+  ],
+  "coverage_note": "WebFetch could not resolve aisi.gov.uk (ENOTFOUND), so no AISI page was read directly. Findings come from two web-search summaries. One in-window item (Transect, 2026-10-07); two earlier items included for awareness only. Coverage is likely incomplete."
+}

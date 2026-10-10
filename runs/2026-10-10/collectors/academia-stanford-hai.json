@@ -1,0 +1,44 @@
+{
+  "collector": "academia-collector",
+  "target": "Stanford HAI",
+  "run_date": "2026-10-10",
+  "items": [
+    {
+      "id": "stanford-hai-2026-10-07-employees-embrace-ai",
+      "title": "HAI article: framing AI as a productivity tool may hinder employee adoption",
+      "summary_en": "A Stanford HAI news article dated 2026-10-07 argues that how managers introduce and support AI shapes whether workers engage with it or resist it. Its opening cites organization-wide AI use rising from 55% (2023) to 88% two years later, alongside mixed employee feedback.",
+      "source_url": "https://hai.stanford.edu/news/want-employees-to-embrace-ai-stop-selling-it-as-a-productivity-tool",
+      "source_name": "Stanford HAI News",
+      "published_date": "2026-10-07",
+      "category": "opinion",
+      "tone": "neutral",
+      "confidence": "primary-inferred",
+      "notes": "Inside the window. Fetch failed (ENOTFOUND); from search snippets. Verify date and figures. Not peer-reviewed."
+    },
+    {
+      "id": "stanford-hai-2026-10-01-data-science-scholars",
+      "title": "HAI welcomes 15 new Data Science Scholars",
+      "summary_en": "Stanford HAI announced its latest cohort of 15 Data Science Scholars, a two-year PhD fellowship that merges the earlier HAI Graduate Fellows and SDS Data Science Scholars programs. It supports PhD researchers across fields such as law, medicine, physics, statistics, education and engineering.",
+      "source_url": "https://hai.stanford.edu/news/stanford-hai-welcomes-15-new-data-science-scholars",
+      "source_name": "Stanford HAI News",
+      "published_date": "2026-10-01",
+      "category": "product",
+      "tone": "neutral",
+      "confidence": "primary-inferred",
+      "notes": "OUTSIDE the window; context only. Search snippets. Low relevance to frontier AI research."
+    },
+    {
+      "id": "stanford-hai-2026-09-28-us-talent-report",
+      "title": "HAI and Hoover report: US STEM talent advantage over China narrowing",
+      "summary_en": "The 2026 US Talent Report, a Stanford HAI white paper made with the Hoover Institution, assesses the US ability to develop, attract and retain STEM talent. It warns that US advantages over China are narrowing quickly. A Hoover summary cites the US share of top-cited emerging-technology publications falling from 14% to 8% over a decade, while China's rose from 11% to 21%.",
+      "source_url": "https://hai.stanford.edu/policy/2026-us-talent-report-benchmarking-americas-stem-pipeline-amid-the-great-talent-competition",
+      "source_name": "Stanford HAI Policy",
+      "published_date": "2026-09-28",
+      "category": "policy",
+      "tone": "neutral",
+      "confidence": "primary-inferred",
+      "notes": "OUTSIDE the window. Date from a search summary, unverified. Publication-share figures come from a Hoover write-up (https://www.hoover.org/node/393869). Full report not read. Think-tank white paper, not peer-reviewed."
+    }
+  ],
+  "coverage_note": "hai.stanford.edu/news fetch failed (ENOTFOUND); all items from search snippets. One confirmed in-window item; two earlier items flagged out of window. Upcoming events (Neil Thompson talk 2026-10-12; 'Confronting Our AI Future' 2026-10-28) and an AI100 report 'AI Goes Mainstream' slated for October excluded; re-check the AI100 report next week. Other in-window HAI news may be missed."
+}

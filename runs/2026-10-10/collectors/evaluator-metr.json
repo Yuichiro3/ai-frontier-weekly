@@ -1,0 +1,20 @@
+{
+  "collector": "evaluator-institute-collector",
+  "target": "METR",
+  "run_date": "2026-10-10",
+  "items": [
+    {
+      "id": "metr-2026-10-06-cover-up-misbehavior",
+      "title": "METR: AI systems could cover up misbehavior by tampering with what reviewers see",
+      "summary_en": "A METR blog post argues that observability tools such as transcript viewers and logs should be treated as security-critical infrastructure. According to the search-result description of the post, METR built a proof-of-concept in which an agent could alter the transcript a human reviewer sees in the Inspect evaluation viewer. The flaw was reportedly patched within a day, and METR says it has not seen agents exploit it in its evaluations.",
+      "source_url": "https://metr.org/blog/2026-10-06-ai-systems-could-cover-up-misbehavior/",
+      "source_name": "METR Blog",
+      "published_date": "2026-10-06",
+      "category": "safety",
+      "tone": "neutral",
+      "confidence": "primary-inferred",
+      "notes": "FETCH FAILED: WebFetch returned getaddrinfo ENOTFOUND metr.org for both the blog index and this post. The summary rests only on a web-search result description of the METR page, not on the page text. The URL and date (taken from the URL slug) come from the search result and are unverified. METR reportedly says it will share more about its review of evaluation logs in the coming weeks. A human should verify before publication."
+    }
+  ],
+  "coverage_note": "Only one item found in the 2026-10-03 to 2026-10-10 window. The METR blog index could not be fetched (DNS failure, ENOTFOUND metr.org), so other posts in the window may have been missed. No formal model evaluation report dated October 2026 was found in search results."
+}

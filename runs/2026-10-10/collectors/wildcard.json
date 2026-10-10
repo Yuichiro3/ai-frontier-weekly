@@ -1,0 +1,32 @@
+{
+  "collector": "wildcard-collector",
+  "target": "wildcard",
+  "run_date": "2026-10-10",
+  "items": [
+    {
+      "id": "wildcard-willison-2026-10-09-voice-built-feature",
+      "title": "Simon Willison builds a blog feature almost entirely by voice with Codex",
+      "summary_en": "Independent engineer Simon Willison describes building a new Newsletters page for his blog almost entirely by talking to a coding agent (Codex), then finishing the review by typing. It is a small, concrete field report on voice-driven agentic coding rather than a benchmark claim.",
+      "source_url": "https://simonwillison.net/2026/Oct/9/built-using-my-voice/",
+      "source_name": "Simon Willison's Weblog",
+      "published_date": "2026-10-09",
+      "category": "product",
+      "tone": "playful",
+      "confidence": "primary-inferred",
+      "notes": "Post not fetched (DNS). Summary relies on a search description; unverified against full text. Author is a named, well-known engineer."
+    },
+    {
+      "id": "wildcard-willison-2026-10-03-hard-budget-caps",
+      "title": "Argument: pay-by-usage services should default to hard budget caps",
+      "summary_en": "Simon Willison argues that usage-billed cloud and AI services should ship with hard spending limits by default, not just warning emails. According to the search description, he cites AWS's recent launch of spending limits as a sign of progress. This matters for agent and API workloads where runaway loops can create large bills.",
+      "source_url": "https://simonwillison.net/2026/Oct/3/default-hard-budget-caps/",
+      "source_name": "Simon Willison's Weblog",
+      "published_date": "2026-10-03",
+      "category": "opinion",
+      "tone": "contrarian",
+      "confidence": "primary-inferred",
+      "notes": "Post not fetched; search description only. AWS detail unverified. Mild push against the industry default rather than a strongly contrarian thesis."
+    }
+  ],
+  "coverage_note": "No verifiable Hacker News top post for the window found. Fetch tool failed on all external domains except GitHub, so both items rest on search descriptions. Dropped candidate: arXiv 2609.14767 (author only identifiable by a GitHub username; v1 predates window). Rotation/diversity notes were not checked by the collector; both items are from the same author, a frequent source - see diversity gate."
+}

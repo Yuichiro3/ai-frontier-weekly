@@ -91,3 +91,16 @@ rotation_history:
       ~2026-08-15 to 2026-08-29 window), which should be re-checked once
       access constraints are resolved rather than assumed to mean no new
       evaluator output existed.
+  - run_date: "2026-10-10"
+    iso_week: "2026-W41"
+    note: >
+      No run was produced between 2026-08-29 and this run. Full default
+      target list collected. Every direct WebFetch failed with DNS errors
+      (ENOTFOUND), so all 40 items rest on search summaries (26
+      primary-inferred, 14 secondary-source, 0 primary-confirmed). Sakana
+      AI, MIT CSAIL and UTokyo/RIKEN AIP returned zero items (fetch
+      failure, not confirmed absence); UTokyo/RIKEN AIP is now affected
+      for a third tracked run. Diversity flags: all 5 Epoch items and
+      both wildcard items (Simon Willison) each come from a single
+      search summary / single author; OpenAI + Anthropic account for 11
+      of 40 items. Roughly 12 items are out of window or undated.

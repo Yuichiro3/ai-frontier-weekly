@@ -1,0 +1,68 @@
+{
+  "collector": "evaluator-institute-collector",
+  "target": "Epoch AI",
+  "run_date": "2026-10-10",
+  "items": [
+    {
+      "id": "epoch-2026-10-08-can-ai-automate-epoch",
+      "title": "Epoch AI asks whether AI can automate Epoch's own work",
+      "summary_en": "A search-result summary of Epoch's listing says frontier models handle well-defined tasks reliably but fail at the more open-ended parts of the work, which keeps full automation out of reach for now.",
+      "source_url": "https://epoch.ai/latest",
+      "source_name": "Epoch AI - Latest (listing page, via search snippet)",
+      "published_date": "2026-10-08",
+      "category": "research",
+      "tone": "neutral",
+      "confidence": "secondary-source",
+      "notes": "Direct fetch of epoch.ai failed (DNS error). Item-specific URL not seen, so the listing page is cited. Content comes from a search summary, not page text. Verify before use."
+    },
+    {
+      "id": "epoch-2026-10-07-innovationeval",
+      "title": "Early InnovationEval evidence: AI cannot yet automate AI R&D",
+      "summary_en": "According to a search-result summary, Epoch's early InnovationEval results point to 'no'. The test checks whether AI can independently devise an ML innovation that matches a recent human-developed one.",
+      "source_url": "https://epoch.ai/publications/innovationeval",
+      "source_name": "Epoch AI Publications",
+      "published_date": "2026-10-07",
+      "category": "research",
+      "tone": "neutral",
+      "confidence": "secondary-source",
+      "notes": "Page fetch failed (DNS error). The summary calls the evidence 'early', so results are likely preliminary. Sample size and method unknown. Date unverified."
+    },
+    {
+      "id": "epoch-2026-10-06-chip-supply-shock",
+      "title": "Epoch estimates China is about 2.7x as exposed to chip supply shocks as the US",
+      "summary_en": "A search-result summary says Epoch estimates China is 2.7 times as exposed to semiconductor supply shocks as the US.",
+      "source_url": "https://epoch.ai/latest",
+      "source_name": "Epoch AI - Latest (listing page, via search snippet)",
+      "published_date": "2026-10-06",
+      "category": "policy",
+      "tone": "neutral",
+      "confidence": "secondary-source",
+      "notes": "Fetch failed; item-specific URL unknown. This is an estimate; method and uncertainty not seen."
+    },
+    {
+      "id": "epoch-2026-10-06-china-ai-revenue",
+      "title": "China's six leading AI firms earn about 10% of OpenAI and Anthropic's combined AI revenue",
+      "summary_en": "A search-result summary says Epoch finds that China's six leading AI companies earn roughly one tenth of the combined AI revenue of OpenAI and Anthropic.",
+      "source_url": "https://epoch.ai/latest",
+      "source_name": "Epoch AI - Latest (listing page, via search snippet)",
+      "published_date": "2026-10-06",
+      "category": "research",
+      "tone": "neutral",
+      "confidence": "secondary-source",
+      "notes": "Fetch failed; item-specific URL unknown. Revenue figures are likely estimates; data sources not checked."
+    },
+    {
+      "id": "epoch-2026-10-05-openai-coding-agent-usage",
+      "title": "OpenAI researchers' coding-agent usage is doubling roughly monthly",
+      "summary_en": "A search-result summary of an Epoch data insight says OpenAI researchers' coding-agent usage, valued at API prices, has recently doubled about every month.",
+      "source_url": "https://epoch.ai/latest",
+      "source_name": "Epoch AI - Latest (listing page, via search snippet)",
+      "published_date": "2026-10-05",
+      "category": "research",
+      "tone": "neutral",
+      "confidence": "secondary-source",
+      "notes": "Fetch failed; item-specific URL unknown. 'Recently' suggests a short window, so the trend may not hold. Data provenance not checked."
+    }
+  ],
+  "coverage_note": "Every direct fetch of epoch.ai failed (ENOTFOUND). All items come from one web-search summary citing Epoch listing pages, so all are secondary-source and unverified. Skipped: an Oct 2 inference-capacity item (outside window) and an 'EBR-bench update (Oct 7)' mention (no URL, odd wording, unverifiable). Re-collect directly before publication."
+}

@@ -1,0 +1,44 @@
+{
+  "collector": "industry-leader-collector",
+  "target": "Meta AI",
+  "run_date": "2026-10-10",
+  "items": [
+    {
+      "id": "meta-2026-10-data-centers-ai-approach",
+      "title": "Meta explains why data centers are central to its AI approach",
+      "summary_en": "A Meta newsroom piece features infrastructure head Santosh Janardhan on why data centers matter to Meta's AI plans and how Meta approaches building the infrastructure to power them. Details are taken from a search-result description only; the page body was not read.",
+      "source_url": "https://about.fb.com/news/2026/10/meta-data-centers-ai-approach",
+      "source_name": "Meta Newsroom (about.fb.com)",
+      "published_date": "2026-10-07",
+      "category": "opinion",
+      "tone": "neutral",
+      "confidence": "secondary-source",
+      "notes": "Fetch failed (ENOTFOUND). Date and content from a search snippet. Corporate-communications post, not a research release. Verify before use."
+    },
+    {
+      "id": "meta-2026-10-debunking-data-center-myths",
+      "title": "Meta publishes 'Debunking the Biggest Data Center Myths'",
+      "summary_en": "A Meta newsroom post addresses common claims about data centers, including water use, energy bills and jobs. Only the search-result description was available.",
+      "source_url": "https://about.fb.com/news/2026/10/debunking-the-biggest-data-center-myths",
+      "source_name": "Meta Newsroom (about.fb.com)",
+      "published_date": "2026-10-07",
+      "category": "policy",
+      "tone": "neutral",
+      "confidence": "secondary-source",
+      "notes": "Fetch failed. Exact publication day NOT confirmed; URL shows only 2026/10 and 2026-10-07 is an assumption. Verify."
+    },
+    {
+      "id": "meta-2026-10-singapore-ai-glasses-donation",
+      "title": "Meta donates 1,000 AI glasses to Singapore's disability community",
+      "summary_en": "Meta says it is donating 1,000 Ray-Ban Meta AI glasses to four Singapore community organisations serving people with disabilities. A US$30,000 grant for accessibility training accompanies the donation.",
+      "source_url": "https://about.fb.com/news/2026/10/meta-donates-1000-ai-glasses-to-singapores-disability-community/",
+      "source_name": "Meta Newsroom (about.fb.com)",
+      "published_date": "2026-10-01",
+      "category": "product",
+      "tone": "neutral",
+      "confidence": "secondary-source",
+      "notes": "Fetch failed. Publication day unknown; 2026-10-01 is a placeholder and may fall outside the window. Verify and drop if outside."
+    }
+  ],
+  "coverage_note": "Partial, low-confidence. Fetches of ai.meta.com/blog and about.fb.com pages failed (ENOTFOUND). Items come from search descriptions only. No ai.meta.com research or model-release posts in the window were found, but this does not confirm none exist."
+}

@@ -1,0 +1,7 @@
+{
+  "collector": "academia-collector",
+  "target": "MIT CSAIL",
+  "run_date": "2026-10-10",
+  "items": [],
+  "coverage_note": "NO ITEMS COLLECTED - fetch failure, not evidence that CSAIL published nothing. WebFetch of www.csail.mit.edu/news and news.mit.edu failed (ENOTFOUND). One WebSearch returned no CSAIL news dated 2026-10-03 to 2026-10-10. Confidence in the empty result: low. Retry later or use the CSAIL RSS feed / arXiv listings."
+}
