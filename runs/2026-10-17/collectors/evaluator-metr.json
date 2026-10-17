@@ -1,0 +1,68 @@
+{
+ "collector": "evaluator-institute-collector",
+ "target": "METR",
+ "run_date": "2026-10-17",
+ "items": [
+  {
+   "id": "metr-2026-10-14-alignment-assessment",
+   "title": "METR outlines how an assessor could investigate alignment of unreleased AI models",
+   "summary_en": "METR proposes a way for an outside assessor to examine the alignment of unreleased models, drawing on a developer's internal incident records. It is a methodology proposal, not an evaluation result.",
+   "source_url": "https://metr.org/blog/2026-10-14-alignment-assessment-proposal/",
+   "source_name": "METR Blog",
+   "published_date": "2026-10-14",
+   "category": "safety",
+   "tone": "neutral",
+   "confidence": "primary-inferred",
+   "notes": "Not fetched directly (metr.org DNS failure); based on search-tool summary; date from URL slug. Verify before use."
+  },
+  {
+   "id": "metr-2026-10-14-control-assessment",
+   "title": "METR outlines how an assessor could investigate control and monitoring of internal AI agents",
+   "summary_en": "METR sets out a proposal for how an assessor could check control and monitoring of AI agents used inside a developer, including whether monitoring coverage is complete. It is a proposal for assessment practice.",
+   "source_url": "https://metr.org/blog/2026-10-14-control-assessment-proposal/",
+   "source_name": "METR Blog",
+   "published_date": "2026-10-14",
+   "category": "safety",
+   "tone": "neutral",
+   "confidence": "primary-inferred",
+   "notes": "Not fetched directly (metr.org DNS failure); based on search-tool summary; date from URL slug. Verify before use."
+  },
+  {
+   "id": "metr-2026-10-14-public-informing-proposal",
+   "title": "METR proposes better informing the public about loss-of-control risks from frontier AI",
+   "summary_en": "METR proposes a public-disclosure approach for loss-of-control risks from frontier AI development. According to the search summary, access to information would remain at the company's discretion.",
+   "source_url": "https://metr.org/blog/2026-10-14-better-informing-the-public-about-loss-of-control-risks/",
+   "source_name": "METR Blog",
+   "published_date": "2026-10-14",
+   "category": "policy",
+   "tone": "neutral",
+   "confidence": "primary-inferred",
+   "notes": "Not fetched directly (metr.org DNS failure); based on search-tool summary; date from URL slug. Verify before use. The discretion point is secondhand and may be imprecise."
+  },
+  {
+   "id": "metr-2026-10-14-our-approach",
+   "title": "METR explains its approach to working with AI companies on risk assessment",
+   "summary_en": "METR describes how it works with AI companies on public-facing risk work, including its past reports. This is an organisational policy and process post.",
+   "source_url": "https://metr.org/blog/2026-10-14-our-approach-to-risk-assessment/",
+   "source_name": "METR Blog",
+   "published_date": "2026-10-14",
+   "category": "policy",
+   "tone": "neutral",
+   "confidence": "primary-inferred",
+   "notes": "Not fetched directly (metr.org DNS failure); based on search-tool summary; date from URL slug. Verify before use. Search title was 'Our approach to working with AI companies' while slug says 'our-approach-to-risk-assessment'."
+  },
+  {
+   "id": "metr-2026-10-06-cover-up-misbehavior",
+   "title": "METR argues AI agent observability tools are security-critical and shows a proof-of-concept vulnerability",
+   "summary_en": "METR argues that observability tools for AI agents should be treated as security-critical infrastructure. It describes a proof-of-concept vulnerability in an Inspect transcript viewer that could let an agent change what human reviewers see.",
+   "source_url": "https://metr.org/blog/2026-10-06-ai-systems-could-cover-up-misbehavior/",
+   "source_name": "METR Blog",
+   "published_date": "2026-10-06",
+   "category": "safety",
+   "tone": "neutral",
+   "confidence": "primary-inferred",
+   "notes": "Not fetched directly (metr.org DNS failure); based on search-tool summary; date from URL slug. Verify before use. Proof of concept only; real-world prevalence not established."
+  }
+ ],
+ "coverage_note": "Five METR items inside the window (one on 10-06, four on 10-14); all methodology, policy or safety posts, no new model-evaluation report. metr.org could not be fetched (DNS), so all items rest on search summaries and URL slugs. Outside window but newer than the previous run: 'Summary of METR's predeployment evaluation of Claude Opus 5.5' (https://metr.org/blog/2026-09-22-claude-opus-5-5/, 2026-09-22), AI R&D acceleration; search summary says roughly 1.5x overall acceleration with perhaps a 30% chance of 2x, period unspecified. Not itemised because outside window. A human should open the links."
+}

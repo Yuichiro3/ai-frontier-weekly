@@ -1,0 +1,68 @@
+{
+ "collector": "industry-leader-collector",
+ "target": "Meta AI",
+ "run_date": "2026-10-17",
+ "items": [
+  {
+   "id": "meta-muse-wonder-2026-10-12",
+   "title": "Meta introduces Muse Wonder and Muse Wonder Full models for agentic tasks",
+   "summary_en": "Meta announced Muse Wonder and Muse Wonder Full, which it describes as its most capable models so far, built for personal and professional agentic tasks. Muse Wonder is available to developers through the Meta Model API and Muse Code. Muse Wonder Full is available to Muse Code subscribers. Meta says Muse Wonder will later power the consumer Muse app, starting with subscribers. It also describes memory across conversations, a feature for persisting on multi-step work, and training to avoid sharing private information without permission. A fuller safety evaluation report is promised but not yet published.",
+   "source_url": "https://about.fb.com/news/2026/10/introducing-muse-wonder-models/",
+   "source_name": "Meta Newsroom (about.fb.com)",
+   "published_date": "2026-10-12",
+   "category": "model-release",
+   "tone": "neutral",
+   "confidence": "primary-inferred",
+   "notes": "Page not fetched (DNS failure). Details from search snippets; date from search summary. No benchmark figures captured. Promised safety report not found."
+  },
+  {
+   "id": "meta-ocp-summit-2026-10-12",
+   "title": "Meta previews open data center networking hardware at OCP Global Summit 2026",
+   "summary_en": "Engineering at Meta described new networking hardware for AI data centers, including its first liquid-cooled network rack (IcePack), a 102.4T switch platform (IceCube), and an open-source RDMA transport protocol (MetaRoCE). The post is framed around scale-up, scale-out and scale-across networks.",
+   "source_url": "https://engineering.fb.com/2026/10/12/open-source/ocp-summit-2026-powering-ai-with-open-innovations-in-scale-up-scale-out-and-scale-across-networks/",
+   "source_name": "Engineering at Meta",
+   "published_date": "2026-10-12",
+   "category": "research",
+   "tone": "neutral",
+   "confidence": "primary-inferred",
+   "notes": "Date from URL. Page not fetched; names from search summary. Infrastructure, possibly peripheral."
+  },
+  {
+   "id": "meta-brera-ai-glasses-2026-10",
+   "title": "Meta, Pinacoteca di Brera and EssilorLuxottica pilot AI glasses for art access",
+   "summary_en": "Meta and EssilorLuxottica launched a pilot at Milan's Pinacoteca di Brera museum. It uses AI glasses to make art more accessible to blind and low-vision visitors.",
+   "source_url": "https://about.fb.com/news/2026/10/meta-milans-pinacoteca-di-brera-and-essilorluxottica-expand-access-to-art-through-ai-glasses/",
+   "source_name": "Meta Newsroom (about.fb.com)",
+   "published_date": "2026-10-14",
+   "category": "product",
+   "tone": "neutral",
+   "confidence": "primary-inferred",
+   "notes": "Exact date unverified (search summary said Oct 14-15); treat as approximate."
+  },
+  {
+   "id": "meta-singapore-glasses-2026-10-07",
+   "title": "Meta donates 1,000 AI glasses to Singapore disability organizations",
+   "summary_en": "Meta announced a donation of 1,000 Ray-Ban Meta AI glasses to four disability organizations in Singapore.",
+   "source_url": "https://about.fb.com/news/2026/10/meta-donates-1000-ai-glasses-to-singapores-disability-community/",
+   "source_name": "Meta Newsroom (about.fb.com)",
+   "published_date": "2026-10-07",
+   "category": "product",
+   "tone": "neutral",
+   "confidence": "primary-inferred",
+   "notes": "Date from search summary, not verified."
+  },
+  {
+   "id": "meta-data-centers-ai-2026-10",
+   "title": "Meta explains the role of data centers in its AI approach",
+   "summary_en": "Meta published a newsroom post on why data centers are a large part of its AI strategy. Only the title was visible; no content was reviewed.",
+   "source_url": "https://about.fb.com/news/2026/10/meta-data-centers-ai-approach/",
+   "source_name": "Meta Newsroom (about.fb.com)",
+   "published_date": "2026-10-01",
+   "category": "policy",
+   "tone": "neutral",
+   "confidence": "secondary-source",
+   "notes": "Exact day unknown (URL shows only 2026/10); placeholder date may fall before the window. Content not reviewed."
+  }
+ ],
+ "coverage_note": "Meta published new official material in the window, led by Muse Wonder and the OCP Summit post (both 2026-10-12). ai.meta.com, about.fb.com and engineering.fb.com could not be fetched; items rest on search snippets. ai.meta.com/blog not checked, so Meta AI research posts may be missing. Muse Wonder safety report promised but not published at collection time."
+}

@@ -1,0 +1,44 @@
+{
+ "collector": "academia-collector",
+ "target": "The Alan Turing Institute",
+ "run_date": "2026-10-17",
+ "items": [
+  {
+   "id": "turing-2026-10-09-satellite-components-ai",
+   "title": "Turing reports AI model that identifies individual satellite components",
+   "summary_en": "The Turing's news page lists an item dated 9 October 2026 about an AI model that can identify individual components on a satellite. It is framed as helping the UK safeguard key satellites. Only the teaser was visible to the collector, so technical details and the specific project are unconfirmed.",
+   "source_url": "https://www.turing.ac.uk/news",
+   "source_name": "The Alan Turing Institute - News",
+   "published_date": "2026-10-09",
+   "category": "research",
+   "tone": "neutral",
+   "confidence": "primary-inferred",
+   "notes": "From a search-result summary of the Turing pages; fetch of turing.ac.uk failed. Article URL not identified. Do not assume a link to other Turing space-security work."
+  },
+  {
+   "id": "turing-2026-10-08-enrichment-71-students",
+   "title": "Turing welcomes 71 PhD students to its Enrichment scheme",
+   "summary_en": "The Turing says 71 PhD students have joined its Enrichment scheme. They come from 27 academic institutions across the UK. This is an institutional/community announcement, not a research result.",
+   "source_url": "https://www.turing.ac.uk/news/turing-welcomes-71-students-enrichment-scheme",
+   "source_name": "The Alan Turing Institute - News",
+   "published_date": "2026-10-08",
+   "category": "opinion",
+   "tone": "neutral",
+   "confidence": "primary-inferred",
+   "notes": "Page not fetched. Low relevance to frontier AI."
+  },
+  {
+   "id": "turing-2026-10-05-board-trustees",
+   "title": "Turing appoints three new members to its Board of Trustees",
+   "summary_en": "The Turing announced on 5 October 2026 that Tracey Bowen-Lowe, Catherine Graham and Rakshit Kapoor have joined its Board of Trustees. This is a governance update with no research content.",
+   "source_url": "https://www.turing.ac.uk/news",
+   "source_name": "The Alan Turing Institute - News",
+   "published_date": "2026-10-05",
+   "category": "policy",
+   "tone": "neutral",
+   "confidence": "primary-inferred",
+   "notes": "From a search-result summary of the Turing pages; fetch of turing.ac.uk failed. Article URL not identified. Low relevance to frontier AI."
+  }
+ ],
+ "coverage_note": "Partial. turing.ac.uk could not be resolved; all items from search summaries, unverified. Late-September items outside the window, a frontier-AI risks report and a \u00a32m CETaS grant from Coefficient Giving for transformative-AI security-risk research, are more relevant and worth re-checking. No papers or preprints found. Other items seen but not collected: non-terrestrial networks call (closes 27 Oct 2026), Careers events."
+}

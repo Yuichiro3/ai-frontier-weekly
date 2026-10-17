@@ -1,0 +1,68 @@
+{
+ "collector": "academia-collector",
+ "target": "Stanford HAI",
+ "run_date": "2026-10-17",
+ "items": [
+  {
+   "id": "hai-2026-10-whatmakes-ai-for-good-partnerships-work",
+   "title": "HAI report: What makes AI-for-good partnerships work",
+   "summary_en": "Stanford HAI published a report titled 'Beyond Pilots and PR: What Makes AI-for-Good Partnerships Work', dated October 2026. Only the title and date were visible in search metadata. The report's content was not read, so no findings are summarized here.",
+   "source_url": "https://hai.stanford.edu/assets/files/hai-report-what-makes-ai-for-good-partnerships-work.pdf",
+   "source_name": "Stanford HAI (report PDF)",
+   "published_date": "2026-10",
+   "category": "research",
+   "tone": "neutral",
+   "confidence": "primary-inferred",
+   "notes": "PDF not fetched; title and month from search listing; exact day unknown."
+  },
+  {
+   "id": "hai-2026-10-14-ai-harm-responsibility",
+   "title": "HAI news: Who is responsible when AI causes harm?",
+   "summary_en": "A piece by Shana Lynch, dated 14 Oct 2026 according to a search-engine summary, discusses liability for AI-caused harm. It calls this one of AI policy's hardest unsolved problems.",
+   "source_url": "https://hai.stanford.edu/news",
+   "source_name": "Stanford HAI News (listing page)",
+   "published_date": "2026-10-14",
+   "category": "policy",
+   "tone": "neutral",
+   "confidence": "secondary-source",
+   "notes": "Based on a search summary only; hai.stanford.edu unreachable (DNS). Article URL and exact title unverified."
+  },
+  {
+   "id": "hai-2026-10-12-chatbot-critical-tasks-study",
+   "title": "HAI news: Study of human-AI conversations finds chatbots used for increasingly critical tasks",
+   "summary_en": "An article by Andrew Myers, dated 12 Oct 2026 according to a search summary, reports on an analysis of thousands of human-AI conversations. It says people are turning to chatbots for increasingly critical tasks.",
+   "source_url": "https://hai.stanford.edu/news",
+   "source_name": "Stanford HAI News (listing page)",
+   "published_date": "2026-10-12",
+   "category": "research",
+   "tone": "neutral",
+   "confidence": "secondary-source",
+   "notes": "Based on a search summary only; hai.stanford.edu unreachable (DNS). Article URL and exact title unverified. Check whether the study is peer-reviewed or a preprint."
+  },
+  {
+   "id": "hai-2026-10-07-managers-introducing-ai",
+   "title": "HAI news: How managers introduce AI shapes worker adoption or resistance",
+   "summary_en": "A Dylan Walsh piece, dated 7 Oct 2026 according to a search summary, argues that the way managers introduce AI influences whether workers embrace or resist it.",
+   "source_url": "https://hai.stanford.edu/news",
+   "source_name": "Stanford HAI News (listing page)",
+   "published_date": "2026-10-07",
+   "category": "research",
+   "tone": "neutral",
+   "confidence": "secondary-source",
+   "notes": "Based on a search summary only; hai.stanford.edu unreachable (DNS). Article URL and exact title unverified."
+  },
+  {
+   "id": "hai-2026-10-hoover-us-talent-report",
+   "title": "HAI and Hoover Institution publish 2026 US Talent Report on STEM pipelines",
+   "summary_en": "According to a search summary, HAI and the Hoover Institution published a 2026 US Talent Report on STEM pipelines. It warns that US advantages over China are narrowing rapidly.",
+   "source_url": "https://hai.stanford.edu/news",
+   "source_name": "Stanford HAI News (listing page)",
+   "published_date": "2026-10",
+   "category": "policy",
+   "tone": "neutral",
+   "confidence": "secondary-source",
+   "notes": "Based on a search summary only; hai.stanford.edu unreachable (DNS). Article URL and exact title unverified. Publication date unknown; may fall outside the window."
+  }
+ ],
+ "coverage_note": "Partial. hai.stanford.edu could not be fetched (DNS); all items come from one web-search summary; dates and descriptions unverified; most items point to the listing page. Left out: Oct 1 announcement of 15 HAI Data Science Scholars, AI100 report 'AI Goes Mainstream' (slated October 2026, unconfirmed), Oct 28 conference, seminars Oct 19 and 21."
+}

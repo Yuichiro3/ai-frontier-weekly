@@ -1,0 +1,104 @@
+{
+ "collector": "industry-leader-collector",
+ "target": "Anthropic",
+ "run_date": "2026-10-17",
+ "items": [
+  {
+   "id": "anthropic-2026-10-15-independent-evaluators",
+   "title": "Anthropic gives METR employee-like access, outlines evaluator access tiers",
+   "summary_en": "Anthropic says it has begun giving METR, a nonprofit that evaluates frontier models, employee-like access, and METR will publish its own risk assessments. SecureBio and Accenture also work as evaluators, and talks are underway with others including Hugging Face. The post describes three tiers of evaluator access, with early partners getting more limited information and publication rights.",
+   "source_url": "https://www.anthropic.com/news/an-update-on-independent-evaluators",
+   "source_name": "Anthropic Official Newsroom",
+   "published_date": "2026-10-15",
+   "category": "safety",
+   "tone": "neutral",
+   "confidence": "primary-confirmed",
+   "notes": "Relevant to METR (priority-1 source). Fetched page summary, not full text."
+  },
+  {
+   "id": "anthropic-2026-10-14-us-midterms",
+   "title": "Anthropic describes safeguards for the 2026 US midterms",
+   "summary_en": "Anthropic reports that only a small share of Claude conversations concern elections, and requests for voting recommendations or policy violations are rarer still. It describes new features such as official voting information and live election results, plus bias testing. New classifiers detecting multi-step election abuse led to some banned accounts.",
+   "source_url": "https://www.anthropic.com/news/2026-us-midterms",
+   "source_name": "Anthropic Official Newsroom",
+   "published_date": "2026-10-14",
+   "category": "policy",
+   "tone": "neutral",
+   "confidence": "primary-confirmed",
+   "notes": "Fetched page summary, not full text."
+  },
+  {
+   "id": "anthropic-2026-10-14-singapore",
+   "title": "Anthropic opens Singapore office and signs MOU with Singapore government",
+   "summary_en": "Anthropic announced a new Singapore office, its fifth in Asia-Pacific, and an MOU with Singapore's Ministry of Digital Development and Information. The MOU covers cooperation on AI safety, security and model evaluation, research on AI adoption and its impact, and responsible AI use across sectors. The post notes GovTech Singapore, Grab and DBS already use Claude.",
+   "source_url": "https://www.anthropic.com/news/singapore-office-opening",
+   "source_name": "Anthropic Official Newsroom",
+   "published_date": "2026-10-14",
+   "category": "policy",
+   "tone": "neutral",
+   "confidence": "primary-confirmed",
+   "notes": "Fetched page summary, not full text."
+  },
+  {
+   "id": "anthropic-2026-10-08-usage-policy",
+   "title": "Anthropic publishes 2026 Usage Policy update, effective November 12",
+   "summary_en": "The updated policy consolidates rules on deceptive influence campaigns into one section and narrows the elections section to deceiving voters or disrupting elections. It tightens restrictions on weapons development, surveillance and law enforcement uses. It also adds high-risk use requirements, controls for AI-connected hardware that takes physical actions, a prohibition on sustained abusive behavior toward its models, and Supported Regions clarifications.",
+   "source_url": "https://www.anthropic.com/news/2026-usage-policy-update",
+   "source_name": "Anthropic Official Newsroom",
+   "published_date": "2026-10-08",
+   "category": "policy",
+   "tone": "neutral",
+   "confidence": "primary-confirmed",
+   "notes": "Takes effect 2026-11-12. Fetched page summary, not full text."
+  },
+  {
+   "id": "anthropic-2026-10-08-genesis-mission",
+   "title": "Anthropic commits $150M over three years to the Genesis Mission",
+   "summary_en": "Anthropic announced a three-year, $150 million commitment to the Genesis Mission, a federal program using AI to speed research. Funding makes Claude available to more than fifteen agencies, including NASA, NIH and NSF. Anthropic also plans to provide Claude, Claude Code and API credits to several hundred research projects, plus training and support for scientists.",
+   "source_url": "https://www.anthropic.com/news/genesis-mission-commitment",
+   "source_name": "Anthropic Official Newsroom",
+   "published_date": "2026-10-08",
+   "category": "policy",
+   "tone": "neutral",
+   "confidence": "primary-confirmed",
+   "notes": "Fetched page summary, not full text."
+  },
+  {
+   "id": "anthropic-2026-10-08-cyber-mission",
+   "title": "Anthropic launches the Anthropic Cyber Mission",
+   "summary_en": "Anthropic launched a long-term effort to help defenders secure critical systems. It begins with the Critical Infrastructure Defense Program, pairing Claude models and on-site engineers with providers protecting power, water and transportation operational technology, and OSS Scanner, a free opt-in vulnerability scanning service for open-source projects. Anthropic says defensive tools have not reached enough defenders and plans to expand to more sectors.",
+   "source_url": "https://www.anthropic.com/news/anthropic-cyber-mission",
+   "source_name": "Anthropic Official Newsroom",
+   "published_date": "2026-10-08",
+   "category": "safety",
+   "tone": "neutral",
+   "confidence": "primary-confirmed",
+   "notes": "Fetched page summary, not full text."
+  },
+  {
+   "id": "anthropic-2026-10-07-claude-haiku-5-5",
+   "title": "Anthropic releases Claude Haiku 5.5",
+   "summary_en": "Claude Haiku 5.5 is described as Anthropic's fastest and most affordable small model, aimed at high-volume work such as summaries, classification and subagents, with an adjustable effort setting. It is available on the Claude API, AWS, Google Cloud and Microsoft Azure, priced at $0.10 per million input tokens and $0.50 per million output tokens for prompts up to 100,000 tokens, about 75% cheaper on average than Haiku 4.5. Anthropic says alignment is much improved over Haiku 4.5 and cyber and biology safeguards are more restrictive while still allowing legitimate research and defense.",
+   "source_url": "https://www.anthropic.com/claude-haiku-5-5",
+   "source_name": "Anthropic Official Site",
+   "published_date": "2026-10-07",
+   "category": "model-release",
+   "tone": "neutral",
+   "confidence": "primary-confirmed",
+   "notes": "Cost and alignment claims are Anthropic's own; no independent evaluation checked."
+  },
+  {
+   "id": "anthropic-2026-10-06-cyber-verification-program",
+   "title": "Anthropic expands Cyber Verification Program into three access tiers",
+   "summary_en": "Anthropic merged Project Glasswing and the original Cyber Verification Program into three tiers: Defense Access, Red Team Access and Specialized Access. Each gives qualifying security professionals access to its most capable models with reduced cyber blocking matched to the scope of work. Anthropic reports Glasswing partners used Claude Mythos to verify at least 129,000 software vulnerabilities between April and July 2026.",
+   "source_url": "https://www.anthropic.com/news/cyber-verification-program",
+   "source_name": "Anthropic Official Newsroom",
+   "published_date": "2026-10-06",
+   "category": "safety",
+   "tone": "neutral",
+   "confidence": "primary-confirmed",
+   "notes": "Vulnerability count is Anthropic's self-reported figure."
+  }
+ ],
+ "coverage_note": "Eight official newsroom posts dated 2026-10-06 to 2026-10-15 found, all within the window. Nothing from 10-03 to 10-05 or 10-16/17 appeared on the newsroom listing. Summaries come from fetched page summaries, not full-text reads. Web search surfaced only secondary IPO coverage (timing conflicts across sources); no official Anthropic statement found, so excluded and unconfirmed."
+}

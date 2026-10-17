@@ -1,0 +1,56 @@
+{
+ "collector": "industry-leader-collector",
+ "target": "Sakana AI",
+ "run_date": "2026-10-17",
+ "items": [
+  {
+   "id": "sakana-mass-2026-10",
+   "title": "Sakana AI introduces Multi-Agent Self-Supervision (MASS)",
+   "summary_en": "Sakana AI describes a method in which a model learns from its own team of agents, with a paper on arXiv and code on GitHub. According to the search-result summary of the page, a 27B open-weights model reached 1.2 to 1.6 times the base model's output quality per token across four research benchmarks.",
+   "source_url": "https://sakana.ai/mass",
+   "source_name": "Sakana AI Official Blog",
+   "published_date": "2026-10-12",
+   "category": "research",
+   "tone": "neutral",
+   "confidence": "primary-inferred",
+   "notes": "Page not fetched (sakana.ai DNS failure); from web-search snippet. Verify. Date and figures unverified."
+  },
+  {
+   "id": "sakana-rsi-lab-2026",
+   "title": "Sakana AI announces a Recursive Self-Improvement (RSI) Lab",
+   "summary_en": "Sakana AI's post introduces a research group focused on recursive self-improvement. According to the search-result summary, J\u00fcrgen Schmidhuber joined as Chief Scientific Advisor in September 2026.",
+   "source_url": "https://sakana.ai/rsi-lab/",
+   "source_name": "Sakana AI Official Blog",
+   "published_date": "2026-09-24",
+   "category": "research",
+   "tone": "neutral",
+   "confidence": "primary-inferred",
+   "notes": "Post's own date not visible; 2026-09-24 is an estimate from a third-party aggregator (briefia.fr). Likely before the window start; context for MASS only. Drop if outside window."
+  },
+  {
+   "id": "sakana-evidence-finder-2026-10-09",
+   "title": "Blog post on the Evidence Finder medical search tool (Japanese-language)",
+   "summary_en": "The Sakana AI blog index lists a Japanese-language post about a medical search tool called Evidence Finder. Only the title and date were visible in the search snippet, and the content was not read.",
+   "source_url": "https://sakana.ai/blog/",
+   "source_name": "Sakana AI Official Blog (index)",
+   "published_date": "2026-10-09",
+   "category": "product",
+   "tone": "neutral",
+   "confidence": "primary-inferred",
+   "notes": "Index page only; individual post URL not identified."
+  },
+  {
+   "id": "sakana-insider-2026-10-08",
+   "title": "Sakana AI Insider newsletter listed on blog index",
+   "summary_en": "The Sakana AI blog index lists a newsletter called 'Sakana AI Insider', dated October 8, 2026. Its contents were not retrieved.",
+   "source_url": "https://sakana.ai/blog/",
+   "source_name": "Sakana AI Official Blog (index)",
+   "published_date": "2026-10-08",
+   "category": "opinion",
+   "tone": "neutral",
+   "confidence": "primary-inferred",
+   "notes": "Index listing only; category is a guess. Low value."
+  }
+ ],
+ "coverage_note": "Direct access to sakana.ai failed (DNS error on every fetch); all items come from search snippets, unverified. In window per snippets: MASS (~Oct 12), Evidence Finder (Oct 9), Insider newsletter (Oct 8). RSI Lab post probably late September. SAIL post (Sep 28) outside window and omitted. Social accounts not checked. A Jan 2026 aggregator mention of a Google partnership was not verified from a primary source."
+}

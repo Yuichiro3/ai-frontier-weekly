@@ -1,0 +1,80 @@
+{
+ "collector": "industry-leader-collector",
+ "target": "Microsoft",
+ "run_date": "2026-10-17",
+ "items": [
+  {
+   "id": "msft-maia-multigw-2026-10-12",
+   "title": "Microsoft to expand Azure Maia system to multi-gigawatt deployments",
+   "summary_en": "Per the search-result snippet of Microsoft's blog post, Maia 200 is in production and Maia 300 is planned for 2027. Microsoft says it will scale the Maia family to multi-gigawatt deployments from 2027 and make it the primary inference system for its products. It claims Maia 300 will deliver about 40% more tokens per megawatt than leading GPU-based systems, and that Maia 200 already runs OpenAI models, Microsoft MAI models and open-source models.",
+   "source_url": "https://blogs.microsoft.com/blog/2026/10/12/microsoft-to-expand-azure-maia-system-to-multi-gigawatt-deployments/",
+   "source_name": "The Official Microsoft Blog",
+   "published_date": "2026-10-12",
+   "category": "product",
+   "tone": "neutral",
+   "confidence": "primary-inferred",
+   "notes": "Date from URL path. Page not fetched; details from search snippet. Figures are Microsoft's own claims."
+  },
+  {
+   "id": "msft-maia300-emea-2026-10",
+   "title": "Microsoft announces Maia 300, its next-generation custom AI chip (Source EMEA)",
+   "summary_en": "Microsoft's regional newsroom carries an announcement of Maia 300, its next-generation custom AI chip. It appears to cover the same announcement as the Official Microsoft Blog post of 12 October.",
+   "source_url": "https://news.microsoft.com/source/emea/2026/10/microsoft-announces-maia-300-its-next-generation-custom-ai-chip/",
+   "source_name": "Microsoft Source EMEA",
+   "published_date": "2026-10",
+   "category": "product",
+   "tone": "neutral",
+   "confidence": "primary-inferred",
+   "notes": "Exact day unknown. Likely duplicate of msft-maia-multigw-2026-10-12; merge in deduplication."
+  },
+  {
+   "id": "msft-windows-surface-2026-10",
+   "title": "Windows and Surface October 2026 news: local models, agent sandboxing, MAI-Code-1.1-Flash",
+   "summary_en": "According to the search summary, Microsoft's monthly Windows and Surface news covers local AI models, sandboxed tools for agents, and the Surface Laptop Ultra (open for preorder). It also introduces MAI-Code-1.1-Flash, a model that can run locally in GitHub Copilot.",
+   "source_url": "https://news.microsoft.com/windows-surface-october-2026-news/",
+   "source_name": "Microsoft News Center",
+   "published_date": "2026-10",
+   "category": "product",
+   "tone": "neutral",
+   "confidence": "primary-inferred",
+   "notes": "Exact day not confirmed; page not fetched."
+  },
+  {
+   "id": "msft-copilot-legal-2026-10-15",
+   "title": "Microsoft makes legal skills in Copilot generally available",
+   "summary_en": "Microsoft introduced Microsoft Copilot for legal, with more than 20 legal-specific skills reported as generally available on October 15, along with partner-built plugins.",
+   "source_url": "https://techcommunity.microsoft.com/blog/microsoft-copilot-blog/introducing-microsoft-copilot-for-legal/4564246",
+   "source_name": "Microsoft Tech Community - Copilot Blog",
+   "published_date": "2026-10-15",
+   "category": "product",
+   "tone": "neutral",
+   "confidence": "primary-inferred",
+   "notes": "Date from search summary. Page not fetched."
+  },
+  {
+   "id": "msft-m365-copilot-licensing-2026-10",
+   "title": "Microsoft 365 Copilot licensing changes announced for partners",
+   "summary_en": "Per Microsoft's Partner Center announcements, from December 1, 2026 new Copilot offers can be bought without a base Microsoft 365 subscription. Existing offers get an '(add-on)' label from October 16. Usage-based billing will be on by default for new Copilot Business licenses sold via CSP partners on December 1.",
+   "source_url": "https://learn.microsoft.com/en-us/partner-center/announcements/2026-october",
+   "source_name": "Microsoft Partner Center announcements",
+   "published_date": "2026-10",
+   "category": "policy",
+   "tone": "neutral",
+   "confidence": "primary-inferred",
+   "notes": "Commercial licensing news, low research relevance. Exact post date unknown."
+  },
+  {
+   "id": "msft-copilot-notebooks-2026-10",
+   "title": "Copilot Notebooks October update",
+   "summary_en": "The October update to Copilot Notebooks reportedly adds Office file editing inside notebooks and a model picker. Some features remain limited to the Frontier preview program.",
+   "source_url": "https://techcommunity.microsoft.com/blog/microsoft-copilot-blog/whats-new-in-notebooks--october-2026/4559105",
+   "source_name": "Microsoft Tech Community - Copilot Blog",
+   "published_date": "2026-10",
+   "category": "product",
+   "tone": "neutral",
+   "confidence": "primary-inferred",
+   "notes": "Exact day unknown; minor product update."
+  }
+ ],
+ "coverage_note": "Limited verification. Fetches of blogs.microsoft.com, news.microsoft.com and techcommunity.microsoft.com failed (DNS); all items come from one search's summaries. Only the Maia post (Oct 12) and Copilot for legal (Oct 15) have day-level dates. microsoft.ai and Microsoft Research blog not checked. No safety or research-paper items found in this pass, which does not show none exist."
+}

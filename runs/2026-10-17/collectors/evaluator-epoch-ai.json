@@ -1,0 +1,92 @@
+{
+ "collector": "evaluator-institute-collector",
+ "target": "Epoch AI",
+ "run_date": "2026-10-17",
+ "items": [
+  {
+   "id": "epoch-2026-10-05-openai-coding-agent-usage",
+   "title": "OpenAI researchers' coding-agent usage doubling roughly monthly",
+   "summary_en": "An Epoch data insight reports that OpenAI researchers' coding-agent usage, valued at API prices, has recently been doubling about every month. The estimate comes from breakpoint fits.",
+   "source_url": "https://epoch.ai/latest",
+   "source_name": "Epoch AI Latest (data insight)",
+   "published_date": "2026-10-05",
+   "category": "research",
+   "tone": "neutral",
+   "confidence": "primary-inferred",
+   "notes": "Epoch pages not fetched (DNS failure); from a search-result snippet; specific URL not retrieved, so listing page cited. Verify."
+  },
+  {
+   "id": "epoch-2026-10-06-china-chip-exposure",
+   "title": "China estimated 2.7x as exposed as the US to semiconductor supply shocks",
+   "summary_en": "An Epoch report estimates that China is about 2.7 times as exposed as the US to semiconductor supply shocks.",
+   "source_url": "https://epoch.ai/latest",
+   "source_name": "Epoch AI Latest (report)",
+   "published_date": "2026-10-06",
+   "category": "policy",
+   "tone": "neutral",
+   "confidence": "primary-inferred",
+   "notes": "Epoch pages not fetched (DNS failure); from a search-result snippet; specific URL not retrieved, so listing page cited. Verify. Methodology not reviewed."
+  },
+  {
+   "id": "epoch-2026-10-06-chinese-ai-revenue",
+   "title": "Report on Chinese AI companies' revenue",
+   "summary_en": "Epoch published a report on the revenue of Chinese AI companies. Only the title was visible, so no findings are summarized.",
+   "source_url": "https://epoch.ai/latest",
+   "source_name": "Epoch AI Latest (report)",
+   "published_date": "2026-10-06",
+   "category": "research",
+   "tone": "neutral",
+   "confidence": "primary-inferred",
+   "notes": "Topic only; needs a full read."
+  },
+  {
+   "id": "epoch-2026-10-07-innovationeval",
+   "title": "Can AI automate AI R&D yet? InnovationEval early evidence points to 'No'",
+   "summary_en": "Epoch introduces InnovationEval, a test of whether an AI can independently devise an ML innovation that matches a recent human-developed one it has not seen. Early evidence suggests current AI cannot yet do this.",
+   "source_url": "https://epoch.ai/publications/innovationeval",
+   "source_name": "Epoch AI Publications",
+   "published_date": "2026-10-07",
+   "category": "research",
+   "tone": "neutral",
+   "confidence": "primary-inferred",
+   "notes": "URL seen in search results, page not fetched. 'Early evidence' suggests preliminary results; check sample size and caveats."
+  },
+  {
+   "id": "epoch-2026-10-07-ebr-bench-update",
+   "title": "EBR-bench update",
+   "summary_en": "Epoch released an update to its EBR-bench benchmark. Contents were not visible, so no results are summarized.",
+   "source_url": "https://epoch.ai/latest",
+   "source_name": "Epoch AI Latest",
+   "published_date": "2026-10-07",
+   "category": "research",
+   "tone": "neutral",
+   "confidence": "primary-inferred",
+   "notes": "Title only; needs a full read."
+  },
+  {
+   "id": "epoch-2026-10-14-spireclimb",
+   "title": "SpireClimb: frontier models win 90%+ of easiest Slay the Spire games, up to 20% at hardest",
+   "summary_en": "Epoch's new SpireClimb benchmark finds frontier models win over 90% of games at the easiest Slay the Spire setting. At the hardest setting they win up to about 20%.",
+   "source_url": "https://epoch.ai/latest",
+   "source_name": "Epoch AI Latest (report)",
+   "published_date": "2026-10-14",
+   "category": "research",
+   "tone": "neutral",
+   "confidence": "primary-inferred",
+   "notes": "Epoch pages not fetched (DNS failure); from a search-result snippet; specific URL not retrieved, so listing page cited. Verify. Number of runs and models not seen."
+  },
+  {
+   "id": "epoch-2026-10-16-open-vs-closed-cyber",
+   "title": "Top open-weight model trails closed frontier on cyber capabilities by about 6-7 months",
+   "summary_en": "An Epoch data insight finds the best open-weight model lags the closed frontier by roughly 6 to 7 months on cyber capabilities.",
+   "source_url": "https://epoch.ai/latest",
+   "source_name": "Epoch AI Latest (data insight)",
+   "published_date": "2026-10-16",
+   "category": "safety",
+   "tone": "neutral",
+   "confidence": "primary-inferred",
+   "notes": "Epoch pages not fetched (DNS failure); from a search-result snippet; specific URL not retrieved, so listing page cited. Verify. Benchmark behind the estimate not seen."
+  }
+ ],
+ "coverage_note": "Direct fetches of epoch.ai failed (DNS); everything comes from one web-search result with snippets. No full page read; only the InnovationEval item URL confirmed. Out of window and left out: 2026-10-02 agent-population report (https://epoch.ai/publications/estimating-the-agent-population), 2026-10-01 ChatGPT usage explorer. AI data centers hub showed Colossus 2 largest at ~946 MW, undated. Re-verify before synthesis."
+}

@@ -1,0 +1,20 @@
+{
+ "collector": "academia-collector",
+ "target": "Carnegie Mellon University - Robotics Institute",
+ "run_date": "2026-10-17",
+ "items": [
+  {
+   "id": "cmu-ri-iros-2026-facilities-tour",
+   "title": "CMU opens robotics facilities to IROS 2026 attendees",
+   "summary_en": "According to search-result snippets of the CMU and RI pages, hundreds of academic and industry robotics attendees of IROS 2026 (held in Pittsburgh) toured CMU facilities on Oct. 1, including the Robotics Innovation Center, Mill 19 and the National Robotics Engineering Center. The story presents CMU's robotics ecosystem as a draw for the conference.",
+   "source_url": "https://www.ri.cmu.edu/cmu-robotics-expertise-and-facilities-attract-iros-2026-conference-attendees/",
+   "source_name": "CMU Robotics Institute news",
+   "published_date": "2026-10-05",
+   "category": "research",
+   "tone": "neutral",
+   "confidence": "primary-inferred",
+   "notes": "Article not fetched (DNS failure); from search snippets. Same story at https://www.cmu.edu/news/stories/archives/2026/october/cmu-robotics-expertise-and-facilities-attract-iros-2026-conference-attendees. Press release, not peer-reviewed."
+  }
+ ],
+ "coverage_note": "Partial. ri.cmu.edu/category/news could not be fetched. Search snippets showed two more RI headlines in the window, 'Peg-in-Hole Isn't Kid Stuff' (Oct 7) and 'CMU Researchers Give Robots a Delicate Touch' (Oct 5); text and URLs not retrieved, so not itemized. Other items seen appear to predate the window or are undated. No papers or preprints found."
+}

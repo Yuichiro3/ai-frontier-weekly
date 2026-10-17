@@ -1,0 +1,7 @@
+{
+ "collector": "wildcard-collector",
+ "target": "wildcard",
+ "run_date": "2026-10-17",
+ "items": [],
+ "coverage_note": "No item could be verified for the 2026-10-03 to 2026-10-17 window. news.ycombinator.com and lcamtuf.substack.com were unreachable (DNS). Unverified candidates for manual check: lcamtuf's Substack post 'How much of HN is AI?' (https://lcamtuf.substack.com/p/how-much-of-hn-is-ai), date/method unconfirmed; an Alignment Forum post on LLMs doing simplified autonomous research with a Wason-style task (https://alignmentforum.org/posts/RSqfcyAW9ZkveGQ5u/numberwang-llms-doing-autonomous-research-and-a-call-for-1), date/authors unconfirmed. Nothing invented."
+}
