@@ -1,0 +1,271 @@
+{
+  "run_date": "2026-10-17",
+  "synthesis_agent": "synthesis-agent",
+  "collection_window": "2026-10-03 to 2026-10-17 (as stated in collector coverage notes)",
+  "input_files_read": [
+    "runs/2026-10-17/collectors/evaluator-metr.json",
+    "runs/2026-10-17/collectors/evaluator-epoch-ai.json",
+    "runs/2026-10-17/collectors/evaluator-uk-aisi.json",
+    "runs/2026-10-17/collectors/industry-openai.json",
+    "runs/2026-10-17/collectors/industry-anthropic.json",
+    "runs/2026-10-17/collectors/industry-google-deepmind.json",
+    "runs/2026-10-17/collectors/industry-microsoft.json",
+    "runs/2026-10-17/collectors/industry-meta-ai.json",
+    "runs/2026-10-17/collectors/industry-sakana-ai.json",
+    "runs/2026-10-17/collectors/academia-mit-csail.json",
+    "runs/2026-10-17/collectors/academia-stanford-hai.json",
+    "runs/2026-10-17/collectors/academia-cmu-ri.json",
+    "runs/2026-10-17/collectors/academia-alan-turing-institute.json",
+    "runs/2026-10-17/collectors/academia-utokyo-riken-aip.json",
+    "runs/2026-10-17/collectors/wildcard.json"
+  ],
+  "meta": {
+    "input_discovery_caveat": "The synthesis agent had no directory-listing tool; the 15 files above were located by the naming convention used in the previous run and cover every target in config/sources.yml. Any additional file in the collectors directory with a different name would not have been read.",
+    "run_wide_provenance_caveat": "Direct page fetches failed (DNS) for almost every domain this run. Only the 8 Anthropic items are primary-confirmed, and even those come from fetched page summaries rather than full-text reads. All other items rest on search-engine snippets or summaries and are primary-inferred or secondary-source. Dates and figures outside the Anthropic items are unverified. The reporting agent must carry this caveat into the report and must not present inferred items as directly verified.",
+    "zero_item_targets": {
+      "note": "These targets returned zero items because of access failure, NOT confirmed absence of publications. The report must not say they published nothing.",
+      "targets": ["UK AI Security Institute", "MIT CSAIL", "University of Tokyo / RIKEN AIP", "wildcard"]
+    },
+    "confidence_distribution": {
+      "primary-confirmed": [
+        "anthropic-2026-10-15-independent-evaluators",
+        "anthropic-2026-10-14-us-midterms",
+        "anthropic-2026-10-14-singapore",
+        "anthropic-2026-10-08-usage-policy",
+        "anthropic-2026-10-08-genesis-mission",
+        "anthropic-2026-10-08-cyber-mission",
+        "anthropic-2026-10-07-claude-haiku-5-5",
+        "anthropic-2026-10-06-cyber-verification-program"
+      ],
+      "secondary-source": [
+        "hai-2026-10-14-ai-harm-responsibility",
+        "hai-2026-10-12-chatbot-critical-tasks-study",
+        "hai-2026-10-07-managers-introducing-ai",
+        "hai-2026-10-hoover-us-talent-report",
+        "meta-data-centers-ai-2026-10"
+      ],
+      "primary-inferred": "all remaining 43 items"
+    },
+    "deduplication_flags": [
+      {
+        "item_ids": ["msft-maia-multigw-2026-10-12", "msft-maia300-emea-2026-10"],
+        "note": "Same Maia announcement from two Microsoft channels; treat as one news item, prefer msft-maia-multigw-2026-10-12 (day-level date)."
+      }
+    ],
+    "possibly_out_of_window_items": [
+      {"id": "sakana-rsi-lab-2026", "note": "Date estimated 2026-09-24 from a third-party aggregator; collector says drop if outside window. Used below only as context."},
+      {"id": "meta-data-centers-ai-2026-10", "note": "Placeholder date 2026-10-01; content not reviewed."},
+      {"id": "hai-2026-10-hoover-us-talent-report", "note": "Month only; may be outside window."}
+    ],
+    "content_not_read_items": [
+      "epoch-2026-10-06-chinese-ai-revenue",
+      "epoch-2026-10-07-ebr-bench-update",
+      "hai-2026-10-whatmakes-ai-for-good-partnerships-work",
+      "meta-data-centers-ai-2026-10",
+      "sakana-evidence-finder-2026-10-09",
+      "sakana-insider-2026-10-08"
+    ],
+    "coverage_balance_flags": [
+      "Evaluator voice comes only from METR and Epoch AI (AISI zero items). Academic voice is thin: Stanford HAI items are mostly secondary-source summaries, and CMU RI and Turing items are institutional news with little frontier-AI research content.",
+      "Because Anthropic is the only target with primary-confirmed items, Anthropic items are over-represented among the best-sourced claims below. This reflects access conditions, not news importance."
+    ],
+    "excluded_from_citation": "Several collector coverage_notes mention un-itemised candidates (e.g. METR's 2026-09-22 Claude Opus 5.5 predeployment evaluation summary, AISI blog posts, Alignment Forum and lcamtuf posts). They have no item ids and are NOT used as support for any claim below. They are listed for human follow-up only."
+  },
+  "themes": [
+    {
+      "theme": "Independent evaluation and external oversight of frontier labs",
+      "convergent_points": [
+        {
+          "claim": "An industry lab and an evaluator both describe deeper third-party access for external risk assessment in the same week: Anthropic says it is giving METR employee-like access and that METR will publish its own risk assessments, while METR published proposals for how an outside assessor could investigate alignment and control inside a developer and described how it works with AI companies.",
+          "supporting_item_ids": [
+            "anthropic-2026-10-15-independent-evaluators",
+            "metr-2026-10-14-alignment-assessment",
+            "metr-2026-10-14-control-assessment",
+            "metr-2026-10-14-our-approach"
+          ]
+        },
+        {
+          "claim": "Model evaluation appears in a lab-government agreement: Anthropic's MOU with Singapore's MDDI covers cooperation on AI safety, security and model evaluation.",
+          "supporting_item_ids": ["anthropic-2026-10-14-singapore"]
+        }
+      ],
+      "divergent_points": [],
+      "notes": "No explicit disagreement found between sources. Both Anthropic (tiered evaluator access, with early partners getting more limited information and publication rights) and METR (public-disclosure proposal; per a secondhand search summary, access would remain at company discretion) describe access that is limited or controlled by the developer. This is a shared feature, not a stated conflict. The METR discretion detail is flagged by the collector as possibly imprecise. All METR items are primary-inferred; the Anthropic item is primary-confirmed."
+    },
+    {
+      "theme": "Monitoring, control and containment of AI agents",
+      "convergent_points": [
+        {
+          "claim": "Evaluator and industry sources both treat the tooling around AI agents (monitoring, observability, sandboxing) as an area that needs dedicated work: METR argues agent observability tools are security-critical and describes a proof-of-concept vulnerability in a transcript viewer, METR proposes assessing whether monitoring coverage of internal agents is complete, and Microsoft's October Windows news reportedly covers sandboxed tools for agents.",
+          "supporting_item_ids": [
+            "metr-2026-10-06-cover-up-misbehavior",
+            "metr-2026-10-14-control-assessment",
+            "msft-windows-surface-2026-10"
+          ]
+        }
+      ],
+      "divergent_points": [],
+      "notes": "Microsoft item is a product summary with no day-level date and gives no detail on the sandboxing; treat the convergence as loose. METR's vulnerability is proof-of-concept only; real-world prevalence not established."
+    },
+    {
+      "theme": "Cybersecurity: defensive deployment and the capability frontier",
+      "convergent_points": [
+        {
+          "claim": "Anthropic is structuring cyber access around verified defenders: a three-tier Cyber Verification Program with reduced cyber blocking for qualifying professionals, a Cyber Mission for critical-infrastructure and open-source defenders, and more restrictive cyber safeguards in Claude Haiku 5.5.",
+          "supporting_item_ids": [
+            "anthropic-2026-10-06-cyber-verification-program",
+            "anthropic-2026-10-08-cyber-mission",
+            "anthropic-2026-10-07-claude-haiku-5-5"
+          ]
+        },
+        {
+          "claim": "Multiple labs report security-oriented safeguards or tools alongside their models: Google reports prompt-injection attack success cut to 0.7% on one benchmark for Gemini 4 Argon, and DeepMind describes an on-device scam-detection model built with Singapore's MDDI/GovTech.",
+          "supporting_item_ids": [
+            "gdm-gemini-4-argon-safety-2026-10-13",
+            "gdm-singapore-scam-detection-2026-10-14",
+            "anthropic-2026-10-07-claude-haiku-5-5"
+          ]
+        }
+      ],
+      "divergent_points": [],
+      "notes": "Epoch reports that the best open-weight model trails the closed frontier on cyber capabilities by about 6-7 months (epoch-2026-10-16-open-vs-closed-cyber). This is relevant context for closed-model access gating, but no source states a disagreement with Anthropic's approach, so it is NOT recorded as a divergent point. The reporting agent may place them side by side with hedging but must not frame Epoch as rebutting Anthropic. Anthropic's 129,000 verified vulnerabilities figure and Google's 0.7% figure are self-reported; Google's benchmark is unidentified."
+    },
+    {
+      "theme": "AI doing research: automation of R&D and research outputs",
+      "convergent_points": [
+        {
+          "claim": "Sources from both industry and evaluators report AI being applied to research work at growing scale: Epoch reports OpenAI researchers' coding-agent usage (valued at API prices) doubling roughly monthly; OpenAI reports new mathematical results from an internal model; DeepMind reports using Google Antigravity in antimicrobial peptide search; Sakana AI reports a multi-agent self-supervision method improving output quality per token on research benchmarks.",
+          "supporting_item_ids": [
+            "epoch-2026-10-05-openai-coding-agent-usage",
+            "openai-math-results-2026-10-06",
+            "gdm-antimicrobial-peptides-antigravity-2026-10-15",
+            "sakana-mass-2026-10"
+          ]
+        }
+      ],
+      "divergent_points": [
+        {
+          "position_a": "Industry: labs report AI systems producing new research results and are building research programs around self-improvement (OpenAI's math results from an internal model; Sakana's MASS method and its Recursive Self-Improvement Lab).",
+          "position_a_item_ids": [
+            "openai-math-results-2026-10-06",
+            "sakana-mass-2026-10",
+            "sakana-rsi-lab-2026"
+          ],
+          "position_b": "Evaluator: Epoch's InnovationEval gives early evidence that current AI cannot yet independently devise an ML innovation matching a recent human-developed one it has not seen.",
+          "position_b_item_ids": ["epoch-2026-10-07-innovationeval"],
+          "caveat": "This is a tension in emphasis, not a direct contradiction: OpenAI's claim concerns mathematics, Sakana's concerns output quality on research benchmarks, and Epoch's concerns independent ML innovation. No source responds to another. Epoch describes its result as early evidence. OpenAI's results were not independently verified in this run. sakana-rsi-lab-2026 may be outside the window. All items are primary-inferred."
+        }
+      ],
+      "notes": "Epoch's SpireClimb results (epoch-2026-10-14-spireclimb: >90% wins at easiest setting, up to ~20% at hardest) are a capability measurement relevant to long-horizon tasks but not to research automation specifically; placed under the model-release theme."
+    },
+    {
+      "theme": "Labs giving scientists and governments access to frontier models",
+      "convergent_points": [
+        {
+          "claim": "Three labs announced programs within about a week to put frontier models and credits in researchers' hands: Anthropic's $150M three-year Genesis Mission commitment (Claude for 15+ US agencies and hundreds of research projects), Google DeepMind and Google Cloud's access for up to 200 European researchers with about $3M in compute credits, and OpenAI's GPT-Rosalind Academic Plan offering free seats to eligible labs.",
+          "supporting_item_ids": [
+            "anthropic-2026-10-08-genesis-mission",
+            "gdm-european-science-compute-2026-10-14",
+            "openai-rosalind-academic-plan-2026-10-15"
+          ]
+        },
+        {
+          "claim": "Anthropic and Google DeepMind both announced work with Singapore's Ministry of Digital Development and Information (MDDI) in the same week: an MOU on safety, evaluation and adoption research (Anthropic) and an on-device scam-detection model built with MDDI/GovTech (DeepMind).",
+          "supporting_item_ids": [
+            "anthropic-2026-10-14-singapore",
+            "gdm-singapore-scam-detection-2026-10-14"
+          ]
+        }
+      ],
+      "divergent_points": [],
+      "notes": "OpenAI also committed $5M to a Simons Foundation initiative for mathematicians (openai-math-results-2026-10-06). Meta's donation of AI glasses to Singapore disability organizations (meta-singapore-glasses-2026-10-07) is Singapore-related but is not a government partnership, so it is not included in the MDDI claim. No academic or evaluator source comments on these programs."
+    },
+    {
+      "theme": "New model releases and self-reported safety claims",
+      "convergent_points": [
+        {
+          "claim": "Several labs released new models or model families in the window: OpenAI's GPT-6 (Sol and Luna tiers), Anthropic's Claude Haiku 5.5, Meta's Muse Wonder and Muse Wonder Full, Google's Gemini 4 Argon (safety write-up; launch post not located) and EmbeddingGemma 2, and Microsoft's MAI-Code-1.1-Flash.",
+          "supporting_item_ids": [
+            "openai-gpt-6-intelligent-ui-2026-10-07",
+            "anthropic-2026-10-07-claude-haiku-5-5",
+            "meta-muse-wonder-2026-10-12",
+            "gdm-gemini-4-argon-safety-2026-10-13",
+            "gdm-embeddinggemma-2-2026-10-06",
+            "msft-windows-surface-2026-10"
+          ]
+        },
+        {
+          "claim": "Releases include smaller, cheaper, free-tier or locally runnable variants: Haiku 5.5 priced about 75% below Haiku 4.5, GPT-6 Luna for Free and Go users, MAI-Code-1.1-Flash running locally in GitHub Copilot, and EmbeddingGemma 2 as an open Apache 2.0 model.",
+          "supporting_item_ids": [
+            "anthropic-2026-10-07-claude-haiku-5-5",
+            "openai-gpt-6-intelligent-ui-2026-10-07",
+            "msft-windows-surface-2026-10",
+            "gdm-embeddinggemma-2-2026-10-06"
+          ]
+        },
+        {
+          "claim": "Safety and capability claims attached to these releases are self-reported by the developers; no independent evaluation of them was collected this run.",
+          "supporting_item_ids": [
+            "anthropic-2026-10-07-claude-haiku-5-5",
+            "gdm-gemini-4-argon-safety-2026-10-13",
+            "meta-muse-wonder-2026-10-12"
+          ]
+        }
+      ],
+      "divergent_points": [],
+      "notes": "Timing of safety documentation differs: Google published a safety write-up for Gemini 4 Argon and Anthropic described safeguards in the Haiku 5.5 release, while Meta's fuller Muse Wonder safety report was promised but not published at collection time. This is a factual observation, not a stated disagreement between sources. Epoch's new benchmarks (epoch-2026-10-14-spireclimb; epoch-2026-10-07-ebr-bench-update, contents not read) are evaluator measurements in the same period but are not tied to these specific releases in the collected items."
+    },
+    {
+      "theme": "Agents in enterprise and consumer products",
+      "convergent_points": [
+        {
+          "claim": "OpenAI, Microsoft and Meta all announced agent-oriented products or features: OpenAI models powering agents across Atlassian's platform and parallel agents in GPT-6 Pro; Microsoft Copilot for legal with 20+ skills and Copilot Notebooks updates; Meta's Muse Wonder built for personal and professional agentic tasks.",
+          "supporting_item_ids": [
+            "openai-atlassian-partnership-2026-10-06",
+            "openai-release-notes-voice-slides-2026-10-15-16",
+            "msft-copilot-legal-2026-10-15",
+            "msft-copilot-notebooks-2026-10",
+            "meta-muse-wonder-2026-10-12"
+          ]
+        }
+      ],
+      "divergent_points": [],
+      "notes": "Related but not part of the convergent claim: Microsoft 365 Copilot licensing changes (msft-m365-copilot-licensing-2026-10) and OpenAI's ChatGPT ad format (openai-chatgpt-ads-format-2026-10-05) are commercial changes. Stanford HAI's piece arguing that how managers introduce AI shapes worker adoption or resistance (hai-2026-10-07-managers-introducing-ai, secondary-source) is an academic perspective on workplace adoption; it does not address these products and is not a counter-position."
+    },
+    {
+      "theme": "Elections, misuse policy and content provenance",
+      "convergent_points": [
+        {
+          "claim": "Labs are deploying detection or classification tools against misuse: Anthropic's new classifiers for multi-step election abuse (leading to banned accounts), Google's SynthID Detector expanded to all English users, and DeepMind's on-device scam detection.",
+          "supporting_item_ids": [
+            "anthropic-2026-10-14-us-midterms",
+            "gdm-synthid-detector-expansion-2026-10-07",
+            "gdm-singapore-scam-detection-2026-10-14"
+          ]
+        }
+      ],
+      "divergent_points": [],
+      "notes": "Anthropic's 2026 Usage Policy update (anthropic-2026-10-08-usage-policy, effective 2026-11-12) narrows the elections section to deceiving voters or disrupting elections and tightens weapons, surveillance and law-enforcement restrictions; Anthropic-only, no comparable item from other labs. Stanford HAI's piece on who is responsible when AI causes harm (hai-2026-10-14-ai-harm-responsibility, secondary-source) concerns liability, not lab policy; not set against the lab items."
+    },
+    {
+      "theme": "Compute and data-center infrastructure",
+      "convergent_points": [
+        {
+          "claim": "Microsoft and Meta both publicized in-house AI data-center hardware on 12 October: Microsoft's Maia chip family (Maia 200 in production, Maia 300 planned for 2027, multi-gigawatt deployments) and Meta's networking hardware at OCP Global Summit (liquid-cooled rack, 102.4T switch, open-source RDMA transport).",
+          "supporting_item_ids": [
+            "msft-maia-multigw-2026-10-12",
+            "meta-ocp-summit-2026-10-12"
+          ]
+        }
+      ],
+      "divergent_points": [],
+      "notes": "msft-maia300-emea-2026-10 duplicates msft-maia-multigw-2026-10-12. Microsoft's ~40% tokens-per-megawatt claim is self-reported. meta-data-centers-ai-2026-10 is secondary-source, content not reviewed and possibly out of window. Epoch's estimate that China is ~2.7x as exposed as the US to semiconductor supply shocks (epoch-2026-10-06-china-chip-exposure) is a supply-chain item, placed in miscellaneous."
+    },
+    {
+      "theme": "Miscellaneous developments (no clean cluster)",
+      "convergent_points": [],
+      "divergent_points": [],
+      "notes": "These items do not cluster into a clean theme and are listed without forced structure. US-China indicators: epoch-2026-10-06-china-chip-exposure (China ~2.7x as exposed to chip supply shocks), hai-2026-10-hoover-us-talent-report (secondary-source; warns US talent advantages over China are narrowing; date uncertain), epoch-2026-10-06-chinese-ai-revenue (title only). These measure different dimensions and are not in disagreement; the reporting agent should not frame them as conflicting. AI use patterns: hai-2026-10-12-chatbot-critical-tasks-study (secondary-source). Academic and institutional news: cmu-ri-iros-2026-facilities-tour, turing-2026-10-09-satellite-components-ai, turing-2026-10-08-enrichment-71-students, turing-2026-10-05-board-trustees, hai-2026-10-whatmakes-ai-for-good-partnerships-work (title only). Accessibility: meta-brera-ai-glasses-2026-10, meta-singapore-glasses-2026-10-07. Other: openai-chatgpt-ads-format-2026-10-05, sakana-evidence-finder-2026-10-09 (title only), sakana-insider-2026-10-08 (title only), epoch-2026-10-07-ebr-bench-update (title only)."
+    }
+  ]
+}
