@@ -1,0 +1,44 @@
+{
+  "collector": "academia-collector",
+  "target": "The Alan Turing Institute",
+  "run_date": "2026-10-24",
+  "items": [
+    {
+      "id": "turing-cetas-agents-influence-ops-2026-10",
+      "title": "CETaS commentary: AI agents are changing influence operations",
+      "summary_en": "A CETaS commentary (the Turing's security centre) by Sam Stockwell and Cannelle Roumanie-Dalal looks at how AI agents are changing online influence operations. Only a search snippet was seen, so findings are not summarised.",
+      "source_url": "https://cetas.turing.ac.uk/",
+      "source_name": "CETaS (The Alan Turing Institute)",
+      "published_date": "2026-10",
+      "category": "research",
+      "tone": "neutral",
+      "confidence": "primary-inferred",
+      "notes": "Exact day and article URL not verified; snippet only."
+    },
+    {
+      "id": "turing-ntn-call-for-proposals-2026",
+      "title": "Turing call for proposals on non-terrestrial network vulnerabilities (closes 27 Oct 2026)",
+      "summary_en": "The Turing has an open call for proposals titled 'Vulnerabilities and Mitigation in Non-Terrestrial Networks'. According to the search listing, it closes at 16:00 on 27 October 2026.",
+      "source_url": "https://www.turing.ac.uk/work-turing/call-proposals-2026-vulnerabilities-and-mitigation-non-terrestrial-networks",
+      "source_name": "The Alan Turing Institute website",
+      "published_date": "unknown",
+      "category": "research",
+      "tone": "neutral",
+      "confidence": "primary-inferred",
+      "notes": "Funding call, not a research result. Publication date unknown; page not fetched."
+    },
+    {
+      "id": "turing-satellite-component-radar-ai-2026-10",
+      "title": "Turing and Birmingham AI model labels individual satellite components in radar imagery (just before the window)",
+      "summary_en": "According to a secondary report, a Turing and University of Birmingham model segments parts such as solar panels, thrusters and antennas in sub-terahertz ISAR radar images and keeps tracking a part that is briefly hidden. It is described as research-stage.",
+      "source_url": "https://letsdatascience.com/news/turing-researchers-develop-ai-model-to-identify-satellite-co-838fd808",
+      "source_name": "Lets Data Science (secondary, citing Turing)",
+      "published_date": "2026-10-09",
+      "category": "research",
+      "tone": "neutral",
+      "confidence": "secondary-source",
+      "notes": "Turing's own post reportedly dated 9 Oct, one day before window; primary page not opened. Not peer-reviewed in this evidence."
+    }
+  ],
+  "coverage_note": "Weak coverage. turing.ac.uk unreachable (DNS); no confirmed primary item inside window. Before-window items left out: 71 Enrichment PhD students (8 Oct), three new trustees (5 Oct), frontier AI risks agenda report (23 Sep). Re-check turing.ac.uk/news and cetas.turing.ac.uk."
+}

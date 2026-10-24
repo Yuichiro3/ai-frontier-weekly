@@ -1,0 +1,7 @@
+{
+  "collector": "academia-collector",
+  "target": "MIT CSAIL",
+  "run_date": "2026-10-24",
+  "items": [],
+  "coverage_note": "No verified items in window. csail.mit.edu/news and news.mit.edu fetches failed (DNS). Snippets mentioned DisCIPL (Oct 5), HardFlow (Oct 2), SANDO (undated), all before window or undated and without URLs; not included. Older items excluded: SceneSmith (2026-07-13), Masked IRL (2026-06-26), untraceable AI-generated images study (2026-08-18). Gap in collection, not confirmation of no news."
+}

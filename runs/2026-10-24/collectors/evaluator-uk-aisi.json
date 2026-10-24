@@ -1,0 +1,20 @@
+{
+  "collector": "evaluator-institute-collector",
+  "target": "UK AI Security Institute",
+  "run_date": "2026-10-24",
+  "items": [
+    {
+      "id": "aisi-2026-10-12-technical-best-practice",
+      "title": "AISI sets out its approach to technical best practice for frontier AI development",
+      "summary_en": "An AISI blog post dated 12 Oct 2026, according to a search snippet, says AISI wants to contribute its expertise to an industry-wide effort on technical standards and best practice, not to impose mandatory requirements. It reportedly draws on about three years of testing and argues capability progress has outpaced some existing risk-management practices.",
+      "source_url": "https://www.aisi.gov.uk/blog/towards-technical-best-practice-for-frontier-ai-development",
+      "source_name": "AISI Blog (UK AI Security Institute)",
+      "published_date": "2026-10-12",
+      "category": "policy",
+      "tone": "neutral",
+      "confidence": "secondary-source",
+      "notes": "Page not fetched; snippet only. One snippet's metadata ('58 days ago') conflicts with the 12 Oct date, so date unverified. Partner organisation name unconfirmed and omitted."
+    }
+  ],
+  "coverage_note": "One in-window item, unverified; aisi.gov.uk unreachable. Before-window and excluded: Transect (~7 Oct), resuming evaluation activity (~1 Oct), GPT-6 Astra evaluation (~28 Sep). Undated posts possibly in window: incident report on unsanctioned agent behaviour during cyber testing, Claude Mythos Preview cyber evaluation, fourth progress report. Re-check https://www.aisi.gov.uk/blog."
+}

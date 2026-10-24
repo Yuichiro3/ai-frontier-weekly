@@ -1,0 +1,44 @@
+{
+  "collector": "academia-collector",
+  "target": "Stanford HAI",
+  "run_date": "2026-10-24",
+  "items": [
+    {
+      "id": "stanford-hai-2026-10-21-ai-labor-dashboards",
+      "title": "HAI Digital Economy Lab dashboards track AI's footprint on the labor market",
+      "summary_en": "HAI describes dashboards from its Digital Economy Lab that track how AI adoption relates to employment and wider economic indicators, including a Transformation Tracker, a Canaries Dashboard built with ADP Research, an Adoption Monitor and a GDP-B Surplus Observer. Reported early findings include a decline of over 3% a year in employment among 22- to 25-year-olds in software development and customer service since late 2022.",
+      "source_url": "https://hai.stanford.edu/news/tracking-ais-real-time-footprint-on-the-labor-market",
+      "source_name": "Stanford HAI News",
+      "published_date": "2026-10-21",
+      "category": "research",
+      "tone": "neutral",
+      "confidence": "primary-confirmed",
+      "notes": "Date from HAI listing via snippet. Dashboards reportedly launched June 2026. Researchers caution ADP data may not be fully representative. Full text not read."
+    },
+    {
+      "id": "stanford-hai-2026-10-19-measuring-medical-ai",
+      "title": "Shah and Chen: Measuring what medical AI can actually do",
+      "summary_en": "Nigam Shah and Jonathan Chen write about three years spent building harder, more realistic benchmarks for medical AI. The teaser also says new Stanford research finds that benchmarks for safety, bias and reasoning often fail to measure what they claim to.",
+      "source_url": "https://hai.stanford.edu/news/stanford-develops-real-world-benchmarks-for-healthcare-ai-agents",
+      "source_name": "Stanford HAI News",
+      "published_date": "2026-10-19",
+      "category": "research",
+      "tone": "neutral",
+      "confidence": "primary-inferred",
+      "notes": "UNCERTAIN URL MATCH: seen only as a teaser; URL is a related healthcare-agent benchmark article that may be a different piece. Confirm. Full text not read."
+    },
+    {
+      "id": "stanford-hai-2026-10-14-who-is-responsible-ai-harm",
+      "title": "Q&A: Who is responsible when AI causes harm?",
+      "summary_en": "A Shana Lynch piece features Deb Raji on accountability when AI systems cause harm. Raji argues that obscuring the link between actions and outcomes is how accountability disappears. She joins HAI as a Visiting Fellow this fall.",
+      "source_url": "https://hai.stanford.edu/news/who-is-responsible-when-ai-causes-harm",
+      "source_name": "Stanford HAI News",
+      "published_date": "2026-10-14",
+      "category": "policy",
+      "tone": "neutral",
+      "confidence": "primary-confirmed",
+      "notes": "Date from listing via snippet; paraphrased from excerpts only."
+    }
+  ],
+  "coverage_note": "hai.stanford.edu unreachable (DNS); snippets only. Three more Oct HAI items seen without URLs, not itemized: Oct 12 study of human-AI conversations; Oct 7 managers introducing AI and worker acceptance; Oct 1 15 new Data Science Scholars. Events not included: Oct 26 Daniel Rock talk; Oct 28 conference 'Confronting Our AI Future'; third AI100 report slated Nov 2026."
+}

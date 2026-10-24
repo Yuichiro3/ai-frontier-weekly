@@ -1,0 +1,104 @@
+{
+  "collector": "industry-leader-collector",
+  "target": "Anthropic",
+  "run_date": "2026-10-24",
+  "items": [
+    {
+      "id": "anthropic-2026-10-22-agent-skills-aaif",
+      "title": "Anthropic donates Agent Skills standard to the Agentic AI Foundation",
+      "summary_en": "Anthropic is giving its Agent Skills standard to the Agentic AI Foundation. The post says more than 70 agent platforms have adopted the standard.",
+      "source_url": "https://www.anthropic.com/news/donating-agent-skills-to-the-agentic-ai-foundation",
+      "source_name": "Anthropic Newsroom",
+      "published_date": "2026-10-22",
+      "category": "product",
+      "tone": "neutral",
+      "confidence": "primary-inferred",
+      "notes": "Read via newsroom index summary; full post text not reviewed."
+    },
+    {
+      "id": "anthropic-2026-10-22-life-sciences-guest-investigators",
+      "title": "Open call for guest investigators in the life sciences",
+      "summary_en": "Anthropic invites life sciences researchers to apply for special collaborative projects with the company.",
+      "source_url": "https://www.anthropic.com/news/open-call-guest-investigators-life-sciences",
+      "source_name": "Anthropic Newsroom",
+      "published_date": "2026-10-22",
+      "category": "research",
+      "tone": "neutral",
+      "confidence": "primary-inferred",
+      "notes": "Read via newsroom index summary; full post text not reviewed."
+    },
+    {
+      "id": "anthropic-2026-10-21-stubbs-ltbt",
+      "title": "Christopher Stubbs joins Anthropic's Long-Term Benefit Trust",
+      "summary_en": "Physicist and former Harvard science dean Christopher Stubbs has joined the Long-Term Benefit Trust. The post highlights his expertise in cosmology and precision measurement.",
+      "source_url": "https://www.anthropic.com/news/christopher-stubbs-joins-long-term-benefit-trust",
+      "source_name": "Anthropic Newsroom",
+      "published_date": "2026-10-21",
+      "category": "policy",
+      "tone": "neutral",
+      "confidence": "primary-inferred",
+      "notes": "Read via newsroom index summary."
+    },
+    {
+      "id": "anthropic-2026-10-18-public-benefit-fund",
+      "title": "Anthropic to commit a portion of its shares to a Public Benefit Fund",
+      "summary_en": "Anthropic says it will commit a portion of its shares to a new Public Benefit Fund. The fund's stake is described as growing as the company grows.",
+      "source_url": "https://www.anthropic.com/news/public-benefit-fund",
+      "source_name": "Anthropic Newsroom",
+      "published_date": "2026-10-18",
+      "category": "policy",
+      "tone": "neutral",
+      "confidence": "primary-inferred",
+      "notes": "Share amount and governance details not verified."
+    },
+    {
+      "id": "anthropic-2026-10-15-independent-evaluators",
+      "title": "Update on independent evaluators: METR gets employee-like access",
+      "summary_en": "Anthropic gives METR employee-like access to evaluate its systems. The post says talks are underway with other organizations, such as Hugging Face.",
+      "source_url": "https://www.anthropic.com/news/an-update-on-independent-evaluators",
+      "source_name": "Anthropic Newsroom",
+      "published_date": "2026-10-15",
+      "category": "safety",
+      "tone": "neutral",
+      "confidence": "primary-inferred",
+      "notes": "Relevant to METR; METR's own account of this arrangement not checked."
+    },
+    {
+      "id": "anthropic-2026-10-14-us-midterms",
+      "title": "Preparing for the 2026 US midterms",
+      "summary_en": "Anthropic outlines further strengthening of its election safeguards ahead of the 2026 US midterm elections.",
+      "source_url": "https://www.anthropic.com/news/2026-us-midterms",
+      "source_name": "Anthropic Newsroom",
+      "published_date": "2026-10-14",
+      "category": "safety",
+      "tone": "neutral",
+      "confidence": "primary-inferred",
+      "notes": "Specific measures not reviewed."
+    },
+    {
+      "id": "anthropic-2026-10-14-singapore",
+      "title": "Anthropic opens Singapore office and signs MOU with Singapore government",
+      "summary_en": "Anthropic announces a Singapore office and a memorandum of understanding with the Singapore government on responsible AI adoption.",
+      "source_url": "https://www.anthropic.com/news/singapore-office-opening",
+      "source_name": "Anthropic Newsroom",
+      "published_date": "2026-10-14",
+      "category": "policy",
+      "tone": "neutral",
+      "confidence": "primary-inferred",
+      "notes": "Read via newsroom index summary."
+    },
+    {
+      "id": "anthropic-2026-10-12-distillation-defenses",
+      "title": "Strengthening defenses against distillation attacks",
+      "summary_en": "Anthropic reports that new defenses cut illicit distillation of Claude's capabilities by more than 90%.",
+      "source_url": "https://www.anthropic.com/news/distillation-defenses",
+      "source_name": "Anthropic Newsroom",
+      "published_date": "2026-10-12",
+      "category": "safety",
+      "tone": "neutral",
+      "confidence": "primary-inferred",
+      "notes": "The 90% figure is Anthropic's own claim; method not reviewed."
+    }
+  ],
+  "coverage_note": "Seven-plus official newsroom posts in window, read from index summaries only. Just before window (not itemized): Claude Haiku 5.5 (Oct 7), Cyber Verification Program expansion (Oct 6), Anthropic Cyber Mission (Oct 8), 2026 Usage Policy update (Oct 8), Genesis Mission $150M (Oct 8), Claude Frontier Academy $100M (Oct 2), Barclays (Oct 1). A snippet mentioned a Claude Duet research preview (Oct 21) not found on the index; unverified and excluded. Social accounts and interview transcripts not checked."
+}

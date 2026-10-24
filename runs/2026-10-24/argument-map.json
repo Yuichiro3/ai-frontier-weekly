@@ -1,0 +1,298 @@
+{
+  "run_date": "2026-10-24",
+  "synthesis_agent": "synthesis-agent",
+  "collection_window": "approx. 2026-10-10 to 2026-10-24 (as stated by collectors)",
+  "input_files_read": [
+    "runs/2026-10-24/collectors/evaluator-metr.json",
+    "runs/2026-10-24/collectors/evaluator-epoch-ai.json",
+    "runs/2026-10-24/collectors/evaluator-uk-aisi.json",
+    "runs/2026-10-24/collectors/industry-openai.json",
+    "runs/2026-10-24/collectors/industry-anthropic.json",
+    "runs/2026-10-24/collectors/industry-google-deepmind.json",
+    "runs/2026-10-24/collectors/industry-microsoft.json",
+    "runs/2026-10-24/collectors/industry-meta-ai.json",
+    "runs/2026-10-24/collectors/industry-sakana-ai.json",
+    "runs/2026-10-24/collectors/academia-mit-csail.json",
+    "runs/2026-10-24/collectors/academia-stanford-hai.json",
+    "runs/2026-10-24/collectors/academia-cmu-ri.json",
+    "runs/2026-10-24/collectors/academia-alan-turing-institute.json",
+    "runs/2026-10-24/collectors/academia-utokyo-riken-aip.json",
+    "runs/2026-10-24/collectors/wildcard.json"
+  ],
+  "meta": {
+    "run_wide_provenance_caveat": "Direct page fetches failed (DNS/egress block) for essentially every source domain this run. No item was read in full. Items marked 'primary-inferred' rest on search-result titles, snippets or newsroom index summaries; items marked 'secondary-source' rest on search digests or third-party reporting. Even the four 'primary-confirmed' items (Stanford HAI x2, CMU x3 minus none) note that full text was not read. The reporting agent must carry this caveat into the report and hedge every claim accordingly; all figures (percentages, dollar amounts, MW, headcounts) are unverified.",
+    "confidence_distribution": {
+      "primary-confirmed": [
+        "stanford-hai-2026-10-21-ai-labor-dashboards",
+        "stanford-hai-2026-10-14-who-is-responsible-ai-harm",
+        "cmu-ri-bajcsy-packard-2026-10-15",
+        "cmu-ri-bajcsy-ai2050-2026-10-14",
+        "cmu-iros-2026-facilities-tours"
+      ],
+      "secondary-source": [
+        "epoch-2026-10-14-chess-puzzles-v2",
+        "epoch-2026-10-16-open-vs-closed-cyber-gap",
+        "epoch-2026-10-ai-data-centers-hub-update",
+        "aisi-2026-10-12-technical-best-practice",
+        "turing-satellite-component-radar-ai-2026-10"
+      ],
+      "primary-inferred": "all remaining item ids"
+    },
+    "coverage_gaps": [
+      "MIT CSAIL: zero items (fetch failed; collector states this is a gap, not absence of news).",
+      "University of Tokyo / RIKEN AIP: zero items for the fourth tracked run in a row where access was blocked; collector states this is an access/search gap.",
+      "Epoch AI: every item rests on a single web-search digest; article-level URLs missing for two of three items.",
+      "UK AISI: one item only, with a conflicting date signal in snippet metadata.",
+      "Alan Turing Institute: collector reports no confirmed primary item inside the window.",
+      "Academic and evaluator coverage is thin relative to industry (Anthropic alone contributes 8 of 39 items), so convergence/divergence across categories is limited by what was collectable, not necessarily by what was published."
+    ],
+    "items_flagged_for_reporting_agent": [
+      {
+        "item_id": "stanford-hai-2026-10-19-measuring-medical-ai",
+        "flag": "Collector marks the URL match as uncertain; the URL may point to a different article. Do not rely on it without human confirmation."
+      },
+      {
+        "item_id": "metr-2026-10-20-anthropic-risk-report-review",
+        "flag": "Only a listing page was seen; the review's conclusions are unknown. Report existence only, not findings."
+      },
+      {
+        "item_id": "openai-ai-progress-mathematics-2026-10-15",
+        "flag": "Original publication may be Oct 6 (pre-window); Oct 15 may be an update date."
+      },
+      {
+        "item_id": "aisi-2026-10-12-technical-best-practice",
+        "flag": "Date unverified (snippet metadata conflicts)."
+      },
+      {
+        "item_id": "meta-singapore-glasses-donation-2026-10",
+        "flag": "Outside window (Oct 7); collector marks as context only."
+      },
+      {
+        "item_id": "cmu-iros-2026-facilities-tours",
+        "flag": "Outside window (Oct 1); collector marks as context only."
+      },
+      {
+        "item_id": "turing-satellite-component-radar-ai-2026-10",
+        "flag": "One day before window (Oct 9); secondary source only."
+      },
+      {
+        "item_id": "turing-cetas-agents-influence-ops-2026-10",
+        "flag": "Findings not summarised by collector; article URL and exact date unverified. Cite only as a topic signal."
+      }
+    ],
+    "deduplication_notes": [
+      "anthropic-2026-10-15-independent-evaluators (Anthropic grants METR employee-like access) and metr-2026-10-20-anthropic-risk-report-review (METR reviews an Anthropic risk report) describe related but distinct events; they are not duplicates. METR's own account of the access arrangement was not collected.",
+      "Singapore appears in three separate, distinct items (Anthropic office/MOU, Google DeepMind/MDDI scam detection, Meta glasses donation); not duplicates."
+    ]
+  },
+  "themes": [
+    {
+      "theme": "Third-party evaluation and oversight of frontier labs",
+      "convergent_points": [
+        {
+          "claim": "Both an evaluator and a lab describe deeper external access to lab systems this window: METR reports a red-team of OpenAI's internal agent monitoring, METR lists a review of part of Anthropic's August 2026 Risk Report, and Anthropic says it has given METR employee-like access to evaluate its systems (all from snippets/index summaries; details unverified).",
+          "supporting_item_ids": [
+            "metr-2026-10-22-redteam-openai-monitoring",
+            "metr-2026-10-20-anthropic-risk-report-review",
+            "anthropic-2026-10-15-independent-evaluators"
+          ]
+        },
+        {
+          "claim": "Evaluator/government-side publications this window are largely about method and process rather than new empirical results: METR published proposals for how outside assessors could examine AI R&D acceleration, internal agent control, and public communication of loss-of-control risk; AISI reportedly framed its role as contributing to industry-wide technical best practice rather than imposing mandatory requirements.",
+          "supporting_item_ids": [
+            "metr-2026-10-14-assessor-proposals",
+            "aisi-2026-10-12-technical-best-practice"
+          ]
+        }
+      ],
+      "divergent_points": [
+        {
+          "position_a": "OpenAI (as reported within METR's post): it has patched the vulnerabilities METR found that affected production safeguards.",
+          "position_a_item_ids": [
+            "metr-2026-10-22-redteam-openai-monitoring"
+          ],
+          "position_b": "METR: it has not verified OpenAI's claims about later coverage changes, and the full report was shared only with OpenAI staff, with a subset published.",
+          "position_b_item_ids": [
+            "metr-2026-10-22-redteam-openai-monitoring"
+          ],
+          "note": "Both positions come from a single METR item seen only via search excerpts; OpenAI's own statement was not collected."
+        }
+      ]
+    },
+    {
+      "theme": "Lab-reported safety and security safeguards vs. questions about measurement",
+      "convergent_points": [
+        {
+          "claim": "Several labs published self-reported safety or security metrics/measures alongside products this window: Google reports a 0.7% prompt-injection attack success rate for Gemini 4 Argon; Anthropic reports cutting illicit distillation by more than 90%; Anthropic describes strengthened election safeguards for the US midterms; Meta says Muse Wonder was trained to refuse harmful requests and protect private information. All figures are the labs' own claims and were not independently checked.",
+          "supporting_item_ids": [
+            "gdm-gemini-4-argon-safety-2026-10-13",
+            "anthropic-2026-10-12-distillation-defenses",
+            "anthropic-2026-10-14-us-midterms",
+            "meta-muse-wonder-2026-10"
+          ]
+        },
+        {
+          "claim": "Cyber capability is a shared focus across an industry lab and an evaluator: Google describes Gemini 4 Argon's cyberdefense capabilities as frontier-level, and an Epoch data insight (secondary digest) reportedly estimates open-weight models trail closed models on cyber capabilities by about 6-7 months.",
+          "supporting_item_ids": [
+            "gdm-gemini-4-argon-safety-2026-10-13",
+            "epoch-2026-10-16-open-vs-closed-cyber-gap"
+          ]
+        }
+      ],
+      "divergent_points": [
+        {
+          "position_a": "Industry: labs present quantitative safety results from their own testing (prompt-injection success rate, distillation reduction, refusal training) as evidence their safeguards work.",
+          "position_a_item_ids": [
+            "gdm-gemini-4-argon-safety-2026-10-13",
+            "anthropic-2026-10-12-distillation-defenses",
+            "meta-muse-wonder-2026-10"
+          ],
+          "position_b": "Evaluators/academia: lab claims are not yet independently verified (METR explicitly declines to confirm OpenAI's patch claims), and Stanford researchers reportedly argue that safety, bias and reasoning benchmarks often fail to measure what they claim to.",
+          "position_b_item_ids": [
+            "metr-2026-10-22-redteam-openai-monitoring",
+            "stanford-hai-2026-10-19-measuring-medical-ai"
+          ],
+          "note": "This is an implicit tension in emphasis, not a direct exchange: none of these sources responds to another. The Stanford item has an uncertain URL match and was seen only as a teaser; it should not be used as the sole support for position_b without human confirmation."
+        }
+      ]
+    },
+    {
+      "theme": "Agentic AI: products, standards, and risk",
+      "convergent_points": [
+        {
+          "claim": "Industry sources across several labs center new releases on agents: Meta describes Muse Wonder as aimed at agentic tasks; Anthropic is donating its Agent Skills standard (reportedly adopted by 70+ platforms) to the Agentic AI Foundation; Microsoft reportedly brings MAI-Code-1.1-Flash to Foundry fine-tuning; Google DeepMind describes Antigravity as an agentic workbench for antimicrobial peptide discovery.",
+          "supporting_item_ids": [
+            "meta-muse-wonder-2026-10",
+            "anthropic-2026-10-22-agent-skills-aaif",
+            "microsoft-foundry-mai-code-1-1-flash-2026-10-22",
+            "gdm-antimicrobial-peptides-antigravity-2026-10-15"
+          ]
+        },
+        {
+          "claim": "An independent developer reports building a substantial project mostly with coding agents (Simon Willison's Battle Drones game, reportedly ~321 commits, mainly with Claude Code), a hands-on data point consistent with industry's agent focus (playful/supplementary source; numbers unverified).",
+          "supporting_item_ids": [
+            "willison-battle-drones-2026-10-20"
+          ]
+        }
+      ],
+      "divergent_points": [
+        {
+          "position_a": "Industry and an independent developer: agents are framed as capability gains, products and interoperable platforms.",
+          "position_a_item_ids": [
+            "meta-muse-wonder-2026-10",
+            "anthropic-2026-10-22-agent-skills-aaif",
+            "microsoft-foundry-mai-code-1-1-flash-2026-10-22",
+            "willison-battle-drones-2026-10-20"
+          ],
+          "position_b": "Evaluators and an academic security centre: agents are framed as a risk surface, e.g. METR reports finding several vulnerabilities in OpenAI's internal agent monitoring and proposes methods for assessing control of internal agents; a Turing CETaS commentary examines how AI agents are changing influence operations.",
+          "position_b_item_ids": [
+            "metr-2026-10-22-redteam-openai-monitoring",
+            "metr-2026-10-14-assessor-proposals",
+            "turing-cetas-agents-influence-ops-2026-10"
+          ],
+          "note": "A difference in framing and focus, not a direct disagreement between named parties. CETaS findings were not summarised by the collector."
+        }
+      ]
+    },
+    {
+      "theme": "Frontier labs opening models and compute to scientific researchers",
+      "convergent_points": [
+        {
+          "claim": "Three industry labs announced researcher-access or science-collaboration programs in the same window: OpenAI's GPT-Rosalind Academic Plan for U.S. university labs; Anthropic's open call for life-sciences guest investigators; Google DeepMind and Google Cloud offering up to 200 European researchers frontier science models and $3M in compute credits. OpenAI and Anthropic both target life sciences specifically.",
+          "supporting_item_ids": [
+            "openai-rosalind-academic-plan-2026-10-15",
+            "anthropic-2026-10-22-life-sciences-guest-investigators",
+            "gdm-european-science-compute-2026-10-14"
+          ]
+        },
+        {
+          "claim": "Labs also reported science results from their own models: OpenAI on open mathematics problems (with a reported $5M to a Simons Foundation initiative), and Google DeepMind on antimicrobial peptide discovery and a global 10-meter forest-type map. All are the labs' own descriptions.",
+          "supporting_item_ids": [
+            "openai-ai-progress-mathematics-2026-10-15",
+            "gdm-antimicrobial-peptides-antigravity-2026-10-15",
+            "gdm-forest-types-map-2026-10-22"
+          ]
+        }
+      ],
+      "divergent_points": [],
+      "divergence_note": "No divergent views found in collected items. All items in this theme are industry self-reports; no academic or evaluator response to these programs or results was collected this run."
+    },
+    {
+      "theme": "Lab governance and government partnerships",
+      "convergent_points": [
+        {
+          "claim": "Two labs announced work with the Singapore government in the same window: Anthropic opened a Singapore office and signed an MOU on responsible AI adoption; Google DeepMind described an on-device Gemma scam-detection model built with Singapore's MDDI. (Meta's Singapore glasses donation is related but dated Oct 7, outside the window.)",
+          "supporting_item_ids": [
+            "anthropic-2026-10-14-singapore",
+            "gdm-singapore-scam-detection-2026-10-14",
+            "meta-singapore-glasses-donation-2026-10"
+          ]
+        },
+        {
+          "claim": "Anthropic published several governance-structure updates: a new Public Benefit Fund holding a portion of its shares, and a new Long-Term Benefit Trust member (Christopher Stubbs). Single-source; share amounts and governance details unverified.",
+          "supporting_item_ids": [
+            "anthropic-2026-10-18-public-benefit-fund",
+            "anthropic-2026-10-21-stubbs-ltbt"
+          ]
+        }
+      ],
+      "divergent_points": [],
+      "divergence_note": "No divergent views found in collected items. Microsoft's digital-sovereignty post (microsoft-digital-sovereignty-2026-10-20) is government/customer-control related but the collector notes it is mostly enterprise cloud rather than frontier AI; listed under miscellaneous."
+    },
+    {
+      "theme": "AI compute and data-center infrastructure",
+      "convergent_points": [
+        {
+          "claim": "An evaluator dataset and an industry engineering post both describe large-scale AI infrastructure build-out: Epoch's data-center hub reportedly lists Colossus 2 (~946 MW) and Anthropic-Amazon New Carlisle (~910 MW) as the largest tracked sites, with wide coverage uncertainty; Meta showed new AI-cluster networking hardware (liquid-cooled rack, 102.4T switch blade, open-source MetaRoCE) at OCP Summit 2026.",
+          "supporting_item_ids": [
+            "epoch-2026-10-ai-data-centers-hub-update",
+            "meta-ocp-summit-2026-networking"
+          ]
+        }
+      ],
+      "divergent_points": [],
+      "divergence_note": "No divergent views found in collected items. Only two items; Epoch figures are secondary-source and the dataset date is the collection date, not a release date."
+    },
+    {
+      "theme": "Miscellaneous developments",
+      "note": "These items do not cluster into a clean theme. Grouped loosely for the reporting agent; no convergence or divergence is claimed beyond what is noted.",
+      "convergent_points": [
+        {
+          "claim": "Labor-market and accountability questions (academic only): Stanford HAI's Digital Economy Lab dashboards reportedly show employment among 22-25-year-olds in software development and customer service declining over 3% a year since late 2022 (with representativeness caveats); a HAI Q&A features Deb Raji on accountability when AI causes harm.",
+          "supporting_item_ids": [
+            "stanford-hai-2026-10-21-ai-labor-dashboards",
+            "stanford-hai-2026-10-14-who-is-responsible-ai-harm"
+          ]
+        },
+        {
+          "claim": "User-facing memory features appear in two unrelated releases: Sakana Chat's 'My Fish' memory visualization (with an off switch) and Meta's Muse Wonder 'Active Memory'. A loose overlap only.",
+          "supporting_item_ids": [
+            "sakana-my-fish-2026-10-15",
+            "meta-muse-wonder-2026-10"
+          ]
+        },
+        {
+          "claim": "Robot-safety research recognition at CMU: Andrea Bajcsy named a 2026 Packard Fellow and a 2026 AI2050 Early Career Fellow (award announcements, not research results). IROS 2026 was hosted in Pittsburgh (Oct 1, outside window).",
+          "supporting_item_ids": [
+            "cmu-ri-bajcsy-packard-2026-10-15",
+            "cmu-ri-bajcsy-ai2050-2026-10-14",
+            "cmu-iros-2026-facilities-tours"
+          ]
+        },
+        {
+          "claim": "Other single-source items: Sakana's QD-Rec quality-diversity recommendation method and its engineer open-house report (plans to at least double engineering headcount and pursue large-scale pretraining); Epoch's Chess Puzzles v2 benchmark (secondary, unconfirmed); Microsoft's digital-sovereignty options; Meta's AI-glasses accessibility pilot with Pinacoteca di Brera; Turing's non-terrestrial-network vulnerabilities funding call and a Turing/Birmingham satellite-component radar model (secondary, Oct 9).",
+          "supporting_item_ids": [
+            "sakana-qd-rec-2026-10-20",
+            "sakana-open-house-2026-10-21",
+            "epoch-2026-10-14-chess-puzzles-v2",
+            "microsoft-digital-sovereignty-2026-10-20",
+            "meta-brera-ai-glasses-2026-10",
+            "turing-ntn-call-for-proposals-2026",
+            "turing-satellite-component-radar-ai-2026-10"
+          ]
+        }
+      ],
+      "divergent_points": []
+    }
+  ]
+}

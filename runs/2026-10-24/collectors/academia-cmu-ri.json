@@ -1,0 +1,44 @@
+{
+  "collector": "academia-collector",
+  "target": "Carnegie Mellon University - Robotics Institute",
+  "run_date": "2026-10-24",
+  "items": [
+    {
+      "id": "cmu-ri-bajcsy-packard-2026-10-15",
+      "title": "Andrea Bajcsy awarded 2026 Packard Fellowship for Science and Engineering",
+      "summary_en": "CMU Robotics Institute assistant professor Andrea Bajcsy is one of 20 researchers named 2026 Packard Fellows. The award provides about $985,834 in unrestricted funding over five years. Her work focuses on safer, more reliable robots.",
+      "source_url": "https://www.ri.cmu.edu/bajcsy-awarded-packard-fellowship-for-science-and-engineering/",
+      "source_name": "CMU Robotics Institute News",
+      "published_date": "2026-10-15",
+      "category": "research",
+      "tone": "neutral",
+      "confidence": "primary-confirmed",
+      "notes": "Award announcement, not a research result. Details from a search snippet; RI page not fetched."
+    },
+    {
+      "id": "cmu-ri-bajcsy-ai2050-2026-10-14",
+      "title": "Andrea Bajcsy named 2026 AI2050 Early Career Fellow (Schmidt Sciences)",
+      "summary_en": "Bajcsy was named a 2026 AI2050 Early Career Fellow, a program sponsored by Schmidt Sciences that aims to make AI safer. The program reportedly provides up to $16 million over three years to the cohort. CMU SCS says three of its faculty were named fellows.",
+      "source_url": "https://www.cs.cmu.edu/news/2026/ai2050-fellows",
+      "source_name": "CMU School of Computer Science News",
+      "published_date": "2026-10-14",
+      "category": "safety",
+      "tone": "neutral",
+      "confidence": "primary-confirmed",
+      "notes": "Award announcement. Date from RI news listing via search; page not opened."
+    },
+    {
+      "id": "cmu-iros-2026-facilities-tours",
+      "title": "CMU robotics expertise and facilities draw IROS 2026 attendees",
+      "summary_en": "Hundreds of robotics academics and industry leaders toured CMU robotics and engineering facilities on Oct. 1, during IROS, which returned to Pittsburgh for the first time since 1995.",
+      "source_url": "https://www.cmu.edu/news/stories/archives/2026/october/cmu-robotics-expertise-and-facilities-attract-iros-2026-conference-attendees",
+      "source_name": "Carnegie Mellon University News",
+      "published_date": "2026-10-01",
+      "category": "research",
+      "tone": "neutral",
+      "confidence": "primary-confirmed",
+      "notes": "Likely before the 2026-10-10 window; context only, orchestrator may drop."
+    }
+  ],
+  "coverage_note": "ri.cmu.edu not fetchable (DNS); relies on search summaries. Only the two Bajcsy items fall in window. 'Peg-in-Hole Isn't Kid Stuff' (Oct 7) and 'CMU Researchers Give Robots a Delicate Touch' (Oct 5) are before window. Re-check recommended."
+}

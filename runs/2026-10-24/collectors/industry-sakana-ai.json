@@ -1,0 +1,44 @@
+{
+  "collector": "industry-leader-collector",
+  "target": "Sakana AI",
+  "run_date": "2026-10-24",
+  "items": [
+    {
+      "id": "sakana-qd-rec-2026-10-20",
+      "title": "Sakana AI proposes QD-Rec, a quality-diversity method for recommendations",
+      "summary_en": "Sakana AI describes QD-Rec, which pairs each recommended item with a natural-language hypothesis and uses an LLM to evolve new hypotheses from an archive of earlier ones. It was tested on M&A, customer targeting and paper recommendation, and the authors report higher average ratings than baselines in many settings.",
+      "source_url": "https://sakana.ai/qd-rec/",
+      "source_name": "Sakana AI Blog (Japanese); technical page https://pub.sakana.ai/qd-rec/",
+      "published_date": "2026-10-20",
+      "category": "research",
+      "tone": "neutral",
+      "confidence": "primary-inferred",
+      "notes": "Date from search summary of blog listing; sakana.ai unreachable. Results are authors' own claims. Blog in Japanese; English technical page exists."
+    },
+    {
+      "id": "sakana-my-fish-2026-10-15",
+      "title": "Sakana Chat adds 'My Fish' memory visualization feature",
+      "summary_en": "Sakana AI announced a feature that shows users what Sakana Chat remembers about them, when memories were used, and how they connect. Memory can be turned off in settings.",
+      "source_url": "https://sakana.ai/my-fish/",
+      "source_name": "Sakana AI Blog (Japanese)",
+      "published_date": "2026-10-15",
+      "category": "product",
+      "tone": "neutral",
+      "confidence": "primary-inferred",
+      "notes": "Date and details from a search summary; page not fetched. Japanese-language post."
+    },
+    {
+      "id": "sakana-open-house-2026-10-21",
+      "title": "Sakana AI publishes report on Engineer Open House 2026",
+      "summary_en": "Sakana AI posted an event report on its second engineer-focused open house. In the Q&A the company said it plans to at least double engineering headcount and to pursue large-scale pretraining.",
+      "source_url": "https://sakana.ai/open-house-2026/",
+      "source_name": "Sakana AI Blog (Japanese)",
+      "published_date": "2026-10-21",
+      "category": "opinion",
+      "tone": "neutral",
+      "confidence": "primary-inferred",
+      "notes": "Date from search summary; event itself reportedly 2026-10-05. Hiring/company-plans content, not research."
+    }
+  ],
+  "coverage_note": "sakana.ai fetch failed (DNS); items from search summaries, re-check against live blog. No model release or major research announcement in window found. Earlier items outside window: Fugu Max and Fugu Ultra v2 (reported 2026-09-11, non-primary write-up)."
+}

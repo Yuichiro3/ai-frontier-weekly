@@ -1,0 +1,32 @@
+{
+  "collector": "industry-leader-collector",
+  "target": "OpenAI",
+  "run_date": "2026-10-24",
+  "items": [
+    {
+      "id": "openai-rosalind-academic-plan-2026-10-15",
+      "title": "OpenAI opens GPT-Rosalind Academic Plan for research labs",
+      "summary_en": "OpenAI announced a program giving eligible academic labs sponsored access to GPT-Rosalind, its life-sciences model. Applications were reported open for labs at U.S. universities.",
+      "source_url": "https://openai.com/index/introducing-the-rosalind-academic-plan/",
+      "source_name": "OpenAI Official Blog",
+      "published_date": "2026-10-15",
+      "category": "product",
+      "tone": "neutral",
+      "confidence": "primary-inferred",
+      "notes": "Page body could not be fetched (openai.com DNS failure from this environment). Title, URL and date come from search-result metadata only; eligibility details unverified."
+    },
+    {
+      "id": "openai-ai-progress-mathematics-2026-10-15",
+      "title": "OpenAI shares AI progress on open math problems; $5M for Simons Foundation initiative",
+      "summary_en": "OpenAI's post reports new results on open mathematics problems from an internal model. It also reportedly commits $5 million to a Simons Foundation initiative supporting mathematicians.",
+      "source_url": "https://openai.com/index/sharing-ai-progress-in-mathematics/",
+      "source_name": "OpenAI Official Blog",
+      "published_date": "2026-10-15",
+      "category": "research",
+      "tone": "neutral",
+      "confidence": "primary-inferred",
+      "notes": "Search metadata suggests first published Oct 6 and updated Oct 15; 10-15 is the update date. Content not directly read; verify original date and claims."
+    }
+  ],
+  "coverage_note": "openai.com could not be fetched directly (ENOTFOUND), so items rest on search-result metadata only. Other OpenAI items seen without confirmed URL/date and excluded: Orchestra Bio acquisition (reported Oct 20); OpenAI models on Google Cloud (reported Oct 21); ChatGPT ads expansion (reported Oct 21); ChatGPT Slides (Oct 16) and locked chats (Oct 20) per release notes. Pre-window items excluded: GPT-6 (reported Oct 7), new ChatGPT ads format (reported Oct 5)."
+}
