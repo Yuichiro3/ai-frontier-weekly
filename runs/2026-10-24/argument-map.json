@@ -20,7 +20,7 @@
     "runs/2026-10-24/collectors/wildcard.json"
   ],
   "meta": {
-    "run_wide_provenance_caveat": "Direct page fetches failed (DNS/egress block) for essentially every source domain this run. No item was read in full. Items marked 'primary-inferred' rest on search-result titles, snippets or newsroom index summaries; items marked 'secondary-source' rest on search digests or third-party reporting. Even the four 'primary-confirmed' items (Stanford HAI x2, CMU x3 minus none) note that full text was not read. The reporting agent must carry this caveat into the report and hedge every claim accordingly; all figures (percentages, dollar amounts, MW, headcounts) are unverified.",
+    "run_wide_provenance_caveat": "Direct page fetches failed (DNS/egress block) for essentially every source domain this run. No item was read in full. Items marked 'primary-inferred' rest on search-result titles, snippets or newsroom index summaries; items marked 'secondary-source' rest on search digests or third-party reporting. Even the five 'primary-confirmed' items (Stanford HAI x2, CMU x3) note that the full page was not read. The reporting agent must carry this caveat into the report and hedge every claim accordingly; all figures (percentages, dollar amounts, MW, headcounts) are unverified.",
     "confidence_distribution": {
       "primary-confirmed": [
         "stanford-hai-2026-10-21-ai-labor-dashboards",
@@ -36,15 +36,15 @@
         "aisi-2026-10-12-technical-best-practice",
         "turing-satellite-component-radar-ai-2026-10"
       ],
-      "primary-inferred": "all remaining item ids"
+      "primary-inferred": "all remaining item ids (31 of 41)"
     },
     "coverage_gaps": [
       "MIT CSAIL: zero items (fetch failed; collector states this is a gap, not absence of news).",
-      "University of Tokyo / RIKEN AIP: zero items for the fourth tracked run in a row where access was blocked; collector states this is an access/search gap.",
+      "University of Tokyo / RIKEN AIP: zero items; access blocked again; collector states this is an access/search gap, not evidence nothing was published.",
       "Epoch AI: every item rests on a single web-search digest; article-level URLs missing for two of three items.",
       "UK AISI: one item only, with a conflicting date signal in snippet metadata.",
       "Alan Turing Institute: collector reports no confirmed primary item inside the window.",
-      "Academic and evaluator coverage is thin relative to industry (Anthropic alone contributes 8 of 39 items), so convergence/divergence across categories is limited by what was collectable, not necessarily by what was published."
+      "Academic and evaluator coverage is thin relative to industry (Anthropic alone contributes 8 of 41 items), so convergence/divergence across categories is limited by what was collectable, not necessarily by what was published."
     ],
     "items_flagged_for_reporting_agent": [
       {
@@ -111,7 +111,7 @@
           "position_a_item_ids": [
             "metr-2026-10-22-redteam-openai-monitoring"
           ],
-          "position_b": "METR: it has not verified OpenAI's claims about later coverage changes, and the full report was shared only with OpenAI staff, with a subset published.",
+          "position_b": "METR: it has not verified OpenAI's claims about later coverage changes; the full report was shared only with OpenAI staff, and METR is publishing a subset.",
           "position_b_item_ids": [
             "metr-2026-10-22-redteam-openai-monitoring"
           ],
@@ -123,7 +123,7 @@
       "theme": "Lab-reported safety and security safeguards vs. questions about measurement",
       "convergent_points": [
         {
-          "claim": "Several labs published self-reported safety or security metrics/measures alongside products this window: Google reports a 0.7% prompt-injection attack success rate for Gemini 4 Argon; Anthropic reports cutting illicit distillation by more than 90%; Anthropic describes strengthened election safeguards for the US midterms; Meta says Muse Wonder was trained to refuse harmful requests and protect private information. All figures are the labs' own claims and were not independently checked.",
+          "claim": "Several labs published self-reported safety or security metrics/measures this window: Google reports a 0.7% prompt-injection attack success rate for Gemini 4 Argon; Anthropic reports cutting illicit distillation by more than 90%; Anthropic describes strengthened election safeguards for the US midterms; Meta says Muse Wonder was trained to refuse harmful requests and protect private information. All figures are the labs' own claims and were not independently checked.",
           "supporting_item_ids": [
             "gdm-gemini-4-argon-safety-2026-10-13",
             "anthropic-2026-10-12-distillation-defenses",
@@ -147,7 +147,7 @@
             "anthropic-2026-10-12-distillation-defenses",
             "meta-muse-wonder-2026-10"
           ],
-          "position_b": "Evaluators/academia: lab claims are not yet independently verified (METR explicitly declines to confirm OpenAI's patch claims), and Stanford researchers reportedly argue that safety, bias and reasoning benchmarks often fail to measure what they claim to.",
+          "position_b": "Evaluators/academia: lab claims are not yet independently verified (METR explicitly says it has not verified OpenAI's patch claims), and Stanford researchers reportedly argue that safety, bias and reasoning benchmarks often fail to measure what they claim to.",
           "position_b_item_ids": [
             "metr-2026-10-22-redteam-openai-monitoring",
             "stanford-hai-2026-10-19-measuring-medical-ai"
@@ -229,7 +229,7 @@
           ]
         },
         {
-          "claim": "Anthropic published several governance-structure updates: a new Public Benefit Fund holding a portion of its shares, and a new Long-Term Benefit Trust member (Christopher Stubbs). Single-source; share amounts and governance details unverified.",
+          "claim": "Anthropic published governance-structure updates: a new Public Benefit Fund holding a portion of its shares, and a new Long-Term Benefit Trust member (Christopher Stubbs). Single-source; share amounts and governance details unverified.",
           "supporting_item_ids": [
             "anthropic-2026-10-18-public-benefit-fund",
             "anthropic-2026-10-21-stubbs-ltbt"
@@ -237,7 +237,7 @@
         }
       ],
       "divergent_points": [],
-      "divergence_note": "No divergent views found in collected items. Microsoft's digital-sovereignty post (microsoft-digital-sovereignty-2026-10-20) is government/customer-control related but the collector notes it is mostly enterprise cloud rather than frontier AI; listed under miscellaneous."
+      "divergence_note": "No divergent views found in collected items. Microsoft's digital-sovereignty post (microsoft-digital-sovereignty-2026-10-20) touches on customer/government control, but the collector notes it is mostly enterprise cloud rather than frontier AI; listed under miscellaneous."
     },
     {
       "theme": "AI compute and data-center infrastructure",
