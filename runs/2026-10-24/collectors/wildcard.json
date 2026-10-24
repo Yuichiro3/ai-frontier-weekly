@@ -1,0 +1,20 @@
+{
+  "collector": "wildcard-collector",
+  "target": "wildcard",
+  "run_date": "2026-10-24",
+  "items": [
+    {
+      "id": "willison-battle-drones-2026-10-20",
+      "title": "Simon Willison ships a browser RTS game built almost entirely by coding agents",
+      "summary_en": "Simon Willison describes Battle Drones, a browser-based real-time strategy game in the Command & Conquer style. He built it with coding agents, mainly Claude Code, over about 12 major iterations and 321 commits. Two nearby devices can play each other over audio, and an online mode uses a small WebSocket relay he estimates costs a couple of dollars a month.",
+      "source_url": "https://simonwillison.net/2026/Oct/20/battledrones/",
+      "source_name": "Simon Willison's Weblog",
+      "published_date": "2026-10-20",
+      "category": "product",
+      "tone": "playful",
+      "confidence": "primary-inferred",
+      "notes": "From search excerpts; page not fetched. Verify numbers (321 commits, 12 iterations, cost). License not confirmed. Fun demo, not a polished product. Supplementary under CLAUDE.md section 2."
+    }
+  ],
+  "coverage_note": "One item only; fetch tools failed (DNS), HN not scanned directly. Excluded: lcamtuf 'How much of HN is AI?' (no verified date); Willison 'My obituary for programming' (2026-10-19, content unverified); Willison 2026-10-03 hard budget caps post (before window). Willison's blog is a likely repeat source; check rotation notes."
+}
