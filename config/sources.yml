@@ -91,3 +91,16 @@ rotation_history:
       ~2026-08-15 to 2026-08-29 window), which should be re-checked once
       access constraints are resolved rather than assumed to mean no new
       evaluator output existed.
+  - run_date: "2026-10-24"
+    iso_week: "2026-W43"
+    note: >
+      Runs for W36-W42 were not produced; this run covered 2026-10-10 to
+      2026-10-24 with the full default target list. Direct fetches were again
+      blocked (DNS) for nearly every domain, so 31 of 41 items are
+      primary-inferred from search snippets, 5 secondary-source, 5
+      primary-confirmed (still snippet-based). MIT CSAIL and UTokyo/RIKEN AIP
+      returned zero items (access gap, third consecutive run for RIKEN AIP;
+      needs raising with whoever operates the harness). Diversity flag:
+      Anthropic alone supplied 8 of 41 items (~20%); industry dominates and
+      evaluator coverage (Epoch, AISI, Turing) is thin again. Simon Willison's
+      blog is a likely repeat wildcard source; rotate next time.
