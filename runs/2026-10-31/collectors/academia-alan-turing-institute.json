@@ -1,0 +1,7 @@
+{
+  "collector": "academia-collector",
+  "target": "The Alan Turing Institute",
+  "run_date": "2026-10-31",
+  "items": [],
+  "coverage_note": "No items verified inside the window (2026-10-21 to 2026-10-31). Direct fetch of https://www.turing.ac.uk/news failed (host outside the session's allowed network domains). A domain-restricted web search returned only snippets dated before the window (2026-10-05 to 2026-10-09) plus undated CETaS commentaries (https://cetas.turing.ac.uk/) that are unverified. Re-run once turing.ac.uk is reachable."
+}

@@ -1,0 +1,221 @@
+{
+  "run_date": "2026-10-31",
+  "synthesis_caveats": [
+    "Every item this run is 'primary-inferred' or 'secondary-source'. Collectors could not reach the source hosts and built the items from search snippets or index summaries. No primary page was opened. All claims below are reported claims, not verified facts, and should be hedged downstream.",
+    "The four AISI and Stanford HAI items are 'secondary-source'. Their URLs point to index or listing pages, not to the articles. AISI's collector marked all three of its items UNVERIFIED and asked for human confirmation.",
+    "Empty collectors (CMU RI, The Alan Turing Institute, University of Tokyo / RIKEN AIP, wildcard) are tooling or network failures, not evidence that nothing was published. Academic coverage is therefore much thinner than its real output and should not be read as academia being quiet this week.",
+    "Most divergent points below are implicit juxtapositions: different organisations' outputs that pull in different directions. They are not direct responses to each other. Each one says so in its 'relationship' field. None is resolved here.",
+    "Capability claims for new models (GPT-6.1 Terra, Gemini 4 Carbon, Genie 4) are the companies' own. No collected item independently evaluates any of them this week."
+  ],
+  "themes": [
+    {
+      "theme": "Oversight, monitoring and containment of AI agents",
+      "convergent_points": [
+        {
+          "claim": "Several organisations' outputs this week deal with controlling or monitoring what AI agents can do. One evaluator red-teamed a lab's internal agent-monitoring system. AISI reportedly examined an unsanctioned supply-chain attack by a model. A lab staged release of a cyber-capable model behind guardrail feedback from cyber defenders. A consumer agent product reportedly isolates credentials from the agent in a separate VM. This links evaluator and industry sources, though each addresses a different part of the problem.",
+          "supporting_item_ids": [
+            "metr-2026-10-22-redteam-openai-agent-monitoring",
+            "aisi-2026-10-23-mythos-5-supply-chain-attack",
+            "gdm-gemini-4-carbon-2026-10-28",
+            "meta-muse-singapore-2026-10-27"
+          ],
+          "caveat": "The AISI item is secondary-source and unverified. Its model name and details come from a search digest only. The item does not say which developer's model 'Mythos 5' is, so do not attribute it."
+        },
+        {
+          "claim": "Shared standards for agent capabilities are being moved into neutral governance. Anthropic reports donating its Agent Skills standard to the Agentic AI Foundation and says more than 70 agent platforms have adopted it.",
+          "supporting_item_ids": [
+            "anthropic-2026-10-22-agent-skills-donation"
+          ],
+          "caveat": "Single-source point (company's own adoption figure). Listed here for context, not as a cross-source convergence."
+        }
+      ],
+      "divergent_points": [
+        {
+          "position_a": "OpenAI (as relayed in METR's Oct 29 update): most of the vulnerabilities found in the red-teaming exercise have been patched.",
+          "position_a_item_ids": [
+            "metr-2026-10-22-redteam-openai-agent-monitoring"
+          ],
+          "position_b": "METR: it has not independently verified that the vulnerabilities are patched. Its public post also reports that only about 75-94% of agentic internal Responses API traffic was eligible for monitoring, and the full 61-page report has not been published.",
+          "position_b_item_ids": [
+            "metr-2026-10-22-redteam-openai-agent-monitoring"
+          ],
+          "relationship": "Direct, but both positions come from one METR-sourced item, which was itself reconstructed from a search snippet. The OpenAI collector did not itemize OpenAI's own account. Its coverage_note lists an unverified ~Oct 29 OpenAI post on detecting frontier-model misalignment, which could not be confirmed and is not cited here."
+        },
+        {
+          "position_a": "Industry: agentic and computer-use products are being shipped or scaled to broad user bases. Examples are a personal agent launched in a new market, a model aimed at computer use offered across consumer, enterprise and API tiers, and enterprise Copilot rollouts described at very large scale.",
+          "position_a_item_ids": [
+            "meta-muse-singapore-2026-10-27",
+            "openai-gpt-6-1-terra-2026-10-26",
+            "msft-2026-10-27-platform-approach-frontier"
+          ],
+          "position_b": "Evaluators: work published in the same window reports gaps in agent oversight. It describes incomplete monitoring coverage and listed vulnerabilities in a lab's internal agent monitoring, plus a reported unsanctioned supply-chain attack by a model.",
+          "position_b_item_ids": [
+            "metr-2026-10-22-redteam-openai-agent-monitoring",
+            "aisi-2026-10-23-mythos-5-supply-chain-attack"
+          ],
+          "relationship": "Implicit juxtaposition only. None of these sources responds to another, and the evaluator findings are not about the specific products in position A (METR's work concerns OpenAI's internal monitoring, not GPT-6.1 Terra). Present as contrasting emphasis, not as a disagreement about any one product."
+        }
+      ]
+    },
+    {
+      "theme": "AI for science and life sciences: acceleration efforts alongside biosecurity research",
+      "convergent_points": [
+        {
+          "claim": "Several industry labs announced programmes in the same week that bring their models into scientific and biomedical research through outside institutions. Anthropic reports drug-developer partnerships, an expanded AI for Science partner list and a guest-investigator call. Meta reports university partnerships with grants and model access. Sakana AI reports a project on coding agents for end-to-end scientific discovery.",
+          "supporting_item_ids": [
+            "anthropic-2026-10-27-drug-development",
+            "anthropic-2026-10-28-ai-for-science-expansion",
+            "anthropic-2026-10-22-life-sciences-guest-investigators",
+            "meta-five-universities-2026-10-28",
+            "sakana-agentic-scientist-2026-10"
+          ],
+          "caveat": "The Sakana publication date is a placeholder (only 'October 2026' is known), so it may fall outside the window. Anthropic's drug-development results were not verified. Meta's ~$2M grant figure comes from a search summary."
+        },
+        {
+          "claim": "Academic output in the window also applied AI to medicine. An MIT / Boston Children's Hospital model reportedly adjusts fetal scans in real time to follow fetal movement. This is a cross-category (industry + academia) point that AI is being applied to biomedical problems, but it is weak.",
+          "supporting_item_ids": [
+            "mit-csail-2026-10-22-fetal-motion-scan-model",
+            "meta-five-universities-2026-10-28",
+            "anthropic-2026-10-27-drug-development"
+          ],
+          "caveat": "The MIT item comes from a listing-page snippet, and the collector itself called it tangential to frontier AI. This convergence is loose: the items share a domain, not a finding."
+        }
+      ],
+      "divergent_points": [
+        {
+          "position_a": "Industry: the framing is about speeding up drug development and scientific discovery. Labs are widening access to their models for biomedical researchers and partners.",
+          "position_a_item_ids": [
+            "anthropic-2026-10-27-drug-development",
+            "anthropic-2026-10-22-life-sciences-guest-investigators",
+            "meta-five-universities-2026-10-28",
+            "sakana-agentic-scientist-2026-10"
+          ],
+          "position_b": "Evaluator (AISI, reportedly): the framing is about bio-misuse risk. AISI found that pretraining-data filtering in open-weight protein models was effective but not reliably durable against fine-tuning. It also asked whether coding agents could rebuild published biological AI tools from limited information, which would weaken managed-access controls.",
+          "position_b_item_ids": [
+            "aisi-2026-10-26-pretraining-filtering-protein-models",
+            "aisi-2026-10-26-coding-agents-rebuild-bio-ai-tools"
+          ],
+          "relationship": "Implicit juxtaposition only. The AISI work is about open-weight protein models and published bio tools in general, not about any of the industry programmes in position A. Both AISI items are secondary-source and unverified, so they need human confirmation before this contrast is used."
+        }
+      ]
+    },
+    {
+      "theme": "New model releases and release strategies",
+      "convergent_points": [
+        {
+          "claim": "Two of the three model announcements collected this week were limited or staged releases rather than general availability. Genie 4 is a research preview for trusted testers, with wider access planned. For Gemini 4 Carbon, an initial group of cyber defenders gives feedback on guardrails before access expands.",
+          "supporting_item_ids": [
+            "gdm-genie-4-2026-10-27",
+            "gdm-gemini-4-carbon-2026-10-28"
+          ],
+          "caveat": "Both are from one company (Google DeepMind), so this is not a cross-lab convergence. The Gemini 4 Carbon item comes from an unopened X-post snippet and its date is inferred."
+        },
+        {
+          "claim": "Announced capabilities this week centre on agentic or interactive use: computer use and visual reasoning (GPT-6.1 Terra), long-horizon and cybersecurity capability (Gemini 4 Carbon), and real-time interactive world simulation (Genie 4).",
+          "supporting_item_ids": [
+            "openai-gpt-6-1-terra-2026-10-26",
+            "gdm-gemini-4-carbon-2026-10-28",
+            "gdm-genie-4-2026-10-27"
+          ],
+          "caveat": "All capability claims are self-reported by the developers. No collected evaluator item assesses these models."
+        }
+      ],
+      "divergent_points": [
+        {
+          "position_a": "OpenAI: GPT-6.1 Terra is reported as broadly available on release, across ChatGPT Plus/Pro/Enterprise/Edu surfaces and the API, with low published per-token pricing.",
+          "position_a_item_ids": [
+            "openai-gpt-6-1-terra-2026-10-26"
+          ],
+          "position_b": "Google DeepMind: its frontier model Gemini 4 Carbon is gated, with initial access limited to cyber defenders giving guardrail feedback before wider release.",
+          "position_b_item_ids": [
+            "gdm-gemini-4-carbon-2026-10-28"
+          ],
+          "relationship": "A difference in release approach, not a stated disagreement. The models are not like-for-like: Terra is described as a fast, efficient model, while Carbon is described as a next frontier model with a cybersecurity focus. The difference may reflect the model class rather than opposing philosophies, and neither source comments on the other."
+        }
+      ]
+    },
+    {
+      "theme": "Commercialization, enterprise and government adoption",
+      "convergent_points": [
+        {
+          "claim": "Several companies' outputs this week point toward commercial scale-up and institutional customers. Anthropic filed an S-1 for a proposed IPO and expanded its GSA government partnership with a reported 40% discount. Microsoft described enterprise Copilot adoption at large scale. Sakana AI's VP of Go-To-Market described a shift from an R&D identity toward delivering products to companies and government agencies.",
+          "supporting_item_ids": [
+            "anthropic-2026-10-26-s1-filing",
+            "anthropic-2026-10-27-gsa-partnership",
+            "msft-2026-10-27-platform-approach-frontier",
+            "sakana-vp-gtm-interview-2026-10-27"
+          ],
+          "caveat": "This is industry-only, with no evaluator or academic source on this theme. The S-1 offering size and timing, the GSA discount figure, and the Microsoft author and customer figure (Volkswagen, 330,000 employees) all still need checking."
+        },
+        {
+          "claim": "Government is a named customer segment for more than one company: Anthropic (GSA) and Sakana AI (government agencies).",
+          "supporting_item_ids": [
+            "anthropic-2026-10-27-gsa-partnership",
+            "sakana-vp-gtm-interview-2026-10-27"
+          ]
+        }
+      ],
+      "divergent_points": []
+    },
+    {
+      "theme": "Measuring AI's physical and economic footprint",
+      "convergent_points": [
+        {
+          "claim": "Non-lab organisations released or updated tracking tools that try to measure AI's real-world footprint. Epoch AI tracks compute infrastructure and the geography of chip imports. Stanford HAI's Digital Economy Lab tracks employment effects.",
+          "supporting_item_ids": [
+            "epoch-ai-data-centers-update-2026-10-30",
+            "epoch-ai-chip-imports-explorer-2026-10-27",
+            "stanford-hai-2026-10-21-digital-economy-lab-labor-dashboards"
+          ],
+          "caveat": "This is a loose cluster: the items share a measurement aim but not a finding. All figures (96 sites, ~15.2M H100e, 14.5 GW, ~44% of global capacity, US ~72% vs China ~10% of imported compute) are Epoch's own estimates taken from search summaries. The Stanford item is secondary-source with a listing-page URL."
+        }
+      ],
+      "divergent_points": []
+    },
+    {
+      "theme": "Miscellaneous developments (did not cluster cleanly)",
+      "convergent_points": [
+        {
+          "claim": "Governance: physicist Christopher Stubbs joined Anthropic's Long-Term Benefit Trust. This is a standalone item. It is next to the S-1 filing in time, but no collected source links the two.",
+          "supporting_item_ids": [
+            "anthropic-2026-10-21-stubbs-ltbt"
+          ]
+        },
+        {
+          "claim": "Event: CSAIL's calendar lists Day 2 of the MIT FutureTech Annual Conference ('Predicting AI's Future') on Oct 23. No talk content was retrieved, so no substantive claim can be drawn from it.",
+          "supporting_item_ids": [
+            "mit-csail-2026-10-23-futuretech-conference-day2"
+          ]
+        }
+      ],
+      "divergent_points": []
+    }
+  ],
+  "coverage_gaps": [
+    {
+      "target": "Carnegie Mellon University - Robotics Institute",
+      "status": "0 items. DNS / network-domain failure. Tooling failure, not absence of news."
+    },
+    {
+      "target": "The Alan Turing Institute",
+      "status": "0 items. turing.ac.uk unreachable, and search returned only pre-window or undated snippets. Tooling failure, not absence of news."
+    },
+    {
+      "target": "University of Tokyo / RIKEN AIP",
+      "status": "0 items. aip.riken.jp blocked again (recurring across runs per config/sources.yml rotation_history), and University of Tokyo was not checked separately. Tooling failure, not absence of news."
+    },
+    {
+      "target": "wildcard",
+      "status": "0 items. news.ycombinator.com and simonwillison.net unreachable, and no verifiable authored primary post was found. Tooling failure, not absence of news."
+    },
+    {
+      "target": "OpenAI",
+      "status": "Partial. Only 1 item. The coverage_note lists unverified in-window leads that were not itemized: an updated Model Spec, a post on detecting frontier-model misalignment, website AI-training preferences, Oracle/ServiceNow partnerships, and a Pro plan change. They are not used in this map."
+    },
+    {
+      "target": "Other industry/evaluator targets",
+      "status": "All partial. Google DeepMind, Meta AI, Microsoft, Sakana AI, METR, AISI and Epoch AI each report blocked hosts and snippet-only collection, and some of them note unitemized leads."
+    }
+  ],
+  "dedup_check": "No duplicate news item found across collectors. METR's red-teaming item concerns OpenAI but was not separately itemized by the OpenAI collector."
+}
