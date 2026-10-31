@@ -91,3 +91,16 @@ rotation_history:
       ~2026-08-15 to 2026-08-29 window), which should be re-checked once
       access constraints are resolved rather than assumed to mean no new
       evaluator output existed.
+  - run_date: "2026-10-31"
+    iso_week: "2026-W44"
+    note: >
+      Full default target list dispatched (no rotation applied). No runs were
+      produced between 2026-08-29 and this run, so the window used was only
+      the last ~10 days (2026-10-21 onward). WebFetch was blocked for every
+      domain again, so all 24 items came from search snippets or index
+      summaries (primary-inferred / secondary-source). CMU RI, Turing,
+      UTokyo/RIKEN AIP and the wildcard collector returned zero items because
+      of this egress restriction -- UTokyo/RIKEN AIP has now been empty for
+      three consecutive runs; the harness network allowlist needs fixing.
+      Diversity flag: Anthropic supplied 7 of 24 items (~29%), all from one
+      newsroom index fetch; the three UK AISI items are unverified.

@@ -1,0 +1,7 @@
+{
+  "collector": "academia-collector",
+  "target": "Carnegie Mellon University - Robotics Institute",
+  "run_date": "2026-10-31",
+  "items": [],
+  "coverage_note": "No items collected. Fetch of https://www.ri.cmu.edu/category/news failed with a DNS error (host outside the session's allowed network domains). This is a tooling failure, not evidence that CMU RI published nothing between 2026-10-21 and 2026-10-31."
+}

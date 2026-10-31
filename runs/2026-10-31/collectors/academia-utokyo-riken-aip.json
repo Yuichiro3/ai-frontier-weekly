@@ -1,0 +1,7 @@
+{
+  "collector": "academia-collector",
+  "target": "University of Tokyo / RIKEN AIP",
+  "run_date": "2026-10-31",
+  "items": [],
+  "coverage_note": "No items collected for 2026-10-21 to 2026-10-31. Direct fetch of https://aip.riken.jp/news/ failed (host outside the session's allowed network domains; same restriction as prior runs). A web search surfaced nothing dated in the window; the newest AIP item indexed was a workshop dated 2026-07-24. The search index may lag, so this is not proof that nothing was published. University of Tokyo sources were not checked separately."
+}

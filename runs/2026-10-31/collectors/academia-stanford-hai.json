@@ -1,0 +1,20 @@
+{
+  "collector": "academia-collector",
+  "target": "Stanford HAI",
+  "run_date": "2026-10-31",
+  "items": [
+    {
+      "id": "stanford-hai-2026-10-21-digital-economy-lab-labor-dashboards",
+      "title": "HAI Digital Economy Lab builds dashboards tracking AI's effect on employment",
+      "summary_en": "According to a search-engine summary of the HAI news listing, the Digital Economy Lab built dashboards that measure how AI adoption is changing employment trends and job growth, alongside broader economic indicators. The article page itself was not read, so details are unverified.",
+      "source_url": "https://hai.stanford.edu/news",
+      "source_name": "Stanford HAI News (listing page)",
+      "published_date": "2026-10-21",
+      "category": "research",
+      "tone": "neutral",
+      "confidence": "secondary-source",
+      "notes": "Collected only via a web-search snippet. hai.stanford.edu could not be fetched directly, so the article's own URL and date are unconfirmed. URL is the generic listing page, not the article permalink. Needs verification before use."
+    }
+  ],
+  "coverage_note": "Direct fetch of hai.stanford.edu failed (host outside allowed network domains). Only a search snippet was available. Pre-window items (Oct 1-19) excluded. A conference on 2026-10-28 and an AI100 report ('AI Goes Mainstream') were mentioned but neither is confirmed as held/published; check on re-run."
+}
