@@ -1,0 +1,20 @@
+{
+  "collector": "academia-collector",
+  "target": "MIT CSAIL",
+  "run_date": "2026-11-07",
+  "items": [
+    {
+      "id": "csail-instructmesh-2026-11-02",
+      "title": "CSAIL news lists InstructMesh, a tool for editing and fabricating AI-generated 3D models",
+      "summary_en": "A CSAIL news listing dated 2 November 2026 describes InstructMesh, a tool for editing AI-generated 3D models and preparing them for fabrication. Only the listing-level description was seen; methods, authors and results are unverified.",
+      "source_url": "https://www.csail.mit.edu/news",
+      "source_name": "MIT CSAIL News (listing, via search snippet)",
+      "published_date": "2026-11-02",
+      "category": "research",
+      "tone": "neutral",
+      "confidence": "secondary-source",
+      "notes": "Article URL not obtained. Based on a web-search snippet; direct fetch blocked in collection environment. Verify before use."
+    }
+  ],
+  "coverage_note": "Severely limited: csail.mit.edu and news.mit.edu did not resolve. A Fortune report (2026-11-03, secondary) about CSAIL research on a model fine-tuning another model needs primary confirmation and was excluded."
+}

@@ -1,0 +1,68 @@
+{
+  "collector": "industry-leader-collector",
+  "target": "OpenAI",
+  "run_date": "2026-11-07",
+  "items": [
+    {
+      "id": "openai-images-2-6",
+      "title": "OpenAI introduces Images 2.6",
+      "summary_en": "OpenAI describes Images 2.6 as offering faster image generation, GIF creation, more precise editing and new API controls. It is available across ChatGPT, Codex and the API.",
+      "source_url": "https://openai.com/index/introducing-images-2-6/",
+      "source_name": "OpenAI Official News",
+      "published_date": "2026-11-04",
+      "category": "product",
+      "tone": "neutral",
+      "confidence": "primary-inferred",
+      "notes": "Based on a web-search snippet; direct fetch blocked in collection environment. Verify before use."
+    },
+    {
+      "id": "openai-responsible-infrastructure",
+      "title": "OpenAI publishes community compact and compute campus policy blueprint",
+      "summary_en": "OpenAI published a National Community Compact covering its own data center campuses. It also published a Compute Campus Policy Blueprint proposing public reporting on water, energy, noise and hiring.",
+      "source_url": "https://openai.com/index/setting-new-standard-responsible-ai-infrastructure/",
+      "source_name": "OpenAI Official News",
+      "published_date": "2026-11-05",
+      "category": "policy",
+      "tone": "neutral",
+      "confidence": "primary-inferred",
+      "notes": "Based on a web-search snippet; direct fetch blocked in collection environment. Verify before use."
+    },
+    {
+      "id": "openai-bug-bounty",
+      "title": "OpenAI raises security bug bounty rewards",
+      "summary_en": "OpenAI increased its bounty payouts. Critical findings in core products such as ChatGPT, Codex or the API Platform can now earn up to $30,000.",
+      "source_url": "https://openai.com/index/rewarding-defenders-with-bigger-bug-bounties/",
+      "source_name": "OpenAI Official News",
+      "published_date": "2026-11-02",
+      "category": "safety",
+      "tone": "neutral",
+      "confidence": "primary-inferred",
+      "notes": "Based on a web-search snippet; direct fetch blocked in collection environment. Verify before use."
+    },
+    {
+      "id": "openai-biobasicsbench",
+      "title": "OpenAI releases a benchmark for AI agents in routine wet-lab science",
+      "summary_en": "OpenAI published a 100-task benchmark, described as BioBasicsBench, that measures how well AI agents handle everyday wet-lab science tasks.",
+      "source_url": "https://openai.com/index/measuring-how-ai-agents-handle-wet-lab-science/",
+      "source_name": "OpenAI Official News",
+      "published_date": "2026-11-06",
+      "category": "research",
+      "tone": "neutral",
+      "confidence": "primary-inferred",
+      "notes": "Based on a web-search snippet; direct fetch blocked in collection environment. Verify before use."
+    },
+    {
+      "id": "openai-dots-update",
+      "title": "OpenAI adds GPT-6.1 Terra to models powering dots",
+      "summary_en": "OpenAI added the GPT-6.1 Terra model to the models that power dots, its proactive assistants.",
+      "source_url": "https://openai.com/index/introducing-dots/",
+      "source_name": "OpenAI Official News",
+      "published_date": "2026-11-03",
+      "category": "product",
+      "tone": "neutral",
+      "confidence": "primary-inferred",
+      "notes": "Based on a web-search snippet; direct fetch blocked in collection environment. Verify before use. URL is the dots page; no separate post URL."
+    }
+  ],
+  "coverage_note": "openai.com not fetchable; all items from one search's snippets. Other headlines seen without usable URLs (GPT-6 Cyber, a planned acquisition of Pierre Computer Company, Grid Protectors Program) were not made into items."
+}

@@ -91,3 +91,16 @@ rotation_history:
       ~2026-08-15 to 2026-08-29 window), which should be re-checked once
       access constraints are resolved rather than assumed to mean no new
       evaluator output existed.
+  - run_date: "2026-11-07"
+    iso_week: "2026-W45"
+    note: >
+      Full default target list dispatched (3 evaluators, 6 industry leaders,
+      5 academic institutions, wildcard). Gaps since 2026-08-29: no runs
+      for W36-W44. The collection environment's egress block persisted:
+      8 of 15 collectors returned zero items, and nearly all items are
+      search-snippet based (primary-inferred / secondary-source).
+      UTokyo/RIKEN AIP is blocked for the fourth consecutive tracked run.
+      Google DeepMind, Meta AI, Microsoft, Sakana AI, Stanford HAI, UK AISI
+      and wildcard returned nothing verifiable. Diversity: Anthropic and
+      OpenAI contribute 10 of 29 items (~34%); five Anthropic items pre-date
+      the window. Network allowlist needs fixing before the next run.

@@ -1,0 +1,68 @@
+{
+  "collector": "industry-leader-collector",
+  "target": "Anthropic",
+  "run_date": "2026-11-07",
+  "items": [
+    {
+      "id": "anthropic-s1-sec-2026-10-26",
+      "title": "Anthropic files S-1 with SEC for proposed IPO",
+      "summary_en": "Anthropic, PBC filed a registration statement on Form S-1 with the SEC for a proposed initial public offering of its Class A common stock. It plans to list on the Nasdaq Global Select Market under the ticker ANT. Share count and price range are not yet set, and the registration is not yet effective.",
+      "source_url": "https://www.anthropic.com/news/s1-sec",
+      "source_name": "Anthropic Official Newsroom",
+      "published_date": "2026-10-26",
+      "category": "policy",
+      "tone": "neutral",
+      "confidence": "primary-confirmed",
+      "notes": "Published 5 days before the window; included as the most recent corporate announcement. A search summary gave Nov 6, but the post page shows Oct 26."
+    },
+    {
+      "id": "anthropic-gsa-partnership-2026-10-27",
+      "title": "Anthropic expands GSA partnership for government access to Claude",
+      "summary_en": "A new agreement with the General Services Administration gives government partners 40% off Claude Enterprise, Claude for Government and the Claude API, with no minimum spend. It covers federal agencies and extends to state, local, tribal and territorial governments. Anthropic estimates $1 billion in savings.",
+      "source_url": "https://www.anthropic.com/news/expanding-partnership-gsa",
+      "source_name": "Anthropic Official Newsroom",
+      "published_date": "2026-10-27",
+      "category": "policy",
+      "tone": "neutral",
+      "confidence": "primary-confirmed",
+      "notes": "Slightly before the window. Savings figure is Anthropic's own estimate."
+    },
+    {
+      "id": "anthropic-drug-development-2026-10-27",
+      "title": "Early progress on accelerating drug development with Claude",
+      "summary_en": "Anthropic says its scientists have spent several months in research partnerships with six organizations developing new medicines, as part of an effort to speed up drug development.",
+      "source_url": "https://www.anthropic.com/research/early-progress-drug-development",
+      "source_name": "Anthropic Official Research",
+      "published_date": "2026-10-27",
+      "category": "research",
+      "tone": "neutral",
+      "confidence": "primary-inferred",
+      "notes": "Based on listing blurb only; full post not opened. Slightly before the window."
+    },
+    {
+      "id": "anthropic-ai-for-science-2026-10-28",
+      "title": "AI for Science program expands to foundations and research institutions",
+      "summary_en": "Anthropic highlights 20 scientific foundations, institutions and research groups worldwide that it has partnered with, as part of an expansion of its AI for Science program.",
+      "source_url": "https://www.anthropic.com/news/ai-for-science-expands-foundations-research-institutions",
+      "source_name": "Anthropic Official Newsroom",
+      "published_date": "2026-10-28",
+      "category": "research",
+      "tone": "neutral",
+      "confidence": "primary-inferred",
+      "notes": "Based on listing blurb only. Three days before the window."
+    },
+    {
+      "id": "anthropic-usage-policy-2026-10-08",
+      "title": "2026 Usage Policy update takes effect Nov 12",
+      "summary_en": "The updated Usage Policy adds sections on deceptive activity and influence operations, rewrites rules on elections, weapons, surveillance and law enforcement, and adds requirements for hardware that takes autonomous physical actions. It takes effect November 12, 2026.",
+      "source_url": "https://www.anthropic.com/news/2026-usage-policy-update",
+      "source_name": "Anthropic Official Newsroom",
+      "published_date": "2026-10-08",
+      "category": "policy",
+      "tone": "neutral",
+      "confidence": "primary-confirmed",
+      "notes": "Published well before the window; included only because the effective date is imminent."
+    }
+  ],
+  "coverage_note": "No Anthropic newsroom post dated inside the window found; newest were Oct 26-28, so items are older than the window and included as latest available. Search summaries mentioned Nov 5-6 product updates but no dated primary page was found. Newsroom fetch was summarized by a small model; spot-check listing dates."
+}

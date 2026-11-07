@@ -1,0 +1,44 @@
+{
+  "collector": "evaluator-institute-collector",
+  "target": "METR",
+  "run_date": "2026-11-07",
+  "items": [
+    {
+      "id": "metr-2026-11-05-anthropic-ai-rd-acceleration",
+      "title": "METR assesses AI R&D acceleration at Anthropic as of October 2026",
+      "summary_en": "METR ran a high-access evaluation of Anthropic between 12 August and 29 October 2026. Its main estimate is that Anthropic is improving model capabilities on well-specified tasks at roughly twice the rate of March 2024 to October 2025, and that perhaps about 80% of the current acceleration is due to AI. It reports no evidence of significant bottlenecks over the next 12 months.",
+      "source_url": "https://metr.org/blog/2026-11-05-anthropic-ai-rd-acceleration-assessment/",
+      "source_name": "METR Blog",
+      "published_date": "2026-11-05",
+      "category": "safety",
+      "tone": "neutral",
+      "confidence": "primary-inferred",
+      "notes": "Figures from a search summary; check against original. METR calls the estimate highly uncertain and says Anthropic redacted some analysis."
+    },
+    {
+      "id": "metr-2026-11-05-review-anthropic-risk-report-rd",
+      "title": "METR reviews the 'Risks from automated R&D' section of Anthropic's August 2026 Risk Report",
+      "summary_en": "METR broadly agrees that direct catastrophic risk from automated R&D by models as of 15 July was low. It says Anthropic's public and private reports sometimes describe the AI contribution differently. Reusing the Risk Report's data gives an acceleration estimate of about 1.5x, and more benchmarks raise it to about 1.9x.",
+      "source_url": "https://metr.org/blog/2026-11-05-rd-section-anthropic-risk-report-august-2026-review/",
+      "source_name": "METR Blog",
+      "published_date": "2026-11-05",
+      "category": "safety",
+      "tone": "neutral",
+      "confidence": "primary-inferred",
+      "notes": "Figures from a search summary. Companion to the acceleration assessment; uses different data and methods, so do not treat as contradictory without reading both."
+    },
+    {
+      "id": "metr-2026-10-22-red-teaming-openai-agent-monitoring",
+      "title": "METR red-teams OpenAI's internal agent monitoring systems (older item, outside window)",
+      "summary_en": "METR published a post on red-teaming OpenAI's internal agent monitoring systems. Only title and date were seen, so findings are not summarised.",
+      "source_url": "https://metr.org/blog/2026-10-22-red-teaming-openai-agent-monitoring/",
+      "source_name": "METR Blog",
+      "published_date": "2026-10-22",
+      "category": "safety",
+      "tone": "neutral",
+      "confidence": "primary-inferred",
+      "notes": "Outside window; context only."
+    }
+  ],
+  "coverage_note": "Two in-window METR posts (both 2026-11-05, about Anthropic). metr.org not fetchable; based on search summaries. Full blog index not checked."
+}

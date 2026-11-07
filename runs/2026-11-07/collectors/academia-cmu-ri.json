@@ -1,0 +1,32 @@
+{
+  "collector": "academia-collector",
+  "target": "Carnegie Mellon University - Robotics Institute",
+  "run_date": "2026-11-07",
+  "items": [
+    {
+      "id": "cmu-ri-robotics-innovation-center-2026-11-02",
+      "title": "CMU RI feature describes new Robotics Innovation Center in Pittsburgh's Hazelwood neighborhood",
+      "summary_en": "A Robotics Institute web feature describes CMU's new Robotics Innovation Center as a 150,000-square-foot building on the Monongahela River in Hazelwood. It frames the building as part of the university's robotics legacy. Only a search snippet was read.",
+      "source_url": "https://www.ri.cmu.edu/inside-cmus-robotics-innovation-center/",
+      "source_name": "CMU Robotics Institute website",
+      "published_date": "2026-11-02",
+      "category": "product",
+      "tone": "neutral",
+      "confidence": "primary-inferred",
+      "notes": "Date from search metadata. Facilities news, not an AI research result. Based on a web-search snippet; direct fetch blocked in collection environment. Verify before use."
+    },
+    {
+      "id": "cmu-news-florida-connections-2026-11-03",
+      "title": "CMU story on its Florida connections, including the Iris lunar rover",
+      "summary_en": "A CMU news story covers the university's Florida ties, mentioning Space Coast rovers such as Iris, the spinout Voyager Technologies, and a new campus. It is university-wide, not RI-specific.",
+      "source_url": "https://www.cmu.edu/news/stories/archives/2026/november/exploring-cmus-florida-connections-from-space-coast-rovers-to-new-campus",
+      "source_name": "Carnegie Mellon University News",
+      "published_date": "2026-11-03",
+      "category": "product",
+      "tone": "neutral",
+      "confidence": "primary-inferred",
+      "notes": "Exact day inferred from URL path. Only tangentially RI-related. Based on a web-search snippet; direct fetch blocked in collection environment. Verify before use."
+    }
+  ],
+  "coverage_note": "Incomplete: ri.cmu.edu not fetchable; only snippets. No clearly dated RI research announcements found in window."
+}
