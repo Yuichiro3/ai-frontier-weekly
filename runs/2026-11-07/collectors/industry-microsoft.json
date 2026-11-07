@@ -1,0 +1,7 @@
+{
+  "collector": "industry-leader-collector",
+  "target": "Microsoft",
+  "run_date": "2026-11-07",
+  "items": [],
+  "coverage_note": "No verified in-window items. blogs.microsoft.com and news.microsoft.com did not resolve. Search snippets hinted at a Nov 2 Copilot Cowork post and a Nov 4 shareholder-meeting press release; neither could be verified, so none included."
+}

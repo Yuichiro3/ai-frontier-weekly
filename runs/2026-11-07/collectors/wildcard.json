@@ -1,0 +1,7 @@
+{
+  "collector": "wildcard-collector",
+  "target": "wildcard",
+  "run_date": "2026-11-07",
+  "items": [],
+  "coverage_note": "No items included. Leads (e.g., a Latent Space digest ~2026-11-03 quoting Lucas Beyer on scaling extrapolation) could not be verified against primary pages; latent.space and simonwillison.net did not resolve."
+}

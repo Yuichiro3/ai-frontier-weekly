@@ -1,0 +1,44 @@
+{
+  "collector": "evaluator-institute-collector",
+  "target": "Epoch AI",
+  "run_date": "2026-11-07",
+  "items": [
+    {
+      "id": "epoch-eci-bayesian-2026-11-04",
+      "title": "Epoch updates its Capabilities Index (ECI) to a Bayesian methodology",
+      "summary_en": "Epoch AI published a methodology update moving the Epoch Capabilities Index to a Bayesian model meant to give better-calibrated uncertainty. According to the search summary, every model's new ECI falls inside its previous 90% confidence interval, and models above ECI 150 tend to move up slightly.",
+      "source_url": "https://epoch.ai/publications/eci-bayesian-methodology",
+      "source_name": "Epoch AI Publications",
+      "published_date": "2026-11-04",
+      "category": "research",
+      "tone": "neutral",
+      "confidence": "secondary-source",
+      "notes": "Search summary only; date, authors and figures need human checking."
+    },
+    {
+      "id": "epoch-tpu-production-doubling-2026-11-04",
+      "title": "Data insight: Broadcom TPU shipments doubled to about 2M H100-equivalents",
+      "summary_en": "An Epoch data insight estimates Broadcom's TPU-related compute shipments reached roughly 2 million H100-equivalents, double the earlier level. The summary says the estimate uses Broadcom's Q3 hardware revenue after removing VMware license revenue.",
+      "source_url": "https://epoch.ai/data-insights/tpu-production-doubling",
+      "source_name": "Epoch AI Data Insights",
+      "published_date": "2026-11-04",
+      "category": "research",
+      "tone": "neutral",
+      "confidence": "secondary-source",
+      "notes": "Search summary only. An Epoch estimate, not a company-reported figure."
+    },
+    {
+      "id": "epoch-largest-ai-data-centers-2026-11",
+      "title": "Epoch data-center tracker updated: Anthropic-Amazon New Carlisle listed as largest",
+      "summary_en": "Epoch's ranking of AI data centers by power capacity was reportedly updated in early November 2026. According to the search summary, the Anthropic-Amazon New Carlisle site is the largest tracked facility, at about 1,037 MW of current IT power.",
+      "source_url": "https://epoch.ai/graphs/largest-ai-data-centers-by-power-capacity",
+      "source_name": "Epoch AI Graphs",
+      "published_date": "2026-11-05",
+      "category": "research",
+      "tone": "neutral",
+      "confidence": "secondary-source",
+      "notes": "Living dataset; date is an update date. Figure unverified."
+    }
+  ],
+  "coverage_note": "epoch.ai not fetchable; items from one search summary; list may be incomplete."
+}

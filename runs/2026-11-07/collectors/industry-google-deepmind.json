@@ -1,0 +1,7 @@
+{
+  "collector": "industry-leader-collector",
+  "target": "Google DeepMind",
+  "run_date": "2026-11-07",
+  "items": [],
+  "coverage_note": "No verified primary-source items found for 2026-10-31 to 2026-11-07. The official blog (deepmind.google/discover/blog) could not be fetched: the host failed DNS resolution in the collection environment. A web search surfaced no official November 2026 DeepMind post. This is a gap in access, not confirmation that DeepMind published nothing. Unverified secondary leads from August 2026 (leadership reorganization reports) were not used as items."
+}
