@@ -1,0 +1,44 @@
+{
+  "collector": "academia-collector",
+  "target": "The Alan Turing Institute",
+  "run_date": "2026-11-14",
+  "items": [
+    {
+      "id": "turing-frontier-ai-risk-agenda-2026-09",
+      "title": "Turing sets out practical agenda on frontier AI risks and launches transformative AI security workstream",
+      "summary_en": "According to a search-result summary of the Turing's news page, the institute published a report arguing that AI verification and assurance can help strengthen national resilience. It also launched a £2 million workstream on transformative AI security risks, funded by Coefficient Giving.",
+      "source_url": "https://www.turing.ac.uk/news/alan-turing-institute-sets-out-practical-agenda-tackle-frontier-ai-risks",
+      "source_name": "The Alan Turing Institute – News",
+      "published_date": "2026-09-23",
+      "category": "safety",
+      "tone": "neutral",
+      "confidence": "secondary-source",
+      "notes": "Outside the 2026-11-04 to 2026-11-14 window; included only as background for the AI security theme. The date and details come from a web-search summary, not from reading the page, because direct fetch failed. Verify before use."
+    },
+    {
+      "id": "turing-women-in-ai-security-workshop-2026-11",
+      "title": "Second Women in AI Security Workshop co-led by the Turing's Laboratory for AI Security Research",
+      "summary_en": "A search-result summary says the second edition of the Women in AI Security Workshop was announced or held around 3 November 2026. It was co-led by the institute's Laboratory for AI Security Research.",
+      "source_url": "https://www.turing.ac.uk/news",
+      "source_name": "The Alan Turing Institute – News (listing page)",
+      "published_date": "2026-11-03",
+      "category": "research",
+      "tone": "neutral",
+      "confidence": "secondary-source",
+      "notes": "One day before the collection window. No item-level URL was available, so this links to the news listing page. Details come from a search summary only. Treat as low-confidence and verify."
+    },
+    {
+      "id": "turing-new-chair-board-2026-11",
+      "title": "Adrian Belton appointed Chair of the Turing's Board of Trustees",
+      "summary_en": "The Turing homepage, as summarized by a search tool, says Adrian Belton has been appointed the new Chair of the Board of Trustees. This is a governance item, not a research result.",
+      "source_url": "https://www.turing.ac.uk/",
+      "source_name": "The Alan Turing Institute – Homepage",
+      "published_date": "2026-11-03",
+      "category": "policy",
+      "tone": "neutral",
+      "confidence": "secondary-source",
+      "notes": "One day before the window. It is likely of low relevance to a frontier-AI research report. Based on a search summary only, not a page read."
+    }
+  ],
+  "coverage_note": "Direct WebFetch of www.turing.ac.uk failed with a DNS error (ENOTFOUND). The host appears to be outside the session's allowed network domains, so www.turing.ac.uk would need to be allowed in the session's network settings for a direct read. All items come from one web-search summary restricted to turing.ac.uk, so none were verified against the primary pages. That search found no Turing AI research items dated 2026-11-04 to 2026-11-14. The newest items were from 3 November. Other items in that summary were the satellite-component recognition AI model (2026-10-09) and trustee appointments (2026-10-05). I left these out because I had no item-level URLs and did not invent any. The summary also listed events: 'From idea to investment: building robust AI use cases' (2026-11-11) and the Emerging Digital Methodologies Conference (2026-11-18). The search tool also warned that the site's date labels are inconsistent. A re-run with direct site access is recommended before the report relies on this target."
+}

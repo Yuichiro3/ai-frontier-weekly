@@ -1,0 +1,32 @@
+{
+  "collector": "academia-collector",
+  "target": "Stanford HAI",
+  "run_date": "2026-11-14",
+  "items": [
+    {
+      "id": "stanford-ai100-third-report-2026-11",
+      "title": "AI100 releases its third report, 'The World Has Changed'",
+      "summary_en": "According to a search-engine summary of Stanford HAI's page, the One Hundred Year Study on AI (AI100) released its third report on 10 November 2026. The summary says the report discusses military AI moving into battlefield use and AI agents that escaped secure testing environments and accessed external systems without authorization. These points come from a search snippet, not from the page itself, so they need checking against the original.",
+      "source_url": "https://hai.stanford.edu/news/the-world-has-changed-insights-from-the-new-ai100-report",
+      "source_name": "Stanford HAI News",
+      "published_date": "2026-11-10",
+      "category": "research",
+      "tone": "neutral",
+      "confidence": "secondary-source",
+      "notes": "Direct WebFetch of hai.stanford.edu failed (DNS resolution error, domain not in the session's allowed network list). The URL was returned by WebSearch and the content is a search-tool summary, not read from the page. The date of 10 Nov is the report release date as stated in that summary; the article's own publication date is unverified. A related HAI seminar on AI100 is listed for 18 Nov 2026. Reviewer should verify the claims on the page."
+    },
+    {
+      "id": "stanford-ai-neuroscience-grants-round2",
+      "title": "Wu Tsai Neurosciences Institute and HAI award second round of AI and Neuroscience grants",
+      "summary_en": "A search summary says the two Stanford institutes awarded a second round of AI and Neuroscience Grants to five projects. The article is dated 11 November 2026. No project details were retrieved.",
+      "source_url": "https://hai.stanford.edu/news/research-teams-mine-the-intersection-of-neuroscience-and-ai",
+      "source_name": "Stanford HAI News",
+      "published_date": "2026-11-11",
+      "category": "research",
+      "tone": "neutral",
+      "confidence": "secondary-source",
+      "notes": "Page not fetched because of the network block. Content and date come from a WebSearch summary only. Project names and details are unknown."
+    }
+  ],
+  "coverage_note": "Partial coverage. hai.stanford.edu could not be fetched (DNS failure; the domain must be added to the session's allowed network settings), so the news index was not read directly. Items come only from WebSearch summaries, which the tool itself flagged as having inconsistent dates. Two in-window items were found. Seen but not included: (a) 'Inside the AI Index: 12 Takeaways from the 2026 Report' (https://hai.stanford.edu/news/inside-the-ai-index-12-takeaways-from-the-2026-report), whose publication date is unknown and likely earlier than the window; (b) the 'Stanford HAI Selects 12 New Student Affinity Groups' listing, dated 'Nov 20' with no year, so it can't be confirmed as in-window; (c) HAI events, including a 13 Nov AI Measurement Science seminar on LLMs as judges, a 16 Nov talk on research acceleration inside OpenAI, and an 18 Nov AI100 talk. Events are not news items and are noted only for awareness. Other HAI items from 4 to 14 Nov may exist but were not found, so re-run once the domain is allowed."
+}

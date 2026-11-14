@@ -91,3 +91,21 @@ rotation_history:
       ~2026-08-15 to 2026-08-29 window), which should be re-checked once
       access constraints are resolved rather than assumed to mean no new
       evaluator output existed.
+  - run_date: "2026-11-14"
+    iso_week: "2026-W46"
+    note: >
+      No runs were produced for 2026-W36 to W45; this run resumed with the
+      full default target list (15 collector calls, 53 items, 44 cited after
+      the synthesis agent excluded 9). Direct WebFetch was blocked for almost
+      every domain for the THIRD run in a row (only anthropic.com and one
+      microsoft.com security-blog page could be read directly), so most items
+      are search-snippet based ("primary-inferred" or "secondary-source").
+      This is a harness/network-policy problem, not a coverage choice, and
+      should be fixed before relying on figures. Diversity: the OpenAI +
+      Anthropic concentration flagged in W35 (~40%) eased to 8 of 44 cited
+      items (~18%); the largest single source was Epoch AI (6, ~14%). Evaluator
+      thinness persists in a different form: METR and Epoch had in-window
+      output, but UK AISI had nothing dated inside 2026-11-04..14 and CMU RI
+      and Sakana AI returned no usable items (fetch-blocked, not confirmed
+      absence). Next run: check Microsoft Ignite (Nov 17-20) announcements and
+      the Tokyo Forum 2026 (Nov 20-21); retry sakana.ai, ri.cmu.edu, aisi.gov.uk.

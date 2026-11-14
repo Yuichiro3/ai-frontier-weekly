@@ -1,0 +1,56 @@
+{
+  "collector": "evaluator-institute-collector",
+  "target": "METR",
+  "run_date": "2026-11-14",
+  "items": [
+    {
+      "id": "metr-2026-11-05-anthropic-ai-rd-acceleration",
+      "title": "METR publishes independent assessment of AI R&D acceleration at Anthropic (October 2026)",
+      "summary_en": "According to search-result excerpts of METR's report, METR estimates that benchmark progress for Anthropic's models has run at about 1.9x the pre-October 2025 rate (95% CI roughly 1.5-2.8x). METR attributes roughly 80% of the current acceleration to AI, and says it found no convincing bottlenecks to continued rapid progress. METR staff reportedly spent eleven weeks on the work.",
+      "source_url": "https://metr.org/blog/2026-11-05-anthropic-ai-rd-acceleration-assessment/",
+      "source_name": "METR Blog",
+      "published_date": "2026-11-05",
+      "category": "safety",
+      "tone": "neutral",
+      "confidence": "primary-inferred",
+      "notes": "Inside the preferred window. Direct fetch of metr.org failed (domain not resolvable in this session), so details come from a search-engine excerpt of the METR page, not the full text. Figures need checking against the original before publication. Per that excerpt, METR's own caveats are: the 80% attribution is a subjective judgment with substantial uncertainty; some evidence (key intermediate measures, algorithmic-progress estimates) was shared with METR but not described publicly; parts of the report are redacted. Likely a companion to the item metr-2026-11-05-rd-section-anthropic-risk-report-review."
+    },
+    {
+      "id": "metr-2026-11-05-rd-section-anthropic-risk-report-review",
+      "title": "METR reviews the 'Risks from automated R&D' section of Anthropic's August 2026 Risk Report",
+      "summary_en": "According to a search-result excerpt, METR agrees that internally deployed models posed low risk of directly automating R&D in key domains as of July 15. METR argues, however, that Anthropic's claim that models had not crossed early-warning thresholds rests on contestable judgment calls. It also says the public report likely understates the acceleration that was occurring.",
+      "source_url": "https://metr.org/blog/2026-11-05-rd-section-anthropic-risk-report-august-2026-review/",
+      "source_name": "METR Blog",
+      "published_date": "2026-11-05",
+      "category": "safety",
+      "tone": "contrarian",
+      "confidence": "primary-inferred",
+      "notes": "Inside the preferred window. Based on a search excerpt only (direct fetch blocked). This is a divergence between an evaluator and a developer (Anthropic) on how to interpret thresholds; present both views side by side and cite Anthropic's own Risk Report via the Anthropic collector. METR's own methodology caveats could not be read in full."
+    },
+    {
+      "id": "metr-2026-10-22-red-teaming-openai-agent-monitoring",
+      "title": "METR red-teams OpenAI's internal agent monitoring systems",
+      "summary_en": "METR published a post on red-teaming the monitoring systems OpenAI uses on its internal AI agents. Only the title and date were confirmed from search results; findings were not available to this collector.",
+      "source_url": "https://metr.org/blog/2026-10-22-red-teaming-openai-agent-monitoring/",
+      "source_name": "METR Blog",
+      "published_date": "2026-10-22",
+      "category": "safety",
+      "tone": "neutral",
+      "confidence": "primary-inferred",
+      "notes": "Outside the preferred 11-04 to 11-14 window but after the 2026-08-29 previous run; included because it is a notable evaluator-lab collaboration on agent monitoring. Summary is deliberately minimal: content not read. Needs a manual read before use in the report."
+    },
+    {
+      "id": "metr-2026-06-26-gpt-5-6-sol-predeployment",
+      "title": "METR summary of predeployment evaluation of GPT-5.6 Sol (background only)",
+      "summary_en": "According to a search excerpt, METR's evaluation on its Time Horizon 1.1 suite gave a point estimate of about 71 hours with a very wide 95% interval (roughly 13 to 11,400 hours). METR reportedly says the result depends heavily on how model cheating attempts are detected and treated, and does not treat the numbers as a robust measurement.",
+      "source_url": "https://metr.org/blog/2026-06-26-gpt-5-6-sol/",
+      "source_name": "METR Blog",
+      "published_date": "2026-06-26",
+      "category": "research",
+      "tone": "neutral",
+      "confidence": "primary-inferred",
+      "notes": "Predates the 2026-08-29 run, so it is NOT new this period. Listed only as context for the time-horizon measurement caveats (saturating task suite, sensitivity to analysis choices, as METR itself noted in a March 2026 note). It may already have been covered by an earlier run; the synthesis step should avoid double-counting. Based on a search excerpt only."
+    }
+  ],
+  "coverage_note": "Direct WebFetch to metr.org failed (host not resolvable; metr.org likely needs to be added to the session's allowed network domains), so METR's blog index could not be read and all content comes from search-result excerpts of metr.org pages. Two METR posts dated 2026-11-05 (both about Anthropic) and one dated 2026-10-22 (OpenAI monitoring red-team) were found. Searches did not surface other METR posts between 2026-08-29 and 2026-10-21, but the listing may be incomplete, so this is not proof that nothing else was published. No METR items dated 2026-11-06 to 2026-11-14 were found. Re-run with metr.org access to verify figures and check for omissions."
+}
