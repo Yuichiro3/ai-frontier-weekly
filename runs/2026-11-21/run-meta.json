@@ -1,0 +1,9 @@
+{
+  "run_date": "2026-11-21",
+  "iso_week": "2026-W47",
+  "collection_started_utc": "2026-11-21T00:05:05Z",
+  "collection_window": "2026-11-11 to 2026-11-21 (wildcard: 2026-11-07 to 2026-11-21)",
+  "targets_dispatched": 15,
+  "retries": ["academia-mit-csail (first attempt: 0 items, DNS block + search rate limit)", "wildcard (first attempt: 0 items)"],
+  "environment_note": "Most collectors reported direct WebFetch blocked by DNS/egress allowlist for target domains (openai.com, deepmind.google, metr.org, epoch.ai, aisi.gov.uk, hai.stanford.edu, csail.mit.edu, news.mit.edu, ri.cmu.edu, turing.ac.uk, aip.riken.jp, riken.jp, sakana.ai, about.fb.com, ai.meta.com, news.microsoft.com, blogs.microsoft.com, simonwillison.net). anthropic.com and microsoft.com/en-us/research were reachable. Most items therefore rest on search-result snippets."
+}
