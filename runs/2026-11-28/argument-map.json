@@ -1,0 +1,232 @@
+{
+  "run_date": "2026-11-28",
+  "input_files": [
+    "runs/2026-11-28/collectors/evaluator-metr.json",
+    "runs/2026-11-28/collectors/evaluator-uk-aisi.json",
+    "runs/2026-11-28/collectors/evaluator-epoch-ai.json",
+    "runs/2026-11-28/collectors/industry-openai.json",
+    "runs/2026-11-28/collectors/industry-anthropic.json",
+    "runs/2026-11-28/collectors/industry-google-deepmind.json",
+    "runs/2026-11-28/collectors/industry-meta-ai.json",
+    "runs/2026-11-28/collectors/industry-microsoft.json",
+    "runs/2026-11-28/collectors/industry-sakana-ai.json",
+    "runs/2026-11-28/collectors/academia-mit-csail.json",
+    "runs/2026-11-28/collectors/academia-stanford-hai.json",
+    "runs/2026-11-28/collectors/academia-cmu-ri.json",
+    "runs/2026-11-28/collectors/academia-alan-turing-institute.json",
+    "runs/2026-11-28/collectors/academia-utokyo-riken-aip.json",
+    "runs/2026-11-28/collectors/wildcard.json"
+  ],
+  "themes": [
+    {
+      "theme": "New frontier and specialized model releases, and how well their capabilities and safety can be measured",
+      "convergent_points": [
+        {
+          "claim": "Several industry labs released, or are reported to have released, new models in November 2026: Anthropic (Fable 5.2 / Mythos 5.2), OpenAI (GPT-6.2 Astra and Sol), Microsoft (seven MAI models), Google DeepMind (Gemini Robotics 2.5, reported by secondary sources only) and Sakana AI (Namazu Small, from a search snippet only). Evidence strength varies widely; only the Anthropic item is primary-confirmed.",
+          "supporting_item_ids": [
+            "anthropic-fable-mythos-5-2-2026-11-09",
+            "openai-gpt-6-2-astra-sol-2026-11-17",
+            "msft-mai-seven-models-2026-11-17",
+            "gdm-gemini-robotics-2-5-2026-11",
+            "sakana-namazu-small-2026-11-25"
+          ]
+        },
+        {
+          "claim": "An evaluator and a lab both describe continued capability growth: METR's Q4 update (per search snippet) reports time horizons doubling about every 3.6 months for models up to Opus 5.5 and GPT-6 Astra, and Anthropic says Fable 5.2 outperforms Opus 5.5 on nearly all evaluated capabilities.",
+          "supporting_item_ids": [
+            "metr-2026-11-20-q4-capability-update",
+            "anthropic-fable-mythos-5-2-2026-11-09"
+          ]
+        },
+        {
+          "claim": "At least two labs released cyber-security-specialized models or variants this period (Anthropic Mythos 5.2 with some cyber/biology safeguards removed; Microsoft MAI Cyber 2 Flash).",
+          "supporting_item_ids": [
+            "anthropic-fable-mythos-5-2-2026-11-09",
+            "msft-mai-seven-models-2026-11-17"
+          ]
+        },
+        {
+          "claim": "Most capability and benchmark figures in this theme are the developers' own claims; the collectors explicitly flag that no independent verification was checked (Anthropic capability/safety claims, Microsoft benchmark and cost comparisons, Gemini Robotics success-rate figures).",
+          "supporting_item_ids": [
+            "anthropic-fable-mythos-5-2-2026-11-09",
+            "msft-mai-seven-models-2026-11-17",
+            "gdm-gemini-robotics-2-5-2026-11"
+          ]
+        }
+      ],
+      "divergent_points": [
+        {
+          "position_a": "Industry (Anthropic): Fable/Mythos 5.2 shows low alignment risk in high-stakes settings, based on pre-release testing that included external evaluators (UK AISI and METR, per Anthropic).",
+          "position_a_item_ids": [
+            "anthropic-fable-mythos-5-2-2026-11-09"
+          ],
+          "position_b": "Evaluator (METR): per search snippets, investigator agents increasingly tell alignment evals apart from capability evals, often by spotting fake-looking environments, and METR's Q4 update says relevant capabilities are getting harder to measure. This is a general methodological point, not a statement about Fable 5.2 specifically.",
+          "position_b_item_ids": [
+            "metr-2026-11-16-alignment-eval-tells",
+            "metr-2026-11-20-q4-capability-update"
+          ]
+        }
+      ]
+    },
+    {
+      "theme": "Pace of AI progress and AI-accelerated AI R&D",
+      "convergent_points": [
+        {
+          "claim": "METR outputs (all via search snippets) describe fast capability progress: Anthropic's progress on well-specified tasks at roughly twice its pre-October-2025 pace, mostly attributed to its own use of AI in R&D, with no convincing bottlenecks over the next 12 months (high uncertainty, public version redacted), and time horizons doubling about every 3.6 months.",
+          "supporting_item_ids": [
+            "metr-2026-11-05-anthropic-ai-rd-acceleration-assessment",
+            "metr-2026-11-20-q4-capability-update"
+          ]
+        },
+        {
+          "claim": "An evaluator and an academic report both describe AI progress as exceeding prior expectations: METR's acceleration findings and the third AI100 report (covered by Stanford HAI), which per snippet says AI has outrun both expectations and governance.",
+          "supporting_item_ids": [
+            "metr-2026-11-05-anthropic-ai-rd-acceleration-assessment",
+            "metr-2026-11-20-q4-capability-update",
+            "hai-2026-11-10-ai100-third-report"
+          ]
+        },
+        {
+          "claim": "METR's external review of the automated-R&D section of Anthropic's August 2026 Risk Report reportedly judges the risk 'low' for the models available at that time (snippet only, needs verification).",
+          "supporting_item_ids": [
+            "metr-2026-11-05-review-anthropic-risk-report-rd-section"
+          ]
+        }
+      ],
+      "divergent_points": []
+    },
+    {
+      "theme": "Model access strategies: open or customer-held weights vs. gated access",
+      "convergent_points": [
+        {
+          "claim": "Several organizations offer model weights to others to adapt or run themselves: Microsoft's MAI Licensed Weights (customers customize a frontier MAI model and run it in their own Azure environment), Meta's showcase of researchers using its open-weight models in medicine, and Sakana's Namazu, described as post-trained from an open model.",
+          "supporting_item_ids": [
+            "msft-mai-seven-models-2026-11-17",
+            "meta-open-weight-medicine-2026-11",
+            "sakana-namazu-small-2026-11-25"
+          ]
+        }
+      ],
+      "divergent_points": [
+        {
+          "position_a": "Wider weight access: Microsoft (Licensed Weights run in the customer's own environment) and Meta (open-weight models used by outside researchers) put model weights in third parties' hands.",
+          "position_a_item_ids": [
+            "msft-mai-seven-models-2026-11-17",
+            "meta-open-weight-medicine-2026-11"
+          ],
+          "position_b": "Gated access: Anthropic limits Mythos 5.2, its version with some cyber and biology safeguards removed, to vetted cybersecurity and life-sciences organizations, and offers Fable 5.2 via API and cloud platforms.",
+          "position_b_item_ids": [
+            "anthropic-fable-mythos-5-2-2026-11-09"
+          ]
+        }
+      ]
+    },
+    {
+      "theme": "Agentic and productized AI for consumers and businesses",
+      "convergent_points": [
+        {
+          "claim": "Multiple labs launched or extended agent-style products this period: OpenAI (Business Agents in Businesses in ChatGPT, expanded outside the US), Meta (Muse personal AI agent in the UK), Microsoft (Copilot Workspaces for people and agents, security agents, Agent 365, per secondary summaries of Ignite) and Sakana (Marlin autonomous research assistant update).",
+          "supporting_item_ids": [
+            "openai-businesses-chatgpt-intl-2026-11-19",
+            "meta-muse-uk-2026-11",
+            "msft-ignite-2026-nadella-keynote",
+            "sakana-marlin-update-2026-11-26"
+          ]
+        },
+        {
+          "claim": "Two labs shipped tools for producing presentations or slides: OpenAI's ChatGPT Space (interactive pages and presentations) and Sakana's Marlin update (revised slide output).",
+          "supporting_item_ids": [
+            "openai-chatgpt-space-plus-2026-11-20",
+            "sakana-marlin-update-2026-11-26"
+          ]
+        }
+      ],
+      "divergent_points": []
+    },
+    {
+      "theme": "AI applied to science, medicine and verification",
+      "convergent_points": [
+        {
+          "claim": "Industry and academia both report AI applications in health and biology: DeepMind's AlphaGenome 2 (DNA and disease, index title only), Meta's open-weight models in medical research, OpenAI healthcare model configurations in the API (single snippet) and Stanford's computer-vision ICU delirium monitoring.",
+          "supporting_item_ids": [
+            "gdm-alphagenome-2-2026-11",
+            "meta-open-weight-medicine-2026-11",
+            "openai-healthcare-api-configs-2026-11-24",
+            "hai-2026-11-20-icu-delirium-monitoring"
+          ]
+        },
+        {
+          "claim": "Work on checking AI or software outputs appears from both industry and academia: DeepMind's AlphaProof Code (verifying complex software, title only) and a Stanford-covered benchmark built from documented AI hallucination cases in US state courts.",
+          "supporting_item_ids": [
+            "gdm-alphaproof-code-2026-11",
+            "hai-2026-11-19-court-ai-hallucination-study"
+          ]
+        }
+      ],
+      "divergent_points": []
+    },
+    {
+      "theme": "Commercial scale-up vs. societal resilience and governance framing",
+      "convergent_points": [
+        {
+          "claim": "Academic and policy institutions frame AI as moving faster than society's ability to respond: the Turing Institute's resilience agenda and policy roadmap (UK faces cascading disruption risks; increasing exposure unless practical steps are taken), the AI100 report (AI outran governance), and public forums on AI's future at Stanford HAI and the University of Tokyo.",
+          "supporting_item_ids": [
+            "turing-2026-11-17-resilience-agenda",
+            "turing-2026-11-18-ai-disruption-roadmap",
+            "hai-2026-11-10-ai100-third-report",
+            "hai-2026-11-18-ais-future-is-still-a-choice",
+            "utokyo-tokyo-forum-2026-ai"
+          ]
+        },
+        {
+          "claim": "Industry announcements show very large capital flows and a push for wide deployment: Anthropic's IPO and private placement (about $119.5B combined gross, with AMD, Broadcom, Google, Micron, Microsoft, NVIDIA and TSMC Partners in the placement) and Microsoft's framing of frontier capability at a price organizations can afford at scale.",
+          "supporting_item_ids": [
+            "anthropic-ipo-pricing-2026-11-18",
+            "anthropic-ipo-close-2026-11-20",
+            "msft-ignite-2026-mai-keynote"
+          ]
+        }
+      ],
+      "divergent_points": [
+        {
+          "position_a": "Industry: announcements focus on scaling deployment, lowering cost and raising capital (Anthropic IPO and placement; Microsoft's affordable-frontier framing).",
+          "position_a_item_ids": [
+            "anthropic-ipo-pricing-2026-11-18",
+            "anthropic-ipo-close-2026-11-20",
+            "msft-ignite-2026-mai-keynote"
+          ],
+          "position_b": "Academia/policy institutes: emphasis on governance lag and disruption risk, with calls for new resilience capabilities (Turing agenda and roadmap; AI100 report). These items do not respond to the industry items directly; this is a difference in framing, not a direct exchange.",
+          "position_b_item_ids": [
+            "turing-2026-11-17-resilience-agenda",
+            "turing-2026-11-18-ai-disruption-roadmap",
+            "hai-2026-11-10-ai100-third-report"
+          ]
+        }
+      ]
+    },
+    {
+      "theme": "Miscellaneous developments",
+      "item_ids": [
+        "metr-2026-11-24-pretraining-loss-acceleration",
+        "sakana-sawara-timeline-2026-10-26",
+        "riken-aip-closeup-20261019",
+        "turing-2026-11-03-new-board-chair",
+        "hai-2026-11-20-student-affinity-groups"
+      ],
+      "convergent_points": [],
+      "divergent_points": []
+    }
+  ],
+  "notes": [
+    "Coverage: 15 collector files, 33 items. Five files have zero items (evaluator-epoch-ai, evaluator-uk-aisi, academia-mit-csail, academia-cmu-ri, wildcard). In each case direct fetch was blocked, so this is a collection gap, not evidence that nothing was published.",
+    "Confidence: only the three Anthropic items are primary-confirmed. All METR, OpenAI, Microsoft and Meta items and the RIKEN item are primary-inferred (search snippets of official URLs). All Google DeepMind, Sakana, Stanford HAI and Turing items and the Tokyo Forum item are secondary-source. Gemini Robotics 2.5 rests only on third-party reporting (siliconreport.com).",
+    "Title-only or near-empty items: metr-2026-11-24-pretraining-loss-acceleration (title only; content unknown, so it is placed in miscellaneous and must not be used to support claims about pace), gdm-alphaproof-code-2026-11, meta-muse-uk-2026-11, meta-open-weight-medicine-2026-11, openai-healthcare-api-configs-2026-11-24. Their place in a theme rests on titles alone.",
+    "Index or non-article URLs: gdm-alphagenome-2-2026-11 and gdm-alphaproof-code-2026-11 (both cite the DeepMind Science category index, even though AlphaProof Code is described as a Research post), sakana-namazu-small-2026-11-25 and sakana-sawara-timeline-2026-10-26 (blog index), sakana-marlin-update-2026-11-26 (original launch page, not the update post), hai-2026-11-19-court-ai-hallucination-study, hai-2026-11-20-icu-delirium-monitoring and hai-2026-11-20-student-affinity-groups (HAI news index), turing-2026-11-18-ai-disruption-roadmap and turing-2026-11-03-new-board-chair (Turing news index). openai-gpt-6-2-astra-sol-2026-11-17 and openai-healthcare-api-configs-2026-11-24 share one release-notes URL; they are separate entries, not duplicates.",
+    "Dated before the nominal 2026-11-18..28 window: anthropic-fable-mythos-5-2-2026-11-09; metr-2026-11-05-anthropic-ai-rd-acceleration-assessment; metr-2026-11-05-review-anthropic-risk-report-rd-section; metr-2026-11-16-alignment-eval-tells; gdm-gemini-robotics-2-5-2026-11 (about Nov 10-11); msft-mai-seven-models-2026-11-17, msft-ignite-2026-mai-keynote and msft-ignite-2026-nadella-keynote (dates inferred from Ignite timing); openai-gpt-6-2-astra-sol-2026-11-17 (launch Nov 17, chat-tab rollout Nov 23); turing-2026-11-17-resilience-agenda; turing-2026-11-03-new-board-chair; hai-2026-11-10-ai100-third-report; riken-aip-closeup-20261019; sakana-sawara-timeline-2026-10-26. Month-only dates (may fall before the window): gdm-alphagenome-2-2026-11, gdm-alphaproof-code-2026-11, meta-muse-uk-2026-11, meta-open-weight-medicine-2026-11. utokyo-tokyo-forum-2026-ai carries the event date, not a publication date.",
+    "Possible duplicates for the deduplication gate: (1) msft-mai-seven-models-2026-11-17 and msft-ignite-2026-mai-keynote are the same Ignite MAI announcement (the collector itself suggests merging); msft-ignite-2026-nadella-keynote is a separate keynote at the same event. (2) turing-2026-11-17-resilience-agenda and turing-2026-11-18-ai-disruption-roadmap may be the same story or closely related (the collector flags this). (3) anthropic-ipo-pricing-2026-11-18 and anthropic-ipo-close-2026-11-20 are two stages of one event. Share counts differ (980M vs 1.127B including the underwriters' option); this is not a contradiction. (4) metr-2026-11-05-anthropic-ai-rd-acceleration-assessment and metr-2026-11-05-review-anthropic-risk-report-rd-section were published the same day on related topics but are separate documents.",
+    "Cross-collector gap: anthropic-fable-mythos-5-2-2026-11-09 says UK AISI and METR tested Fable 5.2 before release. Neither the METR nor the AISI collector found a corresponding public evaluator report, so the external-testing claim currently rests only on Anthropic's statement.",
+    "Divergent point caveats: in theme 1, METR's eval-tells finding is a general methodological observation and does not address Fable 5.2 directly. In theme 3, the access-strategy contrast compares different products with different risk profiles. In theme 6, the industry and academic items do not respond to each other. The reporting agent should present these as tensions with hedging, not as direct disputes.",
+    "Leads mentioned only in coverage_notes (not items; must NOT be cited in the report): Epoch AI's 2026-11-13 incident report on agents attempting exploits during a third-party alignment evaluation; AISI's 2026-09-28 GPT-6 Astra supply-chain-attack simulation post; DeepMind/Meta leadership-change reports; various pre-window MIT, CMU, HAI and Sakana items. Several of these bear on themes 1 and 2 and should be re-collected once network access is restored.",
+    "No themes were built from wildcard content (zero items). Evaluator coverage is again thin (METR only), which matches the standing pattern noted in config/sources.yml rotation_history."
+  ]
+}
