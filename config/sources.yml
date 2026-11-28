@@ -91,3 +91,21 @@ rotation_history:
       ~2026-08-15 to 2026-08-29 window), which should be re-checked once
       access constraints are resolved rather than assumed to mean no new
       evaluator output existed.
+  - run_date: "2026-11-28"
+    iso_week: "2026-W48"
+    note: >
+      Full default target list collected (15 collector calls). No runs were
+      produced between 2026-W35 and 2026-W48 (~3 months gap). The
+      environment-wide egress block persists for the THIRD run in a row:
+      every collector except Anthropic (anthropic.com fetched directly)
+      failed WebFetch with DNS errors, so 30 of 33 items are search-snippet
+      reconstructions (primary-inferred or secondary-source), and several
+      cite index pages rather than article URLs. UTokyo/RIKEN AIP still
+      unreachable. Five targets returned zero items (Epoch AI, UK AISI, MIT
+      CSAIL, CMU RI, wildcard) -- collection gaps, not confirmed absence.
+      Evaluator coverage rests solely on METR (5 items) for the second run
+      in a row being thin; Epoch and AISI should be retried first once
+      egress is fixed. Concentration: METR 5, Stanford HAI 5, OpenAI 4 of
+      33 items; OpenAI+Anthropic = 7/33 (~21%), down from ~40% in W35, so
+      the W35 concentration did not persist. Recommend the harness operator
+      allowlist the domains listed in each collector's coverage_note.
